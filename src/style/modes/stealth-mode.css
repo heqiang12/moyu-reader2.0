@@ -1,0 +1,43 @@
+/* 隐蔽模式：窗口已缩为 800x32 单行条 */
+.stealth-mode {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.stealth-mode:active {
+  cursor: grabbing;
+}
+
+.stealth-mode__text {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+  user-select: none;
+  -webkit-user-select: none;
+  letter-spacing: 0.5px;
+  padding-right: 60px;
+}
+
+/* 隐蔽模式下隐藏标题栏、body 透明 */
+body.app-stealth .titlebar {
+  display: none !important;
+}
+
+body.app-stealth #app {
+  height: 100vh !important;
+}
+
+body.app-stealth {
+  background: transparent !important;
+}
+
+#app.app-stealth {
+  background: transparent !important;
+}

@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(rustc --version)",
+      "Bash(cargo --version)",
+      "Bash(where rustc *)",
+      "Bash(where cargo *)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npx tauri *)",
+      "Bash(npm test *)",
+      "Bash(npm run *)",
+      "Bash(where link *)",
+      "Read(//c/Program Files \\(x86\\)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/**)",
+      "Read(//c/Program Files/Microsoft Visual Studio/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs kill -9)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //PID 12600)",
+      "Bash(taskkill //F //IM cargo.exe)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(Get-Process -Name \"app\", \"cargo\", \"rustc\", \"node\" -ErrorAction SilentlyContinue)",
+      "Bash(Select-Object Id, ProcessName, StartTime)",
+      "Bash(Format-Table)",
+      "Bash(Start-Sleep -Seconds 5)",
+      "Bash(Get-Content -Path \"C:\\\\Users\\\\YF\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--mywork-moyu-reader2-0\\\\46e1d683-b722-45a8-8b6c-5b33cd8d5e91\\\\tasks\\\\br618qc0p.output\" -Tail 10)",
+      "Bash(gh --version)",
+      "Bash(winget install *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}

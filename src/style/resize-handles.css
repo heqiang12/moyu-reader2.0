@@ -1,0 +1,46 @@
+/* 窗口边缘拖拽调整大小 */
+.resize-handle {
+  position: fixed;
+  z-index: 9999;
+}
+
+/* 隐蔽模式下隐藏，避免干扰窗口拖动 */
+.app-stealth .resize-handle {
+  display: none;
+}
+
+/* 四边 */
+.resize-n {
+  top: 0; left: 4px; right: 4px; height: 4px;
+  cursor: n-resize;
+}
+.resize-s {
+  bottom: 0; left: 4px; right: 4px; height: 4px;
+  cursor: s-resize;
+}
+.resize-e {
+  right: 0; top: 4px; bottom: 4px; width: 4px;
+  cursor: e-resize;
+}
+.resize-w {
+  left: 0; top: 4px; bottom: 4px; width: 4px;
+  cursor: w-resize;
+}
+
+/* 四角 */
+.resize-nw {
+  top: 0; left: 0; width: 8px; height: 8px;
+  cursor: nw-resize;
+}
+.resize-ne {
+  top: 0; right: 0; width: 8px; height: 8px;
+  cursor: ne-resize;
+}
+.resize-sw {
+  bottom: 0; left: 0; width: 8px; height: 8px;
+  cursor: sw-resize;
+}
+.resize-se {
+  bottom: 0; right: 0; width: 8px; height: 8px;
+  cursor: se-resize;
+}
