@@ -1,9 +1,9 @@
 [package]
 name = "app"
 version = "0.1.0"
-description = "A Tauri App"
+description = "摸鱼阅读器 2.0 - 办公环境极简隐蔽阅读器"
 authors = ["you"]
-license = ""
+license = "ISC"
 repository = ""
 edition = "2021"
 rust-version = "1.77.2"
