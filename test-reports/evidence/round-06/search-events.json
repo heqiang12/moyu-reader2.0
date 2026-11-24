@@ -1,0 +1,835 @@
+{
+  "eventParsing": "search:end payload is the requestId string. Raw prior midround parsing was corrected by preserved-event read-only audit.",
+  "empty": [
+    {
+      "step": "empty-input-no-business-request",
+      "actualRequestCount": 0,
+      "emptyControl": {
+        "utc": "2026-11-24T06:53:00.304Z",
+        "disabled": true
+      },
+      "requests": []
+    }
+  ],
+  "validZero": {
+    "step": "valid-zero-real-UI-and-events",
+    "term": "qa_r06_20261124_6de851_no_book_62a929f1",
+    "mode": "enter",
+    "actionUTC": "2026-11-24T06:53:00.477Z",
+    "input": {
+      "utc": "2026-11-24T06:53:00.477Z",
+      "value": "qa_r06_20261124_6de851_no_book_62a929f1",
+      "buttonText": "搜索",
+      "disabled": false
+    },
+    "requests": [
+      {
+        "utc": "2026-11-24T06:53:00.488Z",
+        "transportRequestId": "20320.71",
+        "keyword": "qa_r06_20261124_6de851_no_book_62a929f1",
+        "requestId": "f7c72d00-e237-493e-8134-2c11ba759ea1"
+      }
+    ],
+    "events": [
+      {
+        "utc": "2026-11-24T06:53:01.310Z",
+        "name": "search:end",
+        "requestId": "f7c72d00-e237-493e-8134-2c11ba759ea1",
+        "books": []
+      }
+    ],
+    "cards": [],
+    "completedDOM": {
+      "utc": "2026-11-24T06:53:01.316Z",
+      "empty": "🔍\n没有找到相关书籍\n\n“qa_r06_20261124_6de851_no_book_62a929f1” 的搜索已结束，请换个关键词或检查书源。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "button": "搜索"
+    },
+    "matchingEnds": [
+      {
+        "requestId": "f7c72d00-e237-493e-8134-2c11ba759ea1",
+        "keyword": "qa_r06_20261124_6de851_no_book_62a929f1",
+        "matchingEndCount": 1,
+        "itemCount": 0
+      }
+    ]
+  },
+  "externalZeroContext": {
+    "utc": "2026-11-24T06:53:02.350Z",
+    "url": "https://www.cthulhuclub.com/?s=qa_r06_20261124_6de851_no_book_62a929f1",
+    "status": 200,
+    "bytes": 76331,
+    "sha256": "5e24e98fa2ead26faad62d34d6b8552ed58fc362bfb16d7fd6f91a0555b06681",
+    "articlePostCount": 0,
+    "hasNoResultsText": false,
+    "challenge": false
+  },
+  "pageReturn": {
+    "oldUTC": "2026-11-24T06:53:02.391Z",
+    "leaveUTC": "2026-11-24T06:53:02.394Z",
+    "shelfUTC": "2026-11-24T06:53:02.409Z",
+    "newEndUTC": "2026-11-24T06:53:02.578Z",
+    "allEnded": true,
+    "oldRequestId": "358414cb-4351-442b-a9c2-636771818603",
+    "newRequestId": "4104833d-0d0f-4187-ad8f-486775222435",
+    "oldLoading": {
+      "utc": "2026-11-24T06:53:02.394Z",
+      "text": "搜索中…",
+      "hash": "#/discover"
+    },
+    "newResult": {
+      "step": "new-after-page-return",
+      "term": "qa_r06_20261124_6de851_no_book_62a929f1",
+      "mode": "button",
+      "actionUTC": "2026-11-24T06:53:02.421Z",
+      "input": {
+        "utc": "2026-11-24T06:53:02.421Z",
+        "value": "qa_r06_20261124_6de851_no_book_62a929f1",
+        "buttonText": "搜索",
+        "disabled": false
+      },
+      "requests": [
+        {
+          "utc": "2026-11-24T06:53:02.429Z",
+          "transportRequestId": "20320.89",
+          "keyword": "qa_r06_20261124_6de851_no_book_62a929f1",
+          "requestId": "4104833d-0d0f-4187-ad8f-486775222435"
+        }
+      ],
+      "events": [
+        {
+          "utc": "2026-11-24T06:53:02.578Z",
+          "name": "search:end",
+          "requestId": "4104833d-0d0f-4187-ad8f-486775222435",
+          "books": []
+        }
+      ],
+      "cards": [],
+      "completedDOM": {
+        "utc": "2026-11-24T06:53:02.582Z",
+        "empty": "🔍\n没有找到相关书籍\n\n“qa_r06_20261124_6de851_no_book_62a929f1” 的搜索已结束，请换个关键词或检查书源。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+        "button": "搜索"
+      },
+      "matchingEnds": [
+        {
+          "requestId": "4104833d-0d0f-4187-ad8f-486775222435",
+          "keyword": "qa_r06_20261124_6de851_no_book_62a929f1",
+          "matchingEndCount": 1,
+          "itemCount": 0
+        }
+      ]
+    },
+    "requests": [
+      {
+        "utc": "2026-11-24T06:53:02.396Z",
+        "transportRequestId": "20320.76",
+        "keyword": "明日方舟",
+        "requestId": "358414cb-4351-442b-a9c2-636771818603"
+      },
+      {
+        "utc": "2026-11-24T06:53:02.429Z",
+        "transportRequestId": "20320.89",
+        "keyword": "qa_r06_20261124_6de851_no_book_62a929f1",
+        "requestId": "4104833d-0d0f-4187-ad8f-486775222435"
+      }
+    ],
+    "events": [
+      {
+        "utc": "2026-11-24T06:53:02.578Z",
+        "name": "search:end",
+        "requestId": "4104833d-0d0f-4187-ad8f-486775222435",
+        "books": []
+      },
+      {
+        "utc": "2026-11-24T06:53:03.070Z",
+        "name": "search:item",
+        "requestId": "358414cb-4351-442b-a9c2-636771818603",
+        "origin": "https://www.cthulhuclub.com",
+        "count": 1,
+        "books": [
+          {
+            "name": "【明日方舟世界观考据】博士克苏鲁原型：《查尔斯·迪克斯特·瓦德事件》——从炼金术到重铸未来",
+            "author": "",
+            "origin": "https://www.cthulhuclub.com",
+            "bookUrlSHA256": "9558e539dc92ddc77142c8ae87f8e821176d4df8d6af3cd30a51953312306942"
+          }
+        ]
+      },
+      {
+        "utc": "2026-11-24T06:53:03.070Z",
+        "name": "search:end",
+        "requestId": "358414cb-4351-442b-a9c2-636771818603",
+        "books": []
+      }
+    ],
+    "oldEventsAfterNewEnd": [
+      {
+        "utc": "2026-11-24T06:53:03.070Z",
+        "name": "search:item",
+        "requestId": "358414cb-4351-442b-a9c2-636771818603",
+        "origin": "https://www.cthulhuclub.com",
+        "count": 1,
+        "books": [
+          {
+            "name": "【明日方舟世界观考据】博士克苏鲁原型：《查尔斯·迪克斯特·瓦德事件》——从炼金术到重铸未来",
+            "author": "",
+            "origin": "https://www.cthulhuclub.com",
+            "bookUrlSHA256": "9558e539dc92ddc77142c8ae87f8e821176d4df8d6af3cd30a51953312306942"
+          }
+        ]
+      },
+      {
+        "utc": "2026-11-24T06:53:03.070Z",
+        "name": "search:end",
+        "requestId": "358414cb-4351-442b-a9c2-636771818603",
+        "books": []
+      }
+    ],
+    "finalCards": []
+  },
+  "protection": [
+    {
+      "step": "MR016-independent-SQL-storage-and-books-protection",
+      "utc": "2026-11-24T06:52:59.246Z",
+      "tables": [
+        {
+          "table": "books",
+          "same": true
+        },
+        {
+          "table": "book_sources",
+          "same": true
+        },
+        {
+          "table": "chapter_cache",
+          "same": true
+        },
+        {
+          "table": "chapter_list_cache",
+          "same": true
+        }
+      ],
+      "storageSame": true
+    },
+    {
+      "step": "search-regression-protection",
+      "utc": "2026-11-24T06:53:03.460Z",
+      "tables": [
+        {
+          "table": "books",
+          "same": true
+        },
+        {
+          "table": "book_sources",
+          "same": true
+        },
+        {
+          "table": "chapter_cache",
+          "same": true
+        },
+        {
+          "table": "chapter_list_cache",
+          "same": true
+        }
+      ],
+      "storageSame": true
+    }
+  ],
+  "finiteCandidates": {
+    "limit": 10,
+    "noFurtherExpansion": true,
+    "normalSourcePrerequisiteForSwitchNotEstablished": true,
+    "TC26Executed": false,
+    "TC50ExternalFailureExecuted": false,
+    "batches": [
+      {
+        "step": "finite-real-UI-search-凡人修仙传",
+        "term": "凡人修仙传",
+        "mode": "button",
+        "actionUTC": "2026-11-24T06:59:31.237Z",
+        "input": {
+          "utc": "2026-11-24T06:59:31.237Z",
+          "value": "凡人修仙传",
+          "buttonText": "搜索",
+          "disabled": false
+        },
+        "requests": [
+          {
+            "utc": "2026-11-24T06:59:31.245Z",
+            "transportRequestId": "20320.379",
+            "keyword": "凡人修仙传",
+            "requestId": "f30bf486-544a-4ab6-a6d2-2e00e0fe85cc"
+          }
+        ],
+        "events": [
+          {
+            "utc": "2026-11-24T06:59:32.950Z",
+            "name": "search:item",
+            "requestId": "f30bf486-544a-4ab6-a6d2-2e00e0fe85cc",
+            "origin": "http://www.yetianlian.info",
+            "count": 50,
+            "books": [
+              {
+                "name": "凡人修仙传",
+                "author": "作者：忘语",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "ea72a389e101ec0e673c8e9b5d81b51684c478947e71ce7b2f5fed9ec54dc481"
+              },
+              {
+                "name": "直播凡人修仙传",
+                "author": "作者：呼言道人",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "68a55ddacfb822ba7bc62b69311124e7680ea9f6bff104bd14ca1667e4976e97"
+              },
+              {
+                "name": "小小凡人修仙传",
+                "author": "作者：至尊小宝",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "49926d3f6d021005a2daa06c5db4e670978faf62eac6247f32a5f5aaa3b67e22"
+              }
+            ],
+            "bookCount": 50,
+            "bookManifestSHA256": "4f1b88be8c201f7056241c655b2fba989afcbabc374666457a5ab96c2be5166d"
+          },
+          {
+            "utc": "2026-11-24T06:59:40.915Z",
+            "name": "search:end",
+            "requestId": "f30bf486-544a-4ab6-a6d2-2e00e0fe85cc",
+            "books": []
+          }
+        ],
+        "cards": [
+          {
+            "i": 0,
+            "title": "穿越凡人修仙传带本破书去修仙",
+            "author": "作者：不吃鱼的猫咪",
+            "count": "1 个书源"
+          },
+          {
+            "i": 1,
+            "title": "从凡人修仙开始打卡",
+            "author": "作者：赤京",
+            "count": "1 个书源"
+          },
+          {
+            "i": 2,
+            "title": "大道修仙传",
+            "author": "作者：牛家栓宝",
+            "count": "1 个书源"
+          }
+        ],
+        "completedDOM": {
+          "utc": "2026-11-24T06:59:40.930Z",
+          "meta": "“凡人修仙传” 找到 50 本相关书籍（搜索结束）",
+          "button": "搜索"
+        },
+        "matchingEnds": [
+          {
+            "requestId": "f30bf486-544a-4ab6-a6d2-2e00e0fe85cc",
+            "keyword": "凡人修仙传",
+            "matchingEndCount": 1,
+            "itemCount": 50
+          }
+        ],
+        "cardCount": 50,
+        "cardManifestSHA256": "c04d74f3501681191fca411328671b69ba5ae6b2a39175fb6e8ef9cf9db83fff"
+      },
+      {
+        "step": "finite-real-UI-search-红楼梦",
+        "term": "红楼梦",
+        "mode": "button",
+        "actionUTC": "2026-11-24T06:59:41.074Z",
+        "input": {
+          "utc": "2026-11-24T06:59:41.074Z",
+          "value": "红楼梦",
+          "buttonText": "搜索",
+          "disabled": false
+        },
+        "requests": [
+          {
+            "utc": "2026-11-24T06:59:41.082Z",
+            "transportRequestId": "20320.446",
+            "keyword": "红楼梦",
+            "requestId": "fc196f9e-7a70-4c48-831f-68212ab4c330"
+          }
+        ],
+        "events": [
+          {
+            "utc": "2026-11-24T06:59:41.744Z",
+            "name": "search:item",
+            "requestId": "fc196f9e-7a70-4c48-831f-68212ab4c330",
+            "origin": "http://www.yetianlian.info",
+            "count": 50,
+            "books": [
+              {
+                "name": "红楼梦：现代白话版",
+                "author": "作者：张守春",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "9a9f31675517f11144cd087655fec4c09336cec18588c32506d0ec4361041ffc"
+              },
+              {
+                "name": "红楼梦金陵十三爷",
+                "author": "作者：财富之家",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "8c62b9904be3e2a8d720600389334d3021fb716f3ff9f2d449309c4cfa68b767"
+              },
+              {
+                "name": "红楼梦：80回后",
+                "author": "作者：时光在布道",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "963c71bc5f9026ff1aa609dabfb4a9138b4fde7325f2a0a09668b9c611e52316"
+              }
+            ],
+            "bookCount": 50,
+            "bookManifestSHA256": "db1a54ba0bf0f0f3700d8d8bac61967df1a5aa35672cadbeb6188368bccf8ee9"
+          },
+          {
+            "utc": "2026-11-24T06:59:51.565Z",
+            "name": "search:end",
+            "requestId": "fc196f9e-7a70-4c48-831f-68212ab4c330",
+            "books": []
+          }
+        ],
+        "cards": [
+          {
+            "i": 0,
+            "title": "蝶梦红楼",
+            "author": "作者：云水玉",
+            "count": "1 个书源"
+          },
+          {
+            "i": 1,
+            "title": "奋斗在红楼",
+            "author": "作者：九悟",
+            "count": "1 个书源"
+          },
+          {
+            "i": 2,
+            "title": "风月宝鉴是红楼梦的前身",
+            "author": "作者：luyiyang",
+            "count": "1 个书源"
+          }
+        ],
+        "completedDOM": {
+          "utc": "2026-11-24T06:59:51.582Z",
+          "meta": "“红楼梦” 找到 50 本相关书籍（搜索结束）",
+          "button": "搜索"
+        },
+        "matchingEnds": [
+          {
+            "requestId": "fc196f9e-7a70-4c48-831f-68212ab4c330",
+            "keyword": "红楼梦",
+            "matchingEndCount": 1,
+            "itemCount": 50
+          }
+        ],
+        "cardCount": 50,
+        "cardManifestSHA256": "91918c9bb9342adbe466736a2efd851f8a100b2d86912bf66f6675a3630d607d"
+      },
+      {
+        "step": "bounded-real-UI-search-凡人修仙传",
+        "term": "凡人修仙传",
+        "mode": "button",
+        "actionUTC": "2026-11-24T07:03:17.131Z",
+        "input": {
+          "utc": "2026-11-24T07:03:17.132Z",
+          "value": "凡人修仙传",
+          "buttonText": "搜索",
+          "disabled": false
+        },
+        "requests": [
+          {
+            "utc": "2026-11-24T07:03:17.138Z",
+            "transportRequestId": "20320.530",
+            "keyword": "凡人修仙传",
+            "requestId": "9a77b16f-894a-4889-9c8d-00b739ab3c9d"
+          }
+        ],
+        "events": [
+          {
+            "utc": "2026-11-24T07:03:17.425Z",
+            "name": "search:item",
+            "requestId": "9a77b16f-894a-4889-9c8d-00b739ab3c9d",
+            "origin": "https://so.ihuaben.com",
+            "count": 30,
+            "books": [
+              {
+                "name": "综穿 凡人修仙传",
+                "author": "代书香",
+                "origin": "https://so.ihuaben.com",
+                "bookUrlSHA256": "5b85f32e789ec0c7b14c743093ecd599c786268a10f2f22c155b82b6b17a91fa"
+              },
+              {
+                "name": "综影视：午夜万人迷",
+                "author": "春野既望",
+                "origin": "https://so.ihuaben.com",
+                "bookUrlSHA256": "b5eb4b1be8ecf9796ca07eb1560a1ba4997a5d4f157187e9ac886e81207f6c9e"
+              },
+              {
+                "name": "凡人修仙传 ：韩立结婴之后，全天南女修抢破头",
+                "author": "残月映山河",
+                "origin": "https://so.ihuaben.com",
+                "bookUrlSHA256": "cff63267a0d05c65097293b012bb71a7ab50047f2be8950734ec927e5b033fb6"
+              }
+            ],
+            "bookCount": 30,
+            "bookManifestSHA256": "023703ce5958de0ca333b449b252ca4f729892e52af83bd0afa08383e61e7c88"
+          },
+          {
+            "utc": "2026-11-24T07:03:18.302Z",
+            "name": "search:item",
+            "requestId": "9a77b16f-894a-4889-9c8d-00b739ab3c9d",
+            "origin": "http://www.yetianlian.info",
+            "count": 50,
+            "books": [
+              {
+                "name": "凡人修仙传",
+                "author": "作者：忘语",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "ea72a389e101ec0e673c8e9b5d81b51684c478947e71ce7b2f5fed9ec54dc481"
+              },
+              {
+                "name": "直播凡人修仙传",
+                "author": "作者：呼言道人",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "68a55ddacfb822ba7bc62b69311124e7680ea9f6bff104bd14ca1667e4976e97"
+              },
+              {
+                "name": "小小凡人修仙传",
+                "author": "作者：至尊小宝",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "49926d3f6d021005a2daa06c5db4e670978faf62eac6247f32a5f5aaa3b67e22"
+              }
+            ],
+            "bookCount": 50,
+            "bookManifestSHA256": "4f1b88be8c201f7056241c655b2fba989afcbabc374666457a5ab96c2be5166d"
+          },
+          {
+            "utc": "2026-11-24T07:03:37.142Z",
+            "name": "search:end",
+            "requestId": "9a77b16f-894a-4889-9c8d-00b739ab3c9d",
+            "books": []
+          }
+        ],
+        "cards": [
+          {
+            "i": 0,
+            "title": "（综影视）洪荒大佬的穿越日常",
+            "author": "瑶揽流光",
+            "count": "1 个书源"
+          },
+          {
+            "i": 1,
+            "title": "穿越凡人修仙传带本破书去修仙",
+            "author": "作者：不吃鱼的猫咪",
+            "count": "1 个书源"
+          },
+          {
+            "i": 2,
+            "title": "从凡人修仙开始打卡",
+            "author": "作者：赤京",
+            "count": "1 个书源"
+          }
+        ],
+        "completedDOM": {
+          "utc": "2026-11-24T07:03:37.164Z",
+          "meta": "“凡人修仙传” 找到 80 本相关书籍（搜索结束）",
+          "button": "搜索"
+        },
+        "matchingEnds": [
+          {
+            "requestId": "9a77b16f-894a-4889-9c8d-00b739ab3c9d",
+            "keyword": "凡人修仙传",
+            "matchingEndCount": 1,
+            "itemCount": 80
+          }
+        ],
+        "cardCount": 80,
+        "cardManifestSHA256": "2f18646728fb48741edd0327275a6e41b367e28c3b252a9954f9811349b82756"
+      },
+      {
+        "step": "bounded-real-UI-search-雪中悍刀行",
+        "term": "雪中悍刀行",
+        "mode": "button",
+        "actionUTC": "2026-11-24T07:03:37.315Z",
+        "input": {
+          "utc": "2026-11-24T07:03:37.315Z",
+          "value": "雪中悍刀行",
+          "buttonText": "搜索",
+          "disabled": false
+        },
+        "requests": [
+          {
+            "utc": "2026-11-24T07:03:37.325Z",
+            "transportRequestId": "20320.638",
+            "keyword": "雪中悍刀行",
+            "requestId": "3ca8dbb3-3711-42ea-8164-6e81f7e4d441"
+          }
+        ],
+        "events": [
+          {
+            "utc": "2026-11-24T07:03:37.596Z",
+            "name": "search:item",
+            "requestId": "3ca8dbb3-3711-42ea-8164-6e81f7e4d441",
+            "origin": "https://so.ihuaben.com",
+            "count": 30,
+            "books": [
+              {
+                "name": "雪中悍刀行 ：侍妾",
+                "author": "艾哩",
+                "origin": "https://so.ihuaben.com",
+                "bookUrlSHA256": "634d8ede87380ced5a115b2c0428f21c1608bc18b020d860b1031e277b74471b"
+              },
+              {
+                "name": "雪中悍刀行 之依依不舍",
+                "author": "果皮二少",
+                "origin": "https://so.ihuaben.com",
+                "bookUrlSHA256": "9a6d1c8ac31886d59f3b43b9fb0269276e8a36d3b0da2a8d9393d672aa74f0b8"
+              },
+              {
+                "name": "雪中悍刀行 ：家有宝贝",
+                "author": "李金倩",
+                "origin": "https://so.ihuaben.com",
+                "bookUrlSHA256": "d5811b2c4bde7f87e579ad438399f4aa94afe197242b0bed3a1979006891c057"
+              }
+            ],
+            "bookCount": 30,
+            "bookManifestSHA256": "469dd1c763c6c21b46179ce276a284ded8472092215e8310f06725bd688aca1f"
+          },
+          {
+            "utc": "2026-11-24T07:03:38.099Z",
+            "name": "search:item",
+            "requestId": "3ca8dbb3-3711-42ea-8164-6e81f7e4d441",
+            "origin": "http://www.yetianlian.info",
+            "count": 50,
+            "books": [
+              {
+                "name": "雪中悍刀行",
+                "author": "作者：烽火戏诸侯",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "f485582d9cb243b6e2312cf45490052a30d15e0342a51e355d4757fd68f39115"
+              },
+              {
+                "name": "雪中悍剑行",
+                "author": "作者：潇一晏",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "20cfcfdaebb6d5da8fcac3ab1bc204df60402c6e9c84f3de00afc03d003b4b98"
+              },
+              {
+                "name": "雪中悍刀行之我赵珣，不做炮灰",
+                "author": "作者：风吹雨",
+                "origin": "http://www.yetianlian.info",
+                "bookUrlSHA256": "3c1cc83cad358fdbde6487b086de3647a8b4470947bdb0d9125c2b39ee128e04"
+              }
+            ],
+            "bookCount": 50,
+            "bookManifestSHA256": "8dc19cdee761d61812e7ffc5a7bb6cb95bebd195c7498d668dbeb0d9db92970a"
+          },
+          {
+            "utc": "2026-11-24T07:03:57.329Z",
+            "name": "search:end",
+            "requestId": "3ca8dbb3-3711-42ea-8164-6e81f7e4d441",
+            "books": []
+          }
+        ],
+        "cards": [
+          {
+            "i": 0,
+            "title": "（综影视）洪荒大佬的穿越日常",
+            "author": "瑶揽流光",
+            "count": "1 个书源"
+          },
+          {
+            "i": 1,
+            "title": "八零农家悍女",
+            "author": "作者：染夕年",
+            "count": "1 个书源"
+          },
+          {
+            "i": 2,
+            "title": "抱刀行",
+            "author": "作者：沙么刺",
+            "count": "1 个书源"
+          }
+        ],
+        "completedDOM": {
+          "utc": "2026-11-24T07:03:57.352Z",
+          "meta": "“雪中悍刀行” 找到 80 本相关书籍（搜索结束）",
+          "button": "搜索"
+        },
+        "matchingEnds": [
+          {
+            "requestId": "3ca8dbb3-3711-42ea-8164-6e81f7e4d441",
+            "keyword": "雪中悍刀行",
+            "matchingEndCount": 1,
+            "itemCount": 80
+          }
+        ],
+        "cardCount": 80,
+        "cardManifestSHA256": "887ac3a7a7ae76f6f40cf00990046bcaa3f8e8aed66ad7ff76a693357e28172b"
+      }
+    ],
+    "plans": [
+      {
+        "sourceFile": "r06-task05-finite-normal-source-candidates.json",
+        "step": "finite-source-plan",
+        "utc": "2026-11-24T06:58:26.266Z",
+        "limit": 7,
+        "candidateCount": 7,
+        "addedCount": 0,
+        "candidates": [
+          {
+            "name": "奇怪小说",
+            "origin": "http://www.yetianlian.info"
+          },
+          {
+            "name": "得奇小说网",
+            "origin": "https://www.deqixs.com"
+          },
+          {
+            "name": "快书网",
+            "origin": "https://www.kuaishu5.com"
+          },
+          {
+            "name": "天天看小说",
+            "origin": "https://cn.ttkan.co"
+          },
+          {
+            "name": "独步小说网",
+            "origin": "https://www.dbxsd.com"
+          },
+          {
+            "name": "铅笔小说",
+            "origin": "https://www.23qb.com"
+          },
+          {
+            "name": "无极书院",
+            "origin": "http://m.wjzxchina.com"
+          }
+        ],
+        "added": []
+      },
+      {
+        "sourceFile": "r06-task05b-finite-normal-source-candidates.json",
+        "step": "finite-source-plan",
+        "utc": "2026-11-24T06:59:30.865Z",
+        "limit": 7,
+        "candidateCount": 7,
+        "addedCount": 0,
+        "candidates": [
+          {
+            "name": "奇怪小说",
+            "origin": "http://www.yetianlian.info"
+          },
+          {
+            "name": "得奇小说网",
+            "origin": "https://www.deqixs.com"
+          },
+          {
+            "name": "快书网",
+            "origin": "https://www.kuaishu5.com"
+          },
+          {
+            "name": "天天看小说",
+            "origin": "https://cn.ttkan.co"
+          },
+          {
+            "name": "独步小说网",
+            "origin": "https://www.dbxsd.com"
+          },
+          {
+            "name": "铅笔小说",
+            "origin": "https://www.23qb.com"
+          },
+          {
+            "name": "无极书院",
+            "origin": "http://m.wjzxchina.com"
+          }
+        ],
+        "added": []
+      },
+      {
+        "sourceFile": "r06-task06-final-three-normal-candidates.json",
+        "step": "bounded-source-selection",
+        "utc": "2026-11-24T07:03:16.751Z",
+        "limit": "No more candidate source expansion this round; ten representative existing normal sources, no adult sources, no rule edits or CAPTCHA handling.",
+        "totalDistinctPlannedSources": 10,
+        "candidateCount": 0,
+        "addedCount": 3,
+        "candidates": [],
+        "added": [
+          {
+            "name": "话本小说",
+            "origin": "https://so.ihuaben.com"
+          },
+          {
+            "name": "梧桐中文",
+            "origin": "http://www.wtzw.com"
+          },
+          {
+            "name": "笔趣阁",
+            "origin": "https://www.biqusa.com/#"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "sourceFile": "r06-task05b-finite-normal-source-candidates.json",
+        "step": "finite-real-凡人修仙传-source-outcome",
+        "utc": "2026-11-24T06:59:41.036Z",
+        "returnedBatches": [
+          {
+            "origin": "http://www.yetianlian.info",
+            "count": 50
+          }
+        ],
+        "differentContentGroupCount": 0
+      },
+      {
+        "sourceFile": "r06-task05b-finite-normal-source-candidates.json",
+        "step": "finite-real-红楼梦-source-outcome",
+        "utc": "2026-11-24T06:59:51.706Z",
+        "returnedBatches": [
+          {
+            "origin": "http://www.yetianlian.info",
+            "count": 50
+          }
+        ],
+        "differentContentGroupCount": 0
+      },
+      {
+        "sourceFile": "r06-task06-final-three-normal-candidates.json",
+        "step": "bounded-real-凡人修仙传-outcome",
+        "utc": "2026-11-24T07:03:37.270Z",
+        "returnedBatches": [
+          {
+            "origin": "https://so.ihuaben.com",
+            "count": 30
+          },
+          {
+            "origin": "http://www.yetianlian.info",
+            "count": 50
+          }
+        ],
+        "differentContentGroupCount": 0
+      },
+      {
+        "sourceFile": "r06-task06-final-three-normal-candidates.json",
+        "step": "bounded-real-雪中悍刀行-outcome",
+        "utc": "2026-11-24T07:03:57.466Z",
+        "returnedBatches": [
+          {
+            "origin": "https://so.ihuaben.com",
+            "count": 30
+          },
+          {
+            "origin": "http://www.yetianlian.info",
+            "count": 50
+          }
+        ],
+        "differentContentGroupCount": 0
+      }
+    ],
+    "projectionNote": "Finite-source batch cards/books are at most three-item excerpts plus full count and manifest digest; not the complete source/result list."
+  }
+}

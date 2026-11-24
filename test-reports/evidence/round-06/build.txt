@@ -1,0 +1,69 @@
+Round06 actual current-source QA launch/build excerpts (not release/NSIS).
+
+[run11]
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.debug-main.qa.json --no-watch
+> reader-desktop-v2@0.2.0 dev
+> vite
+  VITE v7.3.8  ready in 213 ms
+  ➜  Local:   http://localhost:1420/
+     Running BeforeDevCommand (`npm run dev`)
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+   Compiling moyu-reader-v2 v0.2.0 (<PROJECT>\src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 12.28s
+     Running `target\debug\moyu-reader-v2.exe`
+
+[run12]
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.debug-main.qa.json --no-watch
+> reader-desktop-v2@0.2.0 dev
+> vite
+  VITE v7.3.8  ready in 216 ms
+  ➜  Local:   http://localhost:1420/
+     Running BeforeDevCommand (`npm run dev`)
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.44s
+     Running `target\debug\moyu-reader-v2.exe`
+
+[run13]
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.standard.qa.json --no-watch
+> reader-desktop-v2@0.2.0 dev
+> vite
+  VITE v7.3.8  ready in 213 ms
+  ➜  Local:   http://localhost:1420/
+     Running BeforeDevCommand (`npm run dev`)
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+   Compiling moyu-reader-v2 v0.2.0 (<PROJECT>\src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 13.26s
+     Running `target\debug\moyu-reader-v2.exe`
+[1124/153805.011:ERROR:ui\gfx\win\window_impl.cc:172] Failed to unregister class Chrome_WidgetWin_0. Error = 1412
+
+[run14]
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.debug-main.qa.json --no-watch
+> reader-desktop-v2@0.2.0 dev
+> vite
+  VITE v7.3.8  ready in 213 ms
+  ➜  Local:   http://localhost:1420/
+     Running BeforeDevCommand (`npm run dev`)
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+   Compiling moyu-reader-v2 v0.2.0 (<PROJECT>\src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 14.24s
+     Running `target\debug\moyu-reader-v2.exe`
+
+[run15]
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.standard.qa.json --no-watch
+> reader-desktop-v2@0.2.0 dev
+> vite
+  VITE v7.3.8  ready in 215 ms
+  ➜  Local:   http://localhost:1420/
+     Running BeforeDevCommand (`npm run dev`)
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+   Compiling moyu-reader-v2 v0.2.0 (<PROJECT>\src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 11.53s
+     Running `target\debug\moyu-reader-v2.exe`
+[1124/154824.572:ERROR:ui\gfx\win\window_impl.cc:172] Failed to unregister class Chrome_WidgetWin_0. Error = 1412
+
+The Chrome_WidgetWin_0 unregister1412 message is retained as log observation; native exitCode0 and all owned windows/processes gone are recorded separately.

@@ -1,0 +1,1184 @@
+{
+  "book": {
+    "alias": "F",
+    "name": "凡人修仙传",
+    "bookURL": "http://www.yetianlian.info/yt162/",
+    "origin": "http://www.yetianlian.info",
+    "removedAfterTest": true
+  },
+  "search": {
+    "step": "disposable-F-real-search",
+    "term": "凡人修仙传",
+    "mode": "button",
+    "actionUTC": "2026-11-24T07:08:51.265Z",
+    "input": {
+      "utc": "2026-11-24T07:08:51.266Z",
+      "value": "凡人修仙传",
+      "buttonText": "搜索",
+      "disabled": false
+    },
+    "requests": [
+      {
+        "utc": "2026-11-24T07:08:51.275Z",
+        "transportRequestId": "20320.764",
+        "keyword": "凡人修仙传",
+        "requestId": "4a320d44-30ec-486e-833c-ac2272591df8"
+      }
+    ],
+    "events": [
+      {
+        "utc": "2026-11-24T07:08:52.397Z",
+        "name": "search:item",
+        "books": []
+      },
+      {
+        "utc": "2026-11-24T07:08:52.398Z",
+        "name": "search:end",
+        "books": []
+      }
+    ],
+    "cards": [
+      {
+        "i": 0,
+        "title": "穿越凡人修仙传带本破书去修仙",
+        "author": "作者：不吃鱼的猫咪",
+        "count": "1 个书源"
+      },
+      {
+        "i": 1,
+        "title": "从凡人修仙开始打卡",
+        "author": "作者：赤京",
+        "count": "1 个书源"
+      },
+      {
+        "i": 2,
+        "title": "大道修仙传",
+        "author": "作者：牛家栓宝",
+        "count": "1 个书源"
+      },
+      {
+        "i": 3,
+        "title": "凡人：修仙从科举开始",
+        "author": "作者：翡仙",
+        "count": "1 个书源"
+      },
+      {
+        "i": 4,
+        "title": "凡人：杂役才是修仙圣体",
+        "author": "作者：一清以宁",
+        "count": "1 个书源"
+      },
+      {
+        "i": 5,
+        "title": "凡人不可修仙传",
+        "author": "作者：韭菜根儿",
+        "count": "1 个书源"
+      },
+      {
+        "i": 6,
+        "title": "凡人穿越修仙苟活",
+        "author": "作者：打字狂魔",
+        "count": "1 个书源"
+      },
+      {
+        "i": 7,
+        "title": "凡人飞仙传",
+        "author": "作者：振翅的蚂蚁",
+        "count": "1 个书源"
+      },
+      {
+        "i": 8,
+        "title": "凡人炼体传",
+        "author": "作者：上铺老狗",
+        "count": "1 个书源"
+      },
+      {
+        "i": 9,
+        "title": "凡人日常修仙记",
+        "author": "作者：李小白很帅",
+        "count": "1 个书源"
+      },
+      {
+        "i": 10,
+        "title": "凡人世界修剑传",
+        "author": "作者：寂静韵味",
+        "count": "1 个书源"
+      },
+      {
+        "i": 11,
+        "title": "凡人碎空传",
+        "author": "作者：三毛当少爷",
+        "count": "1 个书源"
+      },
+      {
+        "i": 12,
+        "title": "凡人武修传",
+        "author": "作者：风过蒙德的月光",
+        "count": "1 个书源"
+      },
+      {
+        "i": 13,
+        "title": "凡人仙途传",
+        "author": "作者：黄歧",
+        "count": "1 个书源"
+      },
+      {
+        "i": 14,
+        "title": "凡人修仙：谁说修仙必须灵力",
+        "author": "作者：鱼何难",
+        "count": "1 个书源"
+      },
+      {
+        "i": 15,
+        "title": "凡人修仙传",
+        "author": "作者：忘语",
+        "count": "1 个书源"
+      },
+      {
+        "i": 16,
+        "title": "凡人修仙传：番外",
+        "author": "作者：忘语",
+        "count": "1 个书源"
+      },
+      {
+        "i": 17,
+        "title": "凡人修仙传：我也有掌天瓶",
+        "author": "作者：执笔问仙道",
+        "count": "1 个书源"
+      },
+      {
+        "i": 18,
+        "title": "凡人修仙传奇",
+        "author": "作者：风之言",
+        "count": "1 个书源"
+      },
+      {
+        "i": 19,
+        "title": "凡人修仙传仙界篇",
+        "author": "作者：忘语",
+        "count": "1 个书源"
+      },
+      {
+        "i": 20,
+        "title": "凡人修仙传之科研狗",
+        "author": "作者：粽子蘸墨",
+        "count": "1 个书源"
+      },
+      {
+        "i": 21,
+        "title": "凡人修仙道",
+        "author": "作者：陈叔子",
+        "count": "1 个书源"
+      },
+      {
+        "i": 22,
+        "title": "凡人修仙录",
+        "author": "作者：笑看云烟",
+        "count": "1 个书源"
+      },
+      {
+        "i": 23,
+        "title": "凡人修仙路",
+        "author": "作者：南里有木",
+        "count": "1 个书源"
+      },
+      {
+        "i": 24,
+        "title": "凡人修仙漫漫路",
+        "author": "作者：我女圆滚滚",
+        "count": "1 个书源"
+      },
+      {
+        "i": 25,
+        "title": "凡人修仙也疯狂",
+        "author": "作者：大彤二兮",
+        "count": "1 个书源"
+      },
+      {
+        "i": 26,
+        "title": "凡人修仙之凡尘仙",
+        "author": "作者：牙罗",
+        "count": "1 个书源"
+      },
+      {
+        "i": 27,
+        "title": "凡人修仙之青岩传",
+        "author": "作者：凉邶",
+        "count": "1 个书源"
+      },
+      {
+        "i": 28,
+        "title": "凡人修仙之玄骨传",
+        "author": "作者：道苟",
+        "count": "1 个书源"
+      },
+      {
+        "i": 29,
+        "title": "凡人也能修仙",
+        "author": "作者：一叶知深秋",
+        "count": "1 个书源"
+      },
+      {
+        "i": 30,
+        "title": "凡人作弊修仙",
+        "author": "作者：方尤",
+        "count": "1 个书源"
+      },
+      {
+        "i": 31,
+        "title": "黑狗修仙传",
+        "author": "作者：王晓旭",
+        "count": "1 个书源"
+      },
+      {
+        "i": 32,
+        "title": "科技修仙传",
+        "author": "作者：凡尘一只猪",
+        "count": "1 个书源"
+      },
+      {
+        "i": 33,
+        "title": "老树修仙传",
+        "author": "作者：雨后的天青色",
+        "count": "1 个书源"
+      },
+      {
+        "i": 34,
+        "title": "蛮人修仙传",
+        "author": "作者：超神级大神",
+        "count": "1 个书源"
+      },
+      {
+        "i": 35,
+        "title": "美味修仙传",
+        "author": "作者：是非谁评",
+        "count": "1 个书源"
+      },
+      {
+        "i": 36,
+        "title": "模拟修仙传",
+        "author": "作者：乱世TICH",
+        "count": "1 个书源"
+      },
+      {
+        "i": 37,
+        "title": "南疆修仙传",
+        "author": "作者：天宇乘风",
+        "count": "1 个书源"
+      },
+      {
+        "i": 38,
+        "title": "痞子修仙传",
+        "author": "作者：嚣张太子",
+        "count": "1 个书源"
+      },
+      {
+        "i": 39,
+        "title": "双生修仙传",
+        "author": "作者：毛毛毛猫",
+        "count": "1 个书源"
+      },
+      {
+        "i": 40,
+        "title": "天府修仙传",
+        "author": "作者：月读者",
+        "count": "1 个书源"
+      },
+      {
+        "i": 41,
+        "title": "天河修仙传",
+        "author": "作者：胖子爱咖啡",
+        "count": "1 个书源"
+      },
+      {
+        "i": 42,
+        "title": "土狗修仙传",
+        "author": "作者：萌萌的钟孟通",
+        "count": "1 个书源"
+      },
+      {
+        "i": 43,
+        "title": "小小凡人修仙传",
+        "author": "作者：至尊小宝",
+        "count": "1 个书源"
+      },
+      {
+        "i": 44,
+        "title": "小卒修仙传",
+        "author": "作者：八条鲸",
+        "count": "1 个书源"
+      },
+      {
+        "i": 45,
+        "title": "修仙，从凡人修仙开始",
+        "author": "作者：碧落青空",
+        "count": "1 个书源"
+      },
+      {
+        "i": 46,
+        "title": "修仙风云传",
+        "author": "作者：紫逝水",
+        "count": "1 个书源"
+      },
+      {
+        "i": 47,
+        "title": "修仙之小小凡人",
+        "author": "作者：虫二十三",
+        "count": "1 个书源"
+      },
+      {
+        "i": 48,
+        "title": "直播凡人修仙传",
+        "author": "作者：呼言道人",
+        "count": "1 个书源"
+      },
+      {
+        "i": 49,
+        "title": "重生之凡人传",
+        "author": "作者：轮台望",
+        "count": "1 个书源"
+      }
+    ],
+    "completedDOM": {
+      "utc": "2026-11-24T07:08:52.421Z",
+      "meta": "“凡人修仙传” 找到 50 本相关书籍（搜索结束）",
+      "button": "搜索"
+    },
+    "matchingEnds": []
+  },
+  "sourceCancel": {
+    "step": "source-cancel-protection",
+    "utc": "2026-11-24T07:08:51.183Z",
+    "storageSame": true,
+    "selectedCount": 0,
+    "deleteDisabled": true,
+    "tables": [
+      {
+        "table": "books",
+        "same": true
+      },
+      {
+        "table": "book_sources",
+        "same": true
+      },
+      {
+        "table": "chapter_cache",
+        "same": true
+      },
+      {
+        "table": "chapter_list_cache",
+        "same": true
+      }
+    ],
+    "scope": "All select/cancel, selected-delete cancel and clear-all cancel only. No source deletion confirmed."
+  },
+  "newDetail": {
+    "utc": "2026-11-24T07:08:53.988Z",
+    "snapshot": {
+      "utc": "2026-11-24T07:08:53.966Z",
+      "title": "Tauri + React + Typescript",
+      "label": "main",
+      "documentText": {
+        "length": 54347,
+        "sha256": "199993bad95228b4df14cae3ab14be0d5a1330048d7cda22cb714acfd64a892d"
+      },
+      "controls": [
+        {
+          "i": 0,
+          "tag": "BUTTON",
+          "text": "← 返回",
+          "disabled": false,
+          "type": "submit"
+        },
+        {
+          "i": 1,
+          "tag": "BUTTON",
+          "text": "加入书架",
+          "disabled": false,
+          "type": "submit"
+        },
+        {
+          "i": 2,
+          "tag": "BUTTON",
+          "text": "开始阅读",
+          "disabled": false,
+          "type": "submit"
+        }
+      ],
+      "storage": {
+        "A": {
+          "chapterIndex": 1,
+          "progress": 0.23893805309734514
+        },
+        "C": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "theme": "dark",
+        "fontSize": 18,
+        "stealthSettings": {
+          "alpha": 0.55
+        }
+      }
+    },
+    "catalogCount": 2577
+  },
+  "addImmediate": {
+    "step": "F-single-UI-add-immediate-observation",
+    "utc": "2026-11-24T07:08:54.214Z",
+    "buttons": [
+      {
+        "text": "加入中…",
+        "disabled": true
+      },
+      {
+        "text": "开始阅读",
+        "disabled": false
+      }
+    ]
+  },
+  "completedAdd": {
+    "utc": "2026-11-24T07:08:54.283Z",
+    "snapshot": {
+      "utc": "2026-11-24T07:08:54.262Z",
+      "title": "Tauri + React + Typescript",
+      "label": "main",
+      "documentText": {
+        "length": 54347,
+        "sha256": "18f9c9068b810d6f24ba9c8fe7c48318a69cfead06adede033e746ace53fd760"
+      },
+      "controls": [
+        {
+          "i": 0,
+          "tag": "BUTTON",
+          "text": "← 返回",
+          "disabled": false,
+          "type": "submit"
+        },
+        {
+          "i": 1,
+          "tag": "BUTTON",
+          "text": "已在书架",
+          "disabled": true,
+          "type": "submit"
+        },
+        {
+          "i": 2,
+          "tag": "BUTTON",
+          "text": "开始阅读",
+          "disabled": false,
+          "type": "submit"
+        }
+      ],
+      "storage": {
+        "A": {
+          "chapterIndex": 1,
+          "progress": 0.23893805309734514
+        },
+        "C": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "theme": "dark",
+        "fontSize": 18,
+        "stealthSettings": {
+          "alpha": 0.55
+        }
+      }
+    }
+  },
+  "disabledActualSecondClick": {
+    "utc": "2026-11-24T07:08:54.494Z",
+    "FCount": 1,
+    "booksUnchanged": true,
+    "detailCount": 2577,
+    "point": {
+      "x": 586.140625,
+      "y": 293.578125,
+      "disabled": true
+    },
+    "row": {
+      "book_url": "http://www.yetianlian.info/yt162/",
+      "name": "凡人修仙传",
+      "dur_chapter_index": 0,
+      "total_chapter_num": 2577
+    }
+  },
+  "onlineBodies": [
+    {
+      "step": "F-first-actual-external-body-real-body-summary",
+      "utc": "2026-11-24T07:08:55.520Z",
+      "ipc": {
+        "requestUTC": "2026-11-24T07:08:54.743Z",
+        "transportRequestId": "20320.860",
+        "responseUTC": "2026-11-24T07:08:55.231Z",
+        "finishedUTC": "2026-11-24T07:08:55.267Z",
+        "chapterIndex": 0,
+        "bookUrlSHA256": "ea72a389e101ec0e673c8e9b5d81b51684c478947e71ce7b2f5fed9ec54dc481",
+        "chapterUrlSHA256": "e273552fc6ba11f94121c002b2d91900ced09ed49fab5cad3ec1db7937acab71",
+        "originSHA256": "ded87e3bc2fb298ee53b2264b6db3250cec59c8eb22583b85af0a10b64588119",
+        "transportHTTPStatus": 200,
+        "tauriResponse": "ok",
+        "body": {
+          "type": "string",
+          "length": 2303,
+          "sha256": "da1d24107a6d0c43882a2eb052c8b1e47ae7a6021e71991554743a19efb411a1"
+        }
+      },
+      "position": {
+        "utc": "2026-11-24T07:08:55.510Z",
+        "performance": 1178792.9000000022,
+        "book": "凡人修仙传",
+        "title": "忘语新书《玄界之门》",
+        "chapter": "1 / 2577",
+        "scrollTop": 0,
+        "maxScrollTop": 2821,
+        "clientHeight": 696,
+        "scrollHeight": 3517,
+        "visibleParagraphIndex": 0,
+        "loading": false,
+        "visibleText": {
+          "length": 52,
+          "sha256": "ad039aa8bce0e708f73f69668a20913708a58c1b0fa86d9bc2e94e89901f2566"
+        },
+        "paragraphCount": 39,
+        "progress": {
+          "chapterIndex": 0,
+          "progress": 0
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt162/",
+          "chapterIndex": 0,
+          "progress": 0
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T07:08:55.266Z",
+          "performance": 1178548.700000003,
+          "title": "忘语新书《玄界之门》",
+          "paragraphCount": 39,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": []
+      },
+      "bodyPresent": true,
+      "cached": [
+        {
+          "index": 0,
+          "length": 2303,
+          "sha256": "da1d24107a6d0c43882a2eb052c8b1e47ae7a6021e71991554743a19efb411a1"
+        }
+      ]
+    },
+    {
+      "step": "F-next-actual-external-body-real-body-summary",
+      "utc": "2026-11-24T07:08:56.558Z",
+      "ipc": {
+        "requestUTC": "2026-11-24T07:08:55.748Z",
+        "transportRequestId": "20320.865",
+        "responseUTC": "2026-11-24T07:08:56.226Z",
+        "finishedUTC": "2026-11-24T07:08:56.252Z",
+        "chapterIndex": 1,
+        "bookUrlSHA256": "ea72a389e101ec0e673c8e9b5d81b51684c478947e71ce7b2f5fed9ec54dc481",
+        "chapterUrlSHA256": "10f0b23c03cf8ee40312260ffe9d0d45c1a17a226f15c057d64319d8f93be857",
+        "originSHA256": "ded87e3bc2fb298ee53b2264b6db3250cec59c8eb22583b85af0a10b64588119",
+        "transportHTTPStatus": 200,
+        "tauriResponse": "ok",
+        "body": {
+          "type": "string",
+          "length": 2036,
+          "sha256": "281767c77a48da305e955285cf9ee19284fdc64ab586225f4feca04d44045730"
+        }
+      },
+      "position": {
+        "utc": "2026-11-24T07:08:56.548Z",
+        "performance": 1179831,
+        "book": "凡人修仙传",
+        "title": "新书《玄界之门》正式发布了哦！",
+        "chapter": "2 / 2577",
+        "scrollTop": 0,
+        "maxScrollTop": 2503,
+        "clientHeight": 696,
+        "scrollHeight": 3199,
+        "visibleParagraphIndex": 0,
+        "loading": false,
+        "visibleText": {
+          "length": 41,
+          "sha256": "fdbb946afdcc604b341b5de429dc25ac3f0b0f207c022931f38f5c13ff6e8dc9"
+        },
+        "paragraphCount": 35,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt162/",
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T07:08:56.252Z",
+          "performance": 1179534.5,
+          "title": "新书《玄界之门》正式发布了哦！",
+          "paragraphCount": 35,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T07:08:55.614Z",
+            "performance": 1178897.4000000022,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 550,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt162/",
+              "chapterIndex": 0,
+              "progress": 0
+            }
+          },
+          {
+            "utc": "2026-11-24T07:08:55.615Z",
+            "performance": 1178897.8000000007,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt162/",
+              "chapterIndex": 0,
+              "progress": 0.13590968302214504
+            }
+          },
+          {
+            "utc": "2026-11-24T07:08:55.747Z",
+            "performance": 1179030.3000000007,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 0,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt162/",
+              "chapterIndex": 0,
+              "progress": 0.13590968302214504
+            }
+          }
+        ]
+      },
+      "bodyPresent": true,
+      "cached": [
+        {
+          "index": 0,
+          "length": 2303,
+          "sha256": "da1d24107a6d0c43882a2eb052c8b1e47ae7a6021e71991554743a19efb411a1"
+        },
+        {
+          "index": 1,
+          "length": 2036,
+          "sha256": "281767c77a48da305e955285cf9ee19284fdc64ab586225f4feca04d44045730"
+        }
+      ]
+    },
+    {
+      "step": "F-actual-last-catalog-body-and-boundary-real-body-summary",
+      "utc": "2026-11-24T07:08:58.067Z",
+      "ipc": {
+        "requestUTC": "2026-11-24T07:08:57.216Z",
+        "transportRequestId": "20320.871",
+        "responseUTC": "2026-11-24T07:08:57.692Z",
+        "finishedUTC": "2026-11-24T07:08:57.695Z",
+        "chapterIndex": 2576,
+        "bookUrlSHA256": "ea72a389e101ec0e673c8e9b5d81b51684c478947e71ce7b2f5fed9ec54dc481",
+        "chapterUrlSHA256": "e273552fc6ba11f94121c002b2d91900ced09ed49fab5cad3ec1db7937acab71",
+        "originSHA256": "ded87e3bc2fb298ee53b2264b6db3250cec59c8eb22583b85af0a10b64588119",
+        "transportHTTPStatus": 200,
+        "tauriResponse": "ok",
+        "body": {
+          "type": "string",
+          "length": 2303,
+          "sha256": "da1d24107a6d0c43882a2eb052c8b1e47ae7a6021e71991554743a19efb411a1"
+        }
+      },
+      "position": {
+        "utc": "2026-11-24T07:08:58.054Z",
+        "performance": 1181337.4000000022,
+        "book": "凡人修仙传",
+        "title": "忘语新书《玄界之门》",
+        "chapter": "2577 / 2577",
+        "scrollTop": 0,
+        "maxScrollTop": 2821,
+        "clientHeight": 696,
+        "scrollHeight": 3517,
+        "visibleParagraphIndex": 0,
+        "loading": false,
+        "visibleText": {
+          "length": 52,
+          "sha256": "ad039aa8bce0e708f73f69668a20913708a58c1b0fa86d9bc2e94e89901f2566"
+        },
+        "paragraphCount": 39,
+        "progress": {
+          "chapterIndex": 2576,
+          "progress": 0
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt162/",
+          "chapterIndex": 2576,
+          "progress": 0
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T07:08:57.694Z",
+          "performance": 1180977.1000000015,
+          "title": "忘语新书《玄界之门》",
+          "paragraphCount": 39,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T07:08:55.614Z",
+            "performance": 1178897.4000000022,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 550,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt162/",
+              "chapterIndex": 0,
+              "progress": 0
+            }
+          },
+          {
+            "utc": "2026-11-24T07:08:55.615Z",
+            "performance": 1178897.8000000007,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt162/",
+              "chapterIndex": 0,
+              "progress": 0.13590968302214504
+            }
+          },
+          {
+            "utc": "2026-11-24T07:08:55.747Z",
+            "performance": 1179030.3000000007,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 0,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt162/",
+              "chapterIndex": 0,
+              "progress": 0.13590968302214504
+            }
+          }
+        ]
+      },
+      "bodyPresent": true,
+      "cached": [
+        {
+          "index": 0,
+          "length": 2303,
+          "sha256": "da1d24107a6d0c43882a2eb052c8b1e47ae7a6021e71991554743a19efb411a1"
+        },
+        {
+          "index": 1,
+          "length": 2036,
+          "sha256": "281767c77a48da305e955285cf9ee19284fdc64ab586225f4feca04d44045730"
+        },
+        {
+          "index": 2576,
+          "length": 2303,
+          "sha256": "da1d24107a6d0c43882a2eb052c8b1e47ae7a6021e71991554743a19efb411a1"
+        }
+      ]
+    }
+  ],
+  "lastBoundary": {
+    "step": "F-last-boundary",
+    "utc": "2026-11-24T07:08:58.211Z",
+    "nextDisabled": true,
+    "limitation": "One existing naturally selected last catalog item; no URLs fabricated, no source edit, no blanket chapter scan.",
+    "position": {
+      "utc": "2026-11-24T07:08:58.054Z",
+      "performance": 1181337.4000000022,
+      "book": "凡人修仙传",
+      "title": "忘语新书《玄界之门》",
+      "chapter": "2577 / 2577",
+      "scrollTop": 0,
+      "maxScrollTop": 2821,
+      "clientHeight": 696,
+      "scrollHeight": 3517,
+      "visibleParagraphIndex": 0,
+      "loading": false,
+      "visibleText": {
+        "length": 52,
+        "sha256": "ad039aa8bce0e708f73f69668a20913708a58c1b0fa86d9bc2e94e89901f2566"
+      },
+      "paragraphCount": 39,
+      "progress": {
+        "chapterIndex": 2576,
+        "progress": 0
+      },
+      "lastReading": {
+        "bookUrl": "http://www.yetianlian.info/yt162/",
+        "chapterIndex": 2576,
+        "progress": 0
+      },
+      "latestLoad": {
+        "utc": "2026-11-24T07:08:57.694Z",
+        "performance": 1180977.1000000015,
+        "title": "忘语新书《玄界之门》",
+        "paragraphCount": 39,
+        "scrollTop": 0,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      "events": [
+        {
+          "utc": "2026-11-24T07:08:55.614Z",
+          "performance": 1178897.4000000022,
+          "name": "wheel",
+          "trusted": true,
+          "scrollTop": 550,
+          "deltaY": 550,
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt162/",
+            "chapterIndex": 0,
+            "progress": 0
+          }
+        },
+        {
+          "utc": "2026-11-24T07:08:55.615Z",
+          "performance": 1178897.8000000007,
+          "name": "scroll",
+          "trusted": true,
+          "scrollTop": 550,
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt162/",
+            "chapterIndex": 0,
+            "progress": 0.13590968302214504
+          }
+        },
+        {
+          "utc": "2026-11-24T07:08:55.747Z",
+          "performance": 1179030.3000000007,
+          "name": "scroll",
+          "trusted": true,
+          "scrollTop": 0,
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt162/",
+            "chapterIndex": 0,
+            "progress": 0.13590968302214504
+          }
+        }
+      ]
+    }
+  },
+  "externalFailureAttempt": {
+    "step": "TC50-bounded-normal-source-first-cross-attempt",
+    "utc": "2026-11-24T07:08:56.673Z",
+    "firstSuccess": true,
+    "nextContentPresent": true,
+    "notAReplacement": "If both actual bodies succeed this is positive cross-chapter coverage only, not external HTTP failure coverage."
+  },
+  "deleteCancel": {
+    "step": "F-delete-cancel-preserves",
+    "utc": "2026-11-24T07:08:59.382Z",
+    "storageSame": true,
+    "tables": [
+      {
+        "table": "books",
+        "same": true
+      },
+      {
+        "table": "book_sources",
+        "same": true
+      },
+      {
+        "table": "chapter_cache",
+        "same": true
+      },
+      {
+        "table": "chapter_list_cache",
+        "same": true
+      }
+    ]
+  },
+  "deleteConfirm": {
+    "step": "F-delete-confirm-protection",
+    "utc": "2026-11-24T07:09:00.005Z",
+    "FAbsent": true,
+    "FBodyCachesAbsent": true,
+    "FCatalogAbsent": true,
+    "FProgressAbsent": true,
+    "continueCardPresent": false,
+    "otherBooksUnchanged": true,
+    "ACBodyCachesSame": true,
+    "ACProgressSame": true,
+    "sourcesSame": true
+  },
+  "CReopenAfterDelete": {
+    "step": "C-after-disposable-delete-restored",
+    "utc": "2026-11-24T07:09:00.275Z",
+    "savedEarlyPositionPreserved": true,
+    "position": {
+      "utc": "2026-11-24T07:09:00.264Z",
+      "performance": 1183546.9000000022,
+      "book": "我在三体科技造神！",
+      "title": "第60章 持续降维",
+      "chapter": "2 / 73",
+      "scrollTop": 1074,
+      "maxScrollTop": 2933,
+      "clientHeight": 696,
+      "scrollHeight": 3629,
+      "visibleParagraphIndex": 10,
+      "loading": false,
+      "visibleText": {
+        "length": 80,
+        "sha256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+      },
+      "paragraphCount": 36,
+      "progress": {
+        "chapterIndex": 1,
+        "progress": 0.2765072765072765
+      },
+      "lastReading": {
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "chapterIndex": 1,
+        "progress": 0.2765072765072765
+      },
+      "latestLoad": {
+        "utc": "2026-11-24T07:09:00.262Z",
+        "performance": 1183545.200000003,
+        "title": "第60章 持续降维",
+        "paragraphCount": 36,
+        "scrollTop": 1074,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      "events": [
+        {
+          "utc": "2026-11-24T07:08:55.614Z",
+          "performance": 1178897.4000000022,
+          "name": "wheel",
+          "trusted": true,
+          "scrollTop": 550,
+          "deltaY": 550,
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt162/",
+            "chapterIndex": 0,
+            "progress": 0
+          }
+        },
+        {
+          "utc": "2026-11-24T07:08:55.615Z",
+          "performance": 1178897.8000000007,
+          "name": "scroll",
+          "trusted": true,
+          "scrollTop": 550,
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt162/",
+            "chapterIndex": 0,
+            "progress": 0.13590968302214504
+          }
+        },
+        {
+          "utc": "2026-11-24T07:08:55.747Z",
+          "performance": 1179030.3000000007,
+          "name": "scroll",
+          "trusted": true,
+          "scrollTop": 0,
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt162/",
+            "chapterIndex": 0,
+            "progress": 0.13590968302214504
+          }
+        },
+        {
+          "utc": "2026-11-24T07:09:00.263Z",
+          "performance": 1183545.700000003,
+          "name": "scroll",
+          "trusted": true,
+          "scrollTop": 1074,
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.2765072765072765
+          }
+        }
+      ]
+    },
+    "coordinate": {
+      "bodyLength": 2405,
+      "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+      "visibleIndex": 10,
+      "visibleTextLength": 80,
+      "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00",
+      "exactTrimmedTextOffset": 669,
+      "canonicalSegmentStart": 665,
+      "allDOMTextsMatchSharedSegments": true,
+      "expectedSegmentRatio": 0.2765072765072765,
+      "savedProgress": 0.2765072765072765,
+      "lastReadingProgress": 0.2765072765072765,
+      "savedEqualsVisibleSegment": true
+    }
+  },
+  "clearProgressCancel": {
+    "step": "real-clear-progress-cancel-preserves",
+    "utc": "2026-11-24T07:41:52.120Z",
+    "storageSame": true,
+    "scope": "Cancel only. Confirm/all progress deletion was not executed this round.",
+    "dialog": {
+      "message": "确定清除所有本地阅读进度缓存吗？清除后再次打开章节会从开头开始。",
+      "type": "confirm"
+    },
+    "tables": [
+      {
+        "table": "books",
+        "same": true
+      },
+      {
+        "table": "book_sources",
+        "same": true
+      },
+      {
+        "table": "chapter_cache",
+        "same": true
+      },
+      {
+        "table": "chapter_list_cache",
+        "same": true
+      }
+    ]
+  },
+  "settingsAfterCancel": {
+    "utc": "2026-11-24T07:41:52.028Z",
+    "title": "Tauri + React + Typescript",
+    "label": "main",
+    "documentText": {
+      "length": 136,
+      "sha256": "d15332e3c9cef106b01385cd186254defb5394ec37307e1bbb989a498b9c038e"
+    },
+    "aboutVersionText": "版本 0.2.0",
+    "controls": [
+      {
+        "i": 0,
+        "tag": "A",
+        "text": "← 书架",
+        "type": ""
+      },
+      {
+        "i": 1,
+        "tag": "A",
+        "text": "发现",
+        "type": ""
+      },
+      {
+        "i": 2,
+        "tag": "A",
+        "text": "书源",
+        "type": ""
+      },
+      {
+        "i": 3,
+        "tag": "BUTTON",
+        "text": "浅色",
+        "disabled": false,
+        "type": "submit"
+      },
+      {
+        "i": 4,
+        "tag": "BUTTON",
+        "text": "深色",
+        "disabled": false,
+        "type": "submit"
+      },
+      {
+        "i": 5,
+        "tag": "INPUT",
+        "text": "",
+        "disabled": false,
+        "type": "range"
+      },
+      {
+        "i": 6,
+        "tag": "BUTTON",
+        "text": "清除缓存",
+        "disabled": false,
+        "type": "submit"
+      },
+      {
+        "i": 7,
+        "tag": "BUTTON",
+        "text": "即将到来",
+        "disabled": true,
+        "type": "submit"
+      }
+    ],
+    "storage": {
+      "A": {
+        "chapterIndex": 1,
+        "progress": 0.23893805309734514
+      },
+      "C": {
+        "chapterIndex": 1,
+        "progress": 0.9999
+      },
+      "lastReading": {
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "chapterIndex": 1,
+        "progress": 0.9999
+      },
+      "theme": "dark",
+      "fontSize": 18,
+      "stealthSettings": {
+        "alpha": 0.55
+      }
+    }
+  },
+  "versionSelectorLimitation": "Preserved narrow actualTexts selector returned []; complete after-cancel DOM and screenshot contain version 0.2.0. This is not a missing-version defect.",
+  "round14Protection": {
+    "step": "round14-regression-protection",
+    "utc": "2026-11-24T07:41:52.297Z",
+    "AprogressSame": true,
+    "Cprogress9999": true,
+    "sourceCount": 192,
+    "tables": [
+      {
+        "table": "books",
+        "same": false
+      },
+      {
+        "table": "book_sources",
+        "same": true
+      },
+      {
+        "table": "chapter_cache",
+        "same": true
+      },
+      {
+        "table": "chapter_list_cache",
+        "same": true
+      }
+    ],
+    "interpretation": "Only books changed due to normal C dur_chapter_time update; A progress and all sources/caches protected."
+  },
+  "scope": "Actual UI actions and passive IPC summaries; IPC transportHTTPStatus200 is not proof of external HTTP status. F first/last catalog duplicate URL/content quality limits all-chapter claims."
+}

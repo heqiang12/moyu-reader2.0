@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { invoke } from "@tauri-apps/api/core";
 import { Link, useLocation, useParams } from "react-router-dom";
 import {
@@ -42,6 +42,7 @@ export default function ReaderPage() {
   const bodyRef = useRef<HTMLDivElement>(null);
   const paragraphRefs = useRef<(HTMLParagraphElement | null)[]>([]);
   const isRestoring = useRef(false);
+  const restoredScrollTopRef = useRef<number | null>(null);
   const pendingProgressRef = useRef<number | null>(null);
 
   // 初始化书籍与目录
@@ -82,6 +83,7 @@ export default function ReaderPage() {
     let alive = true;
     const load = async () => {
       isRestoring.current = true;
+      restoredScrollTopRef.current = null;
       setLoading(true);
       setError("");
       const progress = pendingProgressRef.current ?? loadProgress(rawUrl, chapter.index, book.durChapterIndex) ?? 0;
@@ -122,11 +124,13 @@ export default function ReaderPage() {
       : 0;
     isRestoring.current = true;
     body.scrollTo({ top: Math.max(0, top), behavior: "instant" });
-    window.setTimeout(() => { isRestoring.current = false; }, 120);
+    // 只忽略程序恢复位置的scroll，包含浏览器底部钳制；用户移动后立即保存。
+    restoredScrollTopRef.current = body.scrollTop;
+    isRestoring.current = false;
   }, [segments, content.length]);
 
-  // 恢复滚动位置
-  useEffect(() => {
+  // 正文可见前完成恢复，不用固定计时窗口吞掉早期用户滚动。
+  useLayoutEffect(() => {
     if (loading || error || segments.length === 0 || chapterIndex === null) return;
     const saved = pendingProgressRef.current ?? loadProgress(rawUrl, chapterIndex) ?? 0;
     pendingProgressRef.current = null;
@@ -163,6 +167,9 @@ export default function ReaderPage() {
 
   const handleScroll = useCallback(() => {
     if (loading || error || chapterIndex === null || isRestoring.current) return;
+    const body = bodyRef.current;
+    if (!body || restoredScrollTopRef.current === body.scrollTop) return;
+    restoredScrollTopRef.current = null;
     saveLastReading({ bookUrl: rawUrl, chapterIndex, progress: currentProgress() });
   }, [loading, error, chapterIndex, rawUrl, currentProgress]);
 

@@ -1,0 +1,1058 @@
+{
+  "utc": "2026-11-24T09:07:30.745Z",
+  "round": 6,
+  "report": {
+    "file": "test-reports/round-06.md",
+    "bytes": 42094,
+    "sha256": "40791dbe0b037b7cdf032f082cdc42646e9dbb025cbb72de3974cebf19a8f5bc"
+  },
+  "files": [
+    {
+      "file": "bottom-independent-DOM-clamp.png",
+      "bytes": 8810,
+      "sha256": "9188e3cd3f4ba82b306d0cf431bd1bb636c1b0f5d40ef6ae89e2978f51e10b54",
+      "privateStageSHA256": "9188e3cd3f4ba82b306d0cf431bd1bb636c1b0f5d40ef6ae89e2978f51e10b54",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task11-independent-bottom-real-DOM.png",
+        "sourceSHA256": "9bd671522d2d6a64a2b9cfbd41804b820d9e961130d261f8314f742501d9fe76",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          0,
+          525,
+          1200,
+          275
+        ],
+        "role": "Independent run14 actual bottom screenshot/footer; exact scrollTop=max2933 in JSON."
+      }
+    },
+    {
+      "file": "build.txt",
+      "bytes": 2984,
+      "sha256": "36232711ace0e420df28c4df739b4f2db8ffb0e7a75d1500cf19ff99243da3d6",
+      "privateStageSHA256": "36232711ace0e420df28c4df739b4f2db8ffb0e7a75d1500cf19ff99243da3d6",
+      "transformation": "Explicit field whitelist and compact excerpts/digests or sanitized small build excerpt, not full private logs."
+    },
+    {
+      "file": "F-added-disabled-before-body.png",
+      "bytes": 127708,
+      "sha256": "787a96cb47e128d12487baf63e71fc4ddfe6178361deb16cd3b5d88590396a48",
+      "privateStageSHA256": "787a96cb47e128d12487baf63e71fc4ddfe6178361deb16cd3b5d88590396a48",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task07-disposable-normal-book-and-crud-F-UI-added-disabled-before-body.png",
+        "sourceSHA256": "291abadc4921c3a08d511f5f177fc6320fe09ccaea6d72dbd2f6223ec862762e",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          320,
+          95,
+          550,
+          270
+        ],
+        "role": "Later completed add snapshot; immediate observation was加入中 disabled, not this frame."
+      }
+    },
+    {
+      "file": "F-deleted-recent-reading-cleared.png",
+      "bytes": 128330,
+      "sha256": "9f625837781e46dbe4d8cdaa016f79faf54ca61f44ca83013ee100630dd4179c",
+      "privateStageSHA256": "9f625837781e46dbe4d8cdaa016f79faf54ca61f44ca83013ee100630dd4179c",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task07-disposable-normal-book-and-crud-F-deleted-latest-reading-removed.png",
+        "sourceSHA256": "03ba35db11e7ce8b9c230045c8ba5c5d96532c13dca9620ab693191d65c1c5e9",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          0,
+          0,
+          1200,
+          510
+        ],
+        "role": "Actual F deletion leaves A/C, no continue-last-F card; DB/storage cleanup in JSON."
+      }
+    },
+    {
+      "file": "F-last-catalog-boundary.png",
+      "bytes": 3236,
+      "sha256": "c37800c8c41721909159d32249c9e196408af4d0c13e5b7b371e4cf067061655",
+      "privateStageSHA256": "c37800c8c41721909159d32249c9e196408af4d0c13e5b7b371e4cf067061655",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task07-disposable-normal-book-and-crud-F-actual-last-catalog-body-and-boundary.png",
+        "sourceSHA256": "5a1c8d4cd5f4c2250136db5c2e6cf6515ec3b550c68a3c9702e5652acc8024b2",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          0,
+          735,
+          1200,
+          65
+        ],
+        "role": "Actual last catalog item2577/2577 footer and disabled next; not all chapters validated."
+      }
+    },
+    {
+      "file": "F-normal-new-detail.png",
+      "bytes": 99227,
+      "sha256": "61264d588d09ca2546e5d626828afa603884004b33e9b5fab4450dad34d331b3",
+      "privateStageSHA256": "61264d588d09ca2546e5d626828afa603884004b33e9b5fab4450dad34d331b3",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task07-disposable-normal-book-and-crud-F-original-new-detail-before-add.png",
+        "sourceSHA256": "c70ad5c43aa2ef8e2e875576fcc40f9de9100a4a3f6dba761bec0309263f63f8",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          320,
+          95,
+          550,
+          270
+        ],
+        "role": "Actual new normal-source detail2577; entry animation screenshot not immediate feedback timing."
+      }
+    },
+    {
+      "file": "final-QA-shelf.png",
+      "bytes": 142420,
+      "sha256": "2b96e75179cce7b4d03c29c5a97853975a94aa788fedeef3e8a41e19e63dd938",
+      "privateStageSHA256": "2b96e75179cce7b4d03c29c5a97853975a94aa788fedeef3e8a41e19e63dd938",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task13b-native-final-visible-close-final-actual-shelf-before-last-C.png",
+        "sourceSHA256": "b7ed627a7ac4b5200d4938d15aab3cbde962a30eff2c341c2e56872b645d175c",
+        "sourceWidth": 1216,
+        "sourceHeight": 839,
+        "crop": [
+          8,
+          31,
+          890,
+          530
+        ],
+        "role": "Final own main interior before last C open and exit; no desktop edges."
+      }
+    },
+    {
+      "file": "final-visible-stealth-before-main-close.png",
+      "bytes": 10255,
+      "sha256": "7e0b142ae43bde9d58ac365d4aeb49d6494735379da2b0e27e88116371d2ef0d",
+      "privateStageSHA256": "7e0b142ae43bde9d58ac365d4aeb49d6494735379da2b0e27e88116371d2ef0d",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task13b-native-final-visible-close-final-visible-stealth-C-bottom-before-main-close.png",
+        "sourceSHA256": "57ac02d516240937087d882d106b95a278a3acdc31946202fcb23995e024d691",
+        "sourceWidth": 496,
+        "sourceHeight": 105,
+        "crop": [
+          8,
+          12,
+          480,
+          84
+        ],
+        "role": "Visible-stealth prerequisite before actual native main close; final exit proof is Win32."
+      }
+    },
+    {
+      "file": "imports.json",
+      "bytes": 12287,
+      "sha256": "535dd10fc018cdc8113e4f911206593effaa86df24ddaf793525d1f6ab478ed6",
+      "privateStageSHA256": "535dd10fc018cdc8113e4f911206593effaa86df24ddaf793525d1f6ab478ed6",
+      "transformation": "Explicit field whitelist and compact excerpts/digests or sanitized small build excerpt, not full private logs."
+    },
+    {
+      "file": "isolation.json",
+      "bytes": 10786,
+      "sha256": "014ade3fbf1e980782496836d3c86a4aa57f59fbbeaeb55a5d170586f816ceb4",
+      "privateStageSHA256": "014ade3fbf1e980782496836d3c86a4aa57f59fbbeaeb55a5d170586f816ceb4",
+      "transformation": "Explicit field whitelist and compact excerpts/digests or sanitized small build excerpt, not full private logs."
+    },
+    {
+      "file": "MR016-XIU2-valid-URL-success.png",
+      "bytes": 10675,
+      "sha256": "19d33b475efb4d1eb3370088ddfae55d2079673133d30d7f95f1aa2ec0dfa603",
+      "privateStageSHA256": "19d33b475efb4d1eb3370088ddfae55d2079673133d30d7f95f1aa2ec0dfa603",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task01-url-import-controls-MR016-original-XIU2-real-UI-URL-native-dialog.png",
+        "sourceSHA256": "d48193479c7f5723d1bd0b395b6b4cbd5a8766bd220d28b97381f960371abc36",
+        "sourceWidth": 1216,
+        "sourceHeight": 839,
+        "crop": [
+          35,
+          33,
+          800,
+          200
+        ],
+        "role": "Actual original XIU2 URL and native success22 dialog; pre-refresh10 source label is not final count."
+      }
+    },
+    {
+      "file": "MR016-yck-valid-URL-success.png",
+      "bytes": 10838,
+      "sha256": "76cbc6778c16c1f9cbcb62acc87ffb7993eb87f0381c7f405015dd2671ee8d82",
+      "privateStageSHA256": "76cbc6778c16c1f9cbcb62acc87ffb7993eb87f0381c7f405015dd2671ee8d82",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task01-url-import-controls-MR016-yck-real-external-positive-native-dialog.png",
+        "sourceSHA256": "694152a6e1ce3ef22831da67f8f066e09316301fce78df0f82ea7f81bc1bd564",
+        "sourceWidth": 1216,
+        "sourceHeight": 839,
+        "crop": [
+          35,
+          33,
+          800,
+          205
+        ],
+        "role": "Actual yck URL and success164 dialog; final count from DOM/SQL192."
+      }
+    },
+    {
+      "file": "MR017-original-relative-two-results.png",
+      "bytes": 38115,
+      "sha256": "9c8ec2a52208f1a3b199435668e79d5008263963f3d58088bd2329afeadbfe14",
+      "privateStageSHA256": "9c8ec2a52208f1a3b199435668e79d5008263963f3d58088bd2329afeadbfe14",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task02-original-relative-search-MR017-original-relative-enter-finished.png",
+        "sourceSHA256": "6486418d7876ee72377595b672e9dfac28e1a658feec4f5c95cabf0d2e1835e4",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          0,
+          0,
+          1200,
+          400
+        ],
+        "role": "Current-source original relative template Enter result; matching end and actual2 cards in JSON."
+      }
+    },
+    {
+      "file": "MR018-early-new-position-saved.png",
+      "bytes": 20403,
+      "sha256": "bdfed81e1ed6946359df4fa8255d2e155ab0eb131402ad698fada74bf2e7ce3c",
+      "privateStageSHA256": "bdfed81e1ed6946359df4fa8255d2e155ab0eb131402ad698fada74bf2e7ce3c",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task04b-painted-early-scroll-MR018-painted-body-new-position-persisted.png",
+        "sourceSHA256": "73f2dc64f05411030f07176d29efa529063e0f2c4561809b9a2cfb6a5ce33ed2",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          0,
+          0,
+          1200,
+          205
+        ],
+        "role": "Actual new visible segment10 after1.5s; save value from preserved DOM/storage."
+      }
+    },
+    {
+      "file": "MR018-painted-before-early-wheel.png",
+      "bytes": 18674,
+      "sha256": "7efa522228498e62354fba5a8a2b1bf607f1b11a04425e004b0781091bfaa8f2",
+      "privateStageSHA256": "7efa522228498e62354fba5a8a2b1bf607f1b11a04425e004b0781091bfaa8f2",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task04b-painted-early-scroll-MR018-painted-nonzero-body-before-actual-wheel.png",
+        "sourceSHA256": "d8eace425eab0ffdfe57a3b62afcb0f61f9d0a52d6a15f69b262a0c665bcc959",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          0,
+          0,
+          1200,
+          200
+        ],
+        "role": "Actual painted old visible segment5 before trusted early input."
+      }
+    },
+    {
+      "file": "MR018-UI-resume-new-position.png",
+      "bytes": 17068,
+      "sha256": "21945330f370c4b25790e0deebbc182f17f30759dde86395c79b53554a71e81e",
+      "privateStageSHA256": "21945330f370c4b25790e0deebbc182f17f30759dde86395c79b53554a71e81e",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task04b-painted-early-scroll-MR018-painted-body-resume-correct-new-text.png",
+        "sourceSHA256": "c147202dcfd40d742bde63356769bc20e0e78a53dc9040367fbde36882d9ab6f",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          0,
+          0,
+          1200,
+          205
+        ],
+        "role": "Actual normal return/continue restored new text, not only numeric index."
+      }
+    },
+    {
+      "file": "native-C-after-real-drag.png",
+      "bytes": 8179,
+      "sha256": "08d182a51868e3b20510ed9ff0bad97483f8f1edd19d9cabd6c64ab0eeb55d19",
+      "privateStageSHA256": "08d182a51868e3b20510ed9ff0bad97483f8f1edd19d9cabd6c64ab0eeb55d19",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task09-native-cross-chapter-bottom-sync-normal-C-after-real-drag.png",
+        "sourceSHA256": "21eaced6eee02a76ff36cabc0b3afd6a7e28d798d51049fabfb57a022757f5ab",
+        "sourceWidth": 496,
+        "sourceHeight": 105,
+        "crop": [
+          8,
+          28,
+          480,
+          68
+        ],
+        "role": "Native stealth after real(+420,+290) topstrip drag; excerpt inside own main only."
+      }
+    },
+    {
+      "file": "native-C-bottom-reopen.png",
+      "bytes": 13245,
+      "sha256": "4e356e162cb074876ddf8d083371d184a028cc010d12b58fab68e5e098841c74",
+      "privateStageSHA256": "4e356e162cb074876ddf8d083371d184a028cc010d12b58fab68e5e098841c74",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task09c-native-bottom-reopen-C-last-normal-bosskey-reopen.png",
+        "sourceSHA256": "a045d66449b0444953214b0023025eb718adb0f48da999442d75efc069185bc3",
+        "sourceWidth": 496,
+        "sourceHeight": 105,
+        "crop": [
+          8,
+          12,
+          480,
+          84
+        ],
+        "role": "Actual bosskey reopen36/36 at deliberate chapter-bottom character sentinel."
+      }
+    },
+    {
+      "file": "native-first-shelf-dark.png",
+      "bytes": 142420,
+      "sha256": "2b96e75179cce7b4d03c29c5a97853975a94aa788fedeef3e8a41e19e63dd938",
+      "privateStageSHA256": "2b96e75179cce7b4d03c29c5a97853975a94aa788fedeef3e8a41e19e63dd938",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task08-native-independent-restart-first-open-independent-first-shelf-before-any-reader.png",
+        "sourceSHA256": "14176d886f6fb60243c8af8f3ecd9b4d8ad353e0f98449fc661f2b7c50f39c80",
+        "sourceWidth": 1216,
+        "sourceHeight": 839,
+        "crop": [
+          8,
+          31,
+          890,
+          530
+        ],
+        "role": "Identifier-only independent run13 first shelf interior; excludes desktop background."
+      }
+    },
+    {
+      "file": "native-hidden-crossbook-A10-of36.png",
+      "bytes": 13521,
+      "sha256": "13e88f27675ef3d78a7ecc08fb985e931da936cc8136269b3a97e68c6f27be87",
+      "privateStageSHA256": "13e88f27675ef3d78a7ecc08fb985e931da936cc8136269b3a97e68c6f27be87",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task12-native-hidden-crossbook-bottom-normal-hidden-cross-book-A.png",
+        "sourceSHA256": "065dd14df5b4b47d68be61fcdb65072e33f79d4643e2fc78757c5c17c9db1f7c",
+        "sourceWidth": 496,
+        "sourceHeight": 105,
+        "crop": [
+          8,
+          12,
+          480,
+          84
+        ],
+        "role": "Actual hidden crossbook A reopen10/36; own main background only."
+      }
+    },
+    {
+      "file": "native-hidden-crossbook-C36-of36.png",
+      "bytes": 10249,
+      "sha256": "88b9993edb85027b32eb6ec0544aeca99ece25e72e63d349f83ea8f9847d144d",
+      "privateStageSHA256": "88b9993edb85027b32eb6ec0544aeca99ece25e72e63d349f83ea8f9847d144d",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task12-native-hidden-crossbook-bottom-normal-hidden-cross-book-C-bottom.png",
+        "sourceSHA256": "b833dadc897b873126ab7756e40834b2bea117feb3cc76c2d5a4fe566ee1646b",
+        "sourceWidth": 496,
+        "sourceHeight": 105,
+        "crop": [
+          8,
+          12,
+          480,
+          84
+        ],
+        "role": "Actual C bottom reopen36/36 using same native HWND."
+      }
+    },
+    {
+      "file": "native-independent-C11-of36.png",
+      "bytes": 18498,
+      "sha256": "66c8b4f2b7e2792453d5230950721583edbb51594e5b92e43ffa370cb2b3debd",
+      "privateStageSHA256": "66c8b4f2b7e2792453d5230950721583edbb51594e5b92e43ffa370cb2b3debd",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task08-native-independent-restart-first-open-C-independent-new-early-position-before-stealth.png",
+        "sourceSHA256": "a4642071e4a94791102f83e8b7f816388b1229db7f0b879113d2f15b999d8285",
+        "sourceWidth": 1216,
+        "sourceHeight": 839,
+        "crop": [
+          8,
+          31,
+          1192,
+          225
+        ],
+        "role": "Actual independent native UI reopen at segment10/stealth11-of36 expected text."
+      }
+    },
+    {
+      "file": "native-third-chapter-top.png",
+      "bytes": 8906,
+      "sha256": "dc3f67c991ddad5eb3473a34b36ac0bbf5ea66b1c3e2f2b8e9705afc12ff6716",
+      "privateStageSHA256": "dc3f67c991ddad5eb3473a34b36ac0bbf5ea66b1c3e2f2b8e9705afc12ff6716",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task09c-native-bottom-reopen-C-real-successful-third-top-stealth.png",
+        "sourceSHA256": "802005babdc4cfcf4ebc5793425cf25ae5d7e426c2c7e7a18dcd343312825473",
+        "sourceWidth": 496,
+        "sourceHeight": 105,
+        "crop": [
+          8,
+          12,
+          480,
+          84
+        ],
+        "role": "Actual third chapter top1/38, safe own-window interior."
+      }
+    },
+    {
+      "file": "native.json",
+      "bytes": 626100,
+      "sha256": "a72475fad0a2c0846ae7ba1beb99b67beef9befca021f3885e532ade772a6770",
+      "privateStageSHA256": "f666657c5d74548f9f303e784627950c0029d13e427c9db531435f543a20ef8e",
+      "privateDraftSHA256": "af77aa4ef3a031725d53391ece6e3c35de57a04189a395d88971f32fa45fe33b",
+      "transformation": "Raw progressJoined UIA excerpt replaced with length/SHA256 only; derived check normalized to boolean. Original observations and draft bytes preserved privately, no business evidence recreated."
+    },
+    {
+      "file": "negative-challenge-rejected.png",
+      "bytes": 11110,
+      "sha256": "1c53ad7b254d3fdd6154c3f92ac5652c0dfad1dee0b60f24bab6c55f1734de78",
+      "privateStageSHA256": "1c53ad7b254d3fdd6154c3f92ac5652c0dfad1dee0b60f24bab6c55f1734de78",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task01b-url-negative-controls-real-HTML-challenge-control-native-dialog.png",
+        "sourceSHA256": "7fbf1959743f9f7296779ed96e243ec89bb0aec6ee67b7438b453facf04f8928",
+        "sourceWidth": 1216,
+        "sourceHeight": 839,
+        "crop": [
+          380,
+          33,
+          455,
+          215
+        ],
+        "role": "Real external challenge rejection; no solving or retry loop."
+      }
+    },
+    {
+      "file": "negative-HTTP404-rejected.png",
+      "bytes": 10505,
+      "sha256": "69c17d69a1a29f063880ee9b911e300504108d8412f6931b01a728e47ce5273f",
+      "privateStageSHA256": "69c17d69a1a29f063880ee9b911e300504108d8412f6931b01a728e47ce5273f",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task01b-url-negative-controls-real-HTTP404-JSON-error-control-native-dialog.png",
+        "sourceSHA256": "1c54663e7cf84cf14159446ae1005c4f77be2675df6028a80aacc739cc379c70",
+        "sourceWidth": 1216,
+        "sourceHeight": 839,
+        "crop": [
+          380,
+          33,
+          455,
+          215
+        ],
+        "role": "Real external HTTP404 import rejection dialog."
+      }
+    },
+    {
+      "file": "negative-structure-rejected.png",
+      "bytes": 6257,
+      "sha256": "48eb36f4bf75142fafd3702f8fd5523ce22f53248d8684b766e9f5d9dcf34219",
+      "privateStageSHA256": "48eb36f4bf75142fafd3702f8fd5523ce22f53248d8684b766e9f5d9dcf34219",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task01b-url-negative-controls-invalid-structure-missing-required-fields-native-dialog.png",
+        "sourceSHA256": "a54dc14e5514bc637f69ed2df27f8172ba6959fe0b95df428dc480fb6b5a24f6",
+        "sourceWidth": 1216,
+        "sourceHeight": 839,
+        "crop": [
+          380,
+          33,
+          455,
+          165
+        ],
+        "role": "Real [{}] required-field rejection dialog only."
+      }
+    },
+    {
+      "file": "persistence.json",
+      "bytes": 18970,
+      "sha256": "aa1efd66dcd433a0b48e2e6d3b1d4357338fcbbf40b549433f5b9c219f478380",
+      "privateStageSHA256": "aa1efd66dcd433a0b48e2e6d3b1d4357338fcbbf40b549433f5b9c219f478380",
+      "transformation": "Explicit field whitelist and compact excerpts/digests or sanitized small build excerpt, not full private logs."
+    },
+    {
+      "file": "progress-boundary.json",
+      "bytes": 93230,
+      "sha256": "876a011645155dee62959d74b93fe70c21afd88ff5cbaae572945786a3b6664d",
+      "privateStageSHA256": "c8b7ea962421e61b4db7604e02d9f4915c5775cb5dd06289b73246f47ee7bf47",
+      "transformation": "Explicit field whitelist and compact excerpts/digests or sanitized small build excerpt, not full private logs."
+    },
+    {
+      "file": "reading-and-crud.json",
+      "bytes": 32684,
+      "sha256": "ef07d2d0ee4e33590d5d044d01d0d4fbec18e8ccaca8ebb77f30e633410996cf",
+      "privateStageSHA256": "ef07d2d0ee4e33590d5d044d01d0d4fbec18e8ccaca8ebb77f30e633410996cf",
+      "transformation": "Explicit field whitelist and compact excerpts/digests or sanitized small build excerpt, not full private logs."
+    },
+    {
+      "file": "relative-search.json",
+      "bytes": 12348,
+      "sha256": "62f05698486bc2e4abc5fc1d6f7be98ffd0f57e88f1ff0e08bdf84a3a034ffa4",
+      "privateStageSHA256": "62f05698486bc2e4abc5fc1d6f7be98ffd0f57e88f1ff0e08bdf84a3a034ffa4",
+      "transformation": "Explicit field whitelist and compact excerpts/digests or sanitized small build excerpt, not full private logs."
+    },
+    {
+      "file": "report-audit.json",
+      "bytes": 31291,
+      "sha256": "d59a63f34c234251cb6c40c7d15d0bc60d42e3b60ce4f8475c05f8a6bb4d6341",
+      "privateDraftSHA256": "cfcc22992a8aeb5056c69e6974e5206e3d9c94c51377f1e332ff7aef560d87d9",
+      "transformation": "Raw progressJoined UIA excerpt replaced with length/SHA256 only; derived check normalized to boolean. Original observations and draft bytes preserved privately, no business evidence recreated."
+    },
+    {
+      "file": "runtime.json",
+      "bytes": 41768,
+      "sha256": "08242e74e137bcd2c7abc520a2509a83e2c313f6f17590b7f007467867e4fc84",
+      "privateStageSHA256": "211badc4f4b6e1fc5fa9a0e3fad5b24d10d7e09c48a653f10ce2e2d7120e3b38",
+      "transformation": "Explicit field whitelist and compact excerpts/digests or sanitized small build excerpt, not full private logs."
+    },
+    {
+      "file": "search-after-return-late-old-preserved.png",
+      "bytes": 23037,
+      "sha256": "17e928a9250b4abb3cf21a66f731f270927c7e38884bb361c88cc33b02387ff4",
+      "privateStageSHA256": "17e928a9250b4abb3cf21a66f731f270927c7e38884bb361c88cc33b02387ff4",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task03-independent-import-and-search-page-return-natural-competition-final.png",
+        "sourceSHA256": "361939024ddcd48cd82558c7d68a307b5c91318193b0657d83c01b788847fd17",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          0,
+          0,
+          1200,
+          460
+        ],
+        "role": "After old item/end492ms later than new end, final zero state."
+      }
+    },
+    {
+      "file": "search-events.json",
+      "bytes": 27697,
+      "sha256": "c4ec811648f5f91fd1c624a577062bd6aa4c540b4c608aefde4263f1e9927381",
+      "privateStageSHA256": "a93c09dad11f99d5c89a26bf8fa8a3814ce711e01fcf2836b645070f3c11be1a",
+      "transformation": "Explicit field whitelist and compact excerpts/digests or sanitized small build excerpt, not full private logs."
+    },
+    {
+      "file": "search-valid-zero.png",
+      "bytes": 23262,
+      "sha256": "2b3582ad825cb3ad170144ea9e31a0f909ec5cc4b632572291f66ba488f20db4",
+      "privateStageSHA256": "2b3582ad825cb3ad170144ea9e31a0f909ec5cc4b632572291f66ba488f20db4",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task03-independent-import-and-search-valid-zero-real-finished-explanation.png",
+        "sourceSHA256": "6184f6d758db93b907e25524e0e8e1f66cb1eecd34c99c950d22dad8f9c1f4fe",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          0,
+          0,
+          1200,
+          460
+        ],
+        "role": "Effective zero keyword completed state, not source failure as zero control."
+      }
+    },
+    {
+      "file": "settings-cancel-and-about-version.png",
+      "bytes": 14495,
+      "sha256": "bd2b85efe176bb165b073a662b9a127e8d59e87df4ba661fe085a6b486ce5b95",
+      "privateStageSHA256": "bd2b85efe176bb165b073a662b9a127e8d59e87df4ba661fe085a6b486ce5b95",
+      "transformation": "Original preserved real capture, rectangular pixel crop only; no resizing, redraw, overlay, masking or re-enactment.",
+      "image": {
+        "sourceFile": "screenshots/r06-task11-independent-bottom-clamp-and-cancel-after-real-clear-progress-cancel.png",
+        "sourceSHA256": "b4a9154bb2de85a1678312f9052a280f8494e7244101ec4cd41fbec44036b3de",
+        "sourceWidth": 1200,
+        "sourceHeight": 800,
+        "crop": [
+          260,
+          95,
+          680,
+          610
+        ],
+        "role": "Actual after-cancel settings includes18px dark and version0.2.0; no new settings action."
+      }
+    },
+    {
+      "file": "verification.json",
+      "bytes": 6622,
+      "sha256": "2121d7a0610a02212f2a25369748f577b40acb60b10722f4872e24eaeae8b26b",
+      "transformation": "Explicit field whitelist and compact excerpts/digests or sanitized small build excerpt, not full private logs."
+    }
+  ],
+  "sources": [
+    {
+      "file": "preflight.json",
+      "bytes": 14519,
+      "sha256": "bb2c5b212d286cd3b308a1ec85573fb1863469c7481a9d56c3a405d8245dc161"
+    },
+    {
+      "file": "qa.json",
+      "bytes": 577,
+      "sha256": "8869ea2527849665087114050c796ebc235e9f57af62df20d62726fc1839038c"
+    },
+    {
+      "file": "private/isolation-baseline.json",
+      "bytes": 80313,
+      "sha256": "0687162464254512e2a265673dd11c5204051c003b69c11ecddc9ccedca438f1"
+    },
+    {
+      "file": "private/r06-final-prepublish-readonly.json",
+      "bytes": 7130,
+      "sha256": "9112936641a57947372d9e36f5cea331095479e8f422b3e7a4f996fa9f0f82b3"
+    },
+    {
+      "file": "private/r06-audit-search-semantics-readonly.json",
+      "bytes": 2272792,
+      "sha256": "b0d460b465d40f0df20f7c68084452d53af0aa7695b0bfba1093d674d7027256"
+    },
+    {
+      "file": "logs/run10/identity.json",
+      "bytes": 13257,
+      "sha256": "dc564d4a791f91ae246edda1b0d2777abb58388414cbbc40b23860948d3e3fc4"
+    },
+    {
+      "file": "logs/run10/launch.json",
+      "bytes": 775,
+      "sha256": "d6c5902a2c8fb9e072b67e249bcad4680d8e96206d40e13fa107c41ec2e838ff"
+    },
+    {
+      "file": "logs/run10/stop.json",
+      "bytes": 17220,
+      "sha256": "693d087ca94b084465782096bb333f37cbe94d43d064946589cf974b003a9c4e"
+    },
+    {
+      "file": "logs/run11/identity.json",
+      "bytes": 14239,
+      "sha256": "789e359f6728a7315432ded9b12d276af6325abc068fcfd483599b2fc2ae70b2"
+    },
+    {
+      "file": "logs/run11/launch.json",
+      "bytes": 797,
+      "sha256": "84a120424e2e5b2855bd5a4e5012fd7a89b88e55c9ee7bd15b678e211dadfe60"
+    },
+    {
+      "file": "logs/run11/stop.json",
+      "bytes": 16942,
+      "sha256": "72a8745ea86f0390bc089a7d36df5fd4447898a3093b63a5b6b5114fbc05ae03"
+    },
+    {
+      "file": "logs/run11/selected-environment.json",
+      "bytes": 644,
+      "sha256": "57cea9628e345d8cdee56b7897975c911583f8e0ced102f6578ac35f09260eef"
+    },
+    {
+      "file": "logs/run12/identity.json",
+      "bytes": 14221,
+      "sha256": "1a3cc05616ba6e9d4aa88ddfe015dc3ca4ee6d3e9014c3f0aed5d9a9bf6db29d"
+    },
+    {
+      "file": "logs/run12/launch.json",
+      "bytes": 798,
+      "sha256": "8c35587d0a1199c0dbbe71293eb1463adb81e1f65c766092f08aefdcbe1706a0"
+    },
+    {
+      "file": "logs/run12/stop.json",
+      "bytes": 16924,
+      "sha256": "839cf0d87a8865e5213b1a3cdc4d9bb5ddab020ce947fb8f387b5de1f927033c"
+    },
+    {
+      "file": "logs/run12/selected-environment.json",
+      "bytes": 644,
+      "sha256": "57cea9628e345d8cdee56b7897975c911583f8e0ced102f6578ac35f09260eef"
+    },
+    {
+      "file": "logs/run13/identity.json",
+      "bytes": 14423,
+      "sha256": "d5b666236336952536de30fd8e6c9b01101ed81e2846351d555cec6c31fa1ba2"
+    },
+    {
+      "file": "logs/run13/launch.json",
+      "bytes": 860,
+      "sha256": "7e67ad6131f65995fead261cc0ab7566a9e664400153ebcacaa677f1e8404977"
+    },
+    {
+      "file": "logs/run13/stop.json",
+      "bytes": 4881,
+      "sha256": "1f162d270e3b98149458cd7d28dc03d107c6472a9a5b4f1a7f821d1e275ab7d6"
+    },
+    {
+      "file": "logs/run13/selected-environment.json",
+      "bytes": 238,
+      "sha256": "4564abad53bf20c3d1bfc89f0e3111c0cff943069537a6e78464cfa464f5cb54"
+    },
+    {
+      "file": "logs/run14/identity.json",
+      "bytes": 14238,
+      "sha256": "13c6e186377fadccfa4d1b0b226a81004ad4bbdbf45aa3a0b4e54f0fb58d72a1"
+    },
+    {
+      "file": "logs/run14/launch.json",
+      "bytes": 798,
+      "sha256": "5674fb99754d32f9fb3cfae52b1668e0a436007d01168275f3aacf4bf3d65b7e"
+    },
+    {
+      "file": "logs/run14/stop.json",
+      "bytes": 4883,
+      "sha256": "f766351c355d22e6d3726270b94dcae1825713837107166ac58dbb62b903f967"
+    },
+    {
+      "file": "logs/run14/selected-environment.json",
+      "bytes": 644,
+      "sha256": "57cea9628e345d8cdee56b7897975c911583f8e0ced102f6578ac35f09260eef"
+    },
+    {
+      "file": "logs/run15/identity.json",
+      "bytes": 14427,
+      "sha256": "296be374890ff039ad80be668f75f953d1d5daae7386cd164faf13d6fb944229"
+    },
+    {
+      "file": "logs/run15/launch.json",
+      "bytes": 860,
+      "sha256": "eb07c7c624e1b6d8228bd0859faf035314e2abfef4bc9f4742cd0812c65e9602"
+    },
+    {
+      "file": "logs/run15/stop.json",
+      "bytes": 4880,
+      "sha256": "ec774a90216bb6f987317c42ab474daa83ac80fed7f11fb22ad262123fc6dd5d"
+    },
+    {
+      "file": "logs/run15/selected-environment.json",
+      "bytes": 238,
+      "sha256": "4564abad53bf20c3d1bfc89f0e3111c0cff943069537a6e78464cfa464f5cb54"
+    },
+    {
+      "file": "private/public-input-copy-baseline.json",
+      "bytes": 2204,
+      "sha256": "b61324026ef44c029d10c25b585963e605d477e377ed9ff77c4df6df06c67cfb"
+    },
+    {
+      "file": "private/r06-task01-url-import-controls.json",
+      "bytes": 4877678,
+      "sha256": "b34e494c8d36252185d2e172f8d89fd45a5244483a6730e4ec3775b3f357b123"
+    },
+    {
+      "file": "private/r06-task01b-url-negative-controls.json",
+      "bytes": 20882400,
+      "sha256": "b91afae6ca7d59f1962d5513bc3eecc103f3ff779a0a033fa1e024e932ac530b"
+    },
+    {
+      "file": "private/r06-tool-immediate-alert-recovery.json",
+      "bytes": 2081443,
+      "sha256": "b03d105d1e78db1e80c42f2b721a15119f3ab79e1a411cce02fa0bc551285286"
+    },
+    {
+      "file": "private/r06-task02-original-relative-search.json",
+      "bytes": 13978540,
+      "sha256": "3c1cb281039c2dd6ef2154523c5999f8ea4a0fbff4f300a61debb8b004a8f059"
+    },
+    {
+      "file": "private/r06-task04-early-real-scroll-boundaries.json",
+      "bytes": 13999151,
+      "sha256": "7dea307a95558d76d2de8fd1485305b7bd4cf32bdb58e115c80da0be3cad60a4"
+    },
+    {
+      "file": "private/r06-task04b-painted-early-scroll.json",
+      "bytes": 7866051,
+      "sha256": "7db170a42edddb1b4eddd78f5acf85d21e346959cf84112b13056f1d193e16e7"
+    },
+    {
+      "file": "private/r06-task04-coordinate-readonly-audit.json",
+      "bytes": 10765,
+      "sha256": "c6249bf302e8094c2eb5f4e68c3fa45b38e2dff26b6dc104611c60604890bde4"
+    },
+    {
+      "file": "private/r06-task11-independent-bottom-clamp-and-cancel.json",
+      "bytes": 7836125,
+      "sha256": "dbf41fcba49b6bc42649165ac8a8a9cee35ed442e82f3c0fababc60737fb143e"
+    },
+    {
+      "file": "private/r06-task05-finite-normal-source-candidates.json",
+      "bytes": 2102439,
+      "sha256": "a00da4c804925a3aa56fab8f26b67f2566301062fa57c89b72c88d9b21147874"
+    },
+    {
+      "file": "private/r06-task05b-finite-normal-source-candidates.json",
+      "bytes": 10120818,
+      "sha256": "eb6f63622d82bc353b631b44e3295447599298af840492538cf81424931dffec"
+    },
+    {
+      "file": "private/r06-task06-final-three-normal-candidates.json",
+      "bytes": 10182144,
+      "sha256": "ab52794c1446b5606a33edca84cfc1a3d2f200e6be4dfdedbcd71a5b50b5bde9"
+    },
+    {
+      "file": "private/r06-task07-disposable-normal-book-and-crud.json",
+      "bytes": 43366991,
+      "sha256": "1d57ea3285f39974efad62173aeb84bfb7a1efabf2725b51da2ef6e7500c7bdc"
+    },
+    {
+      "file": "private/r06-task08-native-independent-restart-first-open.json",
+      "bytes": 7941801,
+      "sha256": "529aa43554b1242cbf7ef5960eac3684b747505a495115cc2257528e90e3b052"
+    },
+    {
+      "file": "private/r06-task09-native-cross-chapter-bottom-sync.json",
+      "bytes": 5984933,
+      "sha256": "ca0aafb7e10aec6765b6f82fed44db6543ab51bb898ab42770d12563ddc0842d"
+    },
+    {
+      "file": "private/r06-task09b-native-cross-chapter-bottom-sync.json",
+      "bytes": 22020829,
+      "sha256": "1a198ab6cdbbb1e33afe3a7d8adfe4d3cdede687d9c62a85b92eb99cc0cb9a10"
+    },
+    {
+      "file": "private/r06-task09c-native-bottom-reopen.json",
+      "bytes": 15880857,
+      "sha256": "ec4088acc48bdca487624cee26d9b2c736ac27bf1b26be219b6bf8bda8393c3c"
+    },
+    {
+      "file": "private/r06-task10-native-clickthrough-tray-exit.json",
+      "bytes": 8014798,
+      "sha256": "4e2b3a714f4507c14dc9e97b761db9f331c104a1c7f2b37fe0cf7a97def5c352"
+    },
+    {
+      "file": "private/r06-task10b-native-tray-guard-and-normal-stop.json",
+      "bytes": 3945887,
+      "sha256": "179d42f64d981ca3a15a334eedb8480857ec0be96ca7cbdee8418c5b13bc221c"
+    },
+    {
+      "file": "private/r06-task11a-native-main-close-no-stealth.json",
+      "bytes": 1976499,
+      "sha256": "c6dbc4fd67d8d0a9300561339c7e9513bc7c40edaaa25d334263b48d8602ce80"
+    },
+    {
+      "file": "private/r06-task12-native-hidden-crossbook-bottom.json",
+      "bytes": 21955268,
+      "sha256": "bb354e09d72f6d5aeaf57ee6d48cdead0b0d8653b7a12fd278966cfa555cd59a"
+    },
+    {
+      "file": "private/r06-task13a-native-own-tray-menu-and-left.json",
+      "bytes": 33268,
+      "sha256": "94a4d03600f435b994de342f8678d7786a7811557e6da53098ddcac6754a4d17"
+    },
+    {
+      "file": "private/r06-task13b-native-final-visible-close.json",
+      "bytes": 7913677,
+      "sha256": "437d78cf6b91af10c1846ab3759c77e072817d7ed75ec7b1af1a0473e89d1f73"
+    },
+    {
+      "file": "private/run11-stopped-sql.json",
+      "bytes": 1933147,
+      "sha256": "d3155d3ea641ff215ff493c1212e9eb8626dd71854c3c716cd32137a1d6dc977"
+    },
+    {
+      "file": "private/run11-stopped-profile.json",
+      "bytes": 75453,
+      "sha256": "cd0a527f192eb48c54f6872494b02eddc5d5bf800f986ee266d1b1b12548f3fe"
+    },
+    {
+      "file": "private/run12-stopped-sql.json",
+      "bytes": 1933147,
+      "sha256": "a0c08c7b73f002a9c2dcd61dd429b0f48b00208f45419325c934edc82f18c8e3"
+    },
+    {
+      "file": "private/run12-stopped-profile.json",
+      "bytes": 79530,
+      "sha256": "d4ed2b6c5e48e91456407bd47bd83451754493f7e6e29c7719e42d7dd1628fd2"
+    },
+    {
+      "file": "private/run13-stopped-sql.json",
+      "bytes": 1933147,
+      "sha256": "dc600b6f169e0586929d93d95378a3ae953f9a16e78e535b8aafd5eaedd146bc"
+    },
+    {
+      "file": "private/run13-stopped-profile.json",
+      "bytes": 79717,
+      "sha256": "3743da48f0803767c0b482310c87a690a0c078d9bcdf0a297d483e3c235c95ae"
+    },
+    {
+      "file": "private/run13-stopped-localstorage-readonly.json",
+      "bytes": 31100,
+      "sha256": "45f385c7b2e12f5cd8f9f2bbb8fe69fd57b89e8c87124ed79a0a8e39391f4d9e"
+    },
+    {
+      "file": "private/run14-stopped-sql.json",
+      "bytes": 1933147,
+      "sha256": "a73ce9b2534e6b2ab3acb4c737791102d0735c4ac78e93bfa43a44ae058c9f71"
+    },
+    {
+      "file": "private/run14-stopped-profile.json",
+      "bytes": 79719,
+      "sha256": "e593ab9d45440a0eb37abac9eb91686a1f637c75d5b8f552844966fd8a4a7be3"
+    },
+    {
+      "file": "private/run14-stopped-localstorage-readonly.json",
+      "bytes": 31357,
+      "sha256": "4f95652f8047a2017a579498417c72e75a2c047711a63cd050091e50af3c08e8"
+    },
+    {
+      "file": "private/run15-stopped-sql.json",
+      "bytes": 1933147,
+      "sha256": "2b8dc6ae5c2ee13c3c8af728f8d68c2ec3c3316e6b755bd8a9e87ab9c42f4c4e"
+    },
+    {
+      "file": "private/run15-stopped-profile.json",
+      "bytes": 79905,
+      "sha256": "b8b04995af24d92c69ab0db599fcc3f72ba0f5062281881c1afbe445703e7cba"
+    },
+    {
+      "file": "private/run15-stopped-localstorage-readonly.json",
+      "bytes": 32642,
+      "sha256": "0761966529bed5882d111e5e27fd21151d9edf3ec2cb3c38a2e4653a1c086a74"
+    },
+    {
+      "file": "logs/run11/stdout.log",
+      "bytes": 374,
+      "sha256": "490ca9e8d526126dca10c4417ade6eb0433e6a3b52afbfd7b812b5c43c2bc0b1"
+    },
+    {
+      "file": "logs/run11/stderr.log",
+      "bytes": 643,
+      "sha256": "fa81ee2f098fb734ec6bb3f1e81d002ec17b56a8a42a9ab2d27e573c3f7324de"
+    },
+    {
+      "file": "logs/run12/stdout.log",
+      "bytes": 374,
+      "sha256": "685d6073935f7e283f571fb07576c349beebf02969e36133d25b776b733b7f25"
+    },
+    {
+      "file": "logs/run12/stderr.log",
+      "bytes": 270,
+      "sha256": "66d793aa9b56a06ec1863e84e1d3dae6f72bb1a9f42656232b327e0369d60bb7"
+    },
+    {
+      "file": "logs/run13/stdout.log",
+      "bytes": 372,
+      "sha256": "edf2ba996e63769094079390c382021977146d835b95064372165904d64345e5"
+    },
+    {
+      "file": "logs/run13/stderr.log",
+      "bytes": 758,
+      "sha256": "e8371bbadc76a2d37be139913cf490acbef3d885e22ffc319d79ea4932a7a085"
+    },
+    {
+      "file": "logs/run14/stdout.log",
+      "bytes": 374,
+      "sha256": "490ca9e8d526126dca10c4417ade6eb0433e6a3b52afbfd7b812b5c43c2bc0b1"
+    },
+    {
+      "file": "logs/run14/stderr.log",
+      "bytes": 643,
+      "sha256": "42c7667f1c6ad1b86ac2e6157711aefbf947bdd60cd2d475e6acf26f9bc3b242"
+    },
+    {
+      "file": "logs/run15/stdout.log",
+      "bytes": 372,
+      "sha256": "8640f2009ae2c961595a728478023af54a13eac729ef6ecc10c7ed3ba06c6987"
+    },
+    {
+      "file": "logs/run15/stderr.log",
+      "bytes": 758,
+      "sha256": "6df1bb78782becacb74095a007cb17a9a622cf75a55f1b22dab15455ccc5243a"
+    },
+    {
+      "file": "private/r06-task03-independent-import-and-search.json",
+      "bytes": 15766478,
+      "sha256": "15c289d26ba96f9004235acbe5c97647ab1948f5f7df98643df5a27890526fdb"
+    },
+    {
+      "file": "private/r06-final-postpublish-readonly.json",
+      "bytes": 7368,
+      "sha256": "7de79c8d1e231d783fdc359a8afd58a03b56078f8131f51f847e61f73c282d38"
+    },
+    {
+      "file": "private/r06-publication-provenance.json",
+      "bytes": 13061,
+      "sha256": "4c20ee1efd572bb4b75a17449cf2dba6a5c2dad21a4996c1854843ab6700ca44"
+    },
+    {
+      "file": "private/r06-publication-screenshot-results.json",
+      "bytes": 21205,
+      "sha256": "03fd7a564913e8bdbf7fc1dbe2a5e3d7346825038470f610e563f83b05a046c4"
+    },
+    {
+      "file": "private/r06-publication-compact-provenance.json",
+      "bytes": 9022,
+      "sha256": "ae06b5712d52296dc7a7cc0c77da717b4963586361173eb020b2e7bbd5015805"
+    },
+    {
+      "file": "private/r06-report-audit-publication.json",
+      "bytes": 3285,
+      "sha256": "eb43e9962ac1d0dfa0a7e00e04b880dbe54e5246a92eb091f46a3186eb5a165c"
+    },
+    {
+      "file": "private/r06-publication-redaction-verified.json",
+      "bytes": 1435,
+      "sha256": "8cc6811d3052e2930c06f0cf2555fa9f4a16cd0c39d23439991c55e1b1dae7fd"
+    },
+    {
+      "file": "private/publication-before-redaction/generation-script.mjs",
+      "bytes": 15772,
+      "sha256": "1cca91398b2fcbaf8e0f6a3ea0e97426a47c6373a824ac23c9b1c36ef7a66b24"
+    }
+  ],
+  "publicationScriptSHA256": "5bcc926a6fcc462939101c8840ce734206411dbd66c9881f9250efc57a082d6d",
+  "claimAuditGenerationScriptSHA256": "1cca91398b2fcbaf8e0f6a3ea0e97426a47c6373a824ac23c9b1c36ef7a66b24",
+  "publicationProjectionAudit": {
+    "utc": "2026-11-24T08:55:10.405Z",
+    "allChecksPassed": true,
+    "unexpectedLongRawStrings": 0,
+    "badCheckTypeCount": 0,
+    "unrelatedArtifactsUnchanged": true,
+    "files": [
+      {
+        "file": "native.json",
+        "beforeSHA256": "af77aa4ef3a031725d53391ece6e3c35de57a04189a395d88971f32fa45fe33b",
+        "afterSHA256": "a72475fad0a2c0846ae7ba1beb99b67beef9befca021f3885e532ade772a6770",
+        "bytes": 626100,
+        "originalBeforeBytesPreserved": true,
+        "onlyDeclaredProjectionChanged": true,
+        "transformation": "Raw progressJoined UIA excerpt replaced with length/SHA256 only; derived check normalized to boolean. Original observations and draft bytes preserved privately, no business evidence recreated."
+      },
+      {
+        "file": "report-audit.json",
+        "beforeSHA256": "cfcc22992a8aeb5056c69e6974e5206e3d9c94c51377f1e332ff7aef560d87d9",
+        "afterSHA256": "d59a63f34c234251cb6c40c7d15d0bc60d42e3b60ce4f8475c05f8a6bb4d6341",
+        "bytes": 31291,
+        "originalBeforeBytesPreserved": true,
+        "onlyDeclaredProjectionChanged": true,
+        "transformation": "Raw progressJoined UIA excerpt replaced with length/SHA256 only; derived check normalized to boolean. Original observations and draft bytes preserved privately, no business evidence recreated."
+      }
+    ]
+  },
+  "privacy": "No full SQLite, profile, source rules/credentials, raw body or complete SQL/network log. Raw joined UIA excerpt was reduced to length/SHA256 before final delivery; original observation and draft bytes remain private. Real screenshots are safe rectangular excerpts of preserved captures.",
+  "boundary": "Only recorded real Tauri/native cases pass; blocked/unexecuted cases remain unpassed. All business app processes stopped before publication. This is the last local QA round; no additional round, release/install acceptance or business fix follows here."
+}

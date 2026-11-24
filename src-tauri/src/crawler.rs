@@ -120,7 +120,9 @@ impl Crawler {
 
         // 构造搜索 URL
         let encoded_key = urlencoding::encode(keyword);
-        let target_url = raw_search_url.replace("{{key}}", &encoded_key);
+        let target_url = crate::engine::resolve_url(
+            Some(&source.book_source_url), &raw_search_url.replace("{{key}}", &encoded_key)
+        );
 
         // 发起网络请求获取搜索结果 HTML
         let html = self
@@ -401,5 +403,73 @@ impl Crawler {
         );
 
         Ok(content)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use tokio::io::{AsyncReadExt, AsyncWriteExt};
+    use tokio::net::TcpListener;
+
+    // 只使用回环HTTP及内嵌HTML，验证真实搜索调用构造的请求，不访问外部书源。
+    async fn assert_search_request(template: &str, expected_path: &str) {
+        let listener = TcpListener::bind("127.0.0.1:0").await.unwrap();
+        let origin = format!("http://{}", listener.local_addr().unwrap());
+        let template = template.replace("{origin}", &origin);
+        let response = tokio::spawn(async move {
+            let (mut socket, _) = listener.accept().await.unwrap();
+            let mut request = Vec::new();
+            let mut buffer = [0; 1024];
+            while !request.windows(4).any(|part| part == b"\r\n\r\n") {
+                let length = socket.read(&mut buffer).await.unwrap();
+                assert!(length > 0);
+                request.extend_from_slice(&buffer[..length]);
+            }
+            let html = "<div class='book'><a href='/book/1'>测试书籍</a></div>";
+            let http = format!(
+                "HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: {}\r\nConnection: close\r\n\r\n{}",
+                html.len(), html
+            );
+            socket.write_all(http.as_bytes()).await.unwrap();
+            String::from_utf8(request).unwrap().lines().next().unwrap().to_string()
+        });
+        let source = BookSource {
+            book_source_name: "回环测试源".to_string(),
+            book_source_url: format!("{origin}/books/"),
+            search_url: Some(template.clone()),
+            rule_search: Some(RuleSearch {
+                book_list: Some(".book".to_string()),
+                name: Some("a@text".to_string()),
+                book_url: Some("a@href".to_string()),
+                ..Default::default()
+            }),
+            ..Default::default()
+        };
+        let crawler = Crawler::new(NetworkClient::new().unwrap(), Database::new_in_memory().unwrap());
+        let books = tokio::time::timeout(
+            std::time::Duration::from_secs(5), crawler.search_single_source(&source, "三体")
+        ).await.unwrap().unwrap();
+        assert_eq!(response.await.unwrap(), format!("GET {expected_path} HTTP/1.1"));
+        assert_eq!(books.len(), 1);
+        assert_eq!(books[0].name, "测试书籍");
+        assert_eq!(books[0].book_url, format!("{origin}/book/1"));
+        assert_eq!(source.search_url.as_deref(), Some(template.as_str()));
+    }
+
+    #[tokio::test]
+    async fn test_root_relative_search_url_uses_source_origin() {
+        assert_search_request("/?s={{key}}", "/?s=%E4%B8%89%E4%BD%93").await;
+    }
+
+    #[tokio::test]
+    async fn test_search_url_relative_and_absolute_controls() {
+        for (template, path) in [
+            ("search?s={{key}}", "/books/search?s=%E4%B8%89%E4%BD%93"),
+            ("?s={{key}}", "/books/?s=%E4%B8%89%E4%BD%93"),
+            ("{origin}/search?s={{key}}", "/search?s=%E4%B8%89%E4%BD%93"),
+        ] {
+            assert_search_request(template, path).await;
+        }
     }
 }

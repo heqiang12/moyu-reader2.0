@@ -1,0 +1,625 @@
+{
+  "inputObjectCount": 10,
+  "historical164SourcesReused": false,
+  "sources": [
+    {
+      "collection": "yck-1335",
+      "index": 81,
+      "name": "奇怪小说",
+      "url": "http://www.yetianlian.info",
+      "originalObjectSHA256": "6b852205b000de90e8907d48f1bf45709db228b967e23f58474b16a11442ea60",
+      "originalEnabled": true
+    },
+    {
+      "collection": "aoao-2a1f129b",
+      "index": 183,
+      "name": "话本小说",
+      "url": "https://so.ihuaben.com",
+      "originalObjectSHA256": "f046492f7bea1ed7cb66711d388bfa0a9071ba22cd2b7959528c5c6699c0524c",
+      "originalEnabled": true
+    },
+    {
+      "collection": "aoao-2a1f129b",
+      "index": 372,
+      "name": "逐浪网手机版",
+      "url": "https://m.zhulang.com",
+      "originalObjectSHA256": "33ec58d11fc14405d19f3a08d96f99c3041597e1845aacc237c7c70ba16fec17",
+      "originalEnabled": true
+    },
+    {
+      "collection": "yck-1335",
+      "index": 79,
+      "name": "克苏鲁公社",
+      "url": "https://www.cthulhuclub.com",
+      "originalObjectSHA256": "34d6d782af621e5dae81cb08800fe1d86158af2509eaeab17d044a198d55b5f8",
+      "originalEnabled": true
+    },
+    {
+      "collection": "aoao-all",
+      "index": 3414,
+      "name": "笔趣鸽",
+      "url": "https://m.ahfgb.com/",
+      "originalObjectSHA256": "2df096d840f03b8a2e3862ee8db2b85a773bcf4f4549b15804ed12c2815067d4",
+      "originalEnabled": true
+    },
+    {
+      "collection": "aoao-all",
+      "index": 3272,
+      "name": "追书网站",
+      "url": "https://m.zhuishu.com/",
+      "originalObjectSHA256": "3829767b927b877f829681d2a21bc91a8bd0e625be80665a33713c01012bd574",
+      "originalEnabled": true
+    },
+    {
+      "collection": "aoao-all",
+      "index": 890,
+      "name": "久久小说[9191]",
+      "url": "http://m.9191net.com",
+      "originalObjectSHA256": "8bac621d700f5e30040fc3f017d08f5919cad6500cd2bb0add4ad56515aba480",
+      "originalEnabled": true
+    },
+    {
+      "collection": "aoao-2a1f129b",
+      "index": 1540,
+      "name": "笔趣阁77",
+      "url": "https://www.biquge7.top/",
+      "originalObjectSHA256": "b438be898d5199769a0a04da675db954cd1eee4c0cce2b5921bfa07256eb4a4b",
+      "originalEnabled": true
+    },
+    {
+      "collection": "aoao-all",
+      "index": 979,
+      "name": "夜天连看/何以笙箫默",
+      "url": "http://m.yetianlian.org/",
+      "originalObjectSHA256": "fe408714ef628560cc14eb4ebebe2e6124de0657220a056385b40bfa24936756",
+      "role": "完整未修改公开源；与原 A 不同声明 origin，实际为同站 PC/手机版重定向家族，非两个独立内容站"
+    },
+    {
+      "collection": "aoao-all.json",
+      "index": 1048,
+      "name": "夜天连看",
+      "url": "http://www.yetianlian.org",
+      "originalObjectSHA256": "99274702509820b517e9d9fa15ae7959e0fac21de80fbe917df34c2a4d4f5f0b",
+      "role": "同站域名别名，声明origin及可能的书籍URL不同；不作为两个独立内容站"
+    }
+  ],
+  "rulePreservation": [
+    {
+      "name": "奇怪小说",
+      "origin": "http://www.yetianlian.info",
+      "ruleFields": [
+        {
+          "field": "exploreUrl",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleBookInfo",
+          "canonicalEqual": false
+        },
+        {
+          "field": "ruleContent",
+          "canonicalEqual": false
+        },
+        {
+          "field": "ruleExplore",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleSearch",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleToc",
+          "canonicalEqual": false
+        },
+        {
+          "field": "searchUrl",
+          "canonicalEqual": true
+        }
+      ]
+    },
+    {
+      "name": "话本小说",
+      "origin": "https://so.ihuaben.com",
+      "ruleFields": [
+        {
+          "field": "exploreUrl",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleBookInfo",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleContent",
+          "canonicalEqual": false
+        },
+        {
+          "field": "ruleExplore",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleSearch",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleToc",
+          "canonicalEqual": false
+        },
+        {
+          "field": "searchUrl",
+          "canonicalEqual": true
+        }
+      ]
+    },
+    {
+      "name": "逐浪网手机版",
+      "origin": "https://m.zhulang.com",
+      "ruleFields": [
+        {
+          "field": "ruleBookInfo",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleContent",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleExplore",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleSearch",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleToc",
+          "canonicalEqual": true
+        },
+        {
+          "field": "searchUrl",
+          "canonicalEqual": true
+        }
+      ]
+    },
+    {
+      "name": "克苏鲁公社",
+      "origin": "https://www.cthulhuclub.com",
+      "ruleFields": [
+        {
+          "field": "exploreUrl",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleBookInfo",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleContent",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleExplore",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleSearch",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleToc",
+          "canonicalEqual": true
+        },
+        {
+          "field": "searchUrl",
+          "canonicalEqual": true
+        }
+      ]
+    },
+    {
+      "name": "笔趣鸽",
+      "origin": "https://m.ahfgb.com/",
+      "ruleFields": [
+        {
+          "field": "exploreUrl",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleBookInfo",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleContent",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleExplore",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleReview",
+          "canonicalEqual": false
+        },
+        {
+          "field": "ruleSearch",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleToc",
+          "canonicalEqual": true
+        },
+        {
+          "field": "searchUrl",
+          "canonicalEqual": true
+        }
+      ]
+    },
+    {
+      "name": "追书网站",
+      "origin": "https://m.zhuishu.com/",
+      "ruleFields": [
+        {
+          "field": "ruleBookInfo",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleContent",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleExplore",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleReview",
+          "canonicalEqual": false
+        },
+        {
+          "field": "ruleSearch",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleToc",
+          "canonicalEqual": true
+        },
+        {
+          "field": "searchUrl",
+          "canonicalEqual": true
+        }
+      ]
+    },
+    {
+      "name": "久久小说[9191]",
+      "origin": "http://m.9191net.com",
+      "ruleFields": [
+        {
+          "field": "exploreUrl",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleBookInfo",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleContent",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleExplore",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleSearch",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleToc",
+          "canonicalEqual": true
+        },
+        {
+          "field": "searchUrl",
+          "canonicalEqual": true
+        }
+      ]
+    },
+    {
+      "name": "笔趣阁77",
+      "origin": "https://www.biquge7.top/",
+      "ruleFields": [
+        {
+          "field": "ruleBookInfo",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleContent",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleExplore",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleReview",
+          "canonicalEqual": false
+        },
+        {
+          "field": "ruleSearch",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleToc",
+          "canonicalEqual": true
+        },
+        {
+          "field": "searchUrl",
+          "canonicalEqual": true
+        }
+      ]
+    },
+    {
+      "name": "夜天连看/何以笙箫默",
+      "origin": "http://m.yetianlian.org/",
+      "ruleFields": [
+        {
+          "field": "exploreUrl",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleBookInfo",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleContent",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleExplore",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleSearch",
+          "canonicalEqual": false
+        },
+        {
+          "field": "ruleToc",
+          "canonicalEqual": true
+        },
+        {
+          "field": "searchUrl",
+          "canonicalEqual": true
+        }
+      ]
+    },
+    {
+      "name": "夜天连看",
+      "origin": "http://www.yetianlian.org",
+      "ruleFields": [
+        {
+          "field": "exploreUrl",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleBookInfo",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleContent",
+          "canonicalEqual": false
+        },
+        {
+          "field": "ruleExplore",
+          "canonicalEqual": true
+        },
+        {
+          "field": "ruleReview",
+          "canonicalEqual": false
+        },
+        {
+          "field": "ruleSearch",
+          "canonicalEqual": false
+        },
+        {
+          "field": "ruleToc",
+          "canonicalEqual": true
+        },
+        {
+          "field": "searchUrl",
+          "canonicalEqual": true
+        }
+      ]
+    }
+  ],
+  "inputFiles": [
+    {
+      "sourceLog": "downloads/focused-eight-unmodified.json",
+      "sourceSHA256": "d06336176d90591e74d89d8a1a858a8c0d7144d2ec437d18643b5c571963d56f"
+    },
+    {
+      "sourceLog": "downloads/focused-mobile-unmodified.json",
+      "sourceSHA256": "489c8c69efd539d1414a3311ba4cbb9f4515fe436fb94abc9431212d9c881411"
+    },
+    {
+      "sourceLog": "downloads/focused-PC-org-unmodified.json",
+      "sourceSHA256": "795bb998a9dbe76c22c4c1b22ea2fcc70c202ac5b34c4c01b472c47bebc59ccd"
+    }
+  ],
+  "collections": [
+    {
+      "name": "yck-1335",
+      "utc": "2026-11-24T04:29:10.889Z",
+      "url": "https://www.yckceo.com/yuedu/shuyuans/json/id/1335.json",
+      "finalUrl": "https://gcore.jsdelivr.net/gh/mumuceo/file01/202611/15431_b9199b63f266e6ea1e222a6ef12b7ea0.json",
+      "status": 200,
+      "bytes": 2709698,
+      "sha256": "874efe33cbe38b7dcf830704b5bd0614b9485fe1974a20d9c09030ebec07df30"
+    },
+    {
+      "name": "aoao-all",
+      "utc": "2026-11-24T04:29:11.761Z",
+      "url": "https://raw.githubusercontent.com/aoaostar/legado/release/sources/b778fe6b.json",
+      "finalUrl": "https://raw.githubusercontent.com/aoaostar/legado/release/sources/b778fe6b.json",
+      "status": 200,
+      "bytes": 20987130,
+      "sha256": "a50c80e81e45a6ad77f6cdb94ab420e74de29691f8924692415a3e9f0e022747"
+    }
+  ],
+  "note": "Complete original public objects were submitted unchanged; only UI enabled flags varied. App deserialization can omit unsupported legacy metadata; no full metadata round-trip claim. Mobile and PC .org are aliases of the same site, not two independent content providers. No same-book alternate usable candidate was established.",
+  "candidateExposure": {
+    "step": "existing-A-candidate-exposure",
+    "utc": "2026-11-24T05:05:38.028Z",
+    "searchCount": "1 个书源",
+    "switchButtons": 0,
+    "savedCandidateCount": 0
+  },
+  "externalProbeExamples": [
+    {
+      "sourceLog": "private/probe02-published.json",
+      "utc": "2026-11-24T04:54:18.283Z",
+      "role": "独立外部 HTTP 诊断，不计应用业务通过",
+      "name": "📖 笔趣阁⑦",
+      "origin": "https://www.biquge7.xyz",
+      "requestUrl": "https://www.biquge7.xyz/search?keyword=%E4%B8%89%E4%BD%93",
+      "status": 200,
+      "markers": [
+        "challenge-platform"
+      ],
+      "bytes": 15449,
+      "sha256": "e7f1d9c3ef062ede3ed0d2869a07b6269edf23705b324e6a67aeffd0e624754c"
+    },
+    {
+      "sourceLog": "private/probe02-published.json",
+      "utc": "2026-11-24T04:54:18.257Z",
+      "role": "独立外部 HTTP 诊断，不计应用业务通过",
+      "name": "夜天连看/何以笙箫默",
+      "origin": "http://m.yetianlian.org/",
+      "requestUrl": "http://m.yetianlian.org/s.php?q=%E4%B8%89%E4%BD%93&submit=",
+      "status": 200,
+      "markers": [],
+      "bytes": 28577,
+      "sha256": "10ebb425c69c56b4aed75c98ca7f33d83b26f2e570bfd0d3ed79541856644cad"
+    },
+    {
+      "sourceLog": "private/probe02-published.json",
+      "utc": "2026-11-24T04:54:18.282Z",
+      "role": "独立外部 HTTP 诊断，不计应用业务通过",
+      "name": "🎉 夜天连看",
+      "origin": "http://www.yetianlian.la",
+      "requestUrl": "http://www.yetianlian.la/s.php?ie=utf-8&q=%E4%B8%89%E4%BD%93",
+      "status": 200,
+      "markers": [],
+      "bytes": 26478,
+      "sha256": "3ffd912af1233fda3c681e4d04e8d80130cbe724fc7a71c0de2d82e9185cfd06"
+    },
+    {
+      "sourceLog": "private/probe02-published.json",
+      "utc": "2026-11-24T04:54:18.282Z",
+      "role": "独立外部 HTTP 诊断，不计应用业务通过",
+      "name": "夜天连看",
+      "origin": "http://www.yetianlian.org",
+      "requestUrl": "http://www.yetianlian.org/s.php?ie=utf-8&q=%E4%B8%89%E4%BD%93",
+      "status": 200,
+      "markers": [],
+      "bytes": 26478,
+      "sha256": "3ffd912af1233fda3c681e4d04e8d80130cbe724fc7a71c0de2d82e9185cfd06"
+    },
+    {
+      "sourceLog": "private/probe04-results.json",
+      "utc": "2026-11-24T05:10:59.539Z",
+      "role": "独立真实外部 GET 筛选诊断，不作为应用通过证据；每源一次，无验证绕过",
+      "name": "何所忆中文",
+      "origin": "https://www.baokuzw.com/",
+      "requestUrl": "https://www.baokuzw.com/ttg.php?search=%E7%BA%A2%E6%A5%BC%E6%A2%A6",
+      "status": 403,
+      "title": "Just a moment...",
+      "markers": [
+        "challenge-platform",
+        "Just a moment..."
+      ],
+      "bytes": 5834,
+      "sha256": "dda29161b60e725fc77aab99ee6d70933f57f491d59ed4203063f196e475b38b"
+    },
+    {
+      "sourceLog": "private/probe04-results.json",
+      "utc": "2026-11-24T05:10:59.538Z",
+      "role": "独立真实外部 GET 筛选诊断，不作为应用通过证据；每源一次，无验证绕过",
+      "name": "沧浪文学/恰猫小说",
+      "origin": "https://m.canglangwx.com",
+      "requestUrl": "https://m.canglangwx.com/search.php?search=%E7%BA%A2%E6%A5%BC%E6%A2%A6",
+      "status": 403,
+      "title": "Just a moment...",
+      "markers": [
+        "challenge-platform",
+        "Just a moment..."
+      ],
+      "bytes": 5844,
+      "sha256": "59c747d5258b42f419bfcab762eff2c1607fbe22c613450396d53eaa296e1764"
+    },
+    {
+      "sourceLog": "private/probe04-results.json",
+      "utc": "2026-11-24T05:10:59.538Z",
+      "role": "独立真实外部 GET 筛选诊断，不作为应用通过证据；每源一次，无验证绕过",
+      "name": "📚 天集中文",
+      "origin": "https://www.tianjizw.com",
+      "requestUrl": "https://www.tianjizw.com/tj.php?search=%E7%BA%A2%E6%A5%BC%E6%A2%A6",
+      "status": 403,
+      "title": "Just a moment...",
+      "markers": [
+        "challenge-platform",
+        "Just a moment..."
+      ],
+      "bytes": 5832,
+      "sha256": "8c1656d7d442bb208b30685b013e8e3d2670c603c8c31259fbdf19c173c83e3e"
+    },
+    {
+      "sourceLog": "private/probe04-results.json",
+      "utc": "2026-11-24T05:10:59.511Z",
+      "role": "独立真实外部 GET 筛选诊断，不作为应用通过证据；每源一次，无验证绕过",
+      "name": "爱寻书",
+      "origin": "https://ixunshu.net/",
+      "requestUrl": "https://ixunshu.net/zhao/?keyword=%E7%BA%A2%E6%A5%BC%E6%A2%A6",
+      "status": 200,
+      "title": "验证码",
+      "markers": [
+        "challenge-platform",
+        "请输入验证码"
+      ],
+      "bytes": 3013,
+      "sha256": "621f636ad64511fad8cdd69d3c6deb6c82258e02bb65df0893d94583a6c3486c"
+    },
+    {
+      "sourceLog": "private/probe05-final-published-results.json",
+      "utc": "2026-11-24T05:25:03.838Z",
+      "role": "最后有限外部筛选：完整未修改公开源、每源一次独立GET，不是应用通过，不处理挑战",
+      "name": "格格党网[自写]",
+      "origin": "https://www.52ggdxs.com/m/",
+      "requestUrl": "https://www.52ggdxs.com/m/search/?wd=%E7%BA%A2%E6%A5%BC%E6%A2%A6",
+      "error": "fetch failed",
+      "cause": "unable to get local issuer certificate"
+    },
+    {
+      "sourceLog": "private/probe05-final-published-results.json",
+      "utc": "2026-11-24T05:25:03.814Z",
+      "role": "最后有限外部筛选：完整未修改公开源、每源一次独立GET，不是应用通过，不处理挑战",
+      "name": "手机小说",
+      "origin": "http://www.sjshuku.com",
+      "requestUrl": "http://www.sjshuku.com/search.php?s=&searchkey=%E7%BA%A2%E6%A5%BC%E6%A2%A6",
+      "error": "The operation was aborted due to timeout"
+    }
+  ],
+  "PCAttribution": {
+    "role": "Independent same current NetworkClient/RuleEngine read-only attribution. Not app response capture or a UI pass.",
+    "summaryKeys": [
+      "collection",
+      "index",
+      "objectChanged",
+      "objectSHA256",
+      "origin",
+      "originalRule",
+      "request",
+      "role",
+      "searchUrl"
+    ],
+    "attributionOnly": true,
+    "note": "Independent current-engine live HTTP200 diagnostic found list/names but zero URLs through original tag.a.1@href selector; not a newly assigned MR or a UI through-pass."
+  }
+}

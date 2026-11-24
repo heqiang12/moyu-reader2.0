@@ -1,0 +1,583 @@
+{
+  "method": "No restart to inspect persistence. Existing stopped consistent SQLite and immutable profile captures, plus actual independently launched run13/14/15 evidence.",
+  "stopped": [
+    {
+      "run": "run11",
+      "database": {
+        "utc": "2026-11-24T06:49:11.246Z",
+        "fileSHA256": "44e1712f91301984cac6ea50ca1d16c4ac984ff8bfdbbfad8a203605bc177e01",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "book_url": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "dur_chapter_index": 1,
+            "total_chapter_num": 93
+          },
+          {
+            "book_url": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "dur_chapter_index": 1,
+            "total_chapter_num": 73
+          }
+        ],
+        "sourceCount": 192,
+        "enabledCount": 1,
+        "bodyCache": [
+          {
+            "bookUrlSHA256": "ca217c5b442ae003cba841d7708bdb63b7b045e6f09a4e80bc44e040add28c6c",
+            "index": 0,
+            "contentDigest": {
+              "length": 2409,
+              "sha256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+            }
+          },
+          {
+            "bookUrlSHA256": "ca217c5b442ae003cba841d7708bdb63b7b045e6f09a4e80bc44e040add28c6c",
+            "index": 1,
+            "contentDigest": {
+              "length": 2260,
+              "sha256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 0,
+            "contentDigest": {
+              "length": 1515,
+              "sha256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 1,
+            "contentDigest": {
+              "length": 2405,
+              "sha256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 2,
+            "contentDigest": {
+              "length": 2435,
+              "sha256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+            }
+          }
+        ],
+        "catalogCacheCount": 3
+      },
+      "profile": {
+        "utc": "2026-11-24T06:49:12.882Z",
+        "fileCount": 415,
+        "aggregateSHA256": "25bf094ab58d7718492ac999a41174bfc78095cf0c66f7d71c31af393ac2d3c4"
+      }
+    },
+    {
+      "run": "run12",
+      "database": {
+        "utc": "2026-11-24T07:12:30.558Z",
+        "fileSHA256": "4bc2c5bf3073f65b8ce705909ec48f242fab7654028fb5122f47f14a4dc7cc2f",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "book_url": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "dur_chapter_index": 1,
+            "total_chapter_num": 93
+          },
+          {
+            "book_url": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "dur_chapter_index": 1,
+            "total_chapter_num": 73
+          }
+        ],
+        "sourceCount": 192,
+        "enabledCount": 1,
+        "bodyCache": [
+          {
+            "bookUrlSHA256": "ca217c5b442ae003cba841d7708bdb63b7b045e6f09a4e80bc44e040add28c6c",
+            "index": 0,
+            "contentDigest": {
+              "length": 2409,
+              "sha256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+            }
+          },
+          {
+            "bookUrlSHA256": "ca217c5b442ae003cba841d7708bdb63b7b045e6f09a4e80bc44e040add28c6c",
+            "index": 1,
+            "contentDigest": {
+              "length": 2260,
+              "sha256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 0,
+            "contentDigest": {
+              "length": 1515,
+              "sha256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 1,
+            "contentDigest": {
+              "length": 2405,
+              "sha256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 2,
+            "contentDigest": {
+              "length": 2435,
+              "sha256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+            }
+          }
+        ],
+        "catalogCacheCount": 3
+      },
+      "profile": {
+        "utc": "2026-11-24T07:12:32.229Z",
+        "fileCount": 438,
+        "aggregateSHA256": "8faa98fbd4e133eb365e058b189efd436778469801ef07155008b1fc713ab2b1"
+      }
+    },
+    {
+      "run": "run13",
+      "database": {
+        "utc": "2026-11-24T07:38:46.230Z",
+        "fileSHA256": "6111369257be920f2bd3a7ae5f455a51117db4bc617932b6ab1ece09f23f4697",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "book_url": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "dur_chapter_index": 1,
+            "total_chapter_num": 93
+          },
+          {
+            "book_url": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "dur_chapter_index": 1,
+            "total_chapter_num": 73
+          }
+        ],
+        "sourceCount": 192,
+        "enabledCount": 1,
+        "bodyCache": [
+          {
+            "bookUrlSHA256": "ca217c5b442ae003cba841d7708bdb63b7b045e6f09a4e80bc44e040add28c6c",
+            "index": 0,
+            "contentDigest": {
+              "length": 2409,
+              "sha256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+            }
+          },
+          {
+            "bookUrlSHA256": "ca217c5b442ae003cba841d7708bdb63b7b045e6f09a4e80bc44e040add28c6c",
+            "index": 1,
+            "contentDigest": {
+              "length": 2260,
+              "sha256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 0,
+            "contentDigest": {
+              "length": 1515,
+              "sha256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 1,
+            "contentDigest": {
+              "length": 2405,
+              "sha256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 2,
+            "contentDigest": {
+              "length": 2435,
+              "sha256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+            }
+          }
+        ],
+        "catalogCacheCount": 3
+      },
+      "profile": {
+        "utc": "2026-11-24T07:38:47.922Z",
+        "fileCount": 439,
+        "aggregateSHA256": "3af66daec30d9fc6e44130d77a866b93dd4afe9020042b90aaec762a371488c0"
+      },
+      "localStorage": {
+        "utc": "2026-11-24T07:38:47.978Z",
+        "name": "run13-stopped",
+        "writeCount": 116,
+        "method": "Read-only LevelDB physical WAL CRC32C and writebatch-length validation, no SST; stopped profile not opened by browser.",
+        "logs": [
+          {
+            "file": "000003.log",
+            "bytes": 10905,
+            "sha256": "7c804b9a545315ad394bc286f14438e0c681e6784e75f3401e5c4384c853346a"
+          }
+        ],
+        "moyu": {
+          "A": {
+            "chapterIndex": 1,
+            "progress": 0.23893805309734514
+          },
+          "C": {
+            "chapterIndex": 1,
+            "progress": 0.9999
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.9999
+          },
+          "theme": "dark",
+          "fontSize": 18,
+          "stealthSettings": {
+            "alpha": 0.55
+          }
+        }
+      }
+    },
+    {
+      "run": "run14",
+      "database": {
+        "utc": "2026-11-24T07:43:14.624Z",
+        "fileSHA256": "611a3d4f990b9c8a13d37a1c009661116aadd3907cd59ee2b12460528d81ba99",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "book_url": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "dur_chapter_index": 1,
+            "total_chapter_num": 93
+          },
+          {
+            "book_url": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "dur_chapter_index": 1,
+            "total_chapter_num": 73
+          }
+        ],
+        "sourceCount": 192,
+        "enabledCount": 1,
+        "bodyCache": [
+          {
+            "bookUrlSHA256": "ca217c5b442ae003cba841d7708bdb63b7b045e6f09a4e80bc44e040add28c6c",
+            "index": 0,
+            "contentDigest": {
+              "length": 2409,
+              "sha256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+            }
+          },
+          {
+            "bookUrlSHA256": "ca217c5b442ae003cba841d7708bdb63b7b045e6f09a4e80bc44e040add28c6c",
+            "index": 1,
+            "contentDigest": {
+              "length": 2260,
+              "sha256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 0,
+            "contentDigest": {
+              "length": 1515,
+              "sha256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 1,
+            "contentDigest": {
+              "length": 2405,
+              "sha256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 2,
+            "contentDigest": {
+              "length": 2435,
+              "sha256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+            }
+          }
+        ],
+        "catalogCacheCount": 3
+      },
+      "profile": {
+        "utc": "2026-11-24T07:43:16.288Z",
+        "fileCount": 439,
+        "aggregateSHA256": "c30b3811f64c61fe29f15ef537c7a36b0c0751c0c23a4ef48b1b64d1a378a844"
+      },
+      "localStorage": {
+        "utc": "2026-11-24T07:43:16.343Z",
+        "name": "run14-stopped",
+        "writeCount": 117,
+        "method": "Read-only LevelDB physical WAL CRC32C and writebatch-length validation, no SST; stopped profile not opened by browser.",
+        "logs": [
+          {
+            "file": "000003.log",
+            "bytes": 10987,
+            "sha256": "dc2931f176509cbaea6e06f92db8fc2553854f74fe081e40fa81092afaa27e8c"
+          }
+        ],
+        "moyu": {
+          "A": {
+            "chapterIndex": 1,
+            "progress": 0.23893805309734514
+          },
+          "C": {
+            "chapterIndex": 1,
+            "progress": 0.9999
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.9999
+          },
+          "theme": "dark",
+          "fontSize": 18,
+          "stealthSettings": {
+            "alpha": 0.55
+          }
+        }
+      }
+    },
+    {
+      "run": "run15",
+      "database": {
+        "utc": "2026-11-24T07:48:27.771Z",
+        "fileSHA256": "f052888ae25ae3df8d1169d7b57252872a258d375157f75a0bd3bc66681cf350",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "book_url": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "dur_chapter_index": 1,
+            "total_chapter_num": 93
+          },
+          {
+            "book_url": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "dur_chapter_index": 1,
+            "total_chapter_num": 73
+          }
+        ],
+        "sourceCount": 192,
+        "enabledCount": 1,
+        "bodyCache": [
+          {
+            "bookUrlSHA256": "ca217c5b442ae003cba841d7708bdb63b7b045e6f09a4e80bc44e040add28c6c",
+            "index": 0,
+            "contentDigest": {
+              "length": 2409,
+              "sha256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+            }
+          },
+          {
+            "bookUrlSHA256": "ca217c5b442ae003cba841d7708bdb63b7b045e6f09a4e80bc44e040add28c6c",
+            "index": 1,
+            "contentDigest": {
+              "length": 2260,
+              "sha256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 0,
+            "contentDigest": {
+              "length": 1515,
+              "sha256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 1,
+            "contentDigest": {
+              "length": 2405,
+              "sha256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+            }
+          },
+          {
+            "bookUrlSHA256": "577623d6f90529a8211b5ada5359ce76f7e6fb2a31ff7842fd378706e1a58ec5",
+            "index": 2,
+            "contentDigest": {
+              "length": 2435,
+              "sha256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+            }
+          }
+        ],
+        "catalogCacheCount": 3
+      },
+      "profile": {
+        "utc": "2026-11-24T07:48:29.416Z",
+        "fileCount": 440,
+        "aggregateSHA256": "07cacf86d515b97b16944875dd63e78b796ee7e17c043a3b9affd1c22db5874d"
+      },
+      "localStorage": {
+        "utc": "2026-11-24T07:48:29.474Z",
+        "name": "run15-stopped",
+        "writeCount": 122,
+        "method": "Read-only LevelDB physical WAL CRC32C and writebatch-length validation, no SST; stopped profile not opened by browser.",
+        "logs": [
+          {
+            "file": "000003.log",
+            "bytes": 11440,
+            "sha256": "f2a87c99a788f8ccf3ac8d458f09e8fd06d9ffd4065844481d17ea7b3084e06f"
+          }
+        ],
+        "moyu": {
+          "A": {
+            "chapterIndex": 1,
+            "progress": 0.23893805309734514
+          },
+          "C": {
+            "chapterIndex": 1,
+            "progress": 0.9999
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.9999
+          },
+          "theme": "dark",
+          "fontSize": 18,
+          "stealthSettings": {
+            "alpha": 0.55
+          }
+        }
+      }
+    }
+  ],
+  "run12FinalBeforeNativeRestart": {
+    "utc": "2026-11-24T07:09:00.480Z",
+    "snapshot": {
+      "utc": "2026-11-24T07:09:00.468Z",
+      "title": "Tauri + React + Typescript",
+      "label": "main",
+      "documentText": {
+        "length": 95,
+        "sha256": "6b18a51967ce38b0b4e96b3e5097eae2f7c009b7d3d93d8da60b212b32abb37b"
+      },
+      "controls": [
+        {
+          "i": 0,
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "i": 1,
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "i": 2,
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "i": 3,
+          "tag": "BUTTON",
+          "text": "×",
+          "disabled": false,
+          "type": "submit"
+        },
+        {
+          "i": 4,
+          "tag": "BUTTON",
+          "text": "×",
+          "disabled": false,
+          "type": "submit"
+        }
+      ],
+      "storage": {
+        "A": {
+          "chapterIndex": 1,
+          "progress": 0.23893805309734514
+        },
+        "C": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "theme": "dark",
+        "fontSize": 18,
+        "stealthSettings": {
+          "alpha": 0.55
+        }
+      }
+    }
+  },
+  "final": {
+    "dbSHA256": "f052888ae25ae3df8d1169d7b57252872a258d375157f75a0bd3bc66681cf350",
+    "workingDBSHA256": "081f14044c39a8c824fe300970c11c4bcd383e704f488736bc1c3aee0ba9217c",
+    "sources": 192,
+    "bodyCache": 5,
+    "catalogCache": 3,
+    "profileCount": 440,
+    "profileAggregateSHA256": "07cacf86d515b97b16944875dd63e78b796ee7e17c043a3b9affd1c22db5874d",
+    "integrity": [
+      {
+        "integrity_check": "ok"
+      }
+    ],
+    "books": [
+      {
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "name": "我在三体科技造神！",
+        "index": 1,
+        "total": 73
+      },
+      {
+        "bookUrl": "http://www.yetianlian.info/yt91773/",
+        "name": "不一样的三体",
+        "index": 1,
+        "total": 93
+      }
+    ],
+    "enabled": [
+      "http://www.yetianlian.info"
+    ]
+  },
+  "importantBoundary": "C early 0.2765072765072765 survived run12 stop and real independent run13 reopen11/36. Later real cross-chapter action deliberately set0.9999; final bottom value is not evidence of early-scroll loss.",
+  "workingAndCheckpoint": "Working DB byte SHA differs from consistent stopped DB; final verifier confirms identical complete four tables/schema and unchanged stopped bytes. Profile440 files exact match."
+}

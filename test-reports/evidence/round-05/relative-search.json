@@ -1,0 +1,1027 @@
+{
+  "MR": "MR-017",
+  "origin": "https://www.cthulhuclub.com",
+  "originalTemplate": "/?s={{key}}",
+  "storedTemplate": "/?s={{key}}",
+  "ruleAudit": [
+    {
+      "field": "ruleBookInfo",
+      "canonicalEqual": true,
+      "originalSHA256": "bc4cc51acbbfff9a2a0a714ee4bc627b9892df0721e9f791802e2218da7def94",
+      "storedSHA256": "bc4cc51acbbfff9a2a0a714ee4bc627b9892df0721e9f791802e2218da7def94"
+    },
+    {
+      "field": "ruleContent",
+      "canonicalEqual": true,
+      "originalSHA256": "885d5b21815ca86f2de728f17602f00371dd4f45d42ad86ffb3a2bc237292336",
+      "storedSHA256": "885d5b21815ca86f2de728f17602f00371dd4f45d42ad86ffb3a2bc237292336"
+    },
+    {
+      "field": "ruleExplore",
+      "canonicalEqual": true,
+      "originalSHA256": "17de14f0a986d0f07963f1ab0546333aa8556080d8d3784ac03324f84ab96b25",
+      "storedSHA256": "17de14f0a986d0f07963f1ab0546333aa8556080d8d3784ac03324f84ab96b25"
+    },
+    {
+      "field": "ruleSearch",
+      "canonicalEqual": true,
+      "originalSHA256": "d685f7fc44a02e3513412be08ea1e0dce7716ed63fab370d1d12af42d0533076",
+      "storedSHA256": "d685f7fc44a02e3513412be08ea1e0dce7716ed63fab370d1d12af42d0533076"
+    },
+    {
+      "field": "ruleToc",
+      "canonicalEqual": true,
+      "originalSHA256": "f44b2b35772720e0dbc73e9dd5b18e08fe52385d706e2d6184c8a3a85c048abb",
+      "storedSHA256": "f44b2b35772720e0dbc73e9dd5b18e08fe52385d706e2d6184c8a3a85c048abb"
+    },
+    {
+      "field": "searchUrl",
+      "canonicalEqual": true,
+      "originalSHA256": "310789231d0cf587961e95add3f3bec4f3b814fb1569ce344775f23aaae41c88",
+      "storedSHA256": "310789231d0cf587961e95add3f3bec4f3b814fb1569ce344775f23aaae41c88"
+    }
+  ],
+  "orderingAudit": {
+    "recordedSameRule": false,
+    "actualCanonicalEquality": true,
+    "explanation": "Temporary JSON.stringify comparison was order-sensitive; canonicalized original/stored rules equal. No rule or URL correction was made in the application fixture."
+  },
+  "observations": [
+    {
+      "sourceLog": "private/task04-relative-real.json",
+      "sourceSHA256": "02f7298a85bfd055aebbd1d44100d32bd26619339b8fbddd4d6802c585b8b8dd",
+      "step": "relative-only-explicit-UI-enabled",
+      "utc": "2026-11-24T04:40:16.007Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:40:16.003Z",
+        "url": "http://localhost:1420/#/sources",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 320,
+        "textSHA256": "9c5fb6c2d5dfa795fd3f7b752a3b4179cba9bd56988bfd95f09a40d8ee4dc34f",
+        "uiExcerpt": "← 书架\n书源管理\n发现设置\n共 8 个书源 · 启用 1 个\n全选\n取消\n删除选中",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "全选",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "取消",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除选中",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清空",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "text"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "导入 URL",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "TEXTAREA",
+            "text": "",
+            "disabled": false,
+            "type": "textarea"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "粘贴导入",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {}
+      },
+      "database": {
+        "sha256": "b8230b0e14835eb2aa0d6f8955094f29543cd3a0157430f9d9ed4bb3cb6f5e8d",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [],
+        "sourceCount": 8,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "https://www.cthulhuclub.com"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [],
+        "tocCaches": []
+      }
+    },
+    {
+      "sourceLog": "private/task04-relative-real.json",
+      "sourceSHA256": "02f7298a85bfd055aebbd1d44100d32bd26619339b8fbddd4d6802c585b8b8dd",
+      "step": "relative-original-UI-zero-Enter",
+      "utc": "2026-11-24T04:40:16.119Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:40:16.116Z",
+        "url": "http://localhost:1420/#/discover",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 77,
+        "textSHA256": "8b72500b1415b603950d58ece783485cdcf67c92874fecfdf6012e3dfbabd593",
+        "uiExcerpt": "← 书架\n发现\n书源设置\n搜索\n🔍\n没有找到相关书籍\n",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "书源",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "text"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "搜索",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "诡秘之主",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "三体",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "红楼梦",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "道诡异仙",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "凡人修仙传",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {}
+      },
+      "database": {
+        "sha256": "b8230b0e14835eb2aa0d6f8955094f29543cd3a0157430f9d9ed4bb3cb6f5e8d",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [],
+        "sourceCount": 8,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "https://www.cthulhuclub.com"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [],
+        "tocCaches": []
+      }
+    },
+    {
+      "sourceLog": "private/task04-relative-real.json",
+      "sourceSHA256": "02f7298a85bfd055aebbd1d44100d32bd26619339b8fbddd4d6802c585b8b8dd",
+      "step": "relative-original-UI-zero-button",
+      "utc": "2026-11-24T04:40:16.180Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:40:16.177Z",
+        "url": "http://localhost:1420/#/discover",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 77,
+        "textSHA256": "8b72500b1415b603950d58ece783485cdcf67c92874fecfdf6012e3dfbabd593",
+        "uiExcerpt": "← 书架\n发现\n书源设置\n搜索\n🔍\n没有找到相关书籍\n",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "书源",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "text"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "搜索",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "诡秘之主",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "三体",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "红楼梦",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "道诡异仙",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "凡人修仙传",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {}
+      },
+      "database": {
+        "sha256": "b8230b0e14835eb2aa0d6f8955094f29543cd3a0157430f9d9ed4bb3cb6f5e8d",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [],
+        "sourceCount": 8,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "https://www.cthulhuclub.com"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [],
+        "tocCaches": []
+      }
+    },
+    {
+      "sourceLog": "private/task11-live-url-attribution.json",
+      "sourceSHA256": "86d5d64a369945048ce16aa03a78172a43ba971a65b7edfcc05c1b64c3c85896",
+      "step": "relative-only-original-source-UI-enabled",
+      "utc": "2026-11-24T05:14:36.522Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:14:36.519Z",
+        "url": "http://localhost:1420/#/sources",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 359,
+        "textSHA256": "a384d48a3243033d34635b1b8cdc3a188f260dff43ae432b141fe39f7b58718b",
+        "uiExcerpt": "← 书架\n书源管理\n发现设置\n共 9 个书源 · 启用 1 个\n全选\n取消\n删除选中",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "全选",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "取消",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除选中",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清空",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "text"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "导入 URL",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "TEXTAREA",
+            "text": "",
+            "disabled": false,
+            "type": "textarea"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "粘贴导入",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}"
+        }
+      },
+      "database": {
+        "sha256": "d2666fbc05a1f7460457955b86d259380974d08b4ac74e26abd248ec3d17648a",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "b8e47e0848c1cc2b13cf1e6e4a156bf3e2cbba9e49e068ad541f2a5e1de0740b"
+          }
+        ],
+        "sourceCount": 9,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "https://www.cthulhuclub.com"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task11-live-url-attribution.json",
+      "sourceSHA256": "86d5d64a369945048ce16aa03a78172a43ba971a65b7edfcc05c1b64c3c85896",
+      "step": "relative-original-Enter-UI-ended-zero",
+      "utc": "2026-11-24T05:14:36.618Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:14:36.615Z",
+        "url": "http://localhost:1420/#/discover",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 77,
+        "textSHA256": "8b72500b1415b603950d58ece783485cdcf67c92874fecfdf6012e3dfbabd593",
+        "uiExcerpt": "← 书架\n发现\n书源设置\n搜索\n🔍\n没有找到相关书籍\n",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "书源",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "text"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "搜索",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "诡秘之主",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "三体",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "红楼梦",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "道诡异仙",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "凡人修仙传",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}"
+        }
+      },
+      "database": {
+        "sha256": "d2666fbc05a1f7460457955b86d259380974d08b4ac74e26abd248ec3d17648a",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "b8e47e0848c1cc2b13cf1e6e4a156bf3e2cbba9e49e068ad541f2a5e1de0740b"
+          }
+        ],
+        "sourceCount": 9,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "https://www.cthulhuclub.com"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "sourceLog": "private/task04-relative-real.json",
+      "sourceSHA256": "02f7298a85bfd055aebbd1d44100d32bd26619339b8fbddd4d6802c585b8b8dd",
+      "step": "relative-real-events-Enter",
+      "capturedUTC": "2026-11-24T04:40:16.164Z",
+      "events": [
+        {
+          "utc": "2026-11-24T04:40:16.111Z",
+          "name": "search:end",
+          "requestId": "2e305ca2-4c0c-4260-abbe-0f4b2b38d550"
+        }
+      ]
+    },
+    {
+      "sourceLog": "private/task04-relative-real.json",
+      "sourceSHA256": "02f7298a85bfd055aebbd1d44100d32bd26619339b8fbddd4d6802c585b8b8dd",
+      "step": "relative-real-events-button",
+      "capturedUTC": "2026-11-24T04:40:16.227Z",
+      "events": [
+        {
+          "utc": "2026-11-24T04:40:16.175Z",
+          "name": "search:end",
+          "requestId": "892505de-b6ec-4ec4-8b7f-8c62a3d16114"
+        }
+      ]
+    },
+    {
+      "sourceLog": "private/task11-live-url-attribution.json",
+      "sourceSHA256": "86d5d64a369945048ce16aa03a78172a43ba971a65b7edfcc05c1b64c3c85896",
+      "step": "relative-completed-real-search-events",
+      "capturedUTC": "2026-11-24T05:14:36.674Z",
+      "events": [
+        {
+          "utc": "2026-11-24T05:14:36.611Z",
+          "name": "search:end",
+          "requestId": "4d4a3412-8fae-4a6b-8ab8-0dbefdd9f810"
+        }
+      ]
+    }
+  ],
+  "searchIPC": [
+    {
+      "sourceLog": "private/task04-relative-real-network.jsonl",
+      "sourceSHA256": "cc1055181e941c0fa3f623e3f65a2a8f94b3d1d6a5d76565f04ec73354ae9db6",
+      "utc": "2026-11-24T04:40:16.110Z",
+      "CDPRequestId": "9800.290",
+      "ipcUrl": "http://ipc.localhost/start_search",
+      "args": {
+        "keyword": "三体",
+        "requestId": "2e305ca2-4c0c-4260-abbe-0f4b2b38d550"
+      }
+    },
+    {
+      "sourceLog": "private/task04-relative-real-network.jsonl",
+      "sourceSHA256": "cc1055181e941c0fa3f623e3f65a2a8f94b3d1d6a5d76565f04ec73354ae9db6",
+      "utc": "2026-11-24T04:40:16.174Z",
+      "CDPRequestId": "9800.295",
+      "ipcUrl": "http://ipc.localhost/start_search",
+      "args": {
+        "keyword": "三体",
+        "requestId": "892505de-b6ec-4ec4-8b7f-8c62a3d16114"
+      }
+    },
+    {
+      "sourceLog": "private/task11-live-url-attribution-network.jsonl",
+      "sourceSHA256": "0826fc89305c87c66b463571f8c5b68574f0e848dc99a37988bf9b6026fd2ce6",
+      "utc": "2026-11-24T05:14:36.610Z",
+      "CDPRequestId": "20640.164",
+      "ipcUrl": "http://ipc.localhost/start_search",
+      "args": {
+        "keyword": "三体",
+        "requestId": "4d4a3412-8fae-4a6b-8ab8-0dbefdd9f810"
+      }
+    }
+  ],
+  "attribution": {
+    "role": "Independent attribution using current NetworkClient/RuleEngine included unchanged. Not the application's external response capture; not a UI business pass.",
+    "networkSourceSHA256": "6ec21723bbd316eb81de53dbb3c7dfa559c3282ec14d7601d6fc64e1a265efb4",
+    "relativeGetHtml": {
+      "error": "HTTP 请求失败: builder error",
+      "url": "/?s=%E4%B8%89%E4%BD%93"
+    },
+    "absoluteURLDiagnostic": {
+      "bookListSelector": "article.post",
+      "books": [
+        {
+          "bookUrl": "https://www.cthulhuclub.com/mythos-original/coming-from-the-deep-sea-heading-towards-the-mountains/"
+        },
+        {
+          "bookUrl": "https://www.cthulhuclub.com/cthulhu-science/doctor-chulhu-prototype/"
+        }
+      ],
+      "bytes": 79740,
+      "count": 2,
+      "ok": true,
+      "ruleObjectChanged": false,
+      "sha256": "cc18a33eed73786c88269a5a35d950e48c0aef3cfb0b9fbadcb7af49c8685a91",
+      "url": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93"
+    }
+  }
+}

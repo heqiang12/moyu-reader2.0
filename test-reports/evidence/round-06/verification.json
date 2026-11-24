@@ -1,0 +1,187 @@
+{
+  "utc": "2026-11-24T09:07:13.355Z",
+  "name": "r06-final-postpublish-readonly",
+  "allChecksPassed": true,
+  "lastExecutableSHA256": "282ab3f6679c7e22c502491dfbec03e412f5899d624231e67a7132747e27ed79",
+  "method": "Read-only file/diff hashing, consistent readOnly SQLite snapshots, immutable profile byte manifests and PID+creation/listener sampling; no business actions.",
+  "checks": {
+    "sourceBranchAndHEAD": true,
+    "all67FrozenFilesUnchanged": true,
+    "fullCandidateDiffUnchanged": true,
+    "onlyExpectedTrackedEdits": true,
+    "preexistingReportsUnchanged": true,
+    "round05StoppedDBUnchanged": true,
+    "round05StoppedProfileUnchanged": true,
+    "round06InitialBaselineUnchanged": true,
+    "allRound06StoppedMaterialsUnchanged": true,
+    "workingMatchesFinalStopped": true,
+    "publicInputCopiesUnchanged": true,
+    "knownFormalAndHistoricalPathsUnchanged": true,
+    "noOwnedOrProfileProcesses": true,
+    "noRelevantListeners": true,
+    "lastBuiltExecutableUnchanged": true
+  },
+  "source": {
+    "branch": "handoff/qa-20261124",
+    "head": "cb56b36a7c3a310ffe850a9fa355ac7273d59bb1",
+    "frozenCount": 67,
+    "frozenManifestSHA256": "5bbc5813d822c2968beb41dbee4a950abb76e1765ef7dac54e77bb3883413e27",
+    "fullCandidateDiffSHA256": "311fd605af3d71a139ce0a3ec66e3da0e01c9c11a920d4fa686525705a6a81d0",
+    "changedPaths": [
+      "src-tauri/src/crawler.rs",
+      "src-tauri/src/network.rs",
+      "src/pages/ReaderPage.tsx",
+      "tests/regressions.test.mjs"
+    ],
+    "unexpectedFileChangeCount": 0
+  },
+  "preexistingReports": {
+    "count": 186,
+    "changeCount": 0
+  },
+  "round05Stopped": {
+    "dbSHA256": "06af586c6845a5ad9fabbf7f39bc518978e4e9c0ffde69bff32647576104dddc",
+    "profileCount": 412,
+    "profileSHA256": "03a4912600c80f63e3cb515f5ed39e4d8a246b16f40fdc56359f4884e877a608"
+  },
+  "round06Stopped": [
+    {
+      "run": "run11",
+      "dbSHA256": "44e1712f91301984cac6ea50ca1d16c4ac984ff8bfdbbfad8a203605bc177e01",
+      "expectedDBSHA256": "44e1712f91301984cac6ea50ca1d16c4ac984ff8bfdbbfad8a203605bc177e01",
+      "dbBytesUnchanged": true,
+      "integrityOK": true,
+      "profileCount": 415,
+      "expectedProfileCount": 415,
+      "profileAggregateSHA256": "25bf094ab58d7718492ac999a41174bfc78095cf0c66f7d71c31af393ac2d3c4",
+      "expectedProfileSHA256": "25bf094ab58d7718492ac999a41174bfc78095cf0c66f7d71c31af393ac2d3c4",
+      "profileAllBytesUnchanged": true,
+      "localStorageAuditExists": false
+    },
+    {
+      "run": "run12",
+      "dbSHA256": "4bc2c5bf3073f65b8ce705909ec48f242fab7654028fb5122f47f14a4dc7cc2f",
+      "expectedDBSHA256": "4bc2c5bf3073f65b8ce705909ec48f242fab7654028fb5122f47f14a4dc7cc2f",
+      "dbBytesUnchanged": true,
+      "integrityOK": true,
+      "profileCount": 438,
+      "expectedProfileCount": 438,
+      "profileAggregateSHA256": "8faa98fbd4e133eb365e058b189efd436778469801ef07155008b1fc713ab2b1",
+      "expectedProfileSHA256": "8faa98fbd4e133eb365e058b189efd436778469801ef07155008b1fc713ab2b1",
+      "profileAllBytesUnchanged": true,
+      "localStorageAuditExists": false
+    },
+    {
+      "run": "run13",
+      "dbSHA256": "6111369257be920f2bd3a7ae5f455a51117db4bc617932b6ab1ece09f23f4697",
+      "expectedDBSHA256": "6111369257be920f2bd3a7ae5f455a51117db4bc617932b6ab1ece09f23f4697",
+      "dbBytesUnchanged": true,
+      "integrityOK": true,
+      "profileCount": 439,
+      "expectedProfileCount": 439,
+      "profileAggregateSHA256": "3af66daec30d9fc6e44130d77a866b93dd4afe9020042b90aaec762a371488c0",
+      "expectedProfileSHA256": "3af66daec30d9fc6e44130d77a866b93dd4afe9020042b90aaec762a371488c0",
+      "profileAllBytesUnchanged": true,
+      "localStorageAuditExists": true
+    },
+    {
+      "run": "run14",
+      "dbSHA256": "611a3d4f990b9c8a13d37a1c009661116aadd3907cd59ee2b12460528d81ba99",
+      "expectedDBSHA256": "611a3d4f990b9c8a13d37a1c009661116aadd3907cd59ee2b12460528d81ba99",
+      "dbBytesUnchanged": true,
+      "integrityOK": true,
+      "profileCount": 439,
+      "expectedProfileCount": 439,
+      "profileAggregateSHA256": "c30b3811f64c61fe29f15ef537c7a36b0c0751c0c23a4ef48b1b64d1a378a844",
+      "expectedProfileSHA256": "c30b3811f64c61fe29f15ef537c7a36b0c0751c0c23a4ef48b1b64d1a378a844",
+      "profileAllBytesUnchanged": true,
+      "localStorageAuditExists": true
+    },
+    {
+      "run": "run15",
+      "dbSHA256": "f052888ae25ae3df8d1169d7b57252872a258d375157f75a0bd3bc66681cf350",
+      "expectedDBSHA256": "f052888ae25ae3df8d1169d7b57252872a258d375157f75a0bd3bc66681cf350",
+      "dbBytesUnchanged": true,
+      "integrityOK": true,
+      "profileCount": 440,
+      "expectedProfileCount": 440,
+      "profileAggregateSHA256": "07cacf86d515b97b16944875dd63e78b796ee7e17c043a3b9affd1c22db5874d",
+      "expectedProfileSHA256": "07cacf86d515b97b16944875dd63e78b796ee7e17c043a3b9affd1c22db5874d",
+      "profileAllBytesUnchanged": true,
+      "localStorageAuditExists": true
+    }
+  ],
+  "publicInputCopies": {
+    "count": 13,
+    "changeCount": 0
+  },
+  "formalPaths": [
+    {
+      "knownPathIndex": 0,
+      "initialExists": false,
+      "finalExists": false
+    },
+    {
+      "knownPathIndex": 1,
+      "initialExists": false,
+      "finalExists": false
+    },
+    {
+      "knownPathIndex": 2,
+      "initialExists": false,
+      "finalExists": false
+    }
+  ],
+  "historicalPaths": [
+    {
+      "knownPathIndex": 0,
+      "initialExists": false,
+      "finalExists": false
+    },
+    {
+      "knownPathIndex": 1,
+      "initialExists": false,
+      "finalExists": false
+    }
+  ],
+  "runtime": {
+    "utc": "2026-11-24T09:07:13.2454684Z",
+    "registeredCount": 168,
+    "noProcessControlled": true,
+    "matchingOwnedCount": 0,
+    "QAProfileOwnerCount": 0,
+    "reusedPIDsNotManagedCount": 1,
+    "listeners": []
+  },
+  "finalState": {
+    "dbSHA256": "f052888ae25ae3df8d1169d7b57252872a258d375157f75a0bd3bc66681cf350",
+    "workingDBSHA256": "081f14044c39a8c824fe300970c11c4bcd383e704f488736bc1c3aee0ba9217c",
+    "sources": 192,
+    "bodyCache": 5,
+    "catalogCache": 3,
+    "profileCount": 440,
+    "profileAggregateSHA256": "07cacf86d515b97b16944875dd63e78b796ee7e17c043a3b9affd1c22db5874d",
+    "integrity": [
+      {
+        "integrity_check": "ok"
+      }
+    ],
+    "books": [
+      {
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "name": "我在三体科技造神！",
+        "index": 1,
+        "total": 73
+      },
+      {
+        "bookUrl": "http://www.yetianlian.info/yt91773/",
+        "name": "不一样的三体",
+        "index": 1,
+        "total": 93
+      }
+    ],
+    "enabled": [
+      "http://www.yetianlian.info"
+    ]
+  }
+}

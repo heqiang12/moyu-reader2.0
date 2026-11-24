@@ -1,0 +1,2816 @@
+{
+  "clockSemantics": "readyToWheel/loadToWheel values timestamp CDP dispatch, not event arrival. Actual trusted wheel/scroll UTC and performance remain separately recorded.",
+  "earlyAndControl": [
+    {
+      "step": "MR018-original-nonzero-ready-early-wheel",
+      "utc": "2026-11-24T06:55:15.769Z",
+      "wheelUTC": "2026-11-24T06:55:15.736Z",
+      "readyToWheelMs": 1,
+      "loadToWheelMs": 3,
+      "before": {
+        "utc": "2026-11-24T06:55:15.735Z",
+        "performance": 359018.1000000015,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 775,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 7,
+        "loading": false,
+        "visibleText": {
+          "length": 90,
+          "sha256": "4ca481618b783444d675cc5e79b672248fe378cd41aeef182b4601cc59e9368d"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.1920997920997921
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.1920997920997921
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:15.733Z",
+          "performance": 359015.90000000224,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 775,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:15.734Z",
+            "performance": 359016.700000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 775,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.1920997920997921
+            }
+          }
+        ],
+        "recordedEventCount": 1
+      },
+      "after": {
+        "utc": "2026-11-24T06:55:15.761Z",
+        "performance": 359043.6000000015,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1325,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 12,
+        "loading": false,
+        "visibleText": {
+          "length": 36,
+          "sha256": "28667e741e757118fa3d5bf2857320a14cf53eebf2d766d67541151903cdb4c8"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.3521829521829522
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.3521829521829522
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:15.733Z",
+          "performance": 359015.90000000224,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 775,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:15.746Z",
+            "performance": 359029.200000003,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 1325,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.1920997920997921
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:15.747Z",
+            "performance": 359029.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1325,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.3521829521829522
+            }
+          }
+        ],
+        "recordedEventCount": 3
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 12,
+        "visibleTextLength": 36,
+        "visibleTextSHA256": "28667e741e757118fa3d5bf2857320a14cf53eebf2d766d67541151903cdb4c8",
+        "exactTextOffset": 847,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.3521829521829522,
+        "savedProgress": 0.3521829521829522,
+        "lastReadingProgress": 0.3521829521829522,
+        "savedEqualsVisibleOffset": true
+      }
+    },
+    {
+      "step": "MR018-original-nonzero-1500ms-still-new-position",
+      "utc": "2026-11-24T06:55:17.284Z",
+      "position": {
+        "utc": "2026-11-24T06:55:17.276Z",
+        "performance": 360558.90000000224,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1325,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 12,
+        "loading": false,
+        "visibleText": {
+          "length": 36,
+          "sha256": "28667e741e757118fa3d5bf2857320a14cf53eebf2d766d67541151903cdb4c8"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.3521829521829522
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.3521829521829522
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:15.733Z",
+          "performance": 359015.90000000224,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 775,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:15.746Z",
+            "performance": 359029.200000003,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 1325,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.1920997920997921
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:15.747Z",
+            "performance": 359029.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1325,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.3521829521829522
+            }
+          }
+        ],
+        "recordedEventCount": 3
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 12,
+        "visibleTextLength": 36,
+        "visibleTextSHA256": "28667e741e757118fa3d5bf2857320a14cf53eebf2d766d67541151903cdb4c8",
+        "exactTextOffset": 847,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.3521829521829522,
+        "savedProgress": 0.3521829521829522,
+        "lastReadingProgress": 0.3521829521829522,
+        "savedEqualsVisibleOffset": true
+      }
+    },
+    {
+      "step": "MR018-original-nonzero-actual-resume",
+      "utc": "2026-11-24T06:55:17.404Z",
+      "sameVisibleText": true,
+      "sameParagraphIndex": true,
+      "sameSavedProgress": true,
+      "restored": {
+        "utc": "2026-11-24T06:55:17.403Z",
+        "performance": 360685.90000000224,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1318,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 12,
+        "loading": false,
+        "visibleText": {
+          "length": 36,
+          "sha256": "28667e741e757118fa3d5bf2857320a14cf53eebf2d766d67541151903cdb4c8"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.3521829521829522
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.3521829521829522
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:17.401Z",
+          "performance": 360684.40000000224,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 1318,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:15.747Z",
+            "performance": 359029.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1325,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.3521829521829522
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:17.402Z",
+            "performance": 360684.90000000224,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1318,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.3521829521829522
+            }
+          }
+        ],
+        "recordedEventCount": 4
+      },
+      "beforeSaved": {},
+      "coordinate": {}
+    },
+    {
+      "step": "normal-UI-reset-to-top-1",
+      "utc": "2026-11-24T06:55:17.448Z",
+      "wheelUTC": "2026-11-24T06:55:17.419Z",
+      "readyToWheelMs": 1,
+      "loadToWheelMs": 18,
+      "before": {
+        "utc": "2026-11-24T06:55:17.418Z",
+        "performance": 360700.6000000015,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1318,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 12,
+        "loading": false,
+        "visibleText": {
+          "length": 36,
+          "sha256": "28667e741e757118fa3d5bf2857320a14cf53eebf2d766d67541151903cdb4c8"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.3521829521829522
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.3521829521829522
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:17.401Z",
+          "performance": 360684.40000000224,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 1318,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:15.747Z",
+            "performance": 359029.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1325,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.3521829521829522
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:17.402Z",
+            "performance": 360684.90000000224,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1318,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.3521829521829522
+            }
+          }
+        ],
+        "recordedEventCount": 4
+      },
+      "after": {
+        "utc": "2026-11-24T06:55:17.441Z",
+        "performance": 360723.90000000224,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 0,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 0,
+        "loading": false,
+        "visibleText": {
+          "length": 39,
+          "sha256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:17.401Z",
+          "performance": 360684.40000000224,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 1318,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:17.427Z",
+            "performance": 360709.90000000224,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 0,
+            "deltaY": -10000,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.3521829521829522
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:17.427Z",
+            "performance": 360710.1000000015,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 0,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0
+            }
+          }
+        ],
+        "recordedEventCount": 6
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 0,
+        "visibleTextLength": 39,
+        "visibleTextSHA256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645",
+        "exactTextOffset": 4,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.0016632016632016633,
+        "savedProgress": 0,
+        "lastReadingProgress": 0,
+        "savedEqualsVisibleOffset": false
+      }
+    },
+    {
+      "step": "MR018-chapter-top-early-attempt-1",
+      "utc": "2026-11-24T06:55:17.525Z",
+      "wheelUTC": "2026-11-24T06:55:17.493Z",
+      "readyToWheelMs": 1,
+      "loadToWheelMs": 3,
+      "before": {
+        "utc": "2026-11-24T06:55:17.492Z",
+        "performance": 360774.700000003,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 0,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 0,
+        "loading": false,
+        "visibleText": {
+          "length": 39,
+          "sha256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:17.490Z",
+          "performance": 360773.1000000015,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:17.427Z",
+            "performance": 360709.90000000224,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 0,
+            "deltaY": -10000,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.3521829521829522
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:17.427Z",
+            "performance": 360710.1000000015,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 0,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0
+            }
+          }
+        ],
+        "recordedEventCount": 6
+      },
+      "after": {
+        "utc": "2026-11-24T06:55:17.517Z",
+        "performance": 360800.200000003,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 550,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 92,
+          "sha256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:17.490Z",
+          "performance": 360773.1000000015,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:17.510Z",
+            "performance": 360793.30000000075,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 550,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:17.511Z",
+            "performance": 360793.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          }
+        ],
+        "recordedEventCount": 8
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 5,
+        "visibleTextLength": 92,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c",
+        "exactTextOffset": 321,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.13347193347193348,
+        "savedProgress": 0.13180873180873182,
+        "lastReadingProgress": 0.13180873180873182,
+        "savedEqualsVisibleOffset": false
+      }
+    },
+    {
+      "step": "MR018-top-1-1500ms-new-position-retained",
+      "utc": "2026-11-24T06:55:19.046Z",
+      "position": {
+        "utc": "2026-11-24T06:55:19.038Z",
+        "performance": 362321.40000000224,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 550,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 92,
+          "sha256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:17.490Z",
+          "performance": 360773.1000000015,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:17.510Z",
+            "performance": 360793.30000000075,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 550,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:17.511Z",
+            "performance": 360793.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          }
+        ],
+        "recordedEventCount": 8
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 5,
+        "visibleTextLength": 92,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c",
+        "exactTextOffset": 321,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.13347193347193348,
+        "savedProgress": 0.13180873180873182,
+        "lastReadingProgress": 0.13180873180873182,
+        "savedEqualsVisibleOffset": false
+      }
+    },
+    {
+      "step": "MR018-top-1-actual-resume",
+      "utc": "2026-11-24T06:55:19.182Z",
+      "sameVisibleText": true,
+      "sameParagraphIndex": true,
+      "sameSavedProgress": true,
+      "restored": {
+        "utc": "2026-11-24T06:55:19.181Z",
+        "performance": 362464.30000000075,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 564,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 92,
+          "sha256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:19.180Z",
+          "performance": 362462.5,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 564,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:17.511Z",
+            "performance": 360793.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:19.180Z",
+            "performance": 362463,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 564,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          }
+        ],
+        "recordedEventCount": 9
+      },
+      "beforeSaved": {},
+      "coordinate": {}
+    },
+    {
+      "step": "normal-UI-reset-to-top-2",
+      "utc": "2026-11-24T06:55:19.233Z",
+      "wheelUTC": "2026-11-24T06:55:19.201Z",
+      "readyToWheelMs": 1,
+      "loadToWheelMs": 21,
+      "before": {
+        "utc": "2026-11-24T06:55:19.200Z",
+        "performance": 362482.6000000015,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 564,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 92,
+          "sha256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:19.180Z",
+          "performance": 362462.5,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 564,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:17.511Z",
+            "performance": 360793.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:19.180Z",
+            "performance": 362463,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 564,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          }
+        ],
+        "recordedEventCount": 9
+      },
+      "after": {
+        "utc": "2026-11-24T06:55:19.226Z",
+        "performance": 362508.6000000015,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 0,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 0,
+        "loading": false,
+        "visibleText": {
+          "length": 39,
+          "sha256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:19.180Z",
+          "performance": 362462.5,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 564,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:19.212Z",
+            "performance": 362494.40000000224,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 0,
+            "deltaY": -10000,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:19.212Z",
+            "performance": 362494.6000000015,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 0,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0
+            }
+          }
+        ],
+        "recordedEventCount": 11
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 0,
+        "visibleTextLength": 39,
+        "visibleTextSHA256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645",
+        "exactTextOffset": 4,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.0016632016632016633,
+        "savedProgress": 0,
+        "lastReadingProgress": 0,
+        "savedEqualsVisibleOffset": false
+      }
+    },
+    {
+      "step": "MR018-chapter-top-early-attempt-2",
+      "utc": "2026-11-24T06:55:19.317Z",
+      "wheelUTC": "2026-11-24T06:55:19.286Z",
+      "readyToWheelMs": 1,
+      "loadToWheelMs": 3,
+      "before": {
+        "utc": "2026-11-24T06:55:19.285Z",
+        "performance": 362568,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 0,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 0,
+        "loading": false,
+        "visibleText": {
+          "length": 39,
+          "sha256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:19.283Z",
+          "performance": 362566.40000000224,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:19.212Z",
+            "performance": 362494.40000000224,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 0,
+            "deltaY": -10000,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:19.212Z",
+            "performance": 362494.6000000015,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 0,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0
+            }
+          }
+        ],
+        "recordedEventCount": 11
+      },
+      "after": {
+        "utc": "2026-11-24T06:55:19.309Z",
+        "performance": 362592.200000003,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 550,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 92,
+          "sha256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:19.283Z",
+          "performance": 362566.40000000224,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:19.302Z",
+            "performance": 362584.5,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 550,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:19.302Z",
+            "performance": 362584.700000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          }
+        ],
+        "recordedEventCount": 13
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 5,
+        "visibleTextLength": 92,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c",
+        "exactTextOffset": 321,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.13347193347193348,
+        "savedProgress": 0.13180873180873182,
+        "lastReadingProgress": 0.13180873180873182,
+        "savedEqualsVisibleOffset": false
+      }
+    },
+    {
+      "step": "MR018-top-2-1500ms-new-position-retained",
+      "utc": "2026-11-24T06:55:20.846Z",
+      "position": {
+        "utc": "2026-11-24T06:55:20.838Z",
+        "performance": 364121,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 550,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 92,
+          "sha256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:19.283Z",
+          "performance": 362566.40000000224,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:19.302Z",
+            "performance": 362584.5,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 550,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:19.302Z",
+            "performance": 362584.700000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          }
+        ],
+        "recordedEventCount": 13
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 5,
+        "visibleTextLength": 92,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c",
+        "exactTextOffset": 321,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.13347193347193348,
+        "savedProgress": 0.13180873180873182,
+        "lastReadingProgress": 0.13180873180873182,
+        "savedEqualsVisibleOffset": false
+      }
+    },
+    {
+      "step": "MR018-top-2-actual-resume",
+      "utc": "2026-11-24T06:55:21.005Z",
+      "sameVisibleText": true,
+      "sameParagraphIndex": true,
+      "sameSavedProgress": true,
+      "restored": {
+        "utc": "2026-11-24T06:55:21.005Z",
+        "performance": 364287.6000000015,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 564,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 92,
+          "sha256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:21.003Z",
+          "performance": 364286,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 564,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:19.302Z",
+            "performance": 362584.700000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:21.004Z",
+            "performance": 364287.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 564,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          }
+        ],
+        "recordedEventCount": 14
+      },
+      "beforeSaved": {},
+      "coordinate": {}
+    },
+    {
+      "step": "MR018-early-wheel-immediate-return",
+      "utc": "2026-11-24T06:55:21.099Z",
+      "wheelUTC": "2026-11-24T06:55:21.062Z",
+      "readyToWheelMs": 1,
+      "loadToWheelMs": 2,
+      "backUTC": "2026-11-24T06:55:21.080Z",
+      "wheelToBackMs": 18,
+      "before": {
+        "utc": "2026-11-24T06:55:21.061Z",
+        "performance": 364344.1000000015,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 564,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 92,
+          "sha256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:21.060Z",
+          "performance": 364342.700000003,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 564,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:21.004Z",
+            "performance": 364287.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 564,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:21.060Z",
+            "performance": 364343,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 564,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          }
+        ],
+        "recordedEventCount": 15
+      },
+      "after": {
+        "utc": "2026-11-24T06:55:21.080Z",
+        "performance": 364362.700000003,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1114,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 10,
+        "loading": false,
+        "visibleText": {
+          "length": 80,
+          "sha256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:21.060Z",
+          "performance": 364342.700000003,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 564,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:21.073Z",
+            "performance": 364355.5,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 1114,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:21.073Z",
+            "performance": 364355.80000000075,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1114,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          }
+        ],
+        "recordedEventCount": 17
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 10,
+        "visibleTextLength": 80,
+        "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00",
+        "exactTextOffset": 669,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.2781704781704782,
+        "savedProgress": 0.2765072765072765,
+        "lastReadingProgress": 0.2765072765072765,
+        "savedEqualsVisibleOffset": false
+      }
+    },
+    {
+      "step": "MR018-early-immediate-return-actual-resume",
+      "utc": "2026-11-24T06:55:21.146Z",
+      "sameVisibleText": true,
+      "sameParagraphIndex": true,
+      "sameSavedProgress": true,
+      "restored": {
+        "utc": "2026-11-24T06:55:21.145Z",
+        "performance": 364428.40000000224,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1074,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 10,
+        "loading": false,
+        "visibleText": {
+          "length": 80,
+          "sha256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:21.144Z",
+          "performance": 364426.700000003,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 1074,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:21.073Z",
+            "performance": 364355.80000000075,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1114,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:21.144Z",
+            "performance": 364427.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1074,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          }
+        ],
+        "recordedEventCount": 18
+      },
+      "beforeSaved": {},
+      "coordinate": {}
+    },
+    {
+      "step": "MR018-programmatic-restore-not-quantized",
+      "utc": "2026-11-24T06:55:22.810Z",
+      "sameSavedProgress": true,
+      "sameLastReading": true,
+      "noInputPosition": {
+        "utc": "2026-11-24T06:55:22.809Z",
+        "performance": 366092.1000000015,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1074,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 10,
+        "loading": false,
+        "visibleText": {
+          "length": 80,
+          "sha256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:21.144Z",
+          "performance": 364426.700000003,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 1074,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:21.073Z",
+            "performance": 364355.80000000075,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1114,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:21.144Z",
+            "performance": 364427.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1074,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          }
+        ],
+        "recordedEventCount": 18
+      },
+      "beforeSaved": {
+        "chapterIndex": 1,
+        "progress": 0.2765072765072765
+      },
+      "coordinate": {}
+    },
+    {
+      "step": "MR018-settled-normal-wheel-control",
+      "utc": "2026-11-24T06:55:22.872Z",
+      "wheelUTC": "2026-11-24T06:55:22.843Z",
+      "readyToWheelMs": 1,
+      "loadToWheelMs": 1699,
+      "before": {
+        "utc": "2026-11-24T06:55:22.842Z",
+        "performance": 366124.90000000224,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1074,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 10,
+        "loading": false,
+        "visibleText": {
+          "length": 80,
+          "sha256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:21.144Z",
+          "performance": 364426.700000003,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 1074,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:21.073Z",
+            "performance": 364355.80000000075,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1114,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:21.144Z",
+            "performance": 364427.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1074,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          }
+        ],
+        "recordedEventCount": 18
+      },
+      "after": {
+        "utc": "2026-11-24T06:55:22.865Z",
+        "performance": 366147.5,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1474,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 13,
+        "loading": false,
+        "visibleText": {
+          "length": 80,
+          "sha256": "a30769da32dd6d71afe317741248575c29acd58c1daa9640734d3f296a1cf19c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.367983367983368
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.367983367983368
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:21.144Z",
+          "performance": 364426.700000003,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 1074,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:22.850Z",
+            "performance": 366133.1000000015,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 1474,
+            "deltaY": 400,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:22.850Z",
+            "performance": 366133.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1474,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.367983367983368
+            }
+          }
+        ],
+        "recordedEventCount": 20
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 13,
+        "visibleTextLength": 80,
+        "visibleTextSHA256": "a30769da32dd6d71afe317741248575c29acd58c1daa9640734d3f296a1cf19c",
+        "exactTextOffset": 889,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.36964656964656967,
+        "savedProgress": 0.367983367983368,
+        "lastReadingProgress": 0.367983367983368,
+        "savedEqualsVisibleOffset": false
+      }
+    },
+    {
+      "step": "MR018-stable-control-real-resume",
+      "utc": "2026-11-24T06:55:22.937Z",
+      "sameVisibleText": true,
+      "sameParagraphIndex": true,
+      "restored": {
+        "utc": "2026-11-24T06:55:22.936Z",
+        "performance": 366219.30000000075,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1372,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 13,
+        "loading": false,
+        "visibleText": {
+          "length": 80,
+          "sha256": "a30769da32dd6d71afe317741248575c29acd58c1daa9640734d3f296a1cf19c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.367983367983368
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.367983367983368
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:22.935Z",
+          "performance": 366217.80000000075,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 1372,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:22.850Z",
+            "performance": 366133.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1474,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.367983367983368
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:22.935Z",
+            "performance": 366218.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1372,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.367983367983368
+            }
+          }
+        ],
+        "recordedEventCount": 21
+      },
+      "beforeSaved": {},
+      "coordinate": {}
+    },
+    {
+      "step": "MR018-cross-chapter-cached-success-early-input",
+      "utc": "2026-11-24T06:55:23.032Z",
+      "wheelUTC": "2026-11-24T06:55:22.999Z",
+      "readyToWheelMs": 1,
+      "loadToWheelMs": 3,
+      "isNewChapterTopBefore": true,
+      "oldTitle": "第60章 持续降维",
+      "before": {
+        "utc": "2026-11-24T06:55:22.998Z",
+        "performance": 366280.700000003,
+        "book": "我在三体科技造神！",
+        "title": "第59章 二维宇宙",
+        "chapter": "3 / 73",
+        "scrollTop": 0,
+        "maxScrollTop": 3041,
+        "clientHeight": 696,
+        "scrollHeight": 3737,
+        "visibleParagraphIndex": 0,
+        "loading": false,
+        "visibleText": {
+          "length": 96,
+          "sha256": "7d86ec2dfa926105ecb4985f61b1e74ff761a05d14977c0d749b89dca66a95ae"
+        },
+        "paragraphCount": 38,
+        "progress": {
+          "chapterIndex": 2,
+          "progress": 0
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 2,
+          "progress": 0
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:22.996Z",
+          "performance": 366278.80000000075,
+          "title": "第59章 二维宇宙",
+          "paragraphCount": 38,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:22.935Z",
+            "performance": 366218.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1372,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.367983367983368
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:22.977Z",
+            "performance": 366259.6000000015,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 0,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.367983367983368
+            }
+          }
+        ],
+        "recordedEventCount": 22
+      },
+      "after": {
+        "utc": "2026-11-24T06:55:23.024Z",
+        "performance": 366307.1000000015,
+        "book": "我在三体科技造神！",
+        "title": "第59章 二维宇宙",
+        "chapter": "3 / 73",
+        "scrollTop": 550,
+        "maxScrollTop": 3041,
+        "clientHeight": 696,
+        "scrollHeight": 3737,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 53,
+          "sha256": "0edc258c69697f0c3d891936e72233ed98b018181ed5a167a1b5357ab11af901"
+        },
+        "paragraphCount": 38,
+        "progress": {
+          "chapterIndex": 2,
+          "progress": 0.14004106776180697
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 2,
+          "progress": 0.14004106776180697
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:22.996Z",
+          "performance": 366278.80000000075,
+          "title": "第59章 二维宇宙",
+          "paragraphCount": 38,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:23.017Z",
+            "performance": 366300.200000003,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 550,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 2,
+              "progress": 0
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:23.017Z",
+            "performance": 366300.40000000224,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 2,
+              "progress": 0.14004106776180697
+            }
+          }
+        ],
+        "recordedEventCount": 24
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2435,
+        "bodySHA256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7",
+        "visibleIndex": 5,
+        "visibleTextLength": 53,
+        "visibleTextSHA256": "0edc258c69697f0c3d891936e72233ed98b018181ed5a167a1b5357ab11af901",
+        "exactTextOffset": 341,
+        "lookupAllFound": true,
+        "expectedOffsetRatio": 0.14004106776180697,
+        "savedProgress": 0.14004106776180697,
+        "lastReadingProgress": 0.14004106776180697,
+        "savedEqualsVisibleOffset": true
+      }
+    },
+    {
+      "step": "MR018-related-previous-chapter-top",
+      "utc": "2026-11-24T06:55:23.223Z",
+      "fromNewChapter": true,
+      "position": {
+        "utc": "2026-11-24T06:55:23.222Z",
+        "performance": 366504.700000003,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 0,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 0,
+        "loading": false,
+        "visibleText": {
+          "length": 39,
+          "sha256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:55:23.220Z",
+          "performance": 366503.30000000075,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:55:23.017Z",
+            "performance": 366300.40000000224,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 2,
+              "progress": 0.14004106776180697
+            }
+          },
+          {
+            "utc": "2026-11-24T06:55:23.215Z",
+            "performance": 366497.90000000224,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 0,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 2,
+              "progress": 0.14004106776180697
+            }
+          }
+        ],
+        "recordedEventCount": 25
+      },
+      "beforeSaved": {},
+      "coordinate": {}
+    }
+  ],
+  "paintedOldReproduction": [
+    {
+      "step": "MR018-painted-body-actual-trusted-early-wheel",
+      "utc": "2026-11-24T06:58:23.991Z",
+      "wheelUTC": "2026-11-24T06:58:23.957Z",
+      "readyToWheelMs": 0,
+      "loadToWheelMs": 103,
+      "before": {
+        "utc": "2026-11-24T06:58:23.957Z",
+        "performance": 547239.6000000015,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 564,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 92,
+          "sha256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:58:23.854Z",
+          "performance": 547137.1000000015,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 564,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:58:23.802Z",
+            "performance": 547085.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:58:23.857Z",
+            "performance": 547140.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 564,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          }
+        ],
+        "recordedEventCount": 6
+      },
+      "loaded": {
+        "utc": "2026-11-24T06:58:23.859Z",
+        "performance": 547141.700000003,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 564,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 5,
+        "loading": false,
+        "visibleText": {
+          "length": 92,
+          "sha256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:58:23.854Z",
+          "performance": 547137.1000000015,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 564,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:58:23.802Z",
+            "performance": 547085.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:58:23.857Z",
+            "performance": 547140.200000003,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 564,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          }
+        ],
+        "recordedEventCount": 6
+      },
+      "after": {
+        "utc": "2026-11-24T06:58:23.983Z",
+        "performance": 547265.8000000007,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1114,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 10,
+        "loading": false,
+        "visibleText": {
+          "length": 80,
+          "sha256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:58:23.854Z",
+          "performance": 547137.1000000015,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 564,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:58:23.968Z",
+            "performance": 547251.3000000007,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 1114,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:58:23.969Z",
+            "performance": 547251.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1114,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          }
+        ],
+        "recordedEventCount": 8
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 10,
+        "visibleTextLength": 80,
+        "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00",
+        "exactTrimmedTextOffset": 669,
+        "canonicalSegmentStart": 665,
+        "allDOMTextsMatchSharedSegments": true,
+        "expectedSegmentRatio": 0.2765072765072765,
+        "savedProgress": 0.2765072765072765,
+        "lastReadingProgress": 0.2765072765072765,
+        "savedEqualsVisibleSegment": true
+      }
+    },
+    {
+      "step": "MR018-painted-body-1500ms-new-position",
+      "utc": "2026-11-24T06:58:25.511Z",
+      "position": {
+        "utc": "2026-11-24T06:58:25.504Z",
+        "performance": 548786.700000003,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1114,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 10,
+        "loading": false,
+        "visibleText": {
+          "length": 80,
+          "sha256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:58:23.854Z",
+          "performance": 547137.1000000015,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 564,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:58:23.968Z",
+            "performance": 547251.3000000007,
+            "name": "wheel",
+            "trusted": true,
+            "scrollTop": 1114,
+            "deltaY": 550,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.13180873180873182
+            }
+          },
+          {
+            "utc": "2026-11-24T06:58:23.969Z",
+            "performance": 547251.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1114,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          }
+        ],
+        "recordedEventCount": 8
+      },
+      "beforeSaved": {},
+      "coordinate": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 10,
+        "visibleTextLength": 80,
+        "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00",
+        "exactTrimmedTextOffset": 669,
+        "canonicalSegmentStart": 665,
+        "allDOMTextsMatchSharedSegments": true,
+        "expectedSegmentRatio": 0.2765072765072765,
+        "savedProgress": 0.2765072765072765,
+        "lastReadingProgress": 0.2765072765072765,
+        "savedEqualsVisibleSegment": true
+      }
+    },
+    {
+      "step": "MR018-painted-body-normal-UI-resume",
+      "utc": "2026-11-24T06:58:25.645Z",
+      "sameVisibleText": true,
+      "sameParagraphIndex": true,
+      "sameSavedProgress": true,
+      "position": {
+        "utc": "2026-11-24T06:58:25.645Z",
+        "performance": 548927.9000000022,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 1074,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 10,
+        "loading": false,
+        "visibleText": {
+          "length": 80,
+          "sha256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T06:58:25.644Z",
+          "performance": 548926.5,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 1074,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T06:58:23.969Z",
+            "performance": 547251.5,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1114,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          },
+          {
+            "utc": "2026-11-24T06:58:25.644Z",
+            "performance": 548926.9000000022,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 1074,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.2765072765072765
+            }
+          }
+        ],
+        "recordedEventCount": 9
+      },
+      "beforeSaved": {},
+      "coordinate": {}
+    }
+  ],
+  "paintedBeforeScreenshotUTC": "2026-11-24T06:58:23.870Z",
+  "sharedCoordinateAudit": {
+    "utc": "2026-11-24T06:58:23.579Z",
+    "method": "Read-only comparison of actual preserved DOM text to unchanged shared segments of actual cached body; original records retained.",
+    "originalTrimmedLookupLimitation": "Trimmed text lookup includes a four-character leading-space offset. Canonical segment start is the saved shared coordinate; original false exact-offset flag is not an application fault.",
+    "results": [
+      {
+        "step": "MR018-original-nonzero-ready-early-wheel",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 12,
+        "visibleTextSHA256": "28667e741e757118fa3d5bf2857320a14cf53eebf2d766d67541151903cdb4c8",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 847,
+        "canonicalSegmentStart": 847,
+        "ratio": 0.3521829521829522,
+        "savedProgress": 0.3521829521829522,
+        "lastReadingProgress": 0.3521829521829522,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-original-nonzero-1500ms-still-new-position",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 12,
+        "visibleTextSHA256": "28667e741e757118fa3d5bf2857320a14cf53eebf2d766d67541151903cdb4c8",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 847,
+        "canonicalSegmentStart": 847,
+        "ratio": 0.3521829521829522,
+        "savedProgress": 0.3521829521829522,
+        "lastReadingProgress": 0.3521829521829522,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-original-nonzero-actual-resume",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 12,
+        "visibleTextSHA256": "28667e741e757118fa3d5bf2857320a14cf53eebf2d766d67541151903cdb4c8",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "canonicalSegmentStart": 847,
+        "ratio": 0.3521829521829522,
+        "savedProgress": 0.3521829521829522,
+        "lastReadingProgress": 0.3521829521829522,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "normal-UI-reset-to-top-1",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 0,
+        "visibleTextSHA256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 4,
+        "canonicalSegmentStart": 0,
+        "ratio": 0,
+        "savedProgress": 0,
+        "lastReadingProgress": 0,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-chapter-top-early-attempt-1",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 5,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 321,
+        "canonicalSegmentStart": 317,
+        "ratio": 0.13180873180873182,
+        "savedProgress": 0.13180873180873182,
+        "lastReadingProgress": 0.13180873180873182,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-top-1-1500ms-new-position-retained",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 5,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 321,
+        "canonicalSegmentStart": 317,
+        "ratio": 0.13180873180873182,
+        "savedProgress": 0.13180873180873182,
+        "lastReadingProgress": 0.13180873180873182,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-top-1-actual-resume",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 5,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "canonicalSegmentStart": 317,
+        "ratio": 0.13180873180873182,
+        "savedProgress": 0.13180873180873182,
+        "lastReadingProgress": 0.13180873180873182,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "normal-UI-reset-to-top-2",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 0,
+        "visibleTextSHA256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 4,
+        "canonicalSegmentStart": 0,
+        "ratio": 0,
+        "savedProgress": 0,
+        "lastReadingProgress": 0,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-chapter-top-early-attempt-2",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 5,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 321,
+        "canonicalSegmentStart": 317,
+        "ratio": 0.13180873180873182,
+        "savedProgress": 0.13180873180873182,
+        "lastReadingProgress": 0.13180873180873182,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-top-2-1500ms-new-position-retained",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 5,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 321,
+        "canonicalSegmentStart": 317,
+        "ratio": 0.13180873180873182,
+        "savedProgress": 0.13180873180873182,
+        "lastReadingProgress": 0.13180873180873182,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-top-2-actual-resume",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 5,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "canonicalSegmentStart": 317,
+        "ratio": 0.13180873180873182,
+        "savedProgress": 0.13180873180873182,
+        "lastReadingProgress": 0.13180873180873182,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-early-wheel-immediate-return",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 10,
+        "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 669,
+        "canonicalSegmentStart": 665,
+        "ratio": 0.2765072765072765,
+        "savedProgress": 0.2765072765072765,
+        "lastReadingProgress": 0.2765072765072765,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-early-immediate-return-actual-resume",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 10,
+        "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "canonicalSegmentStart": 665,
+        "ratio": 0.2765072765072765,
+        "savedProgress": 0.2765072765072765,
+        "lastReadingProgress": 0.2765072765072765,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-programmatic-restore-not-quantized",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 10,
+        "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "canonicalSegmentStart": 665,
+        "ratio": 0.2765072765072765,
+        "savedProgress": 0.2765072765072765,
+        "lastReadingProgress": 0.2765072765072765,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-settled-normal-wheel-control",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 13,
+        "visibleTextSHA256": "a30769da32dd6d71afe317741248575c29acd58c1daa9640734d3f296a1cf19c",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 889,
+        "canonicalSegmentStart": 885,
+        "ratio": 0.367983367983368,
+        "savedProgress": 0.367983367983368,
+        "lastReadingProgress": 0.367983367983368,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-stable-control-real-resume",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 13,
+        "visibleTextSHA256": "a30769da32dd6d71afe317741248575c29acd58c1daa9640734d3f296a1cf19c",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "canonicalSegmentStart": 885,
+        "ratio": 0.367983367983368,
+        "savedProgress": 0.367983367983368,
+        "lastReadingProgress": 0.367983367983368,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-cross-chapter-cached-success-early-input",
+        "bodyLength": 2435,
+        "bodySHA256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7",
+        "visibleIndex": 5,
+        "visibleTextSHA256": "0edc258c69697f0c3d891936e72233ed98b018181ed5a167a1b5357ab11af901",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "originalExactTextLookupOffset": 341,
+        "canonicalSegmentStart": 341,
+        "ratio": 0.14004106776180697,
+        "savedProgress": 0.14004106776180697,
+        "lastReadingProgress": 0.14004106776180697,
+        "sameSavedSegmentRatio": true
+      },
+      {
+        "step": "MR018-related-previous-chapter-top",
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 0,
+        "visibleTextSHA256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645",
+        "allDOMTextsEqualActualSharedSegments": true,
+        "canonicalSegmentStart": 0,
+        "ratio": 0,
+        "savedProgress": 0,
+        "lastReadingProgress": 0,
+        "sameSavedSegmentRatio": true
+      }
+    ]
+  },
+  "otherDataProtection": {
+    "step": "MR018-other-book-and-sources-protected",
+    "utc": "2026-11-24T06:55:23.464Z",
+    "AEntireRowSame": true,
+    "AProgressSame": true,
+    "ABodyCacheSame": true,
+    "sourcesSame": true
+  },
+  "independentBottom": [
+    {
+      "step": "independent-actual-bottom-restoration",
+      "utc": "2026-11-24T07:41:48.053Z",
+      "atRealBottom": true,
+      "position": {
+        "utc": "2026-11-24T07:41:47.983Z",
+        "performance": 136334.30000000075,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 2933,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 28,
+        "loading": false,
+        "visibleText": {
+          "length": 96,
+          "sha256": "f2b83bed029711341fe0dad27a886c04294afec1d786723064408976755f0f2f"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.9999
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.9999
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T07:41:47.977Z",
+          "performance": 136328.3999999985,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 2933,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T07:41:47.977Z",
+            "performance": 136329,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 2933,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.9999
+            }
+          }
+        ],
+        "recordedEventCount": 1
+      },
+      "canonicalAudit": {
+        "bodyLength": 2405,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "visibleIndex": 28,
+        "visibleTextLength": 96,
+        "visibleTextSHA256": "f2b83bed029711341fe0dad27a886c04294afec1d786723064408976755f0f2f",
+        "exactTrimmedTextOffset": 1947,
+        "canonicalSegmentStart": 1947,
+        "allDOMTextsMatchSharedSegments": true,
+        "expectedSegmentRatio": 0.8095634095634096,
+        "savedProgress": 0.9999,
+        "lastReadingProgress": 0.9999,
+        "savedEqualsVisibleSegment": false
+      },
+      "programScrollEvents": []
+    },
+    {
+      "step": "programmatic-clamp-settled-no-character-quantization",
+      "utc": "2026-11-24T07:41:49.575Z",
+      "atRealBottom": true,
+      "progressStill9999": true,
+      "canonicalVisibleProgress": 0.8095634095634096,
+      "noWheelInput": true,
+      "position": {
+        "utc": "2026-11-24T07:41:49.566Z",
+        "performance": 137918,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 2933,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 28,
+        "loading": false,
+        "visibleText": {
+          "length": 96,
+          "sha256": "f2b83bed029711341fe0dad27a886c04294afec1d786723064408976755f0f2f"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.9999
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.9999
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T07:41:47.977Z",
+          "performance": 136328.3999999985,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 2933,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T07:41:47.977Z",
+            "performance": 136329,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 2933,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.9999
+            }
+          }
+        ],
+        "recordedEventCount": 1
+      },
+      "canonicalAudit": {},
+      "programScrollEvents": [
+        {
+          "utc": "2026-11-24T07:41:47.977Z",
+          "performance": 136329,
+          "name": "scroll",
+          "trusted": true,
+          "scrollTop": 2933,
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.9999
+          }
+        }
+      ]
+    },
+    {
+      "step": "independent-bottom-immediate-return-real-continue",
+      "utc": "2026-11-24T07:41:49.629Z",
+      "atRealBottom": true,
+      "characterSentinelPreserved": true,
+      "position": {
+        "utc": "2026-11-24T07:41:49.628Z",
+        "performance": 137979.8999999985,
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "chapter": "2 / 73",
+        "scrollTop": 2933,
+        "maxScrollTop": 2933,
+        "clientHeight": 696,
+        "scrollHeight": 3629,
+        "visibleParagraphIndex": 28,
+        "loading": false,
+        "visibleText": {
+          "length": 96,
+          "sha256": "f2b83bed029711341fe0dad27a886c04294afec1d786723064408976755f0f2f"
+        },
+        "paragraphCount": 36,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.9999
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.9999
+        },
+        "latestLoad": {
+          "utc": "2026-11-24T07:41:49.617Z",
+          "performance": 137968.19999999925,
+          "title": "第60章 持续降维",
+          "paragraphCount": 36,
+          "scrollTop": 2933,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "events": [
+          {
+            "utc": "2026-11-24T07:41:47.977Z",
+            "performance": 136329,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 2933,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.9999
+            }
+          },
+          {
+            "utc": "2026-11-24T07:41:49.617Z",
+            "performance": 137968.59999999776,
+            "name": "scroll",
+            "trusted": true,
+            "scrollTop": 2933,
+            "lastReading": {
+              "bookUrl": "http://www.yetianlian.info/yt110360/",
+              "chapterIndex": 1,
+              "progress": 0.9999
+            }
+          }
+        ],
+        "recordedEventCount": 2
+      },
+      "canonicalAudit": {},
+      "programScrollEvents": []
+    }
+  ],
+  "bottomInterpretation": "Saved 0.9999 was created by real native previous-chapter navigation. Visible segment 28 at real scrollTop=max2933 is viewport clamping, not a reason to overwrite the character sentinel.",
+  "projectionNote": "Repeated cumulative scroll event histories trimmed to latest two per observation; full preserved histories remain private. Load, dispatch, actual trusted input and saved coordinate fields retained."
+}

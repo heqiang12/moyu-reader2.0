@@ -23,7 +23,7 @@ const clientURL = await sourceModule("../src/api/client.ts", {
   "@tauri-apps/api/event": import.meta.resolve("@tauri-apps/api/event"),
 });
 const { searchBookSSE, deleteBook } = await import(clientURL);
-const { progressFromOffset, offsetFromProgress } = await import(await sourceModule("../src/lib/segment.ts"));
+const { progressFromOffset, offsetFromProgress, segmentText } = await import(await sourceModule("../src/lib/segment.ts"));
 
 function nativeStub(listenGate, invokeHook) {
   let id = 0;
@@ -62,10 +62,25 @@ function nativeStub(listenGate, invokeHook) {
 const settle = () => new Promise((resolve) => setImmediate(resolve));
 
 // 仅控制组件的 hook 状态及异步时序；真实 DOM/原生行为仍由 qa-real 验证。
-function pageHooks() {
+function pageHooks(dynamic = false) {
   const slots = [];
   const effects = [];
+  const layouts = [];
+  const cleanups = new Map();
   let index = 0;
+  const sameDeps = (a, b) => Array.isArray(a) && Array.isArray(b) && a.length === b.length && a.every((value, i) => Object.is(value, b[i]));
+  const registerEffect = (queue, effect, deps) => {
+    const slot = index++;
+    if (slot in slots && (!dynamic || sameDeps(slots[slot].deps, deps))) return;
+    slots[slot] = dynamic ? { deps } : true;
+    queue.push(dynamic ? () => {
+      cleanups.get(slot)?.();
+      const cleanup = effect();
+      if (cleanup) cleanups.set(slot, cleanup);
+      else cleanups.delete(slot);
+      return cleanup;
+    } : effect);
+  };
   globalThis.__pageHooks = {
     useState(initial) {
       const slot = index++;
@@ -76,17 +91,30 @@ function pageHooks() {
       const slot = index++;
       return slots[slot] ??= { current: initial };
     },
-    useEffect(effect) {
+    useCallback(callback, deps) {
       const slot = index++;
-      if (!(slot in slots)) { slots[slot] = true; effects.push(effect); }
+      if (!(slot in slots) || !sameDeps(slots[slot].deps, deps)) slots[slot] = { callback, deps };
+      return slots[slot].callback;
     },
+    useEffect: (effect, deps) => registerEffect(effects, effect, deps),
+    useLayoutEffect: (effect, deps) => registerEffect(layouts, effect, deps),
   };
-  return { effects, render(component) { index = 0; return component(); } };
+  return {
+    effects,
+    render(component) { index = 0; return component(); },
+    flush() {
+      layouts.splice(0).forEach((effect) => effect());
+      effects.splice(0).forEach((effect) => effect());
+    },
+    close() { cleanups.forEach((cleanup) => cleanup()); cleanups.clear(); },
+  };
 }
 const hooksURL = `data:text/javascript,${encodeURIComponent(`
   export const useState = (...args) => globalThis.__pageHooks.useState(...args);
   export const useRef = (...args) => globalThis.__pageHooks.useRef(...args);
   export const useEffect = (...args) => globalThis.__pageHooks.useEffect(...args);
+  export const useLayoutEffect = (...args) => globalThis.__pageHooks.useLayoutEffect(...args);
+  export const useCallback = (...args) => globalThis.__pageHooks.useCallback(...args);
 `)}`;
 const pageImports = {
   react: hooksURL,
@@ -215,6 +243,112 @@ test("字符进度往返不因浮点误差退到上一段", () => {
   for (let offset = 0; offset <= 2118; offset++) {
     assert.equal(offsetFromProgress(progressFromOffset(offset, 2118), 2118), offset);
   }
+});
+
+const READER_BOOK = "reader-book";
+const READER_TEXT = Array.from({ length: 20 }, (_, i) => `第${i + 1}段的测试正文。`).join("\n\n");
+const READER_SEGMENTS = segmentText(READER_TEXT, 96);
+const readerProgress = (index) => progressFromOffset(READER_SEGMENTS[index].start, READER_TEXT.length);
+
+// 只模拟段落坐标/钳制与hook提交，不替代真实WebView2滚动、布局及重启验收。
+async function readerFixture(initialProgress) {
+  if (initialProgress !== undefined) saveLastReading({ bookUrl: READER_BOOK, chapterIndex: 1, progress: initialProgress });
+  const hooks = pageHooks(true);
+  const progressWrites = [];
+  const native = nativeStub(undefined, (command, args) => {
+    if (command === "get_bookshelf") return [{ bookUrl: READER_BOOK, name: "测试书籍", origin: "source", durChapterIndex: 1 }];
+    if (command === "get_chapter_list") return [0, 1].map((index) => ({ index, title: `第${index + 1}章`, url: `chapter-${index}`, bookUrl: READER_BOOK }));
+    if (command === "get_book_content") return READER_TEXT;
+    if (command === "save_book_progress") progressWrites.push(args);
+  });
+  const timers = [];
+  window.setTimeout = (callback) => { timers.push(callback); return timers.length; };
+  const previousDocument = globalThis.document;
+  globalThis.document = { documentElement: { setAttribute() {} } };
+  const routerURL = `data:text/javascript,${encodeURIComponent(`
+    export const Link = "a";
+    export const useParams = () => ({ bookUrl: "reader-book" });
+    export const useLocation = () => ({ state: { chapterIndex: 1 } });
+  `)}`;
+  const { default: Page } = await import(await sourceModule("../src/pages/ReaderPage.tsx", {
+    ...pageImports, "react-router-dom": routerURL,
+  }));
+  let maxScroll = 0;
+  const body = {
+    scrollTop: 0,
+    getBoundingClientRect: () => ({ top: 0 }),
+    scrollTo({ top }) { this.scrollTop = Math.min(maxScroll, Math.max(0, top)); },
+  };
+  const render = () => {
+    const tree = hooks.render(Page);
+    byClass(tree, "reader-body").props.ref.current = body;
+    const paragraphs = byClass(tree, "reader-article")?.props.children[1] ?? [];
+    maxScroll = Math.max(0, paragraphs.length * 100 - 400);
+    paragraphs.forEach((paragraph, i) => paragraph.props.ref({
+      getBoundingClientRect: () => ({ top: 40 + i * 100 - body.scrollTop }),
+    }));
+    hooks.flush();
+    return tree;
+  };
+  const refresh = async () => {
+    for (let i = 0; i < 3; i++) { render(); await settle(); }
+    return render();
+  };
+  await refresh();
+  return {
+    ...native, body, timers, progressWrites, render, refresh,
+    scroll(top) { body.scrollTo({ top }); byClass(render(), "reader-body").props.onScroll(); },
+    close() {
+      hooks.close();
+      if (previousDocument === undefined) delete globalThis.document;
+      else globalThis.document = previousDocument;
+    },
+  };
+}
+
+test("正文初显的滚动立即保存新位置，不等待恢复计时器，重挂载仍正确", async () => {
+  for (const start of [0, 5]) {
+    const page = await readerFixture(readerProgress(start));
+    const next = start + 5;
+    try {
+      assert.equal(page.body.scrollTop, start * 100);
+      page.scroll(page.body.scrollTop + 550);
+      assert.equal(loadProgress(READER_BOOK, 1), readerProgress(next));
+      assert.deepEqual(loadLastReading(), { bookUrl: READER_BOOK, chapterIndex: 1, progress: readerProgress(next) });
+    } finally { page.close(); }
+    await settle();
+    const reopened = await readerFixture();
+    try { assert.equal(reopened.body.scrollTop, next * 100); }
+    finally { reopened.close(); }
+  }
+});
+
+test("程序恢复与底部钳制产生的scroll不量化覆盖已保存字符进度", async () => {
+  for (const progress of [progressFromOffset(READER_SEGMENTS[5].start + 2, READER_TEXT.length), 1]) {
+    const page = await readerFixture(progress);
+    try {
+      page.timers.splice(0).forEach((callback) => callback());
+      page.scroll(page.body.scrollTop);
+      assert.equal(loadProgress(READER_BOOK, 1), progress);
+      assert.equal(loadLastReading().progress, progress);
+      page.scroll(550);
+      assert.equal(loadProgress(READER_BOOK, 1), readerProgress(5));
+    } finally { page.close(); }
+  }
+});
+
+test("切章恢复只忽略程序滚动，不带入旧章进度或吞掉新章早期滚动", async () => {
+  const page = await readerFixture(readerProgress(5));
+  try {
+    const previous = findElement(page.render(), (node) => node.type === "button" && node.props.children === "上一章");
+    previous.props.onClick();
+    await page.refresh();
+    assert.equal(page.body.scrollTop, 0);
+    assert.deepEqual(loadLastReading(), { bookUrl: READER_BOOK, chapterIndex: 0, progress: 0 });
+    page.scroll(450);
+    assert.deepEqual(loadLastReading(), { bookUrl: READER_BOOK, chapterIndex: 0, progress: readerProgress(4) });
+    assert.equal(page.progressWrites.at(-1).index, 0);
+  } finally { page.close(); }
 });
 
 test("前端、锁文件与桌面配置版本一致", async () => {

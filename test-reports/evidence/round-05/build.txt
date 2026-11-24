@@ -1,0 +1,24 @@
+=== run02 ===
+     Running BeforeDevCommand (`npm run dev`)
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+   Compiling moyu-reader-v2 v0.2.0 (<WORKSPACE>\src-tauri)
+    Building [=======================> ] 493/496: moyu-re…    Building [=======================> ] 494/496: moyu-re…    Building [=======================> ] 495/496: moyu-re…                                                                Finished `dev` profile [unoptimized + debuginfo] target(s) in 11.69s
+     Running `target\debug\moyu-reader-v2.exe`
+
+=== run08 ===
+     Running BeforeDevCommand (`npm run dev`)
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+   Compiling moyu-reader-v2 v0.2.0 (<WORKSPACE>\src-tauri)
+    Building [=======================> ] 493/496: moyu-re…    Building [=======================> ] 494/496: moyu-re…    Building [=======================> ] 495/496: moyu-re…                                                                Finished `dev` profile [unoptimized + debuginfo] target(s) in 14.79s
+     Running `target\debug\moyu-reader-v2.exe`
+[1124/133245.626:ERROR:ui\gfx\win\window_impl.cc:172] Failed to unregister class Chrome_WidgetWin_0. Error = 1412
+
+=== run09 ===
+     Running BeforeDevCommand (`npm run dev`)
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+   Compiling moyu-reader-v2 v0.2.0 (<WORKSPACE>\src-tauri)
+    Building [=======================> ] 493/496: moyu-re…    Building [=======================> ] 494/496: moyu-re…    Building [=======================> ] 495/496: moyu-re…                                                                Finished `dev` profile [unoptimized + debuginfo] target(s) in 16.48s
+     Running `target\debug\moyu-reader-v2.exe`
+[1124/134403.119:ERROR:ui\gfx\win\window_impl.cc:172] Failed to unregister class Chrome_WidgetWin_0. Error = 1412
+
+Run09 Chrome_WidgetWin_0 unregister1412 was logged during normal main-close; native exitCode0/empty windows is recorded separately. This excerpt is not a global no-error assertion.

@@ -1,0 +1,7304 @@
+{
+  "MR": "MR-016",
+  "observationRole": "Real UI import/dialog plus read-only SQL; independent HTTP/Rust probes below are attribution only",
+  "observations": [
+    {
+      "sourceLog": "private/task02-url-controls.json",
+      "sourceSHA256": "0e7dcab5728459688d934cfea43ff739ae13d46bc89c97c0ef131c702b718a28",
+      "step": "MR016-repeated-public-URL-dialog",
+      "utc": "2026-11-24T04:37:39.094Z",
+      "dialog": {
+        "type": "alert",
+        "message": "导入失败: 遭遇网站反爬拦截 (Cloudflare / 503 盾 / 验证码): 站点 [https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan] 触发防护质询 (检测到 Cloudflare/WAF 拦截)",
+        "url": "http://localhost:1420/#/sources"
+      }
+    },
+    {
+      "sourceLog": "private/task02-url-controls.json",
+      "sourceSHA256": "0e7dcab5728459688d934cfea43ff739ae13d46bc89c97c0ef131c702b718a28",
+      "step": "MR016-DB-unchanged",
+      "utc": "2026-11-24T04:37:40.400Z",
+      "tablesEqual": true
+    },
+    {
+      "sourceLog": "private/task02-url-controls.json",
+      "sourceSHA256": "0e7dcab5728459688d934cfea43ff739ae13d46bc89c97c0ef131c702b718a28",
+      "step": "MR016-same-unmodified-bytes-paste-control-dialog",
+      "utc": "2026-11-24T04:37:43.103Z",
+      "dialog": {
+        "type": "alert",
+        "message": "成功导入 22 条书源",
+        "url": "http://localhost:1420/#/sources"
+      }
+    },
+    {
+      "sourceLog": "private/task02-url-controls.json",
+      "sourceSHA256": "0e7dcab5728459688d934cfea43ff739ae13d46bc89c97c0ef131c702b718a28",
+      "step": "MR016-same-unmodified-bytes-paste-control-after",
+      "utc": "2026-11-24T04:37:44.445Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:37:44.431Z",
+        "url": "http://localhost:1420/#/sources",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 5971,
+        "textSHA256": "1095e25a6f18ae7dd183362d6781ed776a623c413aae1281b2076b2cbd239ab6",
+        "uiExcerpt": "← 书架\n书源管理\n发现设置\n共 184 个书源 · 启用 174 个\n全选\n取消\n删除选中",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "全选",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "取消",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除选中",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清空",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "text"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "导入 URL",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "TEXTAREA",
+            "text": "",
+            "disabled": false,
+            "type": "textarea"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "粘贴导入",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {}
+      },
+      "database": {
+        "sha256": "be61af511ffdacca90c20860a53d8a9182e4c0ac784786ed502fa8bd8135e6bb",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [],
+        "sourceCount": 184,
+        "enabledCount": 174,
+        "enabledOrigins": [
+          "https://www.cthulhuclub.com",
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [],
+        "tocCaches": []
+      }
+    },
+    {
+      "sourceLog": "private/task02-url-controls.json",
+      "sourceSHA256": "0e7dcab5728459688d934cfea43ff739ae13d46bc89c97c0ef131c702b718a28",
+      "step": "clear-only-QA-before-positive-URL-cleared",
+      "utc": "2026-11-24T04:37:44.694Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:37:44.687Z",
+        "url": "http://localhost:1420/#/sources",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 89,
+        "textSHA256": "617898d3846189bb86f8f1fc59cbed935d6a17c03da31bb49cc3e5d12b500e48",
+        "uiExcerpt": "← 书架\n书源管理\n发现设置\n共 0 个书源 · 启用 0 个\n全选\n取消\n删除选中",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "全选",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "取消",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除选中",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清空",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "text"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "导入 URL",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "TEXTAREA",
+            "text": "",
+            "disabled": false,
+            "type": "textarea"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "粘贴导入",
+            "disabled": true,
+            "type": "submit"
+          }
+        ],
+        "moyu": {}
+      },
+      "database": {
+        "sha256": "daa65b2c61a578b092969037ef4b30ce6b07e1801c8c02e1cbd82ef73a72a822",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [],
+        "sourceCount": 0,
+        "enabledCount": 0,
+        "enabledOrigins": [],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [],
+        "tocCaches": []
+      }
+    },
+    {
+      "sourceLog": "private/task02-url-controls.json",
+      "sourceSHA256": "0e7dcab5728459688d934cfea43ff739ae13d46bc89c97c0ef131c702b718a28",
+      "step": "valid-external-URL-positive-dialog",
+      "utc": "2026-11-24T04:37:47.101Z",
+      "dialog": {
+        "type": "alert",
+        "message": "成功导入 164 个书源",
+        "url": "http://localhost:1420/#/sources"
+      }
+    },
+    {
+      "sourceLog": "private/task02-url-controls.json",
+      "sourceSHA256": "0e7dcab5728459688d934cfea43ff739ae13d46bc89c97c0ef131c702b718a28",
+      "step": "valid-external-URL-positive-after",
+      "utc": "2026-11-24T04:37:48.446Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:37:48.434Z",
+        "url": "http://localhost:1420/#/sources",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 5358,
+        "textSHA256": "a04a92e3ac6431d0342a741800a73984ee6411cd2fdb7d48066680706614c3af",
+        "uiExcerpt": "← 书架\n书源管理\n发现设置\n共 164 个书源 · 启用 164 个\n全选\n取消\n删除选中",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "全选",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "取消",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除选中",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清空",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "text"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "导入 URL",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "TEXTAREA",
+            "text": "",
+            "disabled": false,
+            "type": "textarea"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "粘贴导入",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {}
+      },
+      "database": {
+        "sha256": "c50532744cebfc058f6a1e4a66ba0fb24bf885860e28ee7274ad89a4536aea16",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [],
+        "sourceCount": 164,
+        "enabledCount": 164,
+        "enabledOrigins": [
+          "https://www.cthulhuclub.com",
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [],
+        "tocCaches": []
+      }
+    },
+    {
+      "sourceLog": "private/task02-url-controls.json",
+      "sourceSHA256": "0e7dcab5728459688d934cfea43ff739ae13d46bc89c97c0ef131c702b718a28",
+      "step": "focused-eight-unmodified-paste-dialog",
+      "utc": "2026-11-24T04:37:50.101Z",
+      "dialog": {
+        "type": "alert",
+        "message": "成功导入 8 条书源",
+        "url": "http://localhost:1420/#/sources"
+      }
+    },
+    {
+      "sourceLog": "private/task02-url-controls.json",
+      "sourceSHA256": "0e7dcab5728459688d934cfea43ff739ae13d46bc89c97c0ef131c702b718a28",
+      "step": "focused-eight-unmodified-paste-after",
+      "utc": "2026-11-24T04:37:51.351Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:37:51.348Z",
+        "url": "http://localhost:1420/#/sources",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 320,
+        "textSHA256": "9acc40a749c7a3003bcd12889da72cfec2af954e1f12753c994cce183d270198",
+        "uiExcerpt": "← 书架\n书源管理\n发现设置\n共 8 个书源 · 启用 8 个\n全选\n取消\n删除选中",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "全选",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "取消",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除选中",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清空",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "text"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "导入 URL",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "TEXTAREA",
+            "text": "",
+            "disabled": false,
+            "type": "textarea"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "粘贴导入",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {}
+      },
+      "database": {
+        "sha256": "92f2851b3c531278c97d69d3e368e058d2e8c6be02b91caf9c07b59a55610727",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [],
+        "sourceCount": 8,
+        "enabledCount": 8,
+        "enabledOrigins": [
+          "http://www.yetianlian.info",
+          "https://so.ihuaben.com",
+          "https://m.zhulang.com",
+          "https://www.cthulhuclub.com",
+          "https://m.ahfgb.com/",
+          "https://m.zhuishu.com/",
+          "http://m.9191net.com",
+          "https://www.biquge7.top/"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [],
+        "tocCaches": []
+      }
+    },
+    {
+      "sourceLog": "private/task11-live-url-attribution.json",
+      "sourceSHA256": "86d5d64a369945048ce16aa03a78172a43ba971a65b7edfcc05c1b64c3c85896",
+      "step": "xiu2-valid-public-URL-repeat-dialog",
+      "utc": "2026-11-24T05:14:35.205Z",
+      "dialog": {
+        "type": "alert",
+        "message": "导入失败: 遭遇网站反爬拦截 (Cloudflare / 503 盾 / 验证码): 站点 [https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan] 触发防护质询 (检测到 Cloudflare/WAF 拦截)",
+        "url": "http://localhost:1420/#/sources"
+      }
+    },
+    {
+      "sourceLog": "private/task11-live-url-attribution.json",
+      "sourceSHA256": "86d5d64a369945048ce16aa03a78172a43ba971a65b7edfcc05c1b64c3c85896",
+      "step": "xiu2-valid-public-URL-repeat-after",
+      "utc": "2026-11-24T05:14:36.402Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:14:36.398Z",
+        "url": "http://localhost:1420/#/sources",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 359,
+        "textSHA256": "3cf75b4a98c7566f83ba21ff4d0e9b232dbdbfc9bd2c43b05400b49a6bb62d57",
+        "uiExcerpt": "← 书架\n书源管理\n发现设置\n共 9 个书源 · 启用 2 个\n全选\n取消\n删除选中",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "全选",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "取消",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除选中",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清空",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "text"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "导入 URL",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "TEXTAREA",
+            "text": "",
+            "disabled": false,
+            "type": "textarea"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "粘贴导入",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "checkbox"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "删除",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}"
+        }
+      },
+      "database": {
+        "sha256": "6d58d8439baa16e40294a8490f9e215d19ecd862876a32da793b4873b660c8b2",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "b8e47e0848c1cc2b13cf1e6e4a156bf3e2cbba9e49e068ad541f2a5e1de0740b"
+          }
+        ],
+        "sourceCount": 9,
+        "enabledCount": 2,
+        "enabledOrigins": [
+          "http://www.yetianlian.info",
+          "http://m.yetianlian.org/"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task11-live-url-attribution.json",
+      "sourceSHA256": "86d5d64a369945048ce16aa03a78172a43ba971a65b7edfcc05c1b64c3c85896",
+      "step": "xiu2-failure-protects-tables",
+      "utc": "2026-11-24T05:14:36.460Z",
+      "tableComparisons": [
+        {
+          "name": "books",
+          "same": true
+        },
+        {
+          "name": "book_sources",
+          "same": true
+        },
+        {
+          "name": "chapter_cache",
+          "same": true
+        },
+        {
+          "name": "chapter_list_cache",
+          "same": true
+        }
+      ],
+      "storageSame": true
+    }
+  ],
+  "remoteImportIPC": [
+    {
+      "sourceLog": "private/task02-url-controls-network.jsonl",
+      "sourceSHA256": "5f124f1835cbbb82952ddfcca5e929c37617080a96037731364ef441b4f343a4",
+      "utc": "2026-11-24T04:37:38.880Z",
+      "CDPRequestId": "9800.50",
+      "ipcUrl": "http://ipc.localhost/import_remote_sources",
+      "args": {
+        "url": "https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan"
+      }
+    },
+    {
+      "sourceLog": "private/task02-url-controls-network.jsonl",
+      "sourceSHA256": "5f124f1835cbbb82952ddfcca5e929c37617080a96037731364ef441b4f343a4",
+      "utc": "2026-11-24T04:37:45.906Z",
+      "CDPRequestId": "9800.54",
+      "ipcUrl": "http://ipc.localhost/import_remote_sources",
+      "args": {
+        "url": "https://www.yckceo.com/yuedu/shuyuans/json/id/1335.json"
+      }
+    },
+    {
+      "sourceLog": "private/task11-live-url-attribution-network.jsonl",
+      "sourceSHA256": "0826fc89305c87c66b463571f8c5b68574f0e848dc99a37988bf9b6026fd2ce6",
+      "utc": "2026-11-24T05:14:34.606Z",
+      "CDPRequestId": "20640.155",
+      "ipcUrl": "http://ipc.localhost/import_remote_sources",
+      "args": {
+        "url": "https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan"
+      }
+    }
+  ],
+  "publicPositive": {
+    "utc": "2026-11-24T04:29:10.889Z",
+    "name": "yck-1335",
+    "url": "https://www.yckceo.com/yuedu/shuyuans/json/id/1335.json",
+    "finalUrl": "https://gcore.jsdelivr.net/gh/mumuceo/file01/202611/15431_b9199b63f266e6ea1e222a6ef12b7ea0.json",
+    "status": 200,
+    "bytes": 2709698,
+    "sha256": "874efe33cbe38b7dcf830704b5bd0614b9485fe1974a20d9c09030ebec07df30"
+  },
+  "xiu2Attribution": {
+    "role": "Independent attribution using current NetworkClient/RuleEngine included unchanged. Not the application's external response capture; not a UI business pass.",
+    "networkSourceSHA256": "6ec21723bbd316eb81de53dbb3c7dfa559c3282ec14d7601d6fc64e1a265efb4",
+    "originalDownloadSHA256": "00644eda44f0fcabcfc015a024480376638d5e7a381a2010aeedfca5aa797845",
+    "getHtml": {
+      "error": "遭遇网站反爬拦截 (Cloudflare / 503 盾 / 验证码): 站点 [https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan] 触发防护质询 (检测到 Cloudflare/WAF 拦截)",
+      "ok": false
+    },
+    "transport": {
+      "bytes": 163824,
+      "finalUrl": "https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
+      "jsonParseOk": true,
+      "markerObjects": [
+        {
+          "index": 3,
+          "insideSourceRule": true
+        },
+        {
+          "index": 13,
+          "insideSourceRule": true
+        },
+        {
+          "index": 14,
+          "insideSourceRule": true
+        },
+        {
+          "index": 15,
+          "insideSourceRule": true
+        },
+        {
+          "index": 16,
+          "insideSourceRule": true
+        },
+        {
+          "index": 20,
+          "insideSourceRule": true
+        }
+      ],
+      "sameAsOriginalDownload": true,
+      "sha256": "00644eda44f0fcabcfc015a024480376638d5e7a381a2010aeedfca5aa797845",
+      "sourceCount": 22,
+      "status": 200,
+      "unchangedShieldClassifierResult": true
+    }
+  },
+  "note": "Success import22 added20 distinct origins to the existing164-source QA set (164→184); valid yck external positive was separately executed after UI clearing QA to0, producing164/164. task01 labels pre-import-empty and source-empty are not evidence of zero sources (SQL already164)."
+}

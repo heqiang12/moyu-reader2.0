@@ -130,6 +130,11 @@ impl NetworkClient {
 
 /// 识别是否属于 Cloudflare 5s 盾、人机验证等防护拦截页
 fn is_shield_detected(content: &str) -> bool {
+    // JSON规则/说明中的防护词不是HTML质询页；真实HTML防护和HTTP错误仍正常识别。
+    let trimmed = content.trim().trim_start_matches('\u{feff}');
+    if serde_json::from_str::<serde_json::Value>(trimmed).is_ok() {
+        return false;
+    }
     let lower = content.to_lowercase();
     lower.contains("cf-browser-verification")
         || lower.contains("challenge-platform")
@@ -170,6 +175,19 @@ mod tests {
         assert!(is_shield_detected("<html><title>Just a moment...</title><body>challenge-platform</body></html>"));
         assert!(is_shield_detected("<div class='cf-turnstile'></div>"));
         assert!(!is_shield_detected("<html><body><h1>第一章 破晓</h1><p>正文内容...</p></body></html>"));
+    }
+
+    #[test]
+    fn test_valid_json_with_protection_words_is_not_a_challenge_page() {
+        let sources = serde_json::json!([{
+            "bookSourceName": "正常书源",
+            "bookSourceUrl": "https://source.test",
+            "ruleContent": { "content": "<js>检查安全验证及challenge-platform</js>" },
+            "bookSourceComment": "Cloudflare cf-turnstile / WAF blocked"
+        }]).to_string();
+        assert!(!is_shield_detected(&sources));
+        assert!(!is_shield_detected(&format!(" \u{feff}{{\"bookSources\":{sources}}}\n")));
+        assert!(is_shield_detected("<html><body>安全验证 challenge-platform</body></html>"));
     }
 
     #[test]

@@ -1,0 +1,374 @@
+{
+  "ruleIdentity": {
+    "step": "MR017-unmodified-input-and-persisted-rules",
+    "utc": "2026-11-24T06:48:25.468Z",
+    "origin": "https://www.cthulhuclub.com",
+    "originalObjectSHA256": "34d6d782af621e5dae81cb08800fe1d86158af2509eaeab17d044a198d55b5f8",
+    "originalMaterialObjectSHA256": "34d6d782af621e5dae81cb08800fe1d86158af2509eaeab17d044a198d55b5f8",
+    "originalTemplate": "/?s={{key}}",
+    "storedSQLTemplate": "/?s={{key}}",
+    "storedTemplate": "/?s={{key}}",
+    "fieldComparisons": [
+      {
+        "field": "searchUrl",
+        "same": true,
+        "originalSHA256": "310789231d0cf587961e95add3f3bec4f3b814fb1569ce344775f23aaae41c88",
+        "storedSHA256": "310789231d0cf587961e95add3f3bec4f3b814fb1569ce344775f23aaae41c88"
+      },
+      {
+        "field": "ruleSearch",
+        "same": true,
+        "originalSHA256": "d685f7fc44a02e3513412be08ea1e0dce7716ed63fab370d1d12af42d0533076",
+        "storedSHA256": "d685f7fc44a02e3513412be08ea1e0dce7716ed63fab370d1d12af42d0533076"
+      },
+      {
+        "field": "ruleBookInfo",
+        "same": true,
+        "originalSHA256": "bc4cc51acbbfff9a2a0a714ee4bc627b9892df0721e9f791802e2218da7def94",
+        "storedSHA256": "bc4cc51acbbfff9a2a0a714ee4bc627b9892df0721e9f791802e2218da7def94"
+      },
+      {
+        "field": "ruleToc",
+        "same": true,
+        "originalSHA256": "f44b2b35772720e0dbc73e9dd5b18e08fe52385d706e2d6184c8a3a85c048abb",
+        "storedSHA256": "f44b2b35772720e0dbc73e9dd5b18e08fe52385d706e2d6184c8a3a85c048abb"
+      },
+      {
+        "field": "ruleContent",
+        "same": true,
+        "originalSHA256": "885d5b21815ca86f2de728f17602f00371dd4f45d42ad86ffb3a2bc237292336",
+        "storedSHA256": "885d5b21815ca86f2de728f17602f00371dd4f45d42ad86ffb3a2bc237292336"
+      }
+    ]
+  },
+  "submissions": [
+    {
+      "step": "MR017-real-original-relative-enter",
+      "term": "三体",
+      "mode": "enter",
+      "actionUTC": "2026-11-24T06:48:31.738Z",
+      "input": {
+        "utc": "2026-11-24T06:48:31.738Z",
+        "value": "三体",
+        "buttonText": "搜索",
+        "disabled": false
+      },
+      "requests": [
+        {
+          "utc": "2026-11-24T06:48:31.749Z",
+          "transportRequestId": "4236.244",
+          "keyword": "三体",
+          "requestId": "491da0af-2163-4b42-86a9-a91ad47cbdb5"
+        }
+      ],
+      "events": [
+        {
+          "utc": "2026-11-24T06:48:32.619Z",
+          "name": "search:item",
+          "requestId": "491da0af-2163-4b42-86a9-a91ad47cbdb5",
+          "origin": "https://www.cthulhuclub.com",
+          "count": 2,
+          "books": [
+            {
+              "name": "自深海而来，往群山而去",
+              "author": "",
+              "origin": "https://www.cthulhuclub.com",
+              "bookUrlSHA256": "35c4fde3cc3d8f43ac73d8123664d6b2b32b9a42070e52118e47aad0e70850d3"
+            },
+            {
+              "name": "【明日方舟世界观考据】博士克苏鲁原型：《查尔斯·迪克斯特·瓦德事件》——从炼金术到重铸未来",
+              "author": "",
+              "origin": "https://www.cthulhuclub.com",
+              "bookUrlSHA256": "9558e539dc92ddc77142c8ae87f8e821176d4df8d6af3cd30a51953312306942"
+            }
+          ]
+        },
+        {
+          "utc": "2026-11-24T06:48:32.619Z",
+          "name": "search:end",
+          "requestId": "491da0af-2163-4b42-86a9-a91ad47cbdb5",
+          "books": []
+        }
+      ],
+      "cards": [
+        {
+          "i": 0,
+          "title": "【明日方舟世界观考据】博士克苏鲁原型：《查尔斯·迪克斯特·瓦德事件》——从炼金术到重铸未来",
+          "author": "",
+          "count": "1 个书源"
+        },
+        {
+          "i": 1,
+          "title": "自深海而来，往群山而去",
+          "author": "",
+          "count": "1 个书源"
+        }
+      ],
+      "completedDOM": {
+        "utc": "2026-11-24T06:48:32.655Z",
+        "meta": "“三体” 找到 2 本相关书籍（搜索结束）",
+        "button": "搜索"
+      },
+      "matchingEnds": [
+        {
+          "requestId": "491da0af-2163-4b42-86a9-a91ad47cbdb5",
+          "keyword": "三体",
+          "matchingEndCount": 1,
+          "itemCount": 2
+        }
+      ]
+    },
+    {
+      "step": "MR017-real-original-relative-button",
+      "term": "三体",
+      "mode": "button",
+      "actionUTC": "2026-11-24T06:48:32.789Z",
+      "input": {
+        "utc": "2026-11-24T06:48:32.789Z",
+        "value": "三体",
+        "buttonText": "搜索",
+        "disabled": false
+      },
+      "requests": [
+        {
+          "utc": "2026-11-24T06:48:32.798Z",
+          "transportRequestId": "4236.253",
+          "keyword": "三体",
+          "requestId": "7f43fed8-3716-4b1c-918e-52e847402589"
+        }
+      ],
+      "events": [
+        {
+          "utc": "2026-11-24T06:48:32.855Z",
+          "name": "search:item",
+          "requestId": "7f43fed8-3716-4b1c-918e-52e847402589",
+          "origin": "https://www.cthulhuclub.com",
+          "count": 2,
+          "books": [
+            {
+              "name": "自深海而来，往群山而去",
+              "author": "",
+              "origin": "https://www.cthulhuclub.com",
+              "bookUrlSHA256": "35c4fde3cc3d8f43ac73d8123664d6b2b32b9a42070e52118e47aad0e70850d3"
+            },
+            {
+              "name": "【明日方舟世界观考据】博士克苏鲁原型：《查尔斯·迪克斯特·瓦德事件》——从炼金术到重铸未来",
+              "author": "",
+              "origin": "https://www.cthulhuclub.com",
+              "bookUrlSHA256": "9558e539dc92ddc77142c8ae87f8e821176d4df8d6af3cd30a51953312306942"
+            }
+          ]
+        },
+        {
+          "utc": "2026-11-24T06:48:32.855Z",
+          "name": "search:end",
+          "requestId": "7f43fed8-3716-4b1c-918e-52e847402589",
+          "books": []
+        }
+      ],
+      "cards": [
+        {
+          "i": 0,
+          "title": "【明日方舟世界观考据】博士克苏鲁原型：《查尔斯·迪克斯特·瓦德事件》——从炼金术到重铸未来",
+          "author": "",
+          "count": "1 个书源"
+        },
+        {
+          "i": 1,
+          "title": "自深海而来，往群山而去",
+          "author": "",
+          "count": "1 个书源"
+        }
+      ],
+      "completedDOM": {
+        "utc": "2026-11-24T06:48:32.860Z",
+        "meta": "“三体” 找到 2 本相关书籍（搜索结束）",
+        "button": "搜索"
+      },
+      "matchingEnds": [
+        {
+          "requestId": "7f43fed8-3716-4b1c-918e-52e847402589",
+          "keyword": "三体",
+          "matchingEndCount": 1,
+          "itemCount": 2
+        }
+      ]
+    },
+    {
+      "step": "MR017-independent-original-template-enter",
+      "term": "三体",
+      "mode": "enter",
+      "actionUTC": "2026-11-24T06:52:59.764Z",
+      "input": {
+        "utc": "2026-11-24T06:52:59.764Z",
+        "value": "三体",
+        "buttonText": "搜索",
+        "disabled": false
+      },
+      "requests": [
+        {
+          "utc": "2026-11-24T06:52:59.776Z",
+          "transportRequestId": "20320.53",
+          "keyword": "三体",
+          "requestId": "0cd07804-f708-4c65-84ef-342959a22fa3"
+        }
+      ],
+      "events": [
+        {
+          "utc": "2026-11-24T06:52:59.946Z",
+          "name": "search:item",
+          "requestId": "0cd07804-f708-4c65-84ef-342959a22fa3",
+          "origin": "https://www.cthulhuclub.com",
+          "count": 2,
+          "books": [
+            {
+              "name": "自深海而来，往群山而去",
+              "author": "",
+              "origin": "https://www.cthulhuclub.com",
+              "bookUrlSHA256": "35c4fde3cc3d8f43ac73d8123664d6b2b32b9a42070e52118e47aad0e70850d3"
+            },
+            {
+              "name": "【明日方舟世界观考据】博士克苏鲁原型：《查尔斯·迪克斯特·瓦德事件》——从炼金术到重铸未来",
+              "author": "",
+              "origin": "https://www.cthulhuclub.com",
+              "bookUrlSHA256": "9558e539dc92ddc77142c8ae87f8e821176d4df8d6af3cd30a51953312306942"
+            }
+          ]
+        },
+        {
+          "utc": "2026-11-24T06:52:59.946Z",
+          "name": "search:end",
+          "requestId": "0cd07804-f708-4c65-84ef-342959a22fa3",
+          "books": []
+        }
+      ],
+      "cards": [
+        {
+          "i": 0,
+          "title": "【明日方舟世界观考据】博士克苏鲁原型：《查尔斯·迪克斯特·瓦德事件》——从炼金术到重铸未来",
+          "author": "",
+          "count": "1 个书源"
+        },
+        {
+          "i": 1,
+          "title": "自深海而来，往群山而去",
+          "author": "",
+          "count": "1 个书源"
+        }
+      ],
+      "completedDOM": {
+        "utc": "2026-11-24T06:52:59.971Z",
+        "meta": "“三体” 找到 2 本相关书籍（搜索结束）",
+        "button": "搜索"
+      },
+      "matchingEnds": [
+        {
+          "requestId": "0cd07804-f708-4c65-84ef-342959a22fa3",
+          "keyword": "三体",
+          "matchingEndCount": 1,
+          "itemCount": 2
+        }
+      ]
+    },
+    {
+      "step": "MR017-independent-original-template-button",
+      "term": "三体",
+      "mode": "button",
+      "actionUTC": "2026-11-24T06:53:00.097Z",
+      "input": {
+        "utc": "2026-11-24T06:53:00.097Z",
+        "value": "三体",
+        "buttonText": "搜索",
+        "disabled": false
+      },
+      "requests": [
+        {
+          "utc": "2026-11-24T06:53:00.103Z",
+          "transportRequestId": "20320.62",
+          "keyword": "三体",
+          "requestId": "3f693ae0-6ee4-46cd-840d-a1f46184265a"
+        }
+      ],
+      "events": [
+        {
+          "utc": "2026-11-24T06:53:00.157Z",
+          "name": "search:item",
+          "requestId": "3f693ae0-6ee4-46cd-840d-a1f46184265a",
+          "origin": "https://www.cthulhuclub.com",
+          "count": 2,
+          "books": [
+            {
+              "name": "自深海而来，往群山而去",
+              "author": "",
+              "origin": "https://www.cthulhuclub.com",
+              "bookUrlSHA256": "35c4fde3cc3d8f43ac73d8123664d6b2b32b9a42070e52118e47aad0e70850d3"
+            },
+            {
+              "name": "【明日方舟世界观考据】博士克苏鲁原型：《查尔斯·迪克斯特·瓦德事件》——从炼金术到重铸未来",
+              "author": "",
+              "origin": "https://www.cthulhuclub.com",
+              "bookUrlSHA256": "9558e539dc92ddc77142c8ae87f8e821176d4df8d6af3cd30a51953312306942"
+            }
+          ]
+        },
+        {
+          "utc": "2026-11-24T06:53:00.157Z",
+          "name": "search:end",
+          "requestId": "3f693ae0-6ee4-46cd-840d-a1f46184265a",
+          "books": []
+        }
+      ],
+      "cards": [
+        {
+          "i": 0,
+          "title": "【明日方舟世界观考据】博士克苏鲁原型：《查尔斯·迪克斯特·瓦德事件》——从炼金术到重铸未来",
+          "author": "",
+          "count": "1 个书源"
+        },
+        {
+          "i": 1,
+          "title": "自深海而来，往群山而去",
+          "author": "",
+          "count": "1 个书源"
+        }
+      ],
+      "completedDOM": {
+        "utc": "2026-11-24T06:53:00.161Z",
+        "meta": "“三体” 找到 2 本相关书籍（搜索结束）",
+        "button": "搜索"
+      },
+      "matchingEnds": [
+        {
+          "requestId": "3f693ae0-6ee4-46cd-840d-a1f46184265a",
+          "keyword": "三体",
+          "matchingEndCount": 1,
+          "itemCount": 2
+        }
+      ]
+    }
+  ],
+  "protection": {
+    "step": "MR017-search-protected-business",
+    "utc": "2026-11-24T06:48:33.068Z",
+    "storageSame": true,
+    "allTables": [
+      {
+        "table": "books",
+        "same": true
+      },
+      {
+        "table": "book_sources",
+        "same": true
+      },
+      {
+        "table": "chapter_cache",
+        "same": true
+      },
+      {
+        "table": "chapter_list_cache",
+        "same": true
+      }
+    ]
+  },
+  "scope": "Original root-relative template and rules unchanged. Each Enter/button path and independent restart returned two items and one matching end. Not a full Legado URL/JS acceptance claim."
+}

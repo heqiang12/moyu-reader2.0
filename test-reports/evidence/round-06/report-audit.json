@@ -1,0 +1,908 @@
+{
+  "utc": "2026-11-24T08:51:50.632Z",
+  "method": "Read-only allowlisted re-expansion of preserved actual observations. This is a publication/claim audit, not an additional desktop business test. No new application issues inferred.",
+  "checks": {
+    "FSearchActualOneMatchingEndAnd50Items": true,
+    "FImmediateAndLaterTimesPreserved": true,
+    "FActualFirstLastBoundary": true,
+    "emptyNewRequestsZero": true,
+    "paintedScreenshotPrecedesActualEarlyInput": true,
+    "paintedPositionSavedAndResumed": true,
+    "normalFirstUIJoinedActualText": true,
+    "normalDrag420290SameSize": true,
+    "actualNativeRecordedKeysAllChanged": true,
+    "normalActualClickThrough": true,
+    "normalCrossBookThreeSamplesSameWindow": true,
+    "allThreeActualMainExit0": true,
+    "trayRootOnlyPaneAndNoOwnMenu": true,
+    "limitedSixExternalOutcomesOnly": true
+  },
+  "allChecksPassed": true,
+  "F": {
+    "search": {
+      "step": "disposable-F-real-search",
+      "actionUTC": "2026-11-24T07:08:51.265Z",
+      "utc": "2026-11-24T07:08:52.424Z",
+      "term": "凡人修仙传",
+      "mode": "button",
+      "requests": [
+        {
+          "utc": "2026-11-24T07:08:51.275Z",
+          "transportRequestId": "20320.764",
+          "keyword": "凡人修仙传",
+          "requestId": "4a320d44-30ec-486e-833c-ac2272591df8"
+        }
+      ],
+      "events": [
+        {
+          "utc": "2026-11-24T07:08:52.397Z",
+          "name": "search:item",
+          "requestId": "4a320d44-30ec-486e-833c-ac2272591df8",
+          "origin": "http://www.yetianlian.info",
+          "count": 50
+        },
+        {
+          "utc": "2026-11-24T07:08:52.398Z",
+          "name": "search:end",
+          "requestId": "4a320d44-30ec-486e-833c-ac2272591df8"
+        }
+      ],
+      "actualCardCount": 50,
+      "completedDOM": {
+        "utc": "2026-11-24T07:08:52.421Z",
+        "meta": "“凡人修仙传” 找到 50 本相关书籍（搜索结束）",
+        "button": "搜索"
+      },
+      "matchingEndCount": 1,
+      "itemCount": 50
+    },
+    "immediate": {
+      "utc": "2026-11-24T07:08:54.214Z",
+      "buttons": [
+        {
+          "text": "加入中…",
+          "disabled": true
+        },
+        {
+          "text": "开始阅读",
+          "disabled": false
+        }
+      ]
+    },
+    "completed": {
+      "recordUTC": "2026-11-24T07:08:54.283Z",
+      "actualDOMSnapshotUTC": "2026-11-24T07:08:54.262Z",
+      "buttons": [
+        {
+          "text": "← 返回",
+          "disabled": false
+        },
+        {
+          "text": "已在书架",
+          "disabled": true
+        },
+        {
+          "text": "开始阅读",
+          "disabled": false
+        }
+      ]
+    },
+    "firstPreviousDisabled": true,
+    "shelfBeforeDelete": {
+      "utc": "2026-11-24T07:08:58.365Z",
+      "actual2577of2577Text": true,
+      "books": [
+        {
+          "book_url": "http://www.yetianlian.info/yt91773/",
+          "name": "不一样的三体",
+          "dur_chapter_index": 1,
+          "total_chapter_num": 93
+        },
+        {
+          "book_url": "http://www.yetianlian.info/yt110360/",
+          "name": "我在三体科技造神！",
+          "dur_chapter_index": 1,
+          "total_chapter_num": 73
+        },
+        {
+          "book_url": "http://www.yetianlian.info/yt162/",
+          "name": "凡人修仙传",
+          "dur_chapter_index": 2576,
+          "total_chapter_num": 2577
+        }
+      ]
+    },
+    "interpretation": "The earlier reading-and-crud search projection did not expand raw event payloads; its matchingEnds=[] is a projection limitation. Here the preserved raw string search:end and item payload are parsed, not regenerated. Immediate .214Z is loading+disabled; .262Z is later DOM and .283Z its completed task record, not measured click latency."
+  },
+  "emptySearch": {
+    "utc": "2026-11-24T06:53:00.440Z",
+    "observedButton": {
+      "utc": "2026-11-24T06:53:00.304Z",
+      "disabled": true,
+      "text": "搜索"
+    },
+    "snapshotUTC": "2026-11-24T06:53:00.305Z",
+    "inputValue": "",
+    "actualNewRequestCount": 0,
+    "earlierCumulativeEventCount": 4,
+    "interpretation": "Combined real empty Enter and actual disabled-button click, no new start_search. Cumulative previous positive events are not new empty-input requests."
+  },
+  "earlyProgress": {
+    "painted": {
+      "observerLoadUTC": "2026-11-24T06:58:23.854Z",
+      "beforeSaveRecordUTC": "2026-11-24T06:58:23.870Z",
+      "actualScreenshotCompleteUTC": "2026-11-24T06:58:23.944Z",
+      "originalScreenshotSHA256": "d8eace425eab0ffdfe57a3b62afcb0f61f9d0a52d6a15f69b262a0c665bcc959",
+      "dispatchUTC": "2026-11-24T06:58:23.957Z",
+      "loadToDispatchMs": 103,
+      "actualTrustedWheelUTC": "2026-11-24T06:58:23.968Z",
+      "actualTrustedScrollUTC": "2026-11-24T06:58:23.969Z",
+      "loadToActualTrustedWheelMs": 114,
+      "before": {
+        "utc": "2026-11-24T06:58:23.957Z",
+        "scrollTop": 564,
+        "maxScrollTop": 2933,
+        "visibleParagraphIndex": 5,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.13180873180873182
+        },
+        "visibleTextLength": 92,
+        "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+      },
+      "after": {
+        "utc": "2026-11-24T06:58:23.983Z",
+        "scrollTop": 1114,
+        "maxScrollTop": 2933,
+        "visibleParagraphIndex": 10,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "visibleTextLength": 80,
+        "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+      },
+      "resume": {
+        "utc": "2026-11-24T06:58:25.645Z",
+        "scrollTop": 1074,
+        "maxScrollTop": 2933,
+        "visibleParagraphIndex": 10,
+        "progress": {
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "lastReading": {
+          "bookUrl": "http://www.yetianlian.info/yt110360/",
+          "chapterIndex": 1,
+          "progress": 0.2765072765072765
+        },
+        "visibleTextLength": 80,
+        "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+      }
+    },
+    "earlyAndStableDispatches": [
+      {
+        "step": "MR018-original-nonzero-ready-early-wheel",
+        "readyToWheelMs": 1,
+        "loadToWheelMs": 3,
+        "wheelUTC": "2026-11-24T06:55:15.736Z",
+        "beforeSnapshotUTC": "2026-11-24T06:55:15.735Z",
+        "observerLoadUTC": "2026-11-24T06:55:15.733Z",
+        "trustedWheelUTC": "2026-11-24T06:55:15.746Z",
+        "beforeSnapshotToTrustedWheelMs": 11,
+        "observerLoadToTrustedWheelMs": 13,
+        "before": {
+          "utc": "2026-11-24T06:55:15.735Z",
+          "scrollTop": 775,
+          "maxScrollTop": 2933,
+          "visibleParagraphIndex": 7,
+          "progress": {
+            "chapterIndex": 1,
+            "progress": 0.1920997920997921
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.1920997920997921
+          },
+          "visibleTextLength": 90,
+          "visibleTextSHA256": "4ca481618b783444d675cc5e79b672248fe378cd41aeef182b4601cc59e9368d"
+        },
+        "after": {
+          "utc": "2026-11-24T06:55:15.761Z",
+          "scrollTop": 1325,
+          "maxScrollTop": 2933,
+          "visibleParagraphIndex": 12,
+          "progress": {
+            "chapterIndex": 1,
+            "progress": 0.3521829521829522
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.3521829521829522
+          },
+          "visibleTextLength": 36,
+          "visibleTextSHA256": "28667e741e757118fa3d5bf2857320a14cf53eebf2d766d67541151903cdb4c8"
+        }
+      },
+      {
+        "step": "MR018-chapter-top-early-attempt-1",
+        "readyToWheelMs": 1,
+        "loadToWheelMs": 3,
+        "wheelUTC": "2026-11-24T06:55:17.493Z",
+        "beforeSnapshotUTC": "2026-11-24T06:55:17.492Z",
+        "observerLoadUTC": "2026-11-24T06:55:17.490Z",
+        "trustedWheelUTC": "2026-11-24T06:55:17.510Z",
+        "beforeSnapshotToTrustedWheelMs": 18,
+        "observerLoadToTrustedWheelMs": 20,
+        "before": {
+          "utc": "2026-11-24T06:55:17.492Z",
+          "scrollTop": 0,
+          "maxScrollTop": 2933,
+          "visibleParagraphIndex": 0,
+          "progress": {
+            "chapterIndex": 1,
+            "progress": 0
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0
+          },
+          "visibleTextLength": 39,
+          "visibleTextSHA256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645"
+        },
+        "after": {
+          "utc": "2026-11-24T06:55:17.517Z",
+          "scrollTop": 550,
+          "maxScrollTop": 2933,
+          "visibleParagraphIndex": 5,
+          "progress": {
+            "chapterIndex": 1,
+            "progress": 0.13180873180873182
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.13180873180873182
+          },
+          "visibleTextLength": 92,
+          "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        }
+      },
+      {
+        "step": "MR018-chapter-top-early-attempt-2",
+        "readyToWheelMs": 1,
+        "loadToWheelMs": 3,
+        "wheelUTC": "2026-11-24T06:55:19.286Z",
+        "beforeSnapshotUTC": "2026-11-24T06:55:19.285Z",
+        "observerLoadUTC": "2026-11-24T06:55:19.283Z",
+        "trustedWheelUTC": "2026-11-24T06:55:19.302Z",
+        "beforeSnapshotToTrustedWheelMs": 17,
+        "observerLoadToTrustedWheelMs": 19,
+        "before": {
+          "utc": "2026-11-24T06:55:19.285Z",
+          "scrollTop": 0,
+          "maxScrollTop": 2933,
+          "visibleParagraphIndex": 0,
+          "progress": {
+            "chapterIndex": 1,
+            "progress": 0
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0
+          },
+          "visibleTextLength": 39,
+          "visibleTextSHA256": "98c6154ccdf71630ce5525d6154069d3807cad88e3d01de1d9f11d5a62f56645"
+        },
+        "after": {
+          "utc": "2026-11-24T06:55:19.309Z",
+          "scrollTop": 550,
+          "maxScrollTop": 2933,
+          "visibleParagraphIndex": 5,
+          "progress": {
+            "chapterIndex": 1,
+            "progress": 0.13180873180873182
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.13180873180873182
+          },
+          "visibleTextLength": 92,
+          "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        }
+      },
+      {
+        "step": "MR018-early-wheel-immediate-return",
+        "readyToWheelMs": 1,
+        "loadToWheelMs": 2,
+        "wheelUTC": "2026-11-24T06:55:21.062Z",
+        "backUTC": "2026-11-24T06:55:21.080Z",
+        "wheelToBackMs": 18,
+        "beforeSnapshotUTC": "2026-11-24T06:55:21.061Z",
+        "observerLoadUTC": "2026-11-24T06:55:21.060Z",
+        "trustedWheelUTC": "2026-11-24T06:55:21.073Z",
+        "beforeSnapshotToTrustedWheelMs": 12,
+        "observerLoadToTrustedWheelMs": 13,
+        "before": {
+          "utc": "2026-11-24T06:55:21.061Z",
+          "scrollTop": 564,
+          "maxScrollTop": 2933,
+          "visibleParagraphIndex": 5,
+          "progress": {
+            "chapterIndex": 1,
+            "progress": 0.13180873180873182
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.13180873180873182
+          },
+          "visibleTextLength": 92,
+          "visibleTextSHA256": "191bf9c8439603343c335f7cb3de4bfa3825d1e4794ef98fd412290f538e7b5c"
+        },
+        "after": {
+          "utc": "2026-11-24T06:55:21.080Z",
+          "scrollTop": 1114,
+          "maxScrollTop": 2933,
+          "visibleParagraphIndex": 10,
+          "progress": {
+            "chapterIndex": 1,
+            "progress": 0.2765072765072765
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.2765072765072765
+          },
+          "visibleTextLength": 80,
+          "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+        }
+      },
+      {
+        "step": "MR018-settled-normal-wheel-control",
+        "readyToWheelMs": 1,
+        "loadToWheelMs": 1699,
+        "wheelUTC": "2026-11-24T06:55:22.843Z",
+        "beforeSnapshotUTC": "2026-11-24T06:55:22.842Z",
+        "observerLoadUTC": "2026-11-24T06:55:21.144Z",
+        "trustedWheelUTC": "2026-11-24T06:55:22.850Z",
+        "beforeSnapshotToTrustedWheelMs": 8,
+        "observerLoadToTrustedWheelMs": 1706,
+        "before": {
+          "utc": "2026-11-24T06:55:22.842Z",
+          "scrollTop": 1074,
+          "maxScrollTop": 2933,
+          "visibleParagraphIndex": 10,
+          "progress": {
+            "chapterIndex": 1,
+            "progress": 0.2765072765072765
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.2765072765072765
+          },
+          "visibleTextLength": 80,
+          "visibleTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00"
+        },
+        "after": {
+          "utc": "2026-11-24T06:55:22.865Z",
+          "scrollTop": 1474,
+          "maxScrollTop": 2933,
+          "visibleParagraphIndex": 13,
+          "progress": {
+            "chapterIndex": 1,
+            "progress": 0.367983367983368
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 1,
+            "progress": 0.367983367983368
+          },
+          "visibleTextLength": 80,
+          "visibleTextSHA256": "a30769da32dd6d71afe317741248575c29acd58c1daa9640734d3f296a1cf19c"
+        }
+      },
+      {
+        "step": "MR018-cross-chapter-cached-success-early-input",
+        "readyToWheelMs": 1,
+        "loadToWheelMs": 3,
+        "wheelUTC": "2026-11-24T06:55:22.999Z",
+        "beforeSnapshotUTC": "2026-11-24T06:55:22.998Z",
+        "observerLoadUTC": "2026-11-24T06:55:22.996Z",
+        "trustedWheelUTC": "2026-11-24T06:55:23.017Z",
+        "beforeSnapshotToTrustedWheelMs": 19,
+        "observerLoadToTrustedWheelMs": 21,
+        "before": {
+          "utc": "2026-11-24T06:55:22.998Z",
+          "scrollTop": 0,
+          "maxScrollTop": 3041,
+          "visibleParagraphIndex": 0,
+          "progress": {
+            "chapterIndex": 2,
+            "progress": 0
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 2,
+            "progress": 0
+          },
+          "visibleTextLength": 96,
+          "visibleTextSHA256": "7d86ec2dfa926105ecb4985f61b1e74ff761a05d14977c0d749b89dca66a95ae"
+        },
+        "after": {
+          "utc": "2026-11-24T06:55:23.024Z",
+          "scrollTop": 550,
+          "maxScrollTop": 3041,
+          "visibleParagraphIndex": 5,
+          "progress": {
+            "chapterIndex": 2,
+            "progress": 0.14004106776180697
+          },
+          "lastReading": {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "chapterIndex": 2,
+            "progress": 0.14004106776180697
+          },
+          "visibleTextLength": 53,
+          "visibleTextSHA256": "0edc258c69697f0c3d891936e72233ed98b018181ed5a167a1b5357ab11af901"
+        }
+      }
+    ],
+    "interpretation": "Observer-loaded DOM, screenshot completion, CDP dispatch and actual trusted input use distinct clocks. The real pre-input screenshot completed .944Z before dispatch .957Z; trusted wheel .968Z remained within the previous120ms suppression window. Resuming snaps within the same shared segment, so1074 vs1114 pixels is not position loss."
+  },
+  "native": {
+    "firstNormalUI": {
+      "utc": "2026-11-24T07:19:03.657Z",
+      "mainHwnd": 1050374,
+      "stealthHwnd": 2295014,
+      "noCDP": true,
+      "noPrecreatedStealth": true,
+      "normalFirstUIEntry": true,
+      "mainExpectedTextPresent": true,
+      "stealthExpectedTextPresent": true,
+      "progressJoinedDigest": {
+        "length": 210,
+        "sha256": "3aa4bd330b81101015ebcb8f8ef86097f62f2769ff11b2577105b0231927162a"
+      },
+      "restored": {
+        "utc": "2026-11-24T07:18:58.266Z",
+        "expectedIndex0": 10,
+        "expectedN": 11,
+        "expectedTotal": 36,
+        "expectedStoredProgressBeforeRestart": 0.2765072765072765,
+        "expectedTextSHA256": "409f30bff912dd42cfddde3b79ba947558944d2f74a0b887cb1ecb8bd2d2dc00",
+        "expectedTextInActualUIA": true
+      },
+      "stealthWindow": {
+        "hwnd": 2295014,
+        "pid": 7084,
+        "left": 26,
+        "top": 26,
+        "right": 522,
+        "bottom": 131,
+        "visible": true,
+        "iconic": false,
+        "exStyle": 262424
+      }
+    },
+    "opacity": {
+      "utc": "2026-11-24T07:22:53.396Z",
+      "down35": true,
+      "up45": true
+    },
+    "drag": {
+      "utc": "2026-11-24T07:23:00.207Z",
+      "before": {
+        "hwnd": 2295014,
+        "pid": 7084,
+        "left": 26,
+        "top": 26,
+        "right": 522,
+        "bottom": 131,
+        "visible": true,
+        "iconic": false,
+        "exStyle": 262424
+      },
+      "after": {
+        "hwnd": 2295014,
+        "pid": 7084,
+        "left": 446,
+        "top": 316,
+        "right": 942,
+        "bottom": 421,
+        "visible": true,
+        "iconic": false,
+        "exStyle": 262424
+      },
+      "delta": {
+        "x": 420,
+        "y": 290
+      },
+      "sameSize": true
+    },
+    "actualKeyChain": {
+      "actualKeyObservationCount": 45,
+      "allObservedKeysChangedProgress": true,
+      "doubleWindow": [
+        {
+          "step": "C-second-first-segment-both-actual-double-window-comparison",
+          "utc": "2026-11-24T07:27:32.141Z",
+          "chapterIndex": 1,
+          "segmentN": 1,
+          "total": 36,
+          "stealthActualTextPresent": true,
+          "mainExpectedTextPresent": true
+        },
+        {
+          "step": "C-previous-chapter-last-both-actual-double-window-comparison",
+          "utc": "2026-11-24T07:27:37.543Z",
+          "chapterIndex": 0,
+          "segmentN": 27,
+          "total": 27,
+          "stealthActualTextPresent": true,
+          "mainExpectedTextPresent": true
+        },
+        {
+          "step": "C-success-second-chapter-top-both-actual-double-window-comparison",
+          "utc": "2026-11-24T07:27:43.001Z",
+          "chapterIndex": 1,
+          "segmentN": 1,
+          "total": 36,
+          "stealthActualTextPresent": true,
+          "mainExpectedTextPresent": true
+        },
+        {
+          "step": "C-second-last-segment-both-actual-double-window-comparison",
+          "utc": "2026-11-24T07:29:18.063Z",
+          "chapterIndex": 1,
+          "segmentN": 36,
+          "total": 36,
+          "stealthActualTextPresent": true,
+          "mainExpectedTextPresent": true
+        },
+        {
+          "step": "C-success-third-chapter-top-both-actual-double-window-comparison",
+          "utc": "2026-11-24T07:29:23.728Z",
+          "chapterIndex": 2,
+          "segmentN": 1,
+          "total": 38,
+          "stealthActualTextPresent": false,
+          "mainExpectedTextPresent": false
+        }
+      ]
+    },
+    "thirdTopFollowup": {
+      "utc": "2026-11-24T07:31:31.074Z",
+      "rawExpectedLength": 96,
+      "rawExpectedSHA256": "7d86ec2dfa926105ecb4985f61b1e74ff761a05d14977c0d749b89dca66a95ae",
+      "actualStealthLength": 92,
+      "actualStealthSHA256": "faaffb7d20c614aeb197b253a7a7ac3f7e4be11bd84e91018b3465b7589e4c72",
+      "actualMainLength": 92,
+      "actualMainSHA256": "faaffb7d20c614aeb197b253a7a7ac3f7e4be11bd84e91018b3465b7589e4c72",
+      "afterTrimSameText": true,
+      "actualThirdProgress": true,
+      "applicationDefectConclusion": false,
+      "originalFlags": {
+        "main": false,
+        "stealth": false
+      },
+      "rawExpectedLeadingCodepoints": [
+        32,
+        32,
+        32,
+        32
+      ]
+    },
+    "actualBottom": {
+      "utc": "2026-11-24T07:31:37.517Z",
+      "expectedCharacterProgressAfterActualPrev": 0.9999,
+      "stealthLast36": true,
+      "stealthLastText": true,
+      "mainLastText": true,
+      "mainVisibleThresholdIndex": 28,
+      "nativeCustomDivScrollPatternAvailable": false
+    },
+    "clickThrough": {
+      "utc": "2026-11-24T07:33:25.804Z",
+      "ordinary": {
+        "utc": "2026-11-24T07:33:19.8506379Z",
+        "x": 223,
+        "y": 215,
+        "hwnd": 1836248,
+        "root": 2295014,
+        "receiverPid": 7084,
+        "owned": true
+      },
+      "through": {
+        "utc": "2026-11-24T07:33:23.1660436Z",
+        "x": 223,
+        "y": 215,
+        "hwnd": 1181112,
+        "root": 1050374,
+        "receiverPid": 7084,
+        "owned": true
+      },
+      "actualMainShelf": true,
+      "passStyle": 786744
+    },
+    "hiddenCrossBook": [
+      {
+        "step": "first-normal-bosskey-C-bottom-real-text-comparison",
+        "utc": "2026-11-24T07:45:37.123Z",
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "chapterIndex": 1,
+        "n": 36,
+        "total": 36,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "expectedTextSHA256": "a66341375f903c30d082c18ecc840e6477f55cac3fe9b238b71ee576352b2eb9",
+        "stealthProgress": true,
+        "stealthTextMatch": true,
+        "mainTextMatch": true,
+        "normalNoCDP": true,
+        "actualSameHWND": 2098846
+      },
+      {
+        "step": "hidden-cross-book-A-reopen-real-text-comparison",
+        "utc": "2026-11-24T07:45:49.326Z",
+        "bookUrl": "http://www.yetianlian.info/yt91773/",
+        "chapterIndex": 1,
+        "n": 10,
+        "total": 36,
+        "bodySHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3",
+        "expectedTextSHA256": "7c4983faee0291e6598974f443dd3090fa56ee821634ed697abaf82cfb74f479",
+        "stealthProgress": true,
+        "stealthTextMatch": true,
+        "mainTextMatch": true,
+        "normalNoCDP": true,
+        "actualSameHWND": 2098846
+      },
+      {
+        "step": "hidden-cross-book-C-bottom-reopen-real-text-comparison",
+        "utc": "2026-11-24T07:46:02.972Z",
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "chapterIndex": 1,
+        "n": 36,
+        "total": 36,
+        "bodySHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470",
+        "expectedTextSHA256": "a66341375f903c30d082c18ecc840e6477f55cac3fe9b238b71ee576352b2eb9",
+        "stealthProgress": true,
+        "stealthTextMatch": true,
+        "mainTextMatch": true,
+        "normalNoCDP": true,
+        "actualSameHWND": 2098846
+      }
+    ],
+    "hiddenCrossBookResult": {
+      "utc": "2026-11-24T07:46:11.334Z",
+      "actualNormalFirstBosskey": true,
+      "sameWindowReused": true
+    },
+    "exits": [
+      {
+        "step": "normal-main-close-hidden-stealth-result",
+        "utc": "2026-11-24T07:38:05.155Z",
+        "waitResult": 0,
+        "exitCodeRead": true,
+        "exitCode": 0,
+        "ownWindowsGone": true
+      },
+      {
+        "step": "normal-no-stealth-exit",
+        "utc": "2026-11-24T07:42:31.744Z",
+        "waitResult": 0,
+        "exitCodeRead": true,
+        "exitCode": 0,
+        "ownWindowsGone": true
+      },
+      {
+        "step": "normal-visible-stealth-main-exit",
+        "utc": "2026-11-24T07:48:24.694Z",
+        "waitResult": 0,
+        "exitCodeRead": true,
+        "exitCode": 0,
+        "ownWindowsGone": true,
+        "stealthBeforeVisible": true
+      }
+    ],
+    "scope": "Native input and fresh UIA observations only; chapter chain uses actual already-cached bodies. Earlier task09 timeout and unexecuted later plans are not counted. Third-top raw false flags remain preserved and are explained by the later actual whitespace/hash audit."
+  },
+  "tray": {
+    "rightClickRecordUTC": "2026-11-24T07:47:42.560Z",
+    "callbackHwnd": 2426684,
+    "icon": [
+      {
+        "uid": 2,
+        "callbackHwnd": 2426684,
+        "HRESULT": 0,
+        "left": 1634,
+        "top": 1032,
+        "right": 1666,
+        "bottom": 1080
+      }
+    ],
+    "actualPointer": {
+      "ownedIconUid": 2,
+      "callbackHwnd": 2426684,
+      "x": 1650,
+      "y": 1056,
+      "rootClass": "Shell_TrayWnd",
+      "rootHwnd": 65784,
+      "receiverPid": 7376
+    },
+    "ownIconPointUIA": {
+      "type": "ControlType.Pane",
+      "class": "Shell_TrayWnd",
+      "pid": 7376,
+      "left": 0,
+      "top": 1032,
+      "width": 1920,
+      "height": 48,
+      "enabled": true,
+      "offscreen": false
+    },
+    "actualOwnedMenuCount": 0,
+    "noInjectedCallback": true,
+    "previousLeftRestoreFlag": false,
+    "conclusion": "TC30/31 unconfirmed, not pass or application defect. Exact icon rectangle and cursor do not prove icon-specific UIA target or actual message delivery; root is only the whole Explorer Shell_TrayWnd Pane, no own menu observed. Native main focus restoration is not a tray pass."
+  },
+  "external": {
+    "utc": "2026-11-24T07:04:04.016Z",
+    "scope": "Six preserved one-off external GETs, diagnostic selection only. Not Tauri external response captures or business body-failure/retry evidence. No challenge solving or further expansion.",
+    "outcomes": [
+      {
+        "origin": "https://www.deqixs.com",
+        "start": "2026-11-24T07:03:57.564Z",
+        "end": "2026-11-24T07:04:03.039Z",
+        "error": "fetch failed",
+        "cause": "Client network socket disconnected before secure TLS connection was established",
+        "code": "ECONNRESET"
+      },
+      {
+        "origin": "https://www.kuaishu5.com",
+        "start": "2026-11-24T07:03:57.572Z",
+        "end": "2026-11-24T07:04:03.295Z",
+        "error": "fetch failed",
+        "cause": "unable to get local issuer certificate",
+        "code": "UNABLE_TO_GET_ISSUER_CERT_LOCALLY"
+      },
+      {
+        "origin": "https://cn.ttkan.co",
+        "start": "2026-11-24T07:03:57.573Z",
+        "end": "2026-11-24T07:04:03.699Z",
+        "status": 403,
+        "bytes": 186,
+        "sha256": "1a8f3d61e368a1790063b911c9560d9c310289f5950120ba3a1be811aece72e0",
+        "challenge": false
+      },
+      {
+        "origin": "https://www.dbxsd.com",
+        "start": "2026-11-24T07:03:57.574Z",
+        "end": "2026-11-24T07:04:03.299Z",
+        "status": 200,
+        "bytes": 1164,
+        "sha256": "1e7aa5eb4bafdfbd2245f2a931b478e0c3024e5d6b0f315361915d41ea1fdefa",
+        "title": "提示信息",
+        "challenge": false
+      },
+      {
+        "origin": "https://www.23qb.com",
+        "start": "2026-11-24T07:03:57.574Z",
+        "end": "2026-11-24T07:04:03.421Z",
+        "status": 403,
+        "bytes": 5842,
+        "sha256": "6a8403b3be9b6eae83b50e78becf09ac13f284200742f9aa7086daeb49c3a55b",
+        "title": "Just a moment...",
+        "challenge": true
+      },
+      {
+        "origin": "http://m.wjzxchina.com",
+        "start": "2026-11-24T07:03:57.575Z",
+        "end": "2026-11-24T07:04:04.015Z",
+        "status": 200,
+        "bytes": 61608,
+        "sha256": "dd3b26d61b95ba7b7f35735f3413367c7ef684c72141ed0c6bda95ae15f46cb7",
+        "title": "搜索结果-无极书院",
+        "challenge": false
+      }
+    ]
+  },
+  "sourceFiles": [
+    {
+      "file": "qa.json",
+      "bytes": 577,
+      "sha256": "8869ea2527849665087114050c796ebc235e9f57af62df20d62726fc1839038c"
+    },
+    {
+      "file": "private/r06-task07-disposable-normal-book-and-crud.json",
+      "bytes": 43366991,
+      "sha256": "1d57ea3285f39974efad62173aeb84bfb7a1efabf2725b51da2ef6e7500c7bdc"
+    },
+    {
+      "file": "private/r06-task03-independent-import-and-search.json",
+      "bytes": 15766478,
+      "sha256": "15c289d26ba96f9004235acbe5c97647ab1948f5f7df98643df5a27890526fdb"
+    },
+    {
+      "file": "private/r06-task04-early-real-scroll-boundaries.json",
+      "bytes": 13999151,
+      "sha256": "7dea307a95558d76d2de8fd1485305b7bd4cf32bdb58e115c80da0be3cad60a4"
+    },
+    {
+      "file": "private/r06-task04b-painted-early-scroll.json",
+      "bytes": 7866051,
+      "sha256": "7db170a42edddb1b4eddd78f5acf85d21e346959cf84112b13056f1d193e16e7"
+    },
+    {
+      "file": "private/r06-task08-native-independent-restart-first-open.json",
+      "bytes": 7941801,
+      "sha256": "529aa43554b1242cbf7ef5960eac3684b747505a495115cc2257528e90e3b052"
+    },
+    {
+      "file": "private/r06-task09-native-cross-chapter-bottom-sync.json",
+      "bytes": 5984933,
+      "sha256": "ca0aafb7e10aec6765b6f82fed44db6543ab51bb898ab42770d12563ddc0842d"
+    },
+    {
+      "file": "private/r06-task09b-native-cross-chapter-bottom-sync.json",
+      "bytes": 22020829,
+      "sha256": "1a198ab6cdbbb1e33afe3a7d8adfe4d3cdede687d9c62a85b92eb99cc0cb9a10"
+    },
+    {
+      "file": "private/r06-task09c-native-bottom-reopen.json",
+      "bytes": 15880857,
+      "sha256": "ec4088acc48bdca487624cee26d9b2c736ac27bf1b26be219b6bf8bda8393c3c"
+    },
+    {
+      "file": "private/r06-task10-native-clickthrough-tray-exit.json",
+      "bytes": 8014798,
+      "sha256": "4e2b3a714f4507c14dc9e97b761db9f331c104a1c7f2b37fe0cf7a97def5c352"
+    },
+    {
+      "file": "private/r06-task10b-native-tray-guard-and-normal-stop.json",
+      "bytes": 3945887,
+      "sha256": "179d42f64d981ca3a15a334eedb8480857ec0be96ca7cbdee8418c5b13bc221c"
+    },
+    {
+      "file": "private/r06-task11a-native-main-close-no-stealth.json",
+      "bytes": 1976499,
+      "sha256": "c6dbc4fd67d8d0a9300561339c7e9513bc7c40edaaa25d334263b48d8602ce80"
+    },
+    {
+      "file": "private/r06-task12-native-hidden-crossbook-bottom.json",
+      "bytes": 21955268,
+      "sha256": "bb354e09d72f6d5aeaf57ee6d48cdead0b0d8653b7a12fd278966cfa555cd59a"
+    },
+    {
+      "file": "private/r06-task13a-native-own-tray-menu-and-left.json",
+      "bytes": 33268,
+      "sha256": "94a4d03600f435b994de342f8678d7786a7811557e6da53098ddcac6754a4d17"
+    },
+    {
+      "file": "private/r06-task13b-native-final-visible-close.json",
+      "bytes": 7913677,
+      "sha256": "437d78cf6b91af10c1846ab3759c77e072817d7ed75ec7b1af1a0473e89d1f73"
+    },
+    {
+      "file": "private/r06-task06-final-three-normal-candidates.json",
+      "bytes": 10182144,
+      "sha256": "ab52794c1446b5606a33edca84cfc1a3d2f200e6be4dfdedbcd71a5b50b5bde9"
+    }
+  ],
+  "auditScriptSHA256": "1cca91398b2fcbaf8e0f6a3ea0e97426a47c6373a824ac23c9b1c36ef7a66b24"
+}

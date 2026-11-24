@@ -1,0 +1,1354 @@
+{
+  "stoppedSQL": {
+    "sha256": "06af586c6845a5ad9fabbf7f39bc518978e4e9c0ffde69bff32647576104dddc",
+    "integrity": [
+      {
+        "integrity_check": "ok"
+      }
+    ],
+    "books": [
+      {
+        "bookUrl": "http://www.yetianlian.info/yt91773/",
+        "name": "不一样的三体",
+        "origin": "http://www.yetianlian.info",
+        "chapterIndex": 1,
+        "totalChapters": 93,
+        "entireRowSHA256": "9565e46988e7dffb782535ce5a295af1ee67485529f170c09c1fa82e1f4cfdf2"
+      },
+      {
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "name": "我在三体科技造神！",
+        "origin": "http://www.yetianlian.info",
+        "chapterIndex": 1,
+        "totalChapters": 73,
+        "entireRowSHA256": "e20871e608951575e9b9ff0f43bf37ce182e9bae1879668122d98bc55308a565"
+      }
+    ],
+    "sourceCount": 10,
+    "enabledCount": 1,
+    "enabledOrigins": [
+      "http://www.yetianlian.info"
+    ],
+    "nonFocusedOriginURLsOmitted": true,
+    "bodyCaches": [
+      {
+        "bookUrl": "http://www.yetianlian.info/yt91773/",
+        "index": 0,
+        "chars": 2409,
+        "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+      },
+      {
+        "bookUrl": "http://www.yetianlian.info/yt91773/",
+        "index": 1,
+        "chars": 2260,
+        "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+      },
+      {
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "index": 0,
+        "chars": 1515,
+        "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+      },
+      {
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "index": 1,
+        "chars": 2405,
+        "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+      },
+      {
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "index": 2,
+        "chars": 2435,
+        "textSHA256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+      }
+    ],
+    "tocCaches": [
+      {
+        "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+        "count": 0,
+        "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "updatedAt": 1795495216547
+      },
+      {
+        "bookUrl": "http://www.yetianlian.info/yt91773/",
+        "count": 93,
+        "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+        "updatedAt": 1795495295795
+      },
+      {
+        "bookUrl": "http://www.yetianlian.info/yt110360/",
+        "count": 73,
+        "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+        "updatedAt": 1795497389071
+      }
+    ]
+  },
+  "checkpoint": {
+    "file": "checkpoints/run09-stopped.db",
+    "sha256": "06af586c6845a5ad9fabbf7f39bc518978e4e9c0ffde69bff32647576104dddc",
+    "integrity": [
+      {
+        "integrity_check": "ok"
+      }
+    ]
+  },
+  "profile": {
+    "file": "checkpoints/run09-stopped-profile",
+    "stoppedProfileProcessCount": 0,
+    "fileCount": 412,
+    "sameAllFiles": true,
+    "aggregateSHA256": "03a4912600c80f63e3cb515f5ed39e4d8a246b16f40fdc56359f4884e877a608"
+  },
+  "localStorage": {
+    "utc": "2026-11-24T05:44:50.714Z",
+    "method": "Read-only LevelDB WAL parser; every physical record CRC32C and writebatch length validated; no SST exists; immutable stopped QA profile only",
+    "logs": [
+      {
+        "file": "000003.log",
+        "bytes": 3376,
+        "sha256": "f66292f123353c33fbbcb3cc8d4ee72b7d6159e69f142b8a4fc597ad93f07cda"
+      }
+    ],
+    "writeCount": 42,
+    "moyu": {
+      "moyu:fontSize": {
+        "value": "18",
+        "sequence": "25",
+        "file": "000003.log"
+      },
+      "moyu:lastReading": {
+        "value": "{\"bookUrl\":\"http://www.yetianlian.info/yt110360/\",\"chapterIndex\":1,\"progress\":0.1920997920997921}",
+        "sequence": "33",
+        "file": "000003.log"
+      },
+      "moyu:progress:http://www.yetianlian.info/yt91773/": {
+        "value": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+        "sequence": "9",
+        "file": "000003.log"
+      },
+      "moyu:theme": {
+        "value": "\"dark\"",
+        "sequence": "28",
+        "file": "000003.log"
+      },
+      "moyu:stealthSettings": {
+        "value": "{\"alpha\":0.55}",
+        "sequence": "41",
+        "file": "000003.log"
+      },
+      "moyu:progress:http://www.yetianlian.info/yt110360/": {
+        "value": "{\"chapterIndex\":1,\"progress\":0.1920997920997921}",
+        "sequence": "27",
+        "file": "000003.log"
+      }
+    }
+  },
+  "preRestartStorage": {
+    "sourceLog": "private/run08-stopped-localstorage-readonly.json",
+    "sourceSHA256": "3f6062e9d983483060310831b8a06dbebf5909f20f86a89507b5359efdb5e6b6",
+    "moyu": {
+      "moyu:fontSize": {
+        "value": "18",
+        "sequence": "25",
+        "file": "000003.log"
+      },
+      "moyu:lastReading": {
+        "value": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+        "sequence": "26",
+        "file": "000003.log"
+      },
+      "moyu:progress:http://www.yetianlian.info/yt91773/": {
+        "value": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+        "sequence": "9",
+        "file": "000003.log"
+      },
+      "moyu:theme": {
+        "value": "\"dark\"",
+        "sequence": "28",
+        "file": "000003.log"
+      },
+      "moyu:stealthSettings": {
+        "value": "{\"alpha\":0.55}",
+        "sequence": "14",
+        "file": "000003.log"
+      },
+      "moyu:progress:http://www.yetianlian.info/yt110360/": {
+        "value": "{\"chapterIndex\":1,\"progress\":0.1920997920997921}",
+        "sequence": "27",
+        "file": "000003.log"
+      }
+    }
+  },
+  "readOnlyVerification": {
+    "utc": "2026-11-24T05:51:11.9982241Z",
+    "sourceHEAD": "cb56b36a7c3a310ffe850a9fa355ac7273d59bb1",
+    "branch": "handoff/qa-20261124",
+    "statusBeforeReport": [],
+    "frozenCount": 43,
+    "frozenChanged": 0,
+    "frozenFiles": [
+      {
+        "path": ".cargo/config.toml",
+        "expected": "01c8fb92fe53d4341f408032cc13e60191b53814d552bf997239829a91fd4873",
+        "actual": "01c8fb92fe53d4341f408032cc13e60191b53814d552bf997239829a91fd4873",
+        "same": true
+      },
+      {
+        "path": ".opencode/agents/qa-real.md",
+        "expected": "d745d5722a9af120f1d8ffa63f74c284a08d757bfae8697c6815d322c58d321f",
+        "actual": "d745d5722a9af120f1d8ffa63f74c284a08d757bfae8697c6815d322c58d321f",
+        "same": true
+      },
+      {
+        "path": "AGENTS.md",
+        "expected": "3bf3f3de8f89ca99c182290c48f401be5b10806528a12a5fcbf6ce11041a4d59",
+        "actual": "3bf3f3de8f89ca99c182290c48f401be5b10806528a12a5fcbf6ce11041a4d59",
+        "same": true
+      },
+      {
+        "path": "package-lock.json",
+        "expected": "6a32a53513a5e94fc7c861ab097b30ae2416fc4a6418f5ac69bda51ec3d415fb",
+        "actual": "6a32a53513a5e94fc7c861ab097b30ae2416fc4a6418f5ac69bda51ec3d415fb",
+        "same": true
+      },
+      {
+        "path": "package.json",
+        "expected": "f0052b40832f0fcc43cb1e298b9d5080c7835d4d8db6e4efb92088b0cf653e82",
+        "actual": "f0052b40832f0fcc43cb1e298b9d5080c7835d4d8db6e4efb92088b0cf653e82",
+        "same": true
+      },
+      {
+        "path": "src-tauri/.cargo/config.toml",
+        "expected": "01c8fb92fe53d4341f408032cc13e60191b53814d552bf997239829a91fd4873",
+        "actual": "01c8fb92fe53d4341f408032cc13e60191b53814d552bf997239829a91fd4873",
+        "same": true
+      },
+      {
+        "path": "src-tauri/Cargo.lock",
+        "expected": "7b2f9c8215ef70c917fa2efe25b11c281de6ad2e44e126bebaafb9e2636e4ab7",
+        "actual": "7b2f9c8215ef70c917fa2efe25b11c281de6ad2e44e126bebaafb9e2636e4ab7",
+        "same": true
+      },
+      {
+        "path": "src-tauri/Cargo.toml",
+        "expected": "ff991d8b6ec68f751ad88075a8263a80e6cb7fae1a8a0d67d41510a81dfc39e3",
+        "actual": "ff991d8b6ec68f751ad88075a8263a80e6cb7fae1a8a0d67d41510a81dfc39e3",
+        "same": true
+      },
+      {
+        "path": "src-tauri/build.rs",
+        "expected": "4ae2333b11623039cc115e29b696e7ff5cdfcd5b7d628280ddf48fa733e6418d",
+        "actual": "4ae2333b11623039cc115e29b696e7ff5cdfcd5b7d628280ddf48fa733e6418d",
+        "same": true
+      },
+      {
+        "path": "src-tauri/capabilities/default.json",
+        "expected": "1ba2e413530476c304ee6f24a68844f95a11d56cfac980de0fad3dc22eeb4f30",
+        "actual": "1ba2e413530476c304ee6f24a68844f95a11d56cfac980de0fad3dc22eeb4f30",
+        "same": true
+      },
+      {
+        "path": "src-tauri/capabilities/stealth-drag.json",
+        "expected": "e306e4a1e52c4f59b7875662bb3e27e42948f1f83901b83d75451f77f640a8b2",
+        "actual": "e306e4a1e52c4f59b7875662bb3e27e42948f1f83901b83d75451f77f640a8b2",
+        "same": true
+      },
+      {
+        "path": "src-tauri/src/commands.rs",
+        "expected": "b213d5165e8c0c6a3be1a225b492f89824b37cf1d56393efe8ec1a63fb9a54fe",
+        "actual": "b213d5165e8c0c6a3be1a225b492f89824b37cf1d56393efe8ec1a63fb9a54fe",
+        "same": true
+      },
+      {
+        "path": "src-tauri/src/crawler.rs",
+        "expected": "f3b331b68174ef0d0e21a37318b027fff95fe97eba75ac7abc5fe4104ce6be9a",
+        "actual": "f3b331b68174ef0d0e21a37318b027fff95fe97eba75ac7abc5fe4104ce6be9a",
+        "same": true
+      },
+      {
+        "path": "src-tauri/src/db.rs",
+        "expected": "10fae247c4ccc62c9ff5a2e420c28322dbbf2ab6db31891d42f1e4a88bf18fd3",
+        "actual": "10fae247c4ccc62c9ff5a2e420c28322dbbf2ab6db31891d42f1e4a88bf18fd3",
+        "same": true
+      },
+      {
+        "path": "src-tauri/src/engine.rs",
+        "expected": "3572f2d0a440bbd2ca32071978a4a1d1abd3d572cd58bf87093704194d95e036",
+        "actual": "3572f2d0a440bbd2ca32071978a4a1d1abd3d572cd58bf87093704194d95e036",
+        "same": true
+      },
+      {
+        "path": "src-tauri/src/lib.rs",
+        "expected": "81d6ba92d87bc60b7755502791bee2b377a356409389e0fe8561069b9696da42",
+        "actual": "81d6ba92d87bc60b7755502791bee2b377a356409389e0fe8561069b9696da42",
+        "same": true
+      },
+      {
+        "path": "src-tauri/src/main.rs",
+        "expected": "25df19f8b12fda55db3aa00f18b56679ffd9b830705d3aa4050b8144e2366378",
+        "actual": "25df19f8b12fda55db3aa00f18b56679ffd9b830705d3aa4050b8144e2366378",
+        "same": true
+      },
+      {
+        "path": "src-tauri/src/network.rs",
+        "expected": "6ec21723bbd316eb81de53dbb3c7dfa559c3282ec14d7601d6fc64e1a265efb4",
+        "actual": "6ec21723bbd316eb81de53dbb3c7dfa559c3282ec14d7601d6fc64e1a265efb4",
+        "same": true
+      },
+      {
+        "path": "src-tauri/src/stealth.rs",
+        "expected": "c93ca8e712d051a5d4d8b83246f57be5ceb8d465ca16ed98e93a2a5ce93d844d",
+        "actual": "c93ca8e712d051a5d4d8b83246f57be5ceb8d465ca16ed98e93a2a5ce93d844d",
+        "same": true
+      },
+      {
+        "path": "src-tauri/src/types.rs",
+        "expected": "d001dab21fd6ad361ff0b0100f13682ec0410eb93d2b4f84e5c799c5ea43b568",
+        "actual": "d001dab21fd6ad361ff0b0100f13682ec0410eb93d2b4f84e5c799c5ea43b568",
+        "same": true
+      },
+      {
+        "path": "src-tauri/tauri.conf.json",
+        "expected": "792a094fabbed38330a07f1cf97978a914b199da5ef970e1200e4fe032201258",
+        "actual": "792a094fabbed38330a07f1cf97978a914b199da5ef970e1200e4fe032201258",
+        "same": true
+      },
+      {
+        "path": "src-tauri/tests/integration_tests.rs",
+        "expected": "fc1d3de3d5e9eb1e0118240f869422b29a72810e574771df3f82317cda73b4b5",
+        "actual": "fc1d3de3d5e9eb1e0118240f869422b29a72810e574771df3f82317cda73b4b5",
+        "same": true
+      },
+      {
+        "path": "src/App.css",
+        "expected": "0f9aca9265668c4a05fab60338746d951e2ef8b85b4bde9026b03406b0091729",
+        "actual": "0f9aca9265668c4a05fab60338746d951e2ef8b85b4bde9026b03406b0091729",
+        "same": true
+      },
+      {
+        "path": "src/App.tsx",
+        "expected": "92b0573d5147d36f8229d260654e00b42f970b7579065948290e1c93ce4b6cee",
+        "actual": "92b0573d5147d36f8229d260654e00b42f970b7579065948290e1c93ce4b6cee",
+        "same": true
+      },
+      {
+        "path": "src/api/client.ts",
+        "expected": "920265baf254a029070e4ff1eb639973d742d266b91eec696aaee25aac40943e",
+        "actual": "920265baf254a029070e4ff1eb639973d742d266b91eec696aaee25aac40943e",
+        "same": true
+      },
+      {
+        "path": "src/api/types.ts",
+        "expected": "cf20f84f6c4b8aa41cd4f7650ad85a2f665e815db6e2f78af10d8549e9501547",
+        "actual": "cf20f84f6c4b8aa41cd4f7650ad85a2f665e815db6e2f78af10d8549e9501547",
+        "same": true
+      },
+      {
+        "path": "src/assets/react.svg",
+        "expected": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+        "actual": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+        "same": true
+      },
+      {
+        "path": "src/components/BookCard.tsx",
+        "expected": "cbd5a8996bca9f772145ae061e8c189e16454e7afe2d636ce6646d8ce72b26a1",
+        "actual": "cbd5a8996bca9f772145ae061e8c189e16454e7afe2d636ce6646d8ce72b26a1",
+        "same": true
+      },
+      {
+        "path": "src/components/ConfirmModal.tsx",
+        "expected": "4748b8933101771137fb060caf9cdd84db2e495a6839321e89c0cc8a7ea6244d",
+        "actual": "4748b8933101771137fb060caf9cdd84db2e495a6839321e89c0cc8a7ea6244d",
+        "same": true
+      },
+      {
+        "path": "src/lib/segment.ts",
+        "expected": "a7c7392402f7afab50f988920def3f1007c934ea4f1007b20ed0805ace0c954b",
+        "actual": "a7c7392402f7afab50f988920def3f1007c934ea4f1007b20ed0805ace0c954b",
+        "same": true
+      },
+      {
+        "path": "src/lib/storage.ts",
+        "expected": "848d0130f41086cb478c78756f33f0d34e23363e0b0b5e8813e156bbe7d65ffe",
+        "actual": "848d0130f41086cb478c78756f33f0d34e23363e0b0b5e8813e156bbe7d65ffe",
+        "same": true
+      },
+      {
+        "path": "src/main.tsx",
+        "expected": "0941dbbcbfec8ad550918b32465f1b4b45c329ac502dbe2b29e9fa6b50aafc5b",
+        "actual": "0941dbbcbfec8ad550918b32465f1b4b45c329ac502dbe2b29e9fa6b50aafc5b",
+        "same": true
+      },
+      {
+        "path": "src/pages/BookDetailPage.tsx",
+        "expected": "ff22c4df166fb041f6a40a6b3d1a93b8de637e090c48f26785ac018a895f59b4",
+        "actual": "ff22c4df166fb041f6a40a6b3d1a93b8de637e090c48f26785ac018a895f59b4",
+        "same": true
+      },
+      {
+        "path": "src/pages/DiscoverPage.tsx",
+        "expected": "32759deb1ff3aceeac7599b782e613c03cee939c5ca748ff901813cbec0061fb",
+        "actual": "32759deb1ff3aceeac7599b782e613c03cee939c5ca748ff901813cbec0061fb",
+        "same": true
+      },
+      {
+        "path": "src/pages/ReaderPage.tsx",
+        "expected": "a33b202653587f1a5fb886a2bcea79fce33979d0bf09e94a5971b26b49d9357d",
+        "actual": "a33b202653587f1a5fb886a2bcea79fce33979d0bf09e94a5971b26b49d9357d",
+        "same": true
+      },
+      {
+        "path": "src/pages/SettingsPage.tsx",
+        "expected": "60a2d56afb95e94666e715ac7a5fef7b10bc5c81a95c8e9793f245e3ef77b084",
+        "actual": "60a2d56afb95e94666e715ac7a5fef7b10bc5c81a95c8e9793f245e3ef77b084",
+        "same": true
+      },
+      {
+        "path": "src/pages/ShelfPage.tsx",
+        "expected": "b80a72fc065f5f3ca8086b4fbadf09097b94bdf35998ddd8bcd13068459fdb2a",
+        "actual": "b80a72fc065f5f3ca8086b4fbadf09097b94bdf35998ddd8bcd13068459fdb2a",
+        "same": true
+      },
+      {
+        "path": "src/pages/SourcesPage.tsx",
+        "expected": "4bd0d12675b4cfe06f9b1634fa68048fea31c42e664583050a79d3b49d39b080",
+        "actual": "4bd0d12675b4cfe06f9b1634fa68048fea31c42e664583050a79d3b49d39b080",
+        "same": true
+      },
+      {
+        "path": "src/pages/StealthPage.tsx",
+        "expected": "c2c21290cd716599b2719d3135b7f01105d08b1351a412e2bfb19b06826f7aed",
+        "actual": "c2c21290cd716599b2719d3135b7f01105d08b1351a412e2bfb19b06826f7aed",
+        "same": true
+      },
+      {
+        "path": "src/vite-env.d.ts",
+        "expected": "424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92",
+        "actual": "424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92",
+        "same": true
+      },
+      {
+        "path": "tsconfig.json",
+        "expected": "cb4dd1777bc7f478cb417906c32099ae5e661865b3181df116ac70790e9a1a7e",
+        "actual": "cb4dd1777bc7f478cb417906c32099ae5e661865b3181df116ac70790e9a1a7e",
+        "same": true
+      },
+      {
+        "path": "tsconfig.node.json",
+        "expected": "6ec602b8aa146888c76f0b41ca3515f91f95919f6e6417a4670decaba8fcb982",
+        "actual": "6ec602b8aa146888c76f0b41ca3515f91f95919f6e6417a4670decaba8fcb982",
+        "same": true
+      },
+      {
+        "path": "vite.config.ts",
+        "expected": "d0c7e96eb844636ee7e73113ff6d194eb942d15398a00989d36335400ac8a86d",
+        "actual": "d0c7e96eb844636ee7e73113ff6d194eb942d15398a00989d36335400ac8a86d",
+        "same": true
+      }
+    ],
+    "formalPaths": [
+      {
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\com.moyu.reader2\\moyu_reader.db",
+        "initialExists": false,
+        "finalExists": false
+      },
+      {
+        "path": "C:\\Users\\Administrator\\AppData\\Local\\com.moyu.reader2\\moyu_reader.db",
+        "initialExists": false,
+        "finalExists": false
+      },
+      {
+        "path": "D:\\opencode-work\\moyu-reader\\moyu_reader.db",
+        "initialExists": false,
+        "finalExists": false
+      }
+    ],
+    "historicalPaths": [
+      {
+        "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\opencode\\qa-moyu-r01-20261123-135539",
+        "exists": false
+      },
+      {
+        "path": "D:\\mywork\\moyu-yuedu\\storage\\data\\default\\bookSource.json",
+        "exists": false
+      }
+    ],
+    "heldOwnedProcessCount": 0,
+    "ownershipChecks": [
+      {
+        "run": "run01",
+        "role": "launcher",
+        "pid": 12444,
+        "expectedCreated": "2026-11-24T04:24:57.9327808Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "conhost.exe",
+        "pid": 11168,
+        "expectedCreated": "2026-11-24T04:24:57.9368730Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "node.exe",
+        "pid": 9204,
+        "expectedCreated": "2026-11-24T04:24:58.3084800Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "cmd.exe",
+        "pid": 20364,
+        "expectedCreated": "2026-11-24T04:24:58.4175620Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "node.exe",
+        "pid": 3960,
+        "expectedCreated": "2026-11-24T04:24:58.4299740Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "cmd.exe",
+        "pid": 21216,
+        "expectedCreated": "2026-11-24T04:24:58.5252330Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "rustup.exe",
+        "pid": 8800,
+        "expectedCreated": "2026-11-24T04:24:59.0323300Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "node.exe",
+        "pid": 21348,
+        "expectedCreated": "2026-11-24T04:24:58.5968770Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "cargo.exe",
+        "pid": 17832,
+        "expectedCreated": "2026-11-24T04:24:59.0432010Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "cmd.exe",
+        "pid": 8448,
+        "expectedCreated": "2026-11-24T04:24:58.7003070Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "moyu-reader-v2.exe",
+        "pid": 7624,
+        "expectedCreated": "2026-11-24T04:25:12.0488630Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "node.exe",
+        "pid": 19500,
+        "expectedCreated": "2026-11-24T04:24:58.7127720Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "msedgewebview2.exe",
+        "pid": 20512,
+        "expectedCreated": "2026-11-24T04:25:12.1745290Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "esbuild.exe",
+        "pid": 19744,
+        "expectedCreated": "2026-11-24T04:24:58.8969400Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "msedgewebview2.exe",
+        "pid": 18836,
+        "expectedCreated": "2026-11-24T04:25:12.1846170Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "msedgewebview2.exe",
+        "pid": 18316,
+        "expectedCreated": "2026-11-24T04:25:12.2487560Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "msedgewebview2.exe",
+        "pid": 19800,
+        "expectedCreated": "2026-11-24T04:25:12.2526750Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "msedgewebview2.exe",
+        "pid": 21376,
+        "expectedCreated": "2026-11-24T04:25:12.2698030Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "msedgewebview2.exe",
+        "pid": 20160,
+        "expectedCreated": "2026-11-24T04:25:12.3260560Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run01",
+        "role": "cmd.exe",
+        "pid": 12444,
+        "expectedCreated": "2026-11-24T04:24:57.9327800Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "launcher",
+        "pid": 17760,
+        "expectedCreated": "2026-11-24T04:29:14.8857285Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "app",
+        "pid": 20836,
+        "expectedCreated": "2026-11-24T04:29:27.6884693Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "conhost.exe",
+        "pid": 15984,
+        "expectedCreated": "2026-11-24T04:29:14.8906320Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "node.exe",
+        "pid": 18600,
+        "expectedCreated": "2026-11-24T04:29:15.2425430Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "cmd.exe",
+        "pid": 8360,
+        "expectedCreated": "2026-11-24T04:29:15.3491160Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "node.exe",
+        "pid": 20096,
+        "expectedCreated": "2026-11-24T04:29:15.3615410Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "cmd.exe",
+        "pid": 5628,
+        "expectedCreated": "2026-11-24T04:29:15.4449700Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "rustup.exe",
+        "pid": 17676,
+        "expectedCreated": "2026-11-24T04:29:15.9520060Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "node.exe",
+        "pid": 20056,
+        "expectedCreated": "2026-11-24T04:29:15.5170340Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "cargo.exe",
+        "pid": 12424,
+        "expectedCreated": "2026-11-24T04:29:15.9623280Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "cmd.exe",
+        "pid": 18416,
+        "expectedCreated": "2026-11-24T04:29:15.6213080Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "moyu-reader-v2.exe",
+        "pid": 20836,
+        "expectedCreated": "2026-11-24T04:29:27.6884690Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "node.exe",
+        "pid": 12220,
+        "expectedCreated": "2026-11-24T04:29:15.6341620Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "msedgewebview2.exe",
+        "pid": 17368,
+        "expectedCreated": "2026-11-24T04:29:27.7378730Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "esbuild.exe",
+        "pid": 20876,
+        "expectedCreated": "2026-11-24T04:29:15.8174880Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "msedgewebview2.exe",
+        "pid": 5924,
+        "expectedCreated": "2026-11-24T04:29:27.7473210Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "msedgewebview2.exe",
+        "pid": 20768,
+        "expectedCreated": "2026-11-24T04:29:27.8125970Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "msedgewebview2.exe",
+        "pid": 19892,
+        "expectedCreated": "2026-11-24T04:29:27.8167810Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "msedgewebview2.exe",
+        "pid": 20864,
+        "expectedCreated": "2026-11-24T04:29:27.8349750Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "msedgewebview2.exe",
+        "pid": 9800,
+        "expectedCreated": "2026-11-24T04:29:27.8674850Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run02",
+        "role": "cmd.exe",
+        "pid": 17760,
+        "expectedCreated": "2026-11-24T04:29:14.8857280Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "launcher",
+        "pid": 20528,
+        "expectedCreated": "2026-11-24T05:02:53.7082088Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "app",
+        "pid": 20888,
+        "expectedCreated": "2026-11-24T05:03:09.5935501Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "conhost.exe",
+        "pid": 20152,
+        "expectedCreated": "2026-11-24T05:02:53.7135250Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "node.exe",
+        "pid": 1272,
+        "expectedCreated": "2026-11-24T05:02:54.0489380Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "cmd.exe",
+        "pid": 17764,
+        "expectedCreated": "2026-11-24T05:02:54.1578150Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "node.exe",
+        "pid": 18468,
+        "expectedCreated": "2026-11-24T05:02:54.1696800Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "cmd.exe",
+        "pid": 17320,
+        "expectedCreated": "2026-11-24T05:02:54.2527860Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "rustup.exe",
+        "pid": 6504,
+        "expectedCreated": "2026-11-24T05:02:54.7589460Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "node.exe",
+        "pid": 18048,
+        "expectedCreated": "2026-11-24T05:02:54.3249080Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "cargo.exe",
+        "pid": 21288,
+        "expectedCreated": "2026-11-24T05:02:54.7695300Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "cmd.exe",
+        "pid": 7004,
+        "expectedCreated": "2026-11-24T05:02:54.4272000Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "moyu-reader-v2.exe",
+        "pid": 20888,
+        "expectedCreated": "2026-11-24T05:03:09.5935500Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "node.exe",
+        "pid": 18940,
+        "expectedCreated": "2026-11-24T05:02:54.4398730Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "msedgewebview2.exe",
+        "pid": 10140,
+        "expectedCreated": "2026-11-24T05:03:09.6433890Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "esbuild.exe",
+        "pid": 224,
+        "expectedCreated": "2026-11-24T05:02:54.6237170Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "msedgewebview2.exe",
+        "pid": 21364,
+        "expectedCreated": "2026-11-24T05:03:09.6526330Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "msedgewebview2.exe",
+        "pid": 15532,
+        "expectedCreated": "2026-11-24T05:03:09.7171570Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "msedgewebview2.exe",
+        "pid": 384,
+        "expectedCreated": "2026-11-24T05:03:09.7203530Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "msedgewebview2.exe",
+        "pid": 19788,
+        "expectedCreated": "2026-11-24T05:03:09.7397380Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "msedgewebview2.exe",
+        "pid": 20640,
+        "expectedCreated": "2026-11-24T05:03:09.7714650Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "msedgewebview2.exe",
+        "pid": 20544,
+        "expectedCreated": "2026-11-24T05:03:09.8505730Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run08",
+        "role": "cmd.exe",
+        "pid": 20528,
+        "expectedCreated": "2026-11-24T05:02:53.7082080Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "launcher",
+        "pid": 19648,
+        "expectedCreated": "2026-11-24T05:33:15.9115185Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "app",
+        "pid": 16992,
+        "expectedCreated": "2026-11-24T05:33:33.5062974Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "conhost.exe",
+        "pid": 20252,
+        "expectedCreated": "2026-11-24T05:33:15.9161720Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "node.exe",
+        "pid": 4352,
+        "expectedCreated": "2026-11-24T05:33:16.2653390Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "cmd.exe",
+        "pid": 21080,
+        "expectedCreated": "2026-11-24T05:33:16.3745680Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "node.exe",
+        "pid": 21000,
+        "expectedCreated": "2026-11-24T05:33:16.3869890Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "cmd.exe",
+        "pid": 18356,
+        "expectedCreated": "2026-11-24T05:33:16.4707910Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "rustup.exe",
+        "pid": 18564,
+        "expectedCreated": "2026-11-24T05:33:16.9770680Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "node.exe",
+        "pid": 4820,
+        "expectedCreated": "2026-11-24T05:33:16.5445800Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "cargo.exe",
+        "pid": 17904,
+        "expectedCreated": "2026-11-24T05:33:16.9874700Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "cmd.exe",
+        "pid": 19564,
+        "expectedCreated": "2026-11-24T05:33:16.6475070Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "moyu-reader-v2.exe",
+        "pid": 16992,
+        "expectedCreated": "2026-11-24T05:33:33.5062970Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "node.exe",
+        "pid": 20356,
+        "expectedCreated": "2026-11-24T05:33:16.6603920Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "msedgewebview2.exe",
+        "pid": 12236,
+        "expectedCreated": "2026-11-24T05:33:33.5573390Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "esbuild.exe",
+        "pid": 19784,
+        "expectedCreated": "2026-11-24T05:33:16.8527630Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "msedgewebview2.exe",
+        "pid": 20512,
+        "expectedCreated": "2026-11-24T05:33:33.5668540Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "msedgewebview2.exe",
+        "pid": 21340,
+        "expectedCreated": "2026-11-24T05:33:34.4558820Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "msedgewebview2.exe",
+        "pid": 18960,
+        "expectedCreated": "2026-11-24T05:33:34.4599760Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "msedgewebview2.exe",
+        "pid": 14196,
+        "expectedCreated": "2026-11-24T05:33:34.4781300Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run09",
+        "role": "msedgewebview2.exe",
+        "pid": 4112,
+        "expectedCreated": "2026-11-24T05:33:34.5103130Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run03",
+        "role": "owned-medium-token-bootstrap",
+        "pid": 20936,
+        "expectedCreated": "2026-11-24T04:53:44.1078196Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run04",
+        "role": "owned-medium-token-bootstrap",
+        "pid": 21296,
+        "expectedCreated": "2026-11-24T04:56:47.7127221Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run05",
+        "role": "owned-medium-token-bootstrap",
+        "pid": 11552,
+        "expectedCreated": "2026-11-24T04:58:32.6919876Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      },
+      {
+        "run": "run06",
+        "role": "owned-medium-token-bootstrap",
+        "pid": 10556,
+        "expectedCreated": "2026-11-24T05:00:23.2633830Z",
+        "alivePID": false,
+        "actualCreated": null,
+        "matchingOwnedAlive": false,
+        "PIDReused": false
+      }
+    ],
+    "QAProfileOwnerCount": 0,
+    "QAProfileOwners": [],
+    "ports": [],
+    "method": "Read-only PID+creation matching and known-path checks only; no process stopped, no business state changes, no private directory scan"
+  }
+}

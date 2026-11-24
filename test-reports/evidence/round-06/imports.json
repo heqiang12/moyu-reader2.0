@@ -1,0 +1,401 @@
+{
+  "origin": "Actual UI URL submissions in current-source Tauri main. Public download copies are comparison materials, not captured Tauri external response bodies.",
+  "originalMaterial": {
+    "step": "MR016-original-public-material",
+    "utc": "2026-11-24T06:40:51.748Z",
+    "url": "https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
+    "previousOriginalBytes": 163824,
+    "previousOriginalSHA256": "00644eda44f0fcabcfc015a024480376638d5e7a381a2010aeedfca5aa797845",
+    "previousOriginalCount": 22
+  },
+  "positive": [
+    {
+      "name": "XIU2",
+      "beforeSourceCount": 10,
+      "dialog": {
+        "utc": "2026-11-24T06:40:53.603Z",
+        "message": "成功导入 22 个书源",
+        "type": "alert"
+      },
+      "count": {
+        "step": "MR016-XIU2-count-and-protection",
+        "utc": "2026-11-24T06:40:54.905Z",
+        "dialogMessage": "成功导入 22 个书源",
+        "expectedUnionUsingUnmodifiedMaterial": 32,
+        "actual": 32,
+        "materialOriginsStored": true
+      },
+      "protection": {
+        "utc": "2026-11-24T06:40:54.909Z",
+        "tables": [
+          {
+            "table": "books",
+            "same": true
+          },
+          {
+            "table": "chapter_cache",
+            "same": true
+          },
+          {
+            "table": "chapter_list_cache",
+            "same": true
+          }
+        ],
+        "nonoverlapSources": [
+          {
+            "originSHA256": "ded87e3bc2fb298ee53b2264b6db3250cec59c8eb22583b85af0a10b64588119",
+            "same": true
+          },
+          {
+            "originSHA256": "bab3dad713077b108b5b3427c0a7e326b4b55d19cb7edc6785c97ba095b85f26",
+            "same": true
+          },
+          {
+            "originSHA256": "e645865bcec17a7a04b619e6170cbde194f48e068db114f136b93d34f9a12741",
+            "same": true
+          },
+          {
+            "originSHA256": "a88423c35f4b06010363af6e6bb3d7d0026644e232b9abe0b502c98b30154036",
+            "same": true
+          },
+          {
+            "originSHA256": "86ab6a0990fe4e666fb138a0559a900b05e8642caaa46cce88cdffe6c2cb1f17",
+            "same": true
+          },
+          {
+            "originSHA256": "b34196e09a9a0c80c5d30d27a00c730778437fd7d2c5d22fe89fb587468198f3",
+            "same": true
+          },
+          {
+            "originSHA256": "f6a7e10c0a6f27f0e72dc9b622f270b0f6b84fb2e9d71919d945667abe5bde03",
+            "same": true
+          },
+          {
+            "originSHA256": "12aa166e0ffe5b72c5bbe90496cb33d6624af665237abef8aaa5fee82b2c9120",
+            "same": true
+          },
+          {
+            "originSHA256": "4b50bc60a57f14c3f1ad80bd703d594c00307df6f338e0df4de69a38f61988b1",
+            "same": true
+          },
+          {
+            "originSHA256": "1a648d1b9f31479cf3d8170770db04f316b7ecb287d0e5d8d2480328c120170c",
+            "same": true
+          }
+        ],
+        "storageSame": true,
+        "allSourcesSame": false
+      }
+    },
+    {
+      "name": "yck1335",
+      "beforeSourceCount": 32,
+      "dialog": {
+        "utc": "2026-11-24T06:40:59.126Z",
+        "message": "成功导入 164 个书源",
+        "type": "alert"
+      },
+      "count": {
+        "step": "MR016-yck-real-positive-count",
+        "utc": "2026-11-24T06:41:00.622Z",
+        "dialogMessage": "成功导入 164 个书源",
+        "materialCount": 164,
+        "expectedUnionUsingMaterial": 192,
+        "actual": 192,
+        "materialOriginsStored": true
+      },
+      "protection": {
+        "utc": "2026-11-24T06:41:00.636Z",
+        "tables": [
+          {
+            "table": "books",
+            "same": true
+          },
+          {
+            "table": "chapter_cache",
+            "same": true
+          },
+          {
+            "table": "chapter_list_cache",
+            "same": true
+          }
+        ],
+        "nonoverlapSources": [
+          {
+            "originSHA256": "bab3dad713077b108b5b3427c0a7e326b4b55d19cb7edc6785c97ba095b85f26",
+            "same": true
+          },
+          {
+            "originSHA256": "e645865bcec17a7a04b619e6170cbde194f48e068db114f136b93d34f9a12741",
+            "same": true
+          },
+          {
+            "originSHA256": "86ab6a0990fe4e666fb138a0559a900b05e8642caaa46cce88cdffe6c2cb1f17",
+            "same": true
+          },
+          {
+            "originSHA256": "b34196e09a9a0c80c5d30d27a00c730778437fd7d2c5d22fe89fb587468198f3",
+            "same": true
+          },
+          {
+            "originSHA256": "f6a7e10c0a6f27f0e72dc9b622f270b0f6b84fb2e9d71919d945667abe5bde03",
+            "same": true
+          },
+          {
+            "originSHA256": "12aa166e0ffe5b72c5bbe90496cb33d6624af665237abef8aaa5fee82b2c9120",
+            "same": true
+          },
+          {
+            "originSHA256": "4b50bc60a57f14c3f1ad80bd703d594c00307df6f338e0df4de69a38f61988b1",
+            "same": true
+          },
+          {
+            "originSHA256": "1a648d1b9f31479cf3d8170770db04f316b7ecb287d0e5d8d2480328c120170c",
+            "same": true
+          },
+          {
+            "originSHA256": "a379803784aa31a1f773e1d3c318e3b5d316283b483bc01aa04d8227fa6442e3",
+            "same": true
+          },
+          {
+            "originSHA256": "0f6db589461ed9280f407f3cd1ec13654b565beab064fe10ddf73af53ed82090",
+            "same": true
+          },
+          {
+            "originSHA256": "6d9f04cd94ef3d7c32b017f7a6bb4f9c1f5830e78fbbf81e980f42062262a009",
+            "same": true
+          },
+          {
+            "originSHA256": "486d181d74b73b4aca4b4c39fdb417c33ebbce5e704f445ceb40ba0e7dac1795",
+            "same": true
+          },
+          {
+            "originSHA256": "788af98ce46a7fdfbcb61e47e07b305f73510ad67f6b2f3895da32c32eea2ede",
+            "same": true
+          },
+          {
+            "originSHA256": "55e5bfd5cbf5b10cad5dc31db9d04002f593dfdc6621ec20dddb879429f66097",
+            "same": true
+          },
+          {
+            "originSHA256": "1f3192f1d1eed316329cc100ac983f7eff16885117669338fab4c71bbedc1226",
+            "same": true
+          },
+          {
+            "originSHA256": "0af5c627eb0b44a40bc3b7eb4a1e38362fe0bd9c7f806f07712a161bee0ab0a1",
+            "same": true
+          },
+          {
+            "originSHA256": "062cdc7d80291c35bda39dd2ba7f72f1ae835577b708868a95a36193f72def05",
+            "same": true
+          },
+          {
+            "originSHA256": "8992ef30eefdcd511519a0780f9d8bcdf399e10cbe2e37c0358cc771eb95aeb9",
+            "same": true
+          },
+          {
+            "originSHA256": "b2df21a5ee09a821043db05beb45cb8c3596030721787e599d671389b84bcc66",
+            "same": true
+          },
+          {
+            "originSHA256": "55c94d7eeef8b61623a22fd38265981d02c6253237e399b7bd4598a460c7d9f8",
+            "same": true
+          },
+          {
+            "originSHA256": "ed558f6d881e9fe003e8a57816de9ca6bd3e9eaa5db7d9fd5a99c4d159dde152",
+            "same": true
+          },
+          {
+            "originSHA256": "58113a20ce831173f9463838879276610bbf584f4c93cd33d606531c054fd61c",
+            "same": true
+          },
+          {
+            "originSHA256": "a6551b2a13a5bda5796dc4648f9843c0e44251d0540f6eb2996b458fe91e5ce4",
+            "same": true
+          },
+          {
+            "originSHA256": "8bf34458a9b6426bba0f2b9f3053b770fe4d5d1a5b3af50a83b35faeee684025",
+            "same": true
+          },
+          {
+            "originSHA256": "d3c468c84174398f965a04a9fc9515eb17814e65d7f9c95058cdda7e844944e3",
+            "same": true
+          },
+          {
+            "originSHA256": "4019d1439b0b870ffaf8c60613dc4b4dbaaf8a14d867255ee5276724746f3a94",
+            "same": true
+          },
+          {
+            "originSHA256": "e06e48969a1f8199ee99a33477a97141c8468a7b99fb2ab0e2851a69afc75294",
+            "same": true
+          },
+          {
+            "originSHA256": "908fa656880ec42083996f0148c51e46b7d80d5ac1ac951fe1adc5173eb873ba",
+            "same": true
+          }
+        ],
+        "storageSame": true,
+        "allSourcesSame": false
+      }
+    }
+  ],
+  "negativeLiteralJSON": {
+    "input": "{",
+    "dialogUTC": "2026-11-24T06:41:01.873Z",
+    "dialog": {
+      "message": "导入失败: JSON 解析失败，请检查格式",
+      "type": "alert"
+    },
+    "allTablesSame": true,
+    "storageSame": true,
+    "handling": "Initial alert caused a CDP disconnect; preserved native observation and post-disconnect read verified rejection. Post-disconnect screenshot is not claimed to still show alert."
+  },
+  "negativeControls": [
+    {
+      "step": "invalid-structure-missing-required-fields-result-and-protection",
+      "utc": "2026-11-24T06:46:28.237Z",
+      "input": "[{}]",
+      "dialog": {
+        "message": "导入失败: invalid args `sources` for command `save_book_sources`: missing field `bookSourceName`",
+        "type": "alert"
+      },
+      "tables": [
+        {
+          "table": "books",
+          "same": true
+        },
+        {
+          "table": "book_sources",
+          "same": true
+        },
+        {
+          "table": "chapter_cache",
+          "same": true
+        },
+        {
+          "table": "chapter_list_cache",
+          "same": true
+        }
+      ],
+      "storageSame": true
+    },
+    {
+      "step": "malformed-URL-result-and-protection",
+      "utc": "2026-11-24T06:46:31.032Z",
+      "input": "not-a-url-r06",
+      "dialog": {
+        "message": "导入失败: HTTP 请求失败: builder error",
+        "type": "alert"
+      },
+      "tables": [
+        {
+          "table": "books",
+          "same": true
+        },
+        {
+          "table": "book_sources",
+          "same": true
+        },
+        {
+          "table": "chapter_cache",
+          "same": true
+        },
+        {
+          "table": "chapter_list_cache",
+          "same": true
+        }
+      ],
+      "storageSame": true
+    },
+    {
+      "step": "real-HTML-challenge-control-result-and-protection",
+      "utc": "2026-11-24T06:46:34.613Z",
+      "input": "https://ixunshu.net/zhao/?keyword=%E7%BA%A2%E6%A5%BC%E6%A2%A6",
+      "dialog": {
+        "message": "导入失败: 遭遇网站反爬拦截 (Cloudflare / 503 盾 / 验证码): 站点 [https://ixunshu.net/zhao/?keyword=%E7%BA%A2%E6%A5%BC%E6%A2%A6] 触发防护质询 (检测到 Cloudflare/WAF 拦截)",
+        "type": "alert"
+      },
+      "tables": [
+        {
+          "table": "books",
+          "same": true
+        },
+        {
+          "table": "book_sources",
+          "same": true
+        },
+        {
+          "table": "chapter_cache",
+          "same": true
+        },
+        {
+          "table": "chapter_list_cache",
+          "same": true
+        }
+      ],
+      "storageSame": true
+    },
+    {
+      "step": "real-HTTP404-JSON-error-control-result-and-protection",
+      "utc": "2026-11-24T06:46:38.126Z",
+      "input": "https://api.github.com/repos/XIU2/Yuedu/contents/qa-r06-missing-file-20261124.json",
+      "dialog": {
+        "message": "导入失败: HTTP 状态异常 (404): 站点 [https://api.github.com/repos/XIU2/Yuedu/contents/qa-r06-missing-file-20261124.json] 请求异常，HTTP 状态码: 404 Not Found",
+        "type": "alert"
+      },
+      "tables": [
+        {
+          "table": "books",
+          "same": true
+        },
+        {
+          "table": "book_sources",
+          "same": true
+        },
+        {
+          "table": "chapter_cache",
+          "same": true
+        },
+        {
+          "table": "chapter_list_cache",
+          "same": true
+        }
+      ],
+      "storageSame": true
+    }
+  ],
+  "independentRestartProtection": [
+    {
+      "step": "MR016-independent-SQL-storage-and-books-protection",
+      "utc": "2026-11-24T06:52:59.246Z",
+      "tables": [
+        {
+          "table": "books",
+          "same": true
+        },
+        {
+          "table": "book_sources",
+          "same": true
+        },
+        {
+          "table": "chapter_cache",
+          "same": true
+        },
+        {
+          "table": "chapter_list_cache",
+          "same": true
+        }
+      ],
+      "storageSame": true,
+      "sourceCount": 192,
+      "enabledOrigins": [
+        "https://www.cthulhuclub.com"
+      ],
+      "actualTheme": {
+        "attribute": "dark",
+        "background": "rgb(22, 24, 29)",
+        "fontSize": "18"
+      }
+    }
+  ]
+}

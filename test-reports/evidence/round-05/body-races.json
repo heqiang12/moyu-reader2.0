@@ -1,0 +1,657 @@
+{
+  "method": "Passive real Tauri IPC Network/DOM; no mock, synthetic delay, overwritten invoke, external-response substitute, or CAPTCHA bypass. CDP HTTP200 is IPC transport, tauri-response is business status.",
+  "observations": [
+    {
+      "sourceLog": "private/task16-real-load-and-late-C.json",
+      "sourceSHA256": "7306bda51bb9d45d3b754d2d2edc5942b8dfce8ae0e4285b90e84abd4867ae18",
+      "step": "C-actual-last-segment-before-uncached-next",
+      "utc": "2026-11-24T05:29:12.533Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:29:12.531Z",
+        "url": "http://localhost:1420/index.html#/stealth",
+        "label": "stealth",
+        "viewport": {
+          "width": 480,
+          "height": 96
+        },
+        "textChars": 137,
+        "textSHA256": "fd038e5e4d08679b8153731aa9fb726cff5962d61144152a5e7ddbeb8e6c9bea",
+        "controls": [
+          {
+            "tag": "BUTTON",
+            "text": "×",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt110360/\",\"chapterIndex\":1,\"progress\":0.9725571725571726}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.9725571725571726}"
+        }
+      },
+      "database": {
+        "sha256": "e20a7d188ae73e5572d0a9b78ff66ebf0edc1e53b1a68972d643316a774c8731",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "b8e47e0848c1cc2b13cf1e6e4a156bf3e2cbba9e49e068ad541f2a5e1de0740b"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "89ca042a6679cbe463d0d0933421d2d2fa991665a8995939dd6586e817d05866"
+          }
+        ],
+        "sourceCount": 10,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task16-real-load-and-late-C.json",
+      "sourceSHA256": "7306bda51bb9d45d3b754d2d2edc5942b8dfce8ae0e4285b90e84abd4867ae18",
+      "step": "A-main-while-C-stealth-still-old",
+      "utc": "2026-11-24T05:29:12.602Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:29:12.597Z",
+        "url": "http://localhost:1420/#/read/http%3A%2F%2Fwww.yetianlian.info%2Fyt91773%2F",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 2244,
+        "textSHA256": "accc45f5e9107f438e41d46cd2252305ac51f951a768ddc2997d93460fef8491",
+        "uiExcerpt": "← 书架\n不一样的三体\n第八十章 流逝的时间 (2/93)\n目录\n隐蔽阅读\nA-\n18px",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "目录",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "隐蔽阅读",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A-",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A+",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "暗色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "上一章",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "下一章",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.9725571725571726}"
+        }
+      },
+      "database": {
+        "sha256": "c26f1af175ea1822a476ed557aa405f67c01d282c78314aecd48479afc99c8df",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "93b7788f396166b326686990896db1156b2c290961c2dd14d3ef27087a8fe5da"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "89ca042a6679cbe463d0d0933421d2d2fa991665a8995939dd6586e817d05866"
+          }
+        ],
+        "sourceCount": 10,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task16-real-load-and-late-C.json",
+      "sourceSHA256": "7306bda51bb9d45d3b754d2d2edc5942b8dfce8ae0e4285b90e84abd4867ae18",
+      "step": "actual-C-next-has-loading-window",
+      "utc": "2026-11-24T05:29:12.610Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:29:12.610Z",
+        "url": "http://localhost:1420/index.html#/stealth",
+        "label": "stealth",
+        "viewport": {
+          "width": 480,
+          "height": 96
+        },
+        "textChars": 29,
+        "textSHA256": "7dedff6bb3936354416e0fda9686346dacd5d237e944a17e879c2d91e774bf37",
+        "controls": [
+          {
+            "tag": "BUTTON",
+            "text": "×",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.9725571725571726}"
+        }
+      }
+    },
+    {
+      "sourceLog": "private/task16-real-load-and-late-C.json",
+      "sourceSHA256": "7306bda51bb9d45d3b754d2d2edc5942b8dfce8ae0e4285b90e84abd4867ae18",
+      "step": "trusted-next-prev-during-C-loading",
+      "utc": "2026-11-24T05:29:12.617Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:29:12.614Z",
+        "url": "http://localhost:1420/index.html#/stealth",
+        "label": "stealth",
+        "viewport": {
+          "width": 480,
+          "height": 96
+        },
+        "textChars": 29,
+        "textSHA256": "7dedff6bb3936354416e0fda9686346dacd5d237e944a17e879c2d91e774bf37",
+        "controls": [
+          {
+            "tag": "BUTTON",
+            "text": "×",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.9725571725571726}"
+        }
+      },
+      "database": {
+        "sha256": "c26f1af175ea1822a476ed557aa405f67c01d282c78314aecd48479afc99c8df",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "93b7788f396166b326686990896db1156b2c290961c2dd14d3ef27087a8fe5da"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "89ca042a6679cbe463d0d0933421d2d2fa991665a8995939dd6586e817d05866"
+          }
+        ],
+        "sourceCount": 10,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task16-real-load-and-late-C.json",
+      "sourceSHA256": "7306bda51bb9d45d3b754d2d2edc5942b8dfce8ae0e4285b90e84abd4867ae18",
+      "step": "A-new-real-show-before-old-C-completion",
+      "utc": "2026-11-24T05:29:12.669Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:29:12.668Z",
+        "url": "http://localhost:1420/index.html#/stealth",
+        "label": "stealth",
+        "viewport": {
+          "width": 480,
+          "height": 96
+        },
+        "textChars": 165,
+        "textSHA256": "43ba6f40c14bd89bd1869bb551aa42c8ef984d84987ac00bba6aa10b4b7bbd20",
+        "controls": [
+          {
+            "tag": "BUTTON",
+            "text": "×",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.9725571725571726}"
+        }
+      }
+    },
+    {
+      "sourceLog": "private/task16-real-load-and-late-C.json",
+      "sourceSHA256": "7306bda51bb9d45d3b754d2d2edc5942b8dfce8ae0e4285b90e84abd4867ae18",
+      "step": "actual-old-C-response-and-final-A-invariants",
+      "utc": "2026-11-24T05:29:14.113Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:29:14.110Z",
+        "url": "http://localhost:1420/index.html#/stealth",
+        "label": "stealth",
+        "viewport": {
+          "width": 480,
+          "height": 96
+        },
+        "textChars": 165,
+        "textSHA256": "43ba6f40c14bd89bd1869bb551aa42c8ef984d84987ac00bba6aa10b4b7bbd20",
+        "controls": [
+          {
+            "tag": "BUTTON",
+            "text": "×",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.9725571725571726}"
+        }
+      }
+    },
+    {
+      "sourceLog": "private/task16-real-load-and-late-C.json",
+      "sourceSHA256": "7306bda51bb9d45d3b754d2d2edc5942b8dfce8ae0e4285b90e84abd4867ae18",
+      "step": "actual-race-final-data-control",
+      "utc": "2026-11-24T05:29:14.115Z",
+      "database": {
+        "sha256": "8aaea5bbc0d1b8f388873b509c2b98812bbb8cc1ec72b77117014ab27c2250af",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "7285ad7031ad7cd90fb4cf89c6ff14d87798afacce368ccebed5235629305004"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "89ca042a6679cbe463d0d0933421d2d2fa991665a8995939dd6586e817d05866"
+          }
+        ],
+        "sourceCount": 10,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 2,
+            "chars": 2435,
+            "textSHA256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    }
+  ],
+  "loading": {
+    "hadLoading": true,
+    "oldLeftRightNavigationLastReadingSame": true
+  },
+  "oldResponse": {
+    "requestId": "20544.1667",
+    "utc": "2026-11-24T05:29:12.610Z",
+    "args": {
+      "bookUrl": "http://www.yetianlian.info/yt110360/",
+      "chapterUrl": "http://www.yetianlian.info/yt110360/41347283.html",
+      "index": 2,
+      "bookSourceUrl": "http://www.yetianlian.info"
+    },
+    "response": {
+      "utc": "2026-11-24T05:29:14.108Z",
+      "status": 200,
+      "headers": {
+        "access-control-expose-headers": "Tauri-Response",
+        "tauri-response": "ok",
+        "access-control-allow-origin": "*",
+        "content-type": "application/json"
+      }
+    },
+    "finishedUTC": "2026-11-24T05:29:14.108Z",
+    "body": {
+      "base64Encoded": false,
+      "wireChars": 2485,
+      "wireSHA256": "0fe90d3597dea012a54f84bb2c178ec8f3ce065b99883e39600a1732c16fac3a",
+      "parsedType": "string",
+      "nonempty": true,
+      "textChars": 2435,
+      "textSHA256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+    }
+  },
+  "newANonemptyUTC": "2026-11-24T05:29:12.668Z",
+  "lateByMs": 1440,
+  "DOMEvents": [
+    {
+      "utc": "2026-11-24T05:29:12.607Z",
+      "title": "第60章 持续降维",
+      "position": "36/36",
+      "loading": false,
+      "lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+      "paragraphChars": 62,
+      "paragraphSHA256": "a66341375f903c30d082c18ecc840e6477f55cac3fe9b238b71ee576352b2eb9"
+    },
+    {
+      "utc": "2026-11-24T05:29:12.609Z",
+      "title": "第60章 持续降维",
+      "position": "36/36",
+      "loading": true,
+      "lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}"
+    },
+    {
+      "utc": "2026-11-24T05:29:12.666Z",
+      "title": "第八十章 流逝的时间",
+      "position": "36/36",
+      "loading": true,
+      "lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}"
+    },
+    {
+      "utc": "2026-11-24T05:29:12.668Z",
+      "title": "第八十章 流逝的时间",
+      "position": "10/36",
+      "loading": false,
+      "lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+      "paragraphChars": 75,
+      "paragraphSHA256": "7c4983faee0291e6598974f443dd3090fa56ee821634ed697abaf82cfb74f479"
+    }
+  ],
+  "protection": {
+    "sameStealthText": true,
+    "sameLastReading": true,
+    "bookIndices": [
+      {
+        "book": "http://www.yetianlian.info/yt91773/",
+        "index": 1,
+        "total": 93
+      },
+      {
+        "book": "http://www.yetianlian.info/yt110360/",
+        "index": 1,
+        "total": 73
+      }
+    ],
+    "newCBodyCachePresent": true
+  },
+  "externalHTTPFailureTested": false
+}

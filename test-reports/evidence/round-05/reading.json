@@ -1,0 +1,2165 @@
+{
+  "observations": [
+    {
+      "sourceLog": "private/task05-normal-A-read.json",
+      "sourceSHA256": "553753832a96adf1f911bb7f6dce08762b24c8bf3b45aa3ba17475f7931959e7",
+      "step": "A-normal-new-preview",
+      "utc": "2026-11-24T04:41:35.830Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:41:35.827Z",
+        "url": "http://localhost:1420/#/book/http%3A%2F%2Fwww.yetianlian.info%2Fyt91773%2F",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 1093,
+        "textSHA256": "69adf748d529331cdd575489332e3e61c7c6cb28b9e682d25f31c44fee294ac6",
+        "uiExcerpt": "← 返回\n书籍详情\n不一样的三体\n作者：文刀红城\n·\n奇怪小说\n93 章\n\n暂无简介\n\n加入书架\n开始阅读\n目录\n共 93 章\n第八十一章 大低谷时期\n第八十章 流逝的时间\n第七十九章 愚蠢的审判\n第七十八章 质问\n第七十七章 破壁（二）\n第七十六章 破壁（一）\n第七十五章 实验\n第七十四章 除后患\n第七十三章 成功推行\n第七十二章 思想钢印\n第七十一章 冬眠与苏醒\n第七十章 暗杀行动（下）\n第一章 降临三体\n第二章 理清现实\n第三章 探讨“三体”\n第四章 未知的信\n第五章 三体聚会\n第六章 安葬父亲\n第七章 计划与日常\n第八章 首谈三体为真\n第九章 见汪淼\n第十章 与汪淼的谈话\n第十一章 ETO显现\n第十二章 准备计划(前夕)上\n第十三章 准备计划(前夕)下\n第十四章 实施计划(上)\n第十五章 实施计划(中)",
+        "controls": [
+          {
+            "tag": "BUTTON",
+            "text": "← 返回",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "加入书架",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "开始阅读",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {}
+      },
+      "database": {
+        "sha256": "40b50fc1d678a98c5d3bcdf795b5de3be0e77d554d63f9568879e1cd8b223185",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [],
+        "sourceCount": 8,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task05-normal-A-read.json",
+      "sourceSHA256": "553753832a96adf1f911bb7f6dce08762b24c8bf3b45aa3ba17475f7931959e7",
+      "step": "A-first-UI-add-immediate",
+      "utc": "2026-11-24T04:41:35.956Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:41:35.953Z",
+        "url": "http://localhost:1420/#/book/http%3A%2F%2Fwww.yetianlian.info%2Fyt91773%2F",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 1093,
+        "textSHA256": "c9e94b374a9d121bdd977768138dcdffe2d02e981121cf9b63255ff31b565374",
+        "uiExcerpt": "← 返回\n书籍详情\n不一样的三体\n作者：文刀红城\n·\n奇怪小说\n93 章\n\n暂无简介\n\n加入中…\n开始阅读\n目录\n共 93 章\n第八十一章 大低谷时期\n第八十章 流逝的时间\n第七十九章 愚蠢的审判\n第七十八章 质问\n第七十七章 破壁（二）\n第七十六章 破壁（一）\n第七十五章 实验\n第七十四章 除后患\n第七十三章 成功推行\n第七十二章 思想钢印\n第七十一章 冬眠与苏醒\n第七十章 暗杀行动（下）\n第一章 降临三体\n第二章 理清现实\n第三章 探讨“三体”\n第四章 未知的信\n第五章 三体聚会\n第六章 安葬父亲\n第七章 计划与日常\n第八章 首谈三体为真\n第九章 见汪淼\n第十章 与汪淼的谈话\n第十一章 ETO显现\n第十二章 准备计划(前夕)上\n第十三章 准备计划(前夕)下\n第十四章 实施计划(上)\n第十五章 实施计划(中)",
+        "controls": [
+          {
+            "tag": "BUTTON",
+            "text": "← 返回",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "加入中…",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "开始阅读",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {}
+      },
+      "database": {
+        "sha256": "bfa8557eb66a701cb83f1c753178f09602f45252883b7ac631923562bf8d2e3a",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 0,
+            "totalChapters": 93,
+            "entireRowSHA256": "e5f7df0e4a4388eba7e36708bc33486c55ce7080c1f77e36d810e0e8aaaba9ac"
+          }
+        ],
+        "sourceCount": 8,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task05-normal-A-read.json",
+      "sourceSHA256": "553753832a96adf1f911bb7f6dce08762b24c8bf3b45aa3ba17475f7931959e7",
+      "step": "A-first-real-body",
+      "utc": "2026-11-24T04:41:36.581Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:41:36.579Z",
+        "url": "http://localhost:1420/#/read/http%3A%2F%2Fwww.yetianlian.info%2Fyt91773%2F",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 2373,
+        "textSHA256": "b008ea36ea0daebaed5e283f2f0fa8806a1c140f5e1f161275fed07aaecb07ee",
+        "uiExcerpt": "← 书架\n不一样的三体\n第八十一章 大低谷时期 (1/93)\n目录\n隐蔽阅读\nA-\n18px",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "目录",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "隐蔽阅读",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A-",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A+",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "暗色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "上一章",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "下一章",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":0,\"progress\":0}",
+          "moyu:fontSize": "18",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":0,\"progress\":0}"
+        }
+      },
+      "database": {
+        "sha256": "29dccc4a54de80957935bf09f07bbf721895779d2afd9e4cd8f7cb018dfeb02f",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 0,
+            "totalChapters": 93,
+            "entireRowSHA256": "1f1d284a88d67cc677c4bbb6005c2da3761c667e21c85417d577e8611e50cd71"
+          }
+        ],
+        "sourceCount": 8,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task05-normal-A-read.json",
+      "sourceSHA256": "553753832a96adf1f911bb7f6dce08762b24c8bf3b45aa3ba17475f7931959e7",
+      "step": "A-second-real-body",
+      "utc": "2026-11-24T04:41:37.185Z",
+      "snapshot": {
+        "utc": "2026-11-24T04:41:37.183Z",
+        "url": "http://localhost:1420/#/read/http%3A%2F%2Fwww.yetianlian.info%2Fyt91773%2F",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 2244,
+        "textSHA256": "accc45f5e9107f438e41d46cd2252305ac51f951a768ddc2997d93460fef8491",
+        "uiExcerpt": "← 书架\n不一样的三体\n第八十章 流逝的时间 (2/93)\n目录\n隐蔽阅读\nA-\n18px",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "目录",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "隐蔽阅读",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A-",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A+",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "暗色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "上一章",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "下一章",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0}",
+          "moyu:fontSize": "18",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0}"
+        }
+      },
+      "database": {
+        "sha256": "d87699addf4dd177b2c157e892f2a3d124dcf3c1d975b4365f7c3e4e70c3aab5",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "3adbd7701b33915ec2398156a543f6d7f7dcbe147be4d4c314fb7535f47f1aa4"
+          }
+        ],
+        "sourceCount": 8,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task09-paired-restart-native.json",
+      "sourceSHA256": "da06107141b158075f78f5695257ada1bdf0c6ad9cd932cc8e321af2d323ff52",
+      "step": "run08-independent-first-shelf",
+      "utc": "2026-11-24T05:04:23.397Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:04:23.393Z",
+        "url": "http://localhost:1420/#/shelf",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 61,
+        "textSHA256": "db0b7c66f4919328f0223aeee6e6d7167f62795ea5bb390ff7deab30ef583d61",
+        "uiExcerpt": "摸鱼阅读\n发现书源设置\n继续上次阅读\n→\n不一样的三体\n第 2 章\n×\n不一样的三体\n作者：文刀红城\n第 2 / 93 章",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "书源",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "×",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}"
+        }
+      },
+      "database": {
+        "sha256": "e09d10c1a204421cbdf35d5b933cc5325f4d1d0220d2bddf70c686bf22f5a07e",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "e1a94c2107564927b58e58f4d16819b5012002dce9ef9ac66ef6eaee68a49c0e"
+          }
+        ],
+        "sourceCount": 8,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task09-paired-restart-native.json",
+      "sourceSHA256": "da06107141b158075f78f5695257ada1bdf0c6ad9cd932cc8e321af2d323ff52",
+      "step": "A-actual-independent-continue",
+      "utc": "2026-11-24T05:04:25.785Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:04:25.781Z",
+        "url": "http://localhost:1420/#/read/http%3A%2F%2Fwww.yetianlian.info%2Fyt91773%2F",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 2244,
+        "textSHA256": "accc45f5e9107f438e41d46cd2252305ac51f951a768ddc2997d93460fef8491",
+        "uiExcerpt": "← 书架\n不一样的三体\n第八十章 流逝的时间 (2/93)\n目录\n隐蔽阅读\nA-\n18px",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "目录",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "隐蔽阅读",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A-",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A+",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "暗色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "上一章",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "下一章",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}"
+        }
+      },
+      "database": {
+        "sha256": "c73ef937b3183917c41ed209c9419d48f367648e378a4433fa5cec79e6005715",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "1c113ba569a04f4f8774520a2dd5f571e14c792b3b08e117b5d4295a74c7254f"
+          }
+        ],
+        "sourceCount": 8,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task12-C-normal-and-search-regression.json",
+      "sourceSHA256": "9ac95450439945d06a15f9d7679bf334eb97c68e68f166b5a4f4c754bd4b5b41",
+      "step": "C-normal-new-detail-before-add",
+      "utc": "2026-11-24T05:16:29.098Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:16:29.095Z",
+        "url": "http://localhost:1420/#/book/http%3A%2F%2Fwww.yetianlian.info%2Fyt110360%2F",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 802,
+        "textSHA256": "edf3707c664436103ca8cf38d50944d8f9d482371d9768c9485c83eb39684160",
+        "uiExcerpt": "← 返回\n书籍详情\n我在三体科技造神！\n作者：北冥鲲鱼\n·\n奇怪小说\n73 章\n\n暂无简介\n\n加入书架\n开始阅读\n目录\n共 73 章\n第61章 轮回\n第60章 持续降维\n第59章 二维宇宙\n第58章 幻体\n第57章 歌者\n第56章 秩序之战9\n第55章 秩序之战8\n第54章 秩序之战7\n第53章 秩序之战6\n第52章 秩序之战5\n第51章 秩序之战4\n第50章 秩序之战3\n第1章 科学边界\n第2章 造化玉碟数据库\n第3章 三体文明\n第4章 智子\n第5章 消灭人类暴政\n第6章 古筝行动\n第7章 岁月史诗\n第8章 开端\n第9章 面壁者\n第10章 基因科技\n第11章 精神计算机阵列\n第12章 面壁者内部会议\n第13章 无限世界\n第14章 量子幽灵舰队\n第15章 阶梯计划\n第16章 宇宙社会学\n第17章 游戏完成\n第1",
+        "controls": [
+          {
+            "tag": "BUTTON",
+            "text": "← 返回",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "加入书架",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "开始阅读",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}"
+        }
+      },
+      "database": {
+        "sha256": "5b3b03b1e4e6c938bbd3189c4351f4d59cdfa8a3329d33f7e2b22e93b4a93538",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "b8e47e0848c1cc2b13cf1e6e4a156bf3e2cbba9e49e068ad541f2a5e1de0740b"
+          }
+        ],
+        "sourceCount": 9,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task12-C-normal-and-search-regression.json",
+      "sourceSHA256": "9ac95450439945d06a15f9d7679bf334eb97c68e68f166b5a4f4c754bd4b5b41",
+      "step": "C-single-normal-UI-add-no-body",
+      "utc": "2026-11-24T05:16:29.176Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:16:29.174Z",
+        "url": "http://localhost:1420/#/book/http%3A%2F%2Fwww.yetianlian.info%2Fyt110360%2F",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 802,
+        "textSHA256": "fc6b1436cec713a3d34dc4580ec66a1474954fff49ce22167c5e59957d9dc5b5",
+        "uiExcerpt": "← 返回\n书籍详情\n我在三体科技造神！\n作者：北冥鲲鱼\n·\n奇怪小说\n73 章\n\n暂无简介\n\n已在书架\n开始阅读\n目录\n共 73 章\n第61章 轮回\n第60章 持续降维\n第59章 二维宇宙\n第58章 幻体\n第57章 歌者\n第56章 秩序之战9\n第55章 秩序之战8\n第54章 秩序之战7\n第53章 秩序之战6\n第52章 秩序之战5\n第51章 秩序之战4\n第50章 秩序之战3\n第1章 科学边界\n第2章 造化玉碟数据库\n第3章 三体文明\n第4章 智子\n第5章 消灭人类暴政\n第6章 古筝行动\n第7章 岁月史诗\n第8章 开端\n第9章 面壁者\n第10章 基因科技\n第11章 精神计算机阵列\n第12章 面壁者内部会议\n第13章 无限世界\n第14章 量子幽灵舰队\n第15章 阶梯计划\n第16章 宇宙社会学\n第17章 游戏完成\n第1",
+        "controls": [
+          {
+            "tag": "BUTTON",
+            "text": "← 返回",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "已在书架",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "开始阅读",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}"
+        }
+      },
+      "database": {
+        "sha256": "8c61338a033eabae3e07704aed4ac569321608b967880acde229dd8862a4554c",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "b8e47e0848c1cc2b13cf1e6e4a156bf3e2cbba9e49e068ad541f2a5e1de0740b"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 0,
+            "totalChapters": 73,
+            "entireRowSHA256": "b65779d03ed860357cece2d38b0480edd392a74ae501ac43ccaafa3b7fa4948a"
+          }
+        ],
+        "sourceCount": 9,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task12-C-normal-and-search-regression.json",
+      "sourceSHA256": "9ac95450439945d06a15f9d7679bf334eb97c68e68f166b5a4f4c754bd4b5b41",
+      "step": "C-first-directory-item-real-body",
+      "utc": "2026-11-24T05:16:29.755Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:16:29.751Z",
+        "url": "http://localhost:1420/#/read/http%3A%2F%2Fwww.yetianlian.info%2Fyt110360%2F",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 1496,
+        "textSHA256": "bf3e32d775ba6c25836ab2916e104a77c18123b53b41036192ff26312623cbd0",
+        "uiExcerpt": "← 书架\n我在三体科技造神！\n第61章 轮回 (1/73)\n目录\n隐蔽阅读\nA-\n18px",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "目录",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "隐蔽阅读",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A-",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A+",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "暗色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "上一章",
+            "disabled": true,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "下一章",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt110360/\",\"chapterIndex\":0,\"progress\":0}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":0,\"progress\":0}"
+        }
+      },
+      "database": {
+        "sha256": "6eac95742149799e79582429a537b202858e962ca680bb65594c8ebcb8bfc63c",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "b8e47e0848c1cc2b13cf1e6e4a156bf3e2cbba9e49e068ad541f2a5e1de0740b"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 0,
+            "totalChapters": 73,
+            "entireRowSHA256": "d6864eb11d0945159d8a78925cea0e0e0c67b4b68bc6ceaa1baa9244a0ab5253"
+          }
+        ],
+        "sourceCount": 9,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task12-C-normal-and-search-regression.json",
+      "sourceSHA256": "9ac95450439945d06a15f9d7679bf334eb97c68e68f166b5a4f4c754bd4b5b41",
+      "step": "C-second-directory-item-real-body",
+      "utc": "2026-11-24T05:16:30.334Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:16:30.331Z",
+        "url": "http://localhost:1420/#/read/http%3A%2F%2Fwww.yetianlian.info%2Fyt110360%2F",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 2390,
+        "textSHA256": "fc0ec5d2558580e3d17b2ed13a896c4fc37211dc7731b852925e038326eb1a99",
+        "uiExcerpt": "← 书架\n我在三体科技造神！\n第60章 持续降维 (2/73)\n目录\n隐蔽阅读\nA-\n18px",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "目录",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "隐蔽阅读",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A-",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "A+",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "暗色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "上一章",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "下一章",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt110360/\",\"chapterIndex\":1,\"progress\":0}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0}"
+        }
+      },
+      "database": {
+        "sha256": "04a7cc90429e062b1863f0c208c886590d2cf80a269e40ac0f817ab034d6d220",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "b8e47e0848c1cc2b13cf1e6e4a156bf3e2cbba9e49e068ad541f2a5e1de0740b"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "eaf28e5274a24a2d4abe0211e7f0b279d13cb27d5c1d13c958f84a41270d0785"
+          }
+        ],
+        "sourceCount": 9,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task12-C-normal-and-search-regression.json",
+      "sourceSHA256": "9ac95450439945d06a15f9d7679bf334eb97c68e68f166b5a4f4c754bd4b5b41",
+      "step": "C-normal-shelf-second-over73",
+      "utc": "2026-11-24T05:16:34.438Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:16:34.433Z",
+        "url": "http://localhost:1420/#/shelf",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 95,
+        "textSHA256": "6b18a51967ce38b0b4e96b3e5097eae2f7c009b7d3d93d8da60b212b32abb37b",
+        "uiExcerpt": "摸鱼阅读\n发现书源设置\n继续上次阅读\n→\n我在三体科技造神！\n第 2 章\n×\n我在三体科技造神！\n作者：北冥鲲鱼\n第 2 / 73 章\n×\n不一样的三体\n作者：文刀红城\n第 2 / 93 章",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "书源",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "×",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "×",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt110360/\",\"chapterIndex\":1,\"progress\":0}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0}"
+        }
+      },
+      "database": {
+        "sha256": "04a7cc90429e062b1863f0c208c886590d2cf80a269e40ac0f817ab034d6d220",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "b8e47e0848c1cc2b13cf1e6e4a156bf3e2cbba9e49e068ad541f2a5e1de0740b"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "eaf28e5274a24a2d4abe0211e7f0b279d13cb27d5c1d13c958f84a41270d0785"
+          }
+        ],
+        "sourceCount": 9,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task17-appearance-and-restart-baseline.json",
+      "sourceSHA256": "c2a84633abce84d9e5425caf4db3515e50a063c7a46e952acd6f2f77b4de5255",
+      "step": "actual-settings-baseline-and-about",
+      "utc": "2026-11-24T05:31:20.645Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:31:20.642Z",
+        "url": "http://localhost:1420/#/settings",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 136,
+        "textSHA256": "d15332e3c9cef106b01385cd186254defb5394ec37307e1bbb989a498b9c038e",
+        "uiExcerpt": "← 书架\n设置\n发现书源\n外观\n主题\n浅色\n深色\n正文字号 (18px)\n阅读\n本地进度缓存\n清除缓存\n快捷键与关闭行为\n全局老板键 / 关闭行为 / 隐蔽窗口设置\n即将到来\n\n这些设置需要和 Rust 主进程配合，下一阶段开放。\n\n关于\n摸鱼阅读 V2\n版本 0.2.0",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "书源",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "浅色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "深色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "range"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清除缓存",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "即将到来",
+            "disabled": true,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.9725571725571726}"
+        }
+      },
+      "database": {
+        "sha256": "8aaea5bbc0d1b8f388873b509c2b98812bbb8cc1ec72b77117014ab27c2250af",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "7285ad7031ad7cd90fb4cf89c6ff14d87798afacce368ccebed5235629305004"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "89ca042a6679cbe463d0d0933421d2d2fa991665a8995939dd6586e817d05866"
+          }
+        ],
+        "sourceCount": 10,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 2,
+            "chars": 2435,
+            "textSHA256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task17-appearance-and-restart-baseline.json",
+      "sourceSHA256": "c2a84633abce84d9e5425caf4db3515e50a063c7a46e952acd6f2f77b4de5255",
+      "step": "font-real-key-home12",
+      "utc": "2026-11-24T05:31:20.711Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:31:20.708Z",
+        "url": "http://localhost:1420/#/settings",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 136,
+        "textSHA256": "d2a9b4a5429ccab0e38049bd4a648bb8272efaa06bfcf8a193f420d16a928670",
+        "uiExcerpt": "← 书架\n设置\n发现书源\n外观\n主题\n浅色\n深色\n正文字号 (12px)\n阅读\n本地进度缓存\n清除缓存\n快捷键与关闭行为\n全局老板键 / 关闭行为 / 隐蔽窗口设置\n即将到来\n\n这些设置需要和 Rust 主进程配合，下一阶段开放。\n\n关于\n摸鱼阅读 V2\n版本 0.2.0",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "书源",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "浅色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "深色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "range"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清除缓存",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "即将到来",
+            "disabled": true,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "12",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.9725571725571726}"
+        }
+      },
+      "database": {
+        "sha256": "8aaea5bbc0d1b8f388873b509c2b98812bbb8cc1ec72b77117014ab27c2250af",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "7285ad7031ad7cd90fb4cf89c6ff14d87798afacce368ccebed5235629305004"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "89ca042a6679cbe463d0d0933421d2d2fa991665a8995939dd6586e817d05866"
+          }
+        ],
+        "sourceCount": 10,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 2,
+            "chars": 2435,
+            "textSHA256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task17-appearance-and-restart-baseline.json",
+      "sourceSHA256": "c2a84633abce84d9e5425caf4db3515e50a063c7a46e952acd6f2f77b4de5255",
+      "step": "font-real-key-end32",
+      "utc": "2026-11-24T05:31:20.762Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:31:20.759Z",
+        "url": "http://localhost:1420/#/settings",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 136,
+        "textSHA256": "923fa4bbc7765f3b97fa4cf43ad849c3493a3d51248824513d66f2bf628a1807",
+        "uiExcerpt": "← 书架\n设置\n发现书源\n外观\n主题\n浅色\n深色\n正文字号 (32px)\n阅读\n本地进度缓存\n清除缓存\n快捷键与关闭行为\n全局老板键 / 关闭行为 / 隐蔽窗口设置\n即将到来\n\n这些设置需要和 Rust 主进程配合，下一阶段开放。\n\n关于\n摸鱼阅读 V2\n版本 0.2.0",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "书源",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "浅色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "深色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "range"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清除缓存",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "即将到来",
+            "disabled": true,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "32",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"light\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.9725571725571726}"
+        }
+      },
+      "database": {
+        "sha256": "8aaea5bbc0d1b8f388873b509c2b98812bbb8cc1ec72b77117014ab27c2250af",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "7285ad7031ad7cd90fb4cf89c6ff14d87798afacce368ccebed5235629305004"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "89ca042a6679cbe463d0d0933421d2d2fa991665a8995939dd6586e817d05866"
+          }
+        ],
+        "sourceCount": 10,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 2,
+            "chars": 2435,
+            "textSHA256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task17-appearance-and-restart-baseline.json",
+      "sourceSHA256": "c2a84633abce84d9e5425caf4db3515e50a063c7a46e952acd6f2f77b4de5255",
+      "step": "actual-font18-dark-settings",
+      "utc": "2026-11-24T05:31:20.842Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:31:20.840Z",
+        "url": "http://localhost:1420/#/settings",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 136,
+        "textSHA256": "d15332e3c9cef106b01385cd186254defb5394ec37307e1bbb989a498b9c038e",
+        "uiExcerpt": "← 书架\n设置\n发现书源\n外观\n主题\n浅色\n深色\n正文字号 (18px)\n阅读\n本地进度缓存\n清除缓存\n快捷键与关闭行为\n全局老板键 / 关闭行为 / 隐蔽窗口设置\n即将到来\n\n这些设置需要和 Rust 主进程配合，下一阶段开放。\n\n关于\n摸鱼阅读 V2\n版本 0.2.0",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "← 书架",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "书源",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "浅色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "深色",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "disabled": false,
+            "type": "range"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "清除缓存",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "即将到来",
+            "disabled": true,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"dark\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.9725571725571726}"
+        }
+      },
+      "database": {
+        "sha256": "8aaea5bbc0d1b8f388873b509c2b98812bbb8cc1ec72b77117014ab27c2250af",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "7285ad7031ad7cd90fb4cf89c6ff14d87798afacce368ccebed5235629305004"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "89ca042a6679cbe463d0d0933421d2d2fa991665a8995939dd6586e817d05866"
+          }
+        ],
+        "sourceCount": 10,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 2,
+            "chars": 2435,
+            "textSHA256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    },
+    {
+      "sourceLog": "private/task17-appearance-and-restart-baseline.json",
+      "sourceSHA256": "c2a84633abce84d9e5425caf4db3515e50a063c7a46e952acd6f2f77b4de5255",
+      "step": "run08-final-shelf-dark18-and-two-book-baseline",
+      "utc": "2026-11-24T05:31:22.478Z",
+      "snapshot": {
+        "utc": "2026-11-24T05:31:22.475Z",
+        "url": "http://localhost:1420/#/shelf",
+        "label": "main",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "textChars": 92,
+        "textSHA256": "e3d7b221dd652bcd9127a1bf766351ff0f1108a6056314ebee0034fa5780e77f",
+        "uiExcerpt": "摸鱼阅读\n发现书源设置\n继续上次阅读\n→\n不一样的三体\n第 2 章\n×\n不一样的三体\n作者：文刀红城\n第 2 / 93 章\n×\n我在三体科技造神！\n作者：北冥鲲鱼\n第 2 / 73 章",
+        "controls": [
+          {
+            "tag": "A",
+            "text": "发现",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "书源",
+            "type": ""
+          },
+          {
+            "tag": "A",
+            "text": "设置",
+            "type": ""
+          },
+          {
+            "tag": "BUTTON",
+            "text": "×",
+            "disabled": false,
+            "type": "submit"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "×",
+            "disabled": false,
+            "type": "submit"
+          }
+        ],
+        "moyu": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"dark\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.1920997920997921}"
+        }
+      },
+      "database": {
+        "sha256": "781084519fd32cb39242e54d979650827016d051946a977b3b0cd34bfbe1b133",
+        "integrity": [
+          {
+            "integrity_check": "ok"
+          }
+        ],
+        "books": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "name": "不一样的三体",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 93,
+            "entireRowSHA256": "36f12620669e9ede95cd81782f78aeee7a8589e6668241b35691b41b2878ba04"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "name": "我在三体科技造神！",
+            "origin": "http://www.yetianlian.info",
+            "chapterIndex": 1,
+            "totalChapters": 73,
+            "entireRowSHA256": "b33cb09ce0f865151db3b9157f953143339382df081ad0373d02b2b807a6ccff"
+          }
+        ],
+        "sourceCount": 10,
+        "enabledCount": 1,
+        "enabledOrigins": [
+          "http://www.yetianlian.info"
+        ],
+        "nonFocusedOriginURLsOmitted": true,
+        "bodyCaches": [
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 0,
+            "chars": 2409,
+            "textSHA256": "897a8539fe5ff54838e35e3e7d654fe54bb61efaeb772f6234b8a7989d4c2503"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "index": 1,
+            "chars": 2260,
+            "textSHA256": "d8b12cf9beb12feebe30d5fdf7d123943d17f9eb66f5e17f8206cf47a659aaf3"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 0,
+            "chars": 1515,
+            "textSHA256": "6c809f896a2319c0414c16c09d22df146914bce55c0cbbdd27cd3fd84282c995"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 1,
+            "chars": 2405,
+            "textSHA256": "717924ce8db1b0256f79cfa39eafa541e02691452668ecb79dda1324603a2470"
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "index": 2,
+            "chars": 2435,
+            "textSHA256": "a51039936286d6976d65afe2ed32a07931702184941e4b7c08846274fb184fc7"
+          }
+        ],
+        "tocCaches": [
+          {
+            "bookUrl": "https://www.cthulhuclub.com/?s=%E4%B8%89%E4%BD%93",
+            "count": 0,
+            "chaptersSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "updatedAt": 1795495216547
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt91773/",
+            "count": 93,
+            "chaptersSHA256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+            "updatedAt": 1795495295795
+          },
+          {
+            "bookUrl": "http://www.yetianlian.info/yt110360/",
+            "count": 73,
+            "chaptersSHA256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+            "updatedAt": 1795497389071
+          }
+        ]
+      }
+    }
+  ],
+  "AAddTiming": {
+    "step": "A-first-add-timing",
+    "utc": "2026-11-24T04:41:36.026Z",
+    "clicked": "2026-11-24T04:41:35.942Z",
+    "sampled": "2026-11-24T04:41:35.956Z",
+    "elapsedMs": 14
+  },
+  "CAddTiming": {
+    "step": "C-single-add-feedback-actual-timing",
+    "utc": "2026-11-24T05:16:29.232Z",
+    "clickUTC": "2026-11-24T05:16:29.156Z",
+    "samples": [
+      {
+        "utc": "2026-11-24T05:16:29.156Z",
+        "text": "加入书架",
+        "disabled": false
+      },
+      {
+        "utc": "2026-11-24T05:16:29.162Z",
+        "text": "加入中…",
+        "disabled": true
+      },
+      {
+        "utc": "2026-11-24T05:16:29.173Z",
+        "text": "已在书架",
+        "disabled": true
+      }
+    ],
+    "tocCount": 73
+  },
+  "CAddProtection": {
+    "step": "C-add-SQL-and-A-protected",
+    "utc": "2026-11-24T05:16:29.234Z",
+    "C": {
+      "url": "http://www.yetianlian.info/yt110360/",
+      "origin": "http://www.yetianlian.info",
+      "index": 0,
+      "total": 73
+    },
+    "AEntireRowSame": true,
+    "ABodyCacheSame": true,
+    "AProgressSame": true,
+    "sourcesSame": true
+  },
+  "appearanceProtection": {
+    "step": "appearance-controls-protect-business-data",
+    "utc": "2026-11-24T05:31:20.897Z",
+    "booksSame": true,
+    "sourcesSame": true,
+    "cacheSame": true,
+    "lastReadingSame": true,
+    "progressKeysSame": true
+  },
+  "restartBaselinePositions": [
+    {
+      "sourceLog": "private/task17-appearance-and-restart-baseline.json",
+      "sourceSHA256": "c2a84633abce84d9e5425caf4db3515e50a063c7a46e952acd6f2f77b4de5255",
+      "step": "C-actual-stable-mid-position-for-independent-restart",
+      "utc": "2026-11-24T05:31:22.289Z",
+      "position": {
+        "utc": "2026-11-24T05:31:22.289Z",
+        "book": "我在三体科技造神！",
+        "title": "第60章 持续降维",
+        "scrollTop": 833,
+        "paragraphIndex": 7,
+        "fontSize": "18px",
+        "theme": "dark",
+        "storage": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"dark\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt110360/\",\"chapterIndex\":1,\"progress\":0.1920997920997921}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.1920997920997921}"
+        },
+        "paragraphTextChars": 90,
+        "paragraphTextSHA256": "4ca481618b783444d675cc5e79b672248fe378cd41aeef182b4601cc59e9368d"
+      }
+    },
+    {
+      "sourceLog": "private/task17-appearance-and-restart-baseline.json",
+      "sourceSHA256": "c2a84633abce84d9e5425caf4db3515e50a063c7a46e952acd6f2f77b4de5255",
+      "step": "A-actual-dark18-inherited-position",
+      "utc": "2026-11-24T05:31:22.386Z",
+      "position": {
+        "utc": "2026-11-24T05:31:22.384Z",
+        "book": "不一样的三体",
+        "title": "第八十章 流逝的时间",
+        "scrollTop": 849,
+        "paragraphIndex": 9,
+        "fontSize": "18px",
+        "theme": "dark",
+        "storage": {
+          "moyu:progress:http://www.yetianlian.info/yt91773/": "{\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:fontSize": "18",
+          "moyu:stealthSettings": "{\"alpha\":0.55}",
+          "moyu:theme": "\"dark\"",
+          "moyu:lastReading": "{\"bookUrl\":\"http://www.yetianlian.info/yt91773/\",\"chapterIndex\":1,\"progress\":0.23893805309734514}",
+          "moyu:progress:http://www.yetianlian.info/yt110360/": "{\"chapterIndex\":1,\"progress\":0.1920997920997921}"
+        },
+        "paragraphTextChars": 75,
+        "paragraphTextSHA256": "7c4983faee0291e6598974f443dd3090fa56ee821634ed697abaf82cfb74f479"
+      }
+    }
+  ],
+  "run08IndependentProtection": {
+    "step": "independent-storage-and-logical-SQL-control",
+    "utc": "2026-11-24T05:04:23.442Z",
+    "sameStorage": false,
+    "tables": [
+      {
+        "name": "books",
+        "same": false
+      },
+      {
+        "name": "book_sources",
+        "same": true
+      },
+      {
+        "name": "chapter_cache",
+        "same": true
+      },
+      {
+        "name": "chapter_list_cache",
+        "same": true
+      }
+    ],
+    "scope": "当前源码重启；QA 临时预建 hidden stealth，不计正常惰性首次建窗"
+  },
+  "scope": "Fresh public-source A/C normal UI add and two initial directory items; no historical B or oldC-total0 fixture exists. Body logs retain only hashes/lengths. Precreated run08 stealth is not normal first creation."
+}
