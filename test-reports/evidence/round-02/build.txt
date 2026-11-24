@@ -1,0 +1,8 @@
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.qa.json --no-watch
+     Running BeforeDevCommand (`npm run dev`)
+> reader-desktop-v2@0.2.0 dev
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+   Compiling moyu-reader-v2 v0.2.0 (<REPO>\src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 28.59s
+     Running `target\debug\moyu-reader-v2.exe`

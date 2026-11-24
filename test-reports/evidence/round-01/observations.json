@@ -1,0 +1,1778 @@
+[
+  {
+    "group": "TC-01",
+    "sourceLog": "task-01-search.private.json",
+    "step": "initial-empty-shelf",
+    "utc": "2026-11-23T06:02:30.742Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": null,
+      "resultCount": 0,
+      "results": [],
+      "text": "摸鱼阅读\n发现书源设置\n📚\n书架空空如也\n\n去搜几本想看的小说，加入书架后再来吧。\n\n去发现",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "去发现",
+          "type": ""
+        }
+      ]
+    }
+  },
+  {
+    "group": "TC-05",
+    "sourceLog": "task-01-search.private.json",
+    "step": "empty-search-enter",
+    "utc": "2026-11-23T06:02:32.541Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": null,
+      "resultCount": 0,
+      "results": [],
+      "text": "← 书架\n发现\n书源设置\n搜索\n🔍\n想看点什么？\n\n输入关键词，多书源会同时帮你找。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "value": "",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "诡秘之主",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "三体",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "红楼梦",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "道诡异仙",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "凡人修仙传",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-001",
+    "sourceLog": "task-02-search.private.json",
+    "step": "absolute-source-search-end",
+    "utc": "2026-11-23T06:05:15.978Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": null,
+      "resultCount": 50,
+      "results": [
+        {
+          "name": "暗体",
+          "author": "作者：沣水森",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "八识心体",
+          "author": "作者：已达",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "霸体少年",
+          "author": "作者：风引雨信",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "霸体无敌系统",
+          "author": "作者：爱吃蛋黄酥",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "不灭体",
+          "author": "作者：造化书界",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "不一样的三体",
+          "author": "作者：文刀红城",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "超级智能体",
+          "author": "作者：海上生明月",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "超体邪神",
+          "author": "作者：落青丹",
+          "sources": "1 个书源"
+        }
+      ],
+      "text": "← 书架\n发现\n书源设置\n搜索\n找到 50 本相关书籍（搜索结束）\n暗体\n作者：沣水森\n1 个书源\n八识心体\n作者：已达\n1 个书源\n霸体少年\n作者：风引雨信\n1 个书源\n霸体无敌系统\n作者：爱吃蛋黄酥\n1 个书源\n不灭体\n作者：造化书界\n1 个书源\n不一样的三体\n作者：文刀红城\n1 个书源\n超级智能体\n作者：海上生明月\n1 个书源\n超体邪神\n作者：落青丹\n1 个书源\n从三体开始，迪迦把光还给了我\n作者：刘皇叔呀\n1 个书源\n从三体开始的救世主\n作者：树藤上毛毛虫\n1 个书源\n从三体逃到超神\n作者：刘皇叔呀\n1 个书源\n刚成银河卫士，你告诉我穿的三体\n作者：尘十万\n1 个书源\n诡秘三体：我在小镇斩神明\n作者：嘻嘻平行宇宙\n1 个书源\n哈利波特之三位一体\n作者：klason\n1 个书源\n混沌不灭体\n作者：皇匍四少\n1 个书源\n禁体\n作者：隐梧\n1 个书源\n究极体\n作者：安宁的小鱼儿\n1 个书源\n九幽体\n作者：月小小\n1 个书源\n开拓者星的三体之旅\n作者：凯撒刻律德菈\n1 个书源\n类脑体\n作者：农杆菌\n1 个书源\n李火旺穿越三体，谁言人族无异仙\n作者：抽象武神\n1 个书源\n逆流炼体\n作者：啤酒肉串\n1 个书源\n人在三体，背靠系统成为归零者！\n作者：笨重的宅男\n1 个书源\n人在三体：面壁之后我开创了收容会！\n作者：夜色黑凉\n1 个书源\n三体：面壁后诡异复苏，碾碎水滴！\n作者：夜色黑凉\n1 个书源\n三体：史上最称职的面壁者\n作者：火炀\n1 个书源\n三体：最强面壁者，打造神级文明\n作者：凌安少年\n1 个书源\n三体入侵：我编造了聊斋\n作者：勇敢山宝不怕困难\n1 个书源\n上古剑体\n作者：墨尔本以南\n1 个书源\n神魔霸体\n作者：云霆飞\n1 个书源\n神阴之体\n作者：谁煮猪红\n1 个书源\n史上最强体\n作者：南巷的糖\n1 个书源\n噬界体\n作者：九度蜉蝣\n1 个书源\n四合院之消灭三体\n作者：会飞麻雀\n1 个书源\n体术暴君\n作者：黑色墨汁\n1 个书源\n天地霸体诀\n作者：顽木\n1 个书源\n天神之体\n作者：口袋精灵\n1 个书源\n吞噬神体\n作者：锐不可挡\n1 个书源\n吞噬体\n作者：客心应垂泪\n1 个书源\n我罗辑，三体CEO，称霸诸天！\n作者：右手的鱼\n1 个书源\n我在三体科技造神！\n作者：北冥鲲鱼\n1 个书源\n无上霸体\n作者：梦飞天\n1 个书源\n无上剑体\n作者：叫我谭谭\n1 个书源\n义体时代\n作者：轻风拂尘去\n1 个书源\n在三体世界点亮超神科技\n作者：魔王无敌\n1 个书源\n造化炼体决\n作者：零下5度01\n1 个书源\n植体\n作者：塞外烟尘\n1 个书源\n至尊毒体\n作者：早睡早起\n1 个书源\n终极能",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "value": "三体",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-001",
+    "sourceLog": "task-02-search.private.json",
+    "step": "first-actual-result-detail",
+    "utc": "2026-11-23T06:05:16.272Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": null,
+      "resultCount": 0,
+      "results": [],
+      "text": "⚠️\n出错了\n\n找不到该书籍信息\n\n回书架",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "回书架",
+          "type": ""
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-001",
+    "sourceLog": "task-03-relative.private.json",
+    "step": "detail-missing-repro",
+    "utc": "2026-11-23T06:07:56.783Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": null,
+      "resultCount": 0,
+      "results": [],
+      "text": "⚠️\n出错了\n\n找不到该书籍信息\n\n回书架",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "回书架",
+          "type": ""
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-002",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "stealth-ui-open-attempt-1",
+    "utc": "2026-11-23T06:12:04.426Z",
+    "observed": {
+      "dialog": {
+        "url": "<URL>",
+        "frameId": "C1671EF0055B562C7AAB90676BC98CF8",
+        "message": "打开隐蔽窗口失败",
+        "type": "alert",
+        "hasBrowserHandler": true,
+        "defaultPrompt": ""
+      }
+    }
+  },
+  {
+    "group": "MR-002",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "stealth-ui-open-attempt-2",
+    "utc": "2026-11-23T06:12:04.879Z",
+    "observed": {
+      "dialog": {
+        "url": "<URL>",
+        "frameId": "C1671EF0055B562C7AAB90676BC98CF8",
+        "message": "打开隐蔽窗口失败",
+        "type": "alert",
+        "hasBrowserHandler": true,
+        "defaultPrompt": ""
+      }
+    }
+  },
+  {
+    "group": "MR-002",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "stealth-missing-command-auxiliary",
+    "utc": "2026-11-23T06:12:04.885Z",
+    "observed": {
+      "ok": false,
+      "error": "Command open_stealth not found"
+    }
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-05b.private.json",
+    "step": "rapid-two-searches-started",
+    "utc": "2026-11-23T06:26:11.387Z",
+    "observed": {
+      "firstStart": 1795415171201,
+      "firstWasLoading": true,
+      "secondKeyword": "凡人修仙传"
+    }
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-05b.private.json",
+    "step": "rapid-search-event-summary",
+    "utc": "2026-11-23T06:26:17.112Z",
+    "observed": [
+      {
+        "type": "item",
+        "time": 1795415172474,
+        "count": 50,
+        "names": [
+          "从三体逃到超神",
+          "我在三体科技造神！",
+          "三体入侵：我编造了聊斋",
+          "我罗辑，三体CEO，称霸诸天！",
+          "从三体开始的救世主",
+          "三体：面壁后诡异复苏，碾碎水滴！",
+          "不一样的三体",
+          "三体：史上最称职的面壁者"
+        ]
+      },
+      {
+        "type": "end",
+        "time": 1795415172474
+      },
+      {
+        "type": "end",
+        "time": 1795415176935
+      }
+    ]
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-05b.private.json",
+    "step": "rapid-search-final-ui",
+    "utc": "2026-11-23T06:26:17.115Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "resultCount": 50,
+      "results": [
+        {
+          "name": "暗体",
+          "author": "作者：沣水森",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "八识心体",
+          "author": "作者：已达",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "霸体少年",
+          "author": "作者：风引雨信",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "霸体无敌系统",
+          "author": "作者：爱吃蛋黄酥",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "不灭体",
+          "author": "作者：造化书界",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "不一样的三体",
+          "author": "作者：文刀红城",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "超级智能体",
+          "author": "作者：海上生明月",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "超体邪神",
+          "author": "作者：落青丹",
+          "sources": "1 个书源"
+        }
+      ],
+      "text": "← 书架\n发现\n书源设置\n搜索\n找到 50 本相关书籍（搜索结束）\n暗体\n作者：沣水森\n1 个书源\n八识心体\n作者：已达\n1 个书源\n霸体少年\n作者：风引雨信\n1 个书源\n霸体无敌系统\n作者：爱吃蛋黄酥\n1 个书源\n不灭体\n作者：造化书界\n1 个书源\n不一样的三体\n作者：文刀红城\n1 个书源\n超级智能体\n作者：海上生明月\n1 个书源\n超体邪神\n作者：落青丹\n1 个书源\n从三体开始，迪迦把光还给了我\n作者：刘皇叔呀\n1 个书源\n从三体开始的救世主\n作者：树藤上毛毛虫\n1 个书源\n从三体逃到超神\n作者：刘皇叔呀\n1 个书源\n刚成银河卫士，你告诉我穿的三体\n作者：尘十万\n1 个书源\n诡秘三体：我在小镇斩神明\n作者：嘻嘻平行宇宙\n1 个书源\n哈利波特之三位一体\n作者：klason\n1 个书源\n混沌不灭体\n作者：皇匍四少\n1 个书源\n禁体\n作者：隐梧\n1 个书源\n究极体\n作者：安宁的小鱼儿\n1 个书源\n九幽体\n作者：月小小\n1 个书源\n开拓者星的三体之旅\n作者：凯撒刻律德菈\n1 个书源\n类脑体\n作者：农杆菌\n1 个书源\n李火旺穿越三体，谁言人族无异仙\n作者：抽象武神\n1 个书源\n逆流炼体\n作者：啤酒肉串\n1 个书源\n人在三体，背靠系统成为归零者！\n作者：笨重的宅男\n1 个书源\n人在三体：面壁之后我开创了收容会！\n作者：夜色黑凉\n1 个书源\n三体：面壁后诡异复苏，碾碎水滴！\n作者：夜色黑凉\n1 个书源\n三体：史上最称职的面壁者\n作者：火炀\n1 个书源\n三体：最强面壁者，打造神级文明\n作者：凌安少年\n1 个书源\n三体入侵：我编造了聊斋\n作者：勇敢山宝不怕困难\n1 个书源\n上古剑体\n作者：墨尔本以南\n1 个书源\n神魔霸体\n作者：云霆飞\n1 个书源\n神阴之体\n作者：谁煮猪红\n1 个书源\n史上最强体\n作者：南巷的糖\n1 个书源\n噬界体\n作者：九度蜉蝣\n1 个书源\n四合院之消灭三体\n作者：会飞麻雀\n1 个书源\n体术暴君\n作者：黑色墨汁\n1 个书源\n天地霸体诀\n作者：顽木\n1 个书源\n天神之体\n作者：口袋精灵\n1 个书源\n吞噬神体\n作者：锐不可挡\n1 个书源\n吞噬体\n作者：客心应垂泪\n1 个书源\n我罗辑，三体CEO，称霸诸天！\n作者：右手的鱼\n1 个书源\n我在三体科技造神！\n作者：北冥鲲鱼\n1 个书源\n无上霸体\n作者：梦飞天\n1 个书源\n无上剑体\n作者：叫我谭谭\n1 个书源\n义体时代\n作者：轻风拂尘去\n1 个书源\n在三体世界点亮超神科技\n作者：魔王无敌\n1 个书源\n造化炼体决\n作者：零下5度01\n1 个书源\n植体\n作者：塞外烟尘\n1 个书源\n至尊毒体\n作者：早睡早起\n1 个书源\n终极能",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "value": "凡人修仙传",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-06.private.json",
+    "step": "rapid-repro-started",
+    "utc": "2026-11-23T06:29:53.511Z",
+    "observed": {
+      "firstWasLoading": true
+    }
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-06.private.json",
+    "step": "rapid-repro-summary",
+    "utc": "2026-11-23T06:29:58.615Z",
+    "observed": [
+      {
+        "type": "item",
+        "time": 1795415397535,
+        "count": 50,
+        "names": [
+          "从三体逃到超神",
+          "我在三体科技造神！",
+          "三体入侵：我编造了聊斋",
+          "我罗辑，三体CEO，称霸诸天！"
+        ]
+      },
+      {
+        "type": "end",
+        "time": 1795415397535
+      },
+      {
+        "type": "end",
+        "time": 1795415398530
+      }
+    ]
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-06.private.json",
+    "step": "rapid-repro-final-ui",
+    "utc": "2026-11-23T06:29:58.611Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "resultCount": 50,
+      "results": [
+        {
+          "name": "暗体",
+          "author": "作者：沣水森",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "八识心体",
+          "author": "作者：已达",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "霸体少年",
+          "author": "作者：风引雨信",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "霸体无敌系统",
+          "author": "作者：爱吃蛋黄酥",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "不灭体",
+          "author": "作者：造化书界",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "不一样的三体",
+          "author": "作者：文刀红城",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "超级智能体",
+          "author": "作者：海上生明月",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "超体邪神",
+          "author": "作者：落青丹",
+          "sources": "1 个书源"
+        }
+      ],
+      "text": "← 书架\n发现\n书源设置\n搜索\n找到 50 本相关书籍（搜索结束）\n暗体\n作者：沣水森\n1 个书源\n八识心体\n作者：已达\n1 个书源\n霸体少年\n作者：风引雨信\n1 个书源\n霸体无敌系统\n作者：爱吃蛋黄酥\n1 个书源\n不灭体\n作者：造化书界\n1 个书源\n不一样的三体\n作者：文刀红城\n1 个书源\n超级智能体\n作者：海上生明月\n1 个书源\n超体邪神\n作者：落青丹\n1 个书源\n从三体开始，迪迦把光还给了我\n作者：刘皇叔呀\n1 个书源\n从三体开始的救世主\n作者：树藤上毛毛虫\n1 个书源\n从三体逃到超神\n作者：刘皇叔呀\n1 个书源\n刚成银河卫士，你告诉我穿的三体\n作者：尘十万\n1 个书源\n诡秘三体：我在小镇斩神明\n作者：嘻嘻平行宇宙\n1 个书源\n哈利波特之三位一体\n作者：klason\n1 个书源\n混沌不灭体\n作者：皇匍四少\n1 个书源\n禁体\n作者：隐梧\n1 个书源\n究极体\n作者：安宁的小鱼儿\n1 个书源\n九幽体\n作者：月小小\n1 个书源\n开拓者星的三体之旅\n作者：凯撒刻律德菈\n1 个书源\n类脑体\n作者：农杆菌\n1 个书源\n李火旺穿越三体，谁言人族无异仙\n作者：抽象武神\n1 个书源\n逆流炼体\n作者：啤酒肉串\n1 个书源\n人在三体，背靠系统成为归零者！\n作者：笨重的宅男\n1 个书源\n人在三体：面壁之后我开创了收容会！\n作者：夜色黑凉\n1 个书源\n三体：面壁后诡异复苏，碾碎水滴！\n作者：夜色黑凉\n1 个书源\n三体：史上最称职的面壁者\n作者：火炀\n1 个书源\n三体：最强面壁者，打造神级文明\n作者：凌安少年\n1 个书源\n三体入侵：我编造了聊斋\n作者：勇敢山宝不怕困难\n1 个书源\n上古剑体\n作者：墨尔本以南\n1 个书源\n神魔霸体\n作者：云霆飞\n1 个书源\n神阴之体\n作者：谁煮猪红\n1 个书源\n史上最强体\n作者：南巷的糖\n1 个书源\n噬界体\n作者：九度蜉蝣\n1 个书源\n四合院之消灭三体\n作者：会飞麻雀\n1 个书源\n体术暴君\n作者：黑色墨汁\n1 个书源\n天地霸体诀\n作者：顽木\n1 个书源\n天神之体\n作者：口袋精灵\n1 个书源\n吞噬神体\n作者：锐不可挡\n1 个书源\n吞噬体\n作者：客心应垂泪\n1 个书源\n我罗辑，三体CEO，称霸诸天！\n作者：右手的鱼\n1 个书源\n我在三体科技造神！\n作者：北冥鲲鱼\n1 个书源\n无上霸体\n作者：梦飞天\n1 个书源\n无上剑体\n作者：叫我谭谭\n1 个书源\n义体时代\n作者：轻风拂尘去\n1 个书源\n在三体世界点亮超神科技\n作者：魔王无敌\n1 个书源\n造化炼体决\n作者：零下5度01\n1 个书源\n植体\n作者：塞外烟尘\n1 个书源\n至尊毒体\n作者：早睡早起\n1 个书源\n终极能",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "value": "qa20261123zzzzzzz",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-06.private.json",
+    "step": "ascii-negative-search",
+    "utc": "2026-11-23T06:29:59.608Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "resultCount": 0,
+      "results": [],
+      "text": "← 书架\n发现\n书源设置\n搜索\n🔍\n想看点什么？\n\n输入关键词，多书源会同时帮你找。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "value": "qa20261123zzzzzzz",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "诡秘之主",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "三体",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "红楼梦",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "道诡异仙",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "凡人修仙传",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-004",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "mid-chapter-progress",
+    "utc": "2026-11-23T06:11:58.851Z",
+    "observed": {
+      "header": "不一样的三体\n第七十九章 愚蠢的审判 (3/93)",
+      "footer": "上一章\n3 / 93\n下一章",
+      "loading": false,
+      "paragraphs": 40,
+      "chars": 2262,
+      "scrollTop": 1100,
+      "scrollHeight": 3708,
+      "clientHeight": 696,
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "light",
+        "fontSize": 18,
+        "lastReading": {
+          "bookRef": "QA_BOOK_A",
+          "chapterIndex": 2,
+          "progress": 0.28739991571849977
+        },
+        "bookAProgress": 0.28739991571849977
+      }
+    }
+  },
+  {
+    "group": "MR-004",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "new-chapter-scroll-position",
+    "utc": "2026-11-23T06:12:01.404Z",
+    "observed": {
+      "header": "不一样的三体\n第七十八章 质问 (4/93)",
+      "footer": "上一章\n4 / 93\n下一章",
+      "loading": false,
+      "paragraphs": 41,
+      "chars": 2290,
+      "scrollTop": 1007,
+      "scrollHeight": 3762,
+      "clientHeight": 696,
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "light",
+        "fontSize": 18,
+        "lastReading": {
+          "bookRef": "QA_BOOK_A",
+          "chapterIndex": 3,
+          "progress": 0
+        },
+        "bookAProgress": 0
+      }
+    }
+  },
+  {
+    "group": "MR-004",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "new-chapter-position-repro",
+    "utc": "2026-11-23T06:12:03.980Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "footer": "上一章\n5 / 93\n下一章",
+      "loading": false,
+      "paragraphs": 39,
+      "chars": 2118,
+      "scrollTop": 973,
+      "scrollHeight": 3517,
+      "clientHeight": 696,
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "light",
+        "fontSize": 18,
+        "lastReading": {
+          "bookRef": "QA_BOOK_A",
+          "chapterIndex": 4,
+          "progress": 0
+        },
+        "bookAProgress": 0
+      }
+    }
+  },
+  {
+    "group": "MR-005",
+    "sourceLog": "task-01-search.private.json",
+    "step": "hot-word-from-empty",
+    "utc": "2026-11-23T06:02:33.614Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": null,
+      "resultCount": 0,
+      "results": [],
+      "text": "← 书架\n发现\n书源设置\n搜索\n🔍\n想看点什么？\n\n输入关键词，多书源会同时帮你找。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "value": "三体",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "诡秘之主",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "三体",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "红楼梦",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "道诡异仙",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "凡人修仙传",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-005",
+    "sourceLog": "task-03-relative.private.json",
+    "step": "hotword-repro",
+    "utc": "2026-11-23T06:07:22.312Z",
+    "observed": {
+      "keyword": "凡人修仙传",
+      "text": "← 书架\n发现\n书源设置\n搜索\n🔍\n想看点什么？\n\n输入关键词，多书源会同时帮你找。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "actualSearchEvents": []
+    }
+  },
+  {
+    "group": "TC-20",
+    "sourceLog": "task-09-after-clear.private.json",
+    "step": "book-delete-cancel-keeps-data",
+    "utc": "2026-11-23T06:53:34.007Z",
+    "observed": [
+      {
+        "name": "暗体",
+        "index": 0,
+        "total": 0
+      },
+      {
+        "name": "不一样的三体",
+        "index": 4,
+        "total": 93
+      }
+    ]
+  },
+  {
+    "group": "TC-20",
+    "sourceLog": "task-09-after-clear.private.json",
+    "step": "deleted-current-book-db-readonly",
+    "utc": "2026-11-23T06:53:34.374Z",
+    "observed": [
+      {
+        "name": "暗体",
+        "index": 0,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "group": "TC-20",
+    "sourceLog": "task-09-after-clear.private.json",
+    "step": "delete-non-current-book-success",
+    "utc": "2026-11-23T06:53:36.679Z",
+    "observed": [
+      {
+        "name": "不一样的三体",
+        "index": 4,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-09-after-clear.private.json",
+    "step": "deleted-current-book-shelf-stale-continue",
+    "utc": "2026-11-23T06:53:34.362Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "resultCount": 0,
+      "results": [],
+      "text": "摸鱼阅读\n发现书源设置\n继续上次阅读\n→\n<URL>\n第 5 章\n×\n暗体\n作者：沣水森\n尚未开始",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "×",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-09-after-clear.private.json",
+    "step": "deleted-current-book-storage-retained",
+    "utc": "2026-11-23T06:53:34.363Z",
+    "observed": {
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "bookRef": "QA_BOOK_A",
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        },
+        "bookAProgress": 0.07751239296980622
+      }
+    }
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-09-after-clear.private.json",
+    "step": "stale-continue-opens-reader-error",
+    "utc": "2026-11-23T06:53:35.991Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "resultCount": 0,
+      "results": [],
+      "text": "⚠️\n出错了\n\n书籍不存在\n\n回书架",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "回书架",
+          "type": ""
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-007",
+    "sourceLog": "task-08-restart.private.json",
+    "step": "restart-theme-mismatch",
+    "utc": "2026-11-23T06:46:00.620Z",
+    "observed": {
+      "theme": "\"dark\"",
+      "actualTheme": null,
+      "bodyBackground": "rgb(247, 245, 240)"
+    }
+  },
+  {
+    "group": "MR-007",
+    "sourceLog": "task-12-after-native-restart.private.json",
+    "step": "initial-shelf-appearance",
+    "utc": "2026-11-23T07:08:31.407Z",
+    "observed": {
+      "text": "摸鱼阅读\n发现书源设置\n继续上次阅读\n→\n不一样的三体\n第 5 章\n×\n不一样的三体\n作者：文刀红城\n第 5 / 93 章",
+      "theme": null,
+      "storedTheme": "\"dark\"",
+      "bodyBackground": "rgb(247, 245, 240)"
+    }
+  },
+  {
+    "group": "MR-008",
+    "sourceLog": "task-05b.private.json",
+    "step": "known-active-source-no-match",
+    "utc": "2026-11-23T06:26:18.088Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "resultCount": 50,
+      "results": [
+        {
+          "name": "不肯无",
+          "author": "作者：酥糖那个酥",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "尘世无仙",
+          "author": "作者：江月余白",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "初夏无寒",
+          "author": "作者：一世卿黎",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "村上无探戈",
+          "author": "作者：池夕末",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "大道无荒",
+          "author": "作者：蟹八叔",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "风无念",
+          "author": "作者：一米七的柯基",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "伏无",
+          "author": "作者：良三北",
+          "sources": "1 个书源"
+        },
+        {
+          "name": "关山无灯火",
+          "author": "作者：木清梵",
+          "sources": "1 个书源"
+        }
+      ],
+      "text": "← 书架\n发现\n书源设置\n搜索\n找到 50 本相关书籍（搜索结束）\n不肯无\n作者：酥糖那个酥\n1 个书源\n尘世无仙\n作者：江月余白\n1 个书源\n初夏无寒\n作者：一世卿黎\n1 个书源\n村上无探戈\n作者：池夕末\n1 个书源\n大道无荒\n作者：蟹八叔\n1 个书源\n风无念\n作者：一米七的柯基\n1 个书源\n伏无\n作者：良三北\n1 个书源\n关山无灯火\n作者：木清梵\n1 个书源\n化无诀\n作者：云彩青\n1 个书源\n剑无晴\n作者：绿叶小萝卜\n1 个书源\n珺无戏言\n作者：商家千金\n1 个书源\n木剑无锋\n作者：老师养小鸡\n1 个书源\n世间无仙\n作者：左旗天桴\n1 个书源\n岁无\n作者：棋睿半半\n1 个书源\n太无之上\n作者：圣心无悔\n1 个书源\n天下无千\n作者：花缘\n1 个书源\n天涯无殇\n作者：我的莉莉安\n1 个书源\n童心无惧\n作者：如涵\n1 个书源\n我的施法无CD无消耗\n作者：冥门正派\n1 个书源\n无爱不婚\n作者：年念歌\n1 个书源\n无傲骨\n作者：爱吃红薯的迷\n1 个书源\n无刺\n作者：十三不晚\n1 个书源\n无定风波\n作者：春风酒笑\n1 个书源\n无渡\n作者：采花无双\n1 个书源\n无饵\n作者：邺都有斌子\n1 个书源\n无痕少年\n作者：李和义\n1 个书源\n无晋\n作者：南郭打狼\n1 个书源\n无烬宇宙\n作者：公子请抽烟\n1 个书源\n无境之剑\n作者：翻书听风\n1 个书源\n无念之剑\n作者：酒社\n1 个书源\n无品道士\n作者：风浅歌\n1 个书源\n无琴记\n作者：刀三佰\n1 个书源\n无天主宰\n作者：哆啦和A梦\n1 个书源\n无妄尘缘\n作者：莲影儿\n1 个书源\n无妄之罪\n作者：幻海半仙\n1 个书源\n无侠1\n作者：武侠已死\n1 个书源\n无仙\n作者：曳光.\n1 个书源\n无仙\n作者：曳光\n1 个书源\n无崖行\n作者：川叶\n1 个书源\n无印之神\n作者：毋知\n1 个书源\n无渊界\n作者：瑾年岁月\n1 个书源\n无之起源\n作者：忧心的旁观者\n1 个书源\n仙无诀\n作者：御是音\n1 个书源\n修行无岁月\n作者：幻夜心\n1 个书源\n妖无格\n作者：九米海洋的鱼\n1 个书源\n医者无眠\n作者：真熊初墨\n1 个书源\n愿无来生\n作者：何谓清欢\n1 个书源\n月下无戈\n作者：饮酒竟成妖\n1 个书源\n长无欢\n作者：吴在渊\n1 个书源\n贞观无太子\n作者：赴醉人\n1 个书源",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "value": "QA无此书20261123qazwsx",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-008",
+    "sourceLog": "task-06.private.json",
+    "step": "ascii-negative-search",
+    "utc": "2026-11-23T06:29:59.608Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "resultCount": 0,
+      "results": [],
+      "text": "← 书架\n发现\n书源设置\n搜索\n🔍\n想看点什么？\n\n输入关键词，多书源会同时帮你找。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "value": "qa20261123zzzzzzz",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "诡秘之主",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "三体",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "红楼梦",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "道诡异仙",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "凡人修仙传",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-009",
+    "sourceLog": "task-08-restart.private.json",
+    "step": "settings-version-and-persisted-appearance",
+    "utc": "2026-11-23T06:46:02.799Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "resultCount": 0,
+      "results": [],
+      "text": "← 书架\n设置\n发现书源\n外观\n主题\n浅色\n深色\n正文字号 (24px)\n阅读\n本地进度缓存\n清除缓存\n快捷键与关闭行为\n全局老板键 / 关闭行为 / 隐蔽窗口设置\n即将到来\n\n这些设置需要和 Rust 主进程配合，下一阶段开放。\n\n关于\n摸鱼阅读 V2\n版本 0.1.0",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "浅色",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "深色",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "range",
+          "value": "24",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "清除缓存",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "即将到来",
+          "type": "submit",
+          "value": "",
+          "disabled": true
+        }
+      ]
+    }
+  },
+  {
+    "group": "TC-11",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "auxiliary-downstream-fixture-NOT-UI-add-pass",
+    "utc": "2026-11-23T06:11:48.040Z",
+    "observed": {
+      "purpose": "上游详情不可用；仅将已收到的真实搜索结果存入QA书架，隔离诊断后续界面。正常加入书架仍为失败/阻塞。",
+      "beforeCount": 0,
+      "savedName": "不一样的三体",
+      "afterCount": 1
+    }
+  },
+  {
+    "group": "TC-12",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "first-chapter-real-ui",
+    "utc": "2026-11-23T06:11:51.680Z",
+    "observed": {
+      "header": "不一样的三体\n第八十一章 大低谷时期 (1/93)",
+      "footer": "上一章\n1 / 93\n下一章",
+      "loading": false,
+      "paragraphs": 37,
+      "chars": 2304,
+      "scrollTop": 0,
+      "scrollHeight": 3546,
+      "clientHeight": 696,
+      "prevDisabled": true,
+      "nextDisabled": false
+    }
+  },
+  {
+    "group": "TC-12",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "next-chapter-real-ui",
+    "utc": "2026-11-23T06:11:53.370Z",
+    "observed": {
+      "header": "不一样的三体\n第八十章 流逝的时间 (2/93)",
+      "footer": "上一章\n2 / 93\n下一章",
+      "loading": false,
+      "paragraphs": 36,
+      "chars": 2176,
+      "scrollTop": 0,
+      "scrollHeight": 3423,
+      "clientHeight": 696,
+      "prevDisabled": false,
+      "nextDisabled": false
+    }
+  },
+  {
+    "group": "TC-12",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "previous-cached-first-chapter",
+    "utc": "2026-11-23T06:11:53.806Z",
+    "observed": {
+      "header": "不一样的三体\n第八十一章 大低谷时期 (1/93)",
+      "footer": "上一章\n1 / 93\n下一章",
+      "loading": false,
+      "paragraphs": 37,
+      "chars": 2304,
+      "scrollTop": 0,
+      "scrollHeight": 3546,
+      "clientHeight": 696,
+      "prevDisabled": true,
+      "nextDisabled": false
+    }
+  },
+  {
+    "group": "TC-12",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "last-chapter-real-ui",
+    "utc": "2026-11-23T06:11:54.863Z",
+    "observed": {
+      "header": "不一样的三体\n第八十一章 大低谷时期 (93/93)",
+      "footer": "上一章\n93 / 93\n下一章",
+      "loading": false,
+      "paragraphs": 37,
+      "chars": 2304,
+      "scrollTop": 0,
+      "scrollHeight": 3546,
+      "clientHeight": 696,
+      "prevDisabled": false,
+      "nextDisabled": true
+    }
+  },
+  {
+    "group": "TC-13",
+    "sourceLog": "task-04-reader.private.json",
+    "step": "catalog-ui-count",
+    "utc": "2026-11-23T06:11:53.993Z",
+    "observed": 93
+  },
+  {
+    "group": "TC-15",
+    "sourceLog": "task-05-progress-settings.private.json",
+    "step": "before-reader-close",
+    "utc": "2026-11-23T06:14:39.637Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "scrollTop": 1373,
+      "firstVisibleParagraph": 13,
+      "fontSize": "18px",
+      "theme": "light",
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "light",
+        "fontSize": 18,
+        "lastReading": {
+          "bookRef": "QA_BOOK_A",
+          "chapterIndex": 4,
+          "progress": 0.3744930148715638
+        },
+        "bookAProgress": 0.3744930148715638
+      }
+    }
+  },
+  {
+    "group": "TC-15",
+    "sourceLog": "task-05-progress-settings.private.json",
+    "step": "continue-reader-restored",
+    "utc": "2026-11-23T06:14:40.744Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "scrollTop": 1360,
+      "firstVisibleParagraph": 13,
+      "fontSize": "18px",
+      "theme": "light",
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "light",
+        "fontSize": 18,
+        "lastReading": {
+          "bookRef": "QA_BOOK_A",
+          "chapterIndex": 4,
+          "progress": 0
+        },
+        "bookAProgress": 0.3744930148715638
+      }
+    }
+  },
+  {
+    "group": "TC-15",
+    "sourceLog": "task-05-progress-settings.private.json",
+    "step": "book-card-reader-restored",
+    "utc": "2026-11-23T06:14:41.754Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "scrollTop": 1360,
+      "firstVisibleParagraph": 13,
+      "fontSize": "18px",
+      "theme": "light",
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "light",
+        "fontSize": 18,
+        "lastReading": {
+          "bookRef": "QA_BOOK_A",
+          "chapterIndex": 4,
+          "progress": 0.3744930148715638
+        },
+        "bookAProgress": 0.3744930148715638
+      }
+    }
+  },
+  {
+    "group": "TC-15",
+    "sourceLog": "task-08-restart.private.json",
+    "step": "restart-comparison",
+    "utc": "2026-11-23T06:46:01.807Z",
+    "observed": {
+      "sameChapter": true,
+      "sameParagraph": true,
+      "sameText": true,
+      "sameFont": true,
+      "sameTheme": true,
+      "expectedScrollTop": 2068,
+      "actualScrollTop": 2061
+    }
+  },
+  {
+    "group": "TC-03",
+    "sourceLog": "task-08-restart.private.json",
+    "step": "sources-toggle-persisted-across-restart",
+    "utc": "2026-11-23T06:46:02.619Z",
+    "observed": {
+      "total": 164,
+      "stats": "共 164 个书源 · 启用 1 个",
+      "enabledNames": [
+        "奇怪小说"
+      ]
+    }
+  },
+  {
+    "group": "TC-09",
+    "sourceLog": "task-06.private.json",
+    "step": "duplicate-ui-disabled-and-progress-kept",
+    "utc": "2026-11-23T06:30:00.729Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "resultCount": 0,
+      "results": [],
+      "text": "← 返回\n书籍详情\n不一样的三体\n作者：文刀红城\n·\n奇怪小说\n93 章\n\n暂无简介\n\n已在书架\n继续阅读 (第 5 章)\n目录\n共 93 章\n第八十一章 大低谷时期\n第八十章 流逝的时间\n第七十九章 愚蠢的审判\n第七十八章 质问\n第七十七章 破壁（二）\n第七十六章 破壁（一）\n第七十五章 实验\n第七十四章 除后患\n第七十三章 成功推行\n第七十二章 思想钢印\n第七十一章 冬眠与苏醒\n第七十章 暗杀行动（下）\n第一章 降临三体\n第二章 理清现实\n第三章 探讨“三体”\n第四章 未知的信\n第五章 三体聚会\n第六章 安葬父亲\n第七章 计划与日常\n第八章 首谈三体为真\n第九章 见汪淼\n第十章 与汪淼的谈话\n第十一章 ETO显现\n第十二章 准备计划(前夕)上\n第十三章 准备计划(前夕)下\n第十四章 实施计划(上)\n第十五章 实施计划(中)\n第十六章 实施计划(下)\n第十七章 杨冬去世\n第十八章 李杨遇险\n第十九章 接受调查\n第二十章 取证，出院\n第二十一章 会议室谈话\n第二十二章 准备抓捕\n第二十三章 初步行动\n第二十四章 国际联合会\n第二十五章 ETO发力\n第二十六章 风流浪子\n第二十七章 安全部成立\n第二十八章 内讧\n第二十九章 古筝计划\n第三十章 “审判日”陨落\n第三十一章 墓前相遇\n第三十二章 时空对话\n第三十三章 被捕，谢幕\n第三十四章 思维透明\n第三十五章 解畏惧情绪\n第三十六章 见罗辑\n第三十七章 面壁计划\n第三十八章 面壁者一\n第三十九章 面壁者二\n第四十章 面壁者三\n第四十一章 面壁者四\n第四十二章 面壁者五\n第四十三章 面壁者六\n第四十四章 面壁者七\n第四十五章 面壁者八\n第四十六章 摆烂的罗辑\n第四十七章 见野生面壁者\n第四十八章 政治部会议\n第四十九章 会谈\n第五十章 死灰复燃\n第五十一章 破壁计划\n第五十二章 计划开展\n第五十三章 进程\n第五十四章 无用的怜悯\n第五十五章 绝望\n第五十六章 增援未来\n第五十七章 破壁人出现\n第五十八章 面壁者间的谈话\n第五十九章 冬眠\n第六十章 逼迫罗辑\n第六十一章 变化\n第六十二章 自我破壁\n第六十三章 寻找目标\n第六十四章 咒语\n第六十五章 基因导弹\n第六十六章 新的发现\n第六十七章 危机时代下普通人\n第六十八章 暗杀准备\n第六十九章 暗杀行动（上）\n第七十章 暗杀行动（下）\n第七十一章 冬眠与苏醒\n第七十二章 思想钢印\n第七十三章 成功推行\n第七十四章 除后患\n第七十五章 实验\n第七十六章 破壁（一）\n第七十七章 破壁（二）\n第七十八章 质问\n第七十九章 愚蠢的审判\n第八十章 流逝的时间\n第八十一章 大低谷时",
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "text": "← 返回",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "已在书架",
+          "type": "submit",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "继续阅读 (第 5 章)",
+          "type": "submit",
+          "value": "",
+          "disabled": false
+        }
+      ]
+    }
+  },
+  {
+    "group": "TC-09",
+    "sourceLog": "task-06.private.json",
+    "step": "duplicate-readonly-native-check",
+    "utc": "2026-11-23T06:30:00.736Z",
+    "observed": [
+      {
+        "name": "不一样的三体",
+        "index": 4,
+        "total": 93
+      }
+    ]
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-09-prepare-clear.private.json",
+    "step": "before-clear-preferences-progress",
+    "utc": "2026-11-23T06:53:28.279Z",
+    "observed": {
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "bookRef": "QA_BOOK_A",
+          "chapterIndex": 4,
+          "progress": 0.3744930148715638
+        },
+        "bookAProgress": 0.3744930148715638
+      }
+    }
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-09-prepare-clear.private.json",
+    "step": "clear-real-native-confirm",
+    "utc": "2026-11-23T06:53:28.341Z",
+    "observed": {
+      "message": "确定清除所有本地阅读进度缓存吗？清除后再次打开章节会从开头开始。",
+      "type": "confirm",
+      "hasBrowserHandler": true
+    }
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-09-after-clear.private.json",
+    "step": "after-native-accept-local-storage",
+    "utc": "2026-11-23T06:53:30.935Z",
+    "observed": {
+      "localStorage": {
+        "progressKeyCount": 0,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "bookRef": "QA_BOOK_A",
+          "chapterIndex": 4,
+          "progress": 0.3744930148715638
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-09-after-clear.private.json",
+    "step": "after-clear-books-readonly",
+    "utc": "2026-11-23T06:53:30.942Z",
+    "observed": [
+      {
+        "name": "不一样的三体",
+        "index": 4,
+        "total": 93
+      }
+    ]
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-09-after-clear.private.json",
+    "step": "cleared-chapter-starts-at-top",
+    "utc": "2026-11-23T06:53:31.821Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "scrollTop": 0
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-invalid-json.private.json",
+    "step": "before-negative-import",
+    "utc": "2026-11-23T06:55:40.150Z",
+    "observed": {
+      "stats": "共 164 个书源 · 启用 1 个",
+      "count": 164,
+      "selected": 0,
+      "enabled": [
+        "奇怪小说"
+      ],
+      "batchDeleteDisabled": true
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-invalid-json.private.json",
+    "step": "actual-native-dialog",
+    "utc": "2026-11-23T06:55:40.529Z",
+    "observed": {
+      "phase": "invalid-json",
+      "windowLabel": "main",
+      "message": "导入失败: JSON 解析失败，请检查格式",
+      "type": "alert"
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-batch-and-reimport.private.json",
+    "step": "invalid-json-left-db-unchanged",
+    "utc": "2026-11-23T06:55:41.839Z",
+    "observed": {
+      "stats": "共 164 个书源 · 启用 1 个",
+      "count": 164,
+      "selected": 0,
+      "enabled": [
+        "奇怪小说"
+      ],
+      "batchDeleteDisabled": true
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-batch-and-reimport.private.json",
+    "step": "batch-delete-cancelled",
+    "utc": "2026-11-23T06:55:42.755Z",
+    "observed": {
+      "stats": "共 164 个书源 · 启用 1 个",
+      "count": 164,
+      "selected": 2,
+      "enabled": [
+        "奇怪小说"
+      ],
+      "batchDeleteDisabled": false
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-batch-and-reimport.private.json",
+    "step": "batch-delete-two-persisted",
+    "utc": "2026-11-23T06:55:43.190Z",
+    "observed": {
+      "stats": "共 162 个书源 · 启用 1 个",
+      "count": 162,
+      "selected": 0,
+      "enabled": [
+        "奇怪小说"
+      ],
+      "batchDeleteDisabled": true
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-batch-and-reimport.private.json",
+    "step": "single-disabled-source-delete",
+    "utc": "2026-11-23T06:55:43.362Z",
+    "observed": {
+      "stats": "共 161 个书源 · 启用 1 个",
+      "count": 161,
+      "selected": 0,
+      "enabled": [
+        "奇怪小说"
+      ],
+      "batchDeleteDisabled": true
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-batch-and-reimport.private.json",
+    "step": "sources-readonly-db-after-delete",
+    "utc": "2026-11-23T06:55:43.449Z",
+    "observed": {
+      "count": 161
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-batch-and-reimport.private.json",
+    "step": "actual-native-dialog",
+    "utc": "2026-11-23T06:55:44.248Z",
+    "observed": {
+      "phase": "batch-and-reimport",
+      "windowLabel": "main",
+      "message": "成功导入 3 条书源",
+      "type": "alert"
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-after-reimport.private.json",
+    "step": "real-original-source-UI-reimport",
+    "utc": "2026-11-23T06:55:44.629Z",
+    "observed": {
+      "stats": "共 164 个书源 · 启用 1 个",
+      "count": 164,
+      "selected": 0,
+      "enabled": [
+        "奇怪小说"
+      ],
+      "batchDeleteDisabled": true
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-after-reimport.private.json",
+    "step": "select-all",
+    "utc": "2026-11-23T06:55:45.224Z",
+    "observed": {
+      "stats": "共 164 个书源 · 启用 1 个",
+      "count": 164,
+      "selected": 164,
+      "enabled": [
+        "奇怪小说"
+      ],
+      "batchDeleteDisabled": false
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-after-reimport.private.json",
+    "step": "select-none",
+    "utc": "2026-11-23T06:55:45.482Z",
+    "observed": {
+      "stats": "共 164 个书源 · 启用 1 个",
+      "count": 164,
+      "selected": 0,
+      "enabled": [
+        "奇怪小说"
+      ],
+      "batchDeleteDisabled": true
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-after-reimport.private.json",
+    "step": "clear-all-cancelled-keeps-sources",
+    "utc": "2026-11-23T06:55:45.942Z",
+    "observed": {
+      "stats": "共 164 个书源 · 启用 1 个",
+      "count": 164,
+      "selected": 0,
+      "enabled": [
+        "奇怪小说"
+      ],
+      "batchDeleteDisabled": true
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-after-reimport.private.json",
+    "step": "actual-native-dialog",
+    "utc": "2026-11-23T06:55:46.344Z",
+    "observed": {
+      "phase": "after-reimport",
+      "windowLabel": "main",
+      "message": "导入失败: HTTP 请求失败: builder error",
+      "type": "alert"
+    }
+  },
+  {
+    "group": "TC-21/22/23/24",
+    "sourceLog": "task-10-finish.private.json",
+    "step": "invalid-url-did-not-change-db",
+    "utc": "2026-11-23T06:55:46.693Z",
+    "observed": {
+      "stats": "共 164 个书源 · 启用 1 个",
+      "count": 164,
+      "selected": 0,
+      "enabled": [
+        "奇怪小说"
+      ],
+      "batchDeleteDisabled": true
+    }
+  },
+  {
+    "group": "TC-22",
+    "observed": {
+      "restoredSourceCount": 3,
+      "allEnabledAndBothSearchContentRuleFormatsUnchanged": true
+    }
+  },
+  {
+    "group": "EXT-01",
+    "sourceLog": "task-03-relative.private.json",
+    "step": "relative-source-search",
+    "utc": "2026-11-23T06:07:22.654Z",
+    "observed": {
+      "keyword": "三体",
+      "text": "← 书架\n发现\n书源设置\n搜索\n🔍\n想看点什么？\n\n输入关键词，多书源会同时帮你找。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "actualSearchEvents": [
+        {
+          "type": "end",
+          "time": 1795414042517
+        }
+      ]
+    }
+  },
+  {
+    "group": "EXT-01",
+    "sourceLog": "task-03-relative.private.json",
+    "step": "relative-resolved-native-auxiliary",
+    "utc": "2026-11-23T06:07:52.766Z",
+    "observed": {
+      "ok": false,
+      "error": "请求分类书籍失败: HTTP 请求失败: error sending request for url (<URL>"
+    }
+  },
+  {
+    "group": "EXT-02",
+    "sourceLog": "task-11-network.private.json",
+    "step": "real-reader-late-source-failure",
+    "utc": "2026-11-23T07:01:04.197Z",
+    "observed": {
+      "text": "⚠️\n出错了\n\n书籍加载失败\n\n回书架",
+      "loading": false,
+      "error": "书籍加载失败"
+    }
+  },
+  {
+    "group": "EXT-02",
+    "sourceLog": "task-11-network.private.json",
+    "step": "late-failure-existing-book-origin-check",
+    "utc": "2026-11-23T07:01:05.733Z",
+    "observed": {
+      "name": "不一样的三体",
+      "exists": true,
+      "originUnchanged": true,
+      "index": 4,
+      "total": 0
+    }
+  },
+  {
+    "group": "EXT-02",
+    "sourceLog": "task-11-network.private.json",
+    "step": "one-readonly-real-source-diagnostic-no-retry-loop",
+    "utc": "2026-11-23T07:01:10.724Z",
+    "observed": {
+      "ok": true,
+      "count": 93
+    }
+  },
+  {
+    "group": "EXT-02",
+    "sourceLog": "task-12-before-native-restart.private.json",
+    "step": "real-reader-after-late-reload",
+    "utc": "2026-11-23T07:02:43.646Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "paragraphs": 0,
+      "error": "正文加载失败\n\n重试",
+      "scrollTop": 0
+    }
+  },
+  {
+    "group": "TC-12",
+    "sourceLog": "task-12-after-native-restart.private.json",
+    "step": "real-reader-after-late-reload",
+    "utc": "2026-11-23T07:08:32.239Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "paragraphs": 39,
+      "chars": 2118,
+      "scrollTop": 619,
+      "fontSize": "24px",
+      "theme": "dark",
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "bookRef": "QA_BOOK_A",
+          "chapterIndex": 4,
+          "progress": 0
+        },
+        "bookAProgress": 0.07751239296980622
+      }
+    }
+  }
+]

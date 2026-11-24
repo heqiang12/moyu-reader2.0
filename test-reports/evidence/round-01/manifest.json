@@ -1,0 +1,82 @@
+{
+  "round": 1,
+  "files": {
+    "app-console.json": {
+      "bytes": 557,
+      "sha256": "988becbd2e622266a8375a89f4615d288f1241318fd33ed657b557b7617ca8e2"
+    },
+    "build.txt": {
+      "bytes": 828,
+      "sha256": "97996de9ffb267ca31771341e64418a865f0999281ead5ab687d16f24cc3e763"
+    },
+    "observations.json": {
+      "bytes": 60982,
+      "sha256": "599eac673849bf63c018e3a9e6431d76a2560e8b0d3202147a7c882bf9121776"
+    },
+    "r01-absolute-source-search.png": {
+      "bytes": 39859,
+      "sha256": "267bc06b4bec4d4d1cca47f63334a52a746f5532b8f20bcb4b823eab17faa336"
+    },
+    "r01-actual-result-detail-error.png": {
+      "bytes": 15527,
+      "sha256": "ebcc41aa1b66bac4d7cb921443d68fe315693b8e872ea6eec5b277f9a2f42494"
+    },
+    "r01-ascii-empty-results.png": {
+      "bytes": 34647,
+      "sha256": "40830f60c6a930cf4794c166f6695e85601f41540be971ec235acb8bda981c65"
+    },
+    "r01-delete-stale-continue-error.png": {
+      "bytes": 13984,
+      "sha256": "8132e2f58604ad55e0f433e05d8c080e82c0d57bef732ef5392eaab4821390ee"
+    },
+    "r01-delete-stale-continue.png": {
+      "bytes": 61863,
+      "sha256": "4bb07a20cb4717207e8b218e51962a325bb384b9b41945d5ab769d6cf34bb542"
+    },
+    "r01-final-real-reader-after-native-restart.png": {
+      "bytes": 106249,
+      "sha256": "561e995fd12094f2b806fe47a1fa4162b67cadad4e0c18214290fba8d774d662"
+    },
+    "r01-final-real-reader-before-native-restart.png": {
+      "bytes": 14150,
+      "sha256": "f3169f22187407258e24dee5207d6354b88232a3b3aa483515e7e683f46c697c"
+    },
+    "r01-hotword-no-search.png": {
+      "bytes": 26750,
+      "sha256": "c2791c7fde0bfe7cb6c3aec4cfd6052c5a5de85de742b625145757d079e03d3b"
+    },
+    "r01-native-clear-confirm-cropped.png": {
+      "bytes": 17349,
+      "sha256": "a7f77a9c7675d472fd4f8333b2a46e9bc1c8eab1fa889bbe51bb415c9006411a"
+    },
+    "r01-next-chapter-position.png": {
+      "bytes": 87685,
+      "sha256": "3f10762d058fc0f13d61184bd9c6dd84255a9dcc046678669dad5e4e3b10ee5c"
+    },
+    "r01-rapid-search-repro.png": {
+      "bytes": 83704,
+      "sha256": "0aeb2bb2d0004736bc1e76a3c6e214d4c6d421c9e510f1fc42e28b7bc7c579c3"
+    },
+    "r01-real-chapter-first.png": {
+      "bytes": 87187,
+      "sha256": "5b37f5c779ca84f9dab78a7c87e9ed571c283ff0690f6aca1ac7500f739e668a"
+    },
+    "r01-restart-real-progress-restored.png": {
+      "bytes": 128228,
+      "sha256": "cb031a35355d90e692eaa37d0a5eac76bbdc33fa9a40ed8e1854cecca1465095"
+    },
+    "r01-restart-theme-not-applied.png": {
+      "bytes": 69319,
+      "sha256": "dd50441ad95e6c3ba458a12e95288ea0855668549054f087bb1b2bbf9fd2b02c"
+    },
+    "r01-settings-version.png": {
+      "bytes": 28118,
+      "sha256": "ad80fa52a79b9779988ee6b4c20f494ea7bd51b705ddcd2e4c8ed4f3a0ed1afe"
+    },
+    "runtime.json": {
+      "bytes": 6620,
+      "sha256": "53d431d0cc62c4293773e91a0e1b31bff60a636e1c865551a91b36bb6199a6d8"
+    }
+  },
+  "screenshotNote": "CDP screenshots are unmodified QA WebView2 captures. Native confirmation crop keeps title/dialog/buttons only; unrelated desktop overlay excluded."
+}

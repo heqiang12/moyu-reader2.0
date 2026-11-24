@@ -1,0 +1,1215 @@
+{
+  "runs": [
+    {
+      "run": 1,
+      "sourceLog": "runtime-run1-beforeclose.private.json",
+      "utc": "2026-11-23T11:44:04.9830048Z",
+      "appPid": 40804,
+      "browserPid": 31320,
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 31320
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 26764
+        }
+      ],
+      "exeVersion": "0.2.0",
+      "exeSha256": "2ffe7711ecc4303370f7df08292ed222aa425f937d4becdb13242389ba1a846d",
+      "launcherPid": 24036,
+      "startedUtc": "2026-11-23T11:43:26.2654438Z",
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 40804,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "ownedProcessIdentities": [
+        {
+          "ProcessId": 24036,
+          "ParentProcessId": 3476,
+          "CreationDate": "2026-11-23T19:43:24.255946+08:00",
+          "Name": "pwsh.exe"
+        },
+        {
+          "ProcessId": 22948,
+          "ParentProcessId": 24036,
+          "CreationDate": "2026-11-23T19:43:24.267873+08:00",
+          "Name": "conhost.exe"
+        },
+        {
+          "ProcessId": 30268,
+          "ParentProcessId": 24036,
+          "CreationDate": "2026-11-23T19:43:26.300032+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 22836,
+          "ParentProcessId": 30268,
+          "CreationDate": "2026-11-23T19:43:26.524174+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 40368,
+          "ParentProcessId": 22836,
+          "CreationDate": "2026-11-23T19:43:26.756863+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 38452,
+          "ParentProcessId": 40368,
+          "CreationDate": "2026-11-23T19:43:26.788528+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 30852,
+          "ParentProcessId": 38452,
+          "CreationDate": "2026-11-23T19:43:27.590717+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 32044,
+          "ParentProcessId": 38452,
+          "CreationDate": "2026-11-23T19:43:31.634351+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 38192,
+          "ParentProcessId": 30852,
+          "CreationDate": "2026-11-23T19:43:27.81189+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 8276,
+          "ParentProcessId": 32044,
+          "CreationDate": "2026-11-23T19:43:31.66148+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 35576,
+          "ParentProcessId": 38192,
+          "CreationDate": "2026-11-23T19:43:28.052957+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 40804,
+          "ParentProcessId": 8276,
+          "CreationDate": "2026-11-23T19:43:52.489588+08:00",
+          "Name": "moyu-reader-v2.exe"
+        },
+        {
+          "ProcessId": 26764,
+          "ParentProcessId": 35576,
+          "CreationDate": "2026-11-23T19:43:28.089602+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 31320,
+          "ParentProcessId": 40804,
+          "CreationDate": "2026-11-23T19:43:52.802415+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 36892,
+          "ParentProcessId": 26764,
+          "CreationDate": "2026-11-18T21:32:06.69047+08:00",
+          "Name": "GameViewer.exe"
+        },
+        {
+          "ProcessId": 39712,
+          "ParentProcessId": 26764,
+          "CreationDate": "2026-11-23T19:43:29.007043+08:00",
+          "Name": "esbuild.exe"
+        },
+        {
+          "ProcessId": 36928,
+          "ParentProcessId": 31320,
+          "CreationDate": "2026-11-23T19:43:52.945022+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 38984,
+          "ParentProcessId": 31320,
+          "CreationDate": "2026-11-23T19:43:53.329196+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 27756,
+          "ParentProcessId": 31320,
+          "CreationDate": "2026-11-23T19:43:53.340112+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 31472,
+          "ParentProcessId": 31320,
+          "CreationDate": "2026-11-23T19:43:53.375191+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 7276,
+          "ParentProcessId": 31320,
+          "CreationDate": "2026-11-23T19:43:53.449942+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 4256,
+          "ParentProcessId": 36892,
+          "CreationDate": "2026-11-18T21:32:07.768292+08:00",
+          "Name": "crashpad_handler.exe"
+        },
+        {
+          "ProcessId": 26460,
+          "ParentProcessId": 36892,
+          "CreationDate": "2026-11-18T21:32:08.687184+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 20844,
+          "ParentProcessId": 26460,
+          "CreationDate": "2026-11-18T21:32:08.781308+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 38840,
+          "ParentProcessId": 26460,
+          "CreationDate": "2026-11-18T21:32:09.218788+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 33428,
+          "ParentProcessId": 26460,
+          "CreationDate": "2026-11-18T21:32:09.242258+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 27200,
+          "ParentProcessId": 26460,
+          "CreationDate": "2026-11-18T21:32:09.325503+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 38748,
+          "ParentProcessId": 26460,
+          "CreationDate": "2026-11-18T21:32:09.413316+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 36652,
+          "ParentProcessId": 26460,
+          "CreationDate": "2026-11-18T21:32:09.457529+08:00",
+          "Name": "msedgewebview2.exe"
+        }
+      ],
+      "cleanup": {
+        "utc": "2026-11-23T11:44:13.5602523Z",
+        "run": 1,
+        "normalAppExitAlreadyVerified": true,
+        "stoppedOwnedDevPids": [],
+        "remainingKnownPids": [],
+        "qaPortListeners": []
+      }
+    },
+    {
+      "run": 2,
+      "sourceLog": "runtime-run2-beforeclose.private.json",
+      "utc": "2026-11-23T11:49:07.8088034Z",
+      "appPid": 17344,
+      "browserPid": 8696,
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 8696
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 40904
+        }
+      ],
+      "exeVersion": "0.2.0",
+      "exeSha256": "2ffe7711ecc4303370f7df08292ed222aa425f937d4becdb13242389ba1a846d",
+      "launcherPid": 16128,
+      "startedUtc": "2026-11-23T11:46:45.1835151Z",
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 17344,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "ownedProcessIdentities": [
+        {
+          "ProcessId": 16128,
+          "ParentProcessId": 12884,
+          "CreationDate": "2026-11-23T19:46:43.337566+08:00",
+          "Name": "pwsh.exe"
+        },
+        {
+          "ProcessId": 36508,
+          "ParentProcessId": 16128,
+          "CreationDate": "2026-11-23T19:46:43.349533+08:00",
+          "Name": "conhost.exe"
+        },
+        {
+          "ProcessId": 38592,
+          "ParentProcessId": 16128,
+          "CreationDate": "2026-11-23T19:46:45.214634+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 1188,
+          "ParentProcessId": 38592,
+          "CreationDate": "2026-11-23T19:46:45.431803+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 38896,
+          "ParentProcessId": 1188,
+          "CreationDate": "2026-11-23T19:46:45.652623+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 1016,
+          "ParentProcessId": 38896,
+          "CreationDate": "2026-11-23T19:46:45.68442+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 40468,
+          "ParentProcessId": 1016,
+          "CreationDate": "2026-11-23T19:46:45.894394+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 21784,
+          "ParentProcessId": 1016,
+          "CreationDate": "2026-11-23T19:46:49.927101+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 23524,
+          "ParentProcessId": 40468,
+          "CreationDate": "2026-11-23T19:46:46.111686+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 15280,
+          "ParentProcessId": 21784,
+          "CreationDate": "2026-11-23T19:46:49.956437+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 37328,
+          "ParentProcessId": 23524,
+          "CreationDate": "2026-11-23T19:46:46.343775+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 17344,
+          "ParentProcessId": 15280,
+          "CreationDate": "2026-11-23T19:46:50.628547+08:00",
+          "Name": "moyu-reader-v2.exe"
+        },
+        {
+          "ProcessId": 40904,
+          "ParentProcessId": 37328,
+          "CreationDate": "2026-11-23T19:46:46.377198+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 8696,
+          "ParentProcessId": 17344,
+          "CreationDate": "2026-11-23T19:46:50.722699+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 38356,
+          "ParentProcessId": 40904,
+          "CreationDate": "2026-11-23T19:46:46.743394+08:00",
+          "Name": "esbuild.exe"
+        },
+        {
+          "ProcessId": 33704,
+          "ParentProcessId": 8696,
+          "CreationDate": "2026-11-23T19:46:50.765701+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 35608,
+          "ParentProcessId": 8696,
+          "CreationDate": "2026-11-23T19:46:50.900817+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 916,
+          "ParentProcessId": 8696,
+          "CreationDate": "2026-11-23T19:46:50.903363+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 39164,
+          "ParentProcessId": 8696,
+          "CreationDate": "2026-11-23T19:46:50.958436+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 31140,
+          "ParentProcessId": 8696,
+          "CreationDate": "2026-11-23T19:46:51.029573+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 38452,
+          "ParentProcessId": 8696,
+          "CreationDate": "2026-11-23T19:48:31.571519+08:00",
+          "Name": "msedgewebview2.exe"
+        }
+      ],
+      "cleanup": {
+        "utc": "2026-11-23T11:49:15.5414878Z",
+        "run": 2,
+        "normalAppExitAlreadyVerified": true,
+        "stoppedOwnedDevPids": [],
+        "remainingKnownPids": [],
+        "qaPortListeners": []
+      }
+    },
+    {
+      "run": 3,
+      "sourceLog": "runtime-run3-beforeclose.private.json",
+      "utc": "2026-11-23T12:05:52.8843189Z",
+      "appPid": 15456,
+      "browserPid": 40224,
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 40224
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 20052
+        }
+      ],
+      "exeVersion": "0.2.0",
+      "exeSha256": "2ffe7711ecc4303370f7df08292ed222aa425f937d4becdb13242389ba1a846d",
+      "launcherPid": 40724,
+      "startedUtc": "2026-11-23T11:50:31.342751Z",
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 15456,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "ownedProcessIdentities": [
+        {
+          "ProcessId": 40724,
+          "ParentProcessId": 32856,
+          "CreationDate": "2026-11-23T19:50:29.387845+08:00",
+          "Name": "pwsh.exe"
+        },
+        {
+          "ProcessId": 36932,
+          "ParentProcessId": 40724,
+          "CreationDate": "2026-11-23T19:50:29.400643+08:00",
+          "Name": "conhost.exe"
+        },
+        {
+          "ProcessId": 38256,
+          "ParentProcessId": 40724,
+          "CreationDate": "2026-11-23T19:50:31.379406+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 37792,
+          "ParentProcessId": 38256,
+          "CreationDate": "2026-11-23T19:50:31.61965+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 12504,
+          "ParentProcessId": 37792,
+          "CreationDate": "2026-11-23T19:50:31.858786+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 1448,
+          "ParentProcessId": 12504,
+          "CreationDate": "2026-11-23T19:50:31.892774+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 2768,
+          "ParentProcessId": 1448,
+          "CreationDate": "2026-11-23T19:50:32.118058+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 33200,
+          "ParentProcessId": 1448,
+          "CreationDate": "2026-11-23T19:50:36.151825+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 29808,
+          "ParentProcessId": 2768,
+          "CreationDate": "2026-11-23T19:50:32.339781+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 25856,
+          "ParentProcessId": 33200,
+          "CreationDate": "2026-11-23T19:50:36.195309+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 10372,
+          "ParentProcessId": 29808,
+          "CreationDate": "2026-11-23T19:50:32.590982+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 15456,
+          "ParentProcessId": 25856,
+          "CreationDate": "2026-11-23T19:50:36.943712+08:00",
+          "Name": "moyu-reader-v2.exe"
+        },
+        {
+          "ProcessId": 20052,
+          "ParentProcessId": 10372,
+          "CreationDate": "2026-11-23T19:50:32.632176+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 40224,
+          "ParentProcessId": 15456,
+          "CreationDate": "2026-11-23T19:50:37.237314+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 4744,
+          "ParentProcessId": 20052,
+          "CreationDate": "2026-11-23T19:50:33.041281+08:00",
+          "Name": "esbuild.exe"
+        },
+        {
+          "ProcessId": 40700,
+          "ParentProcessId": 40224,
+          "CreationDate": "2026-11-23T19:50:37.284612+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 28332,
+          "ParentProcessId": 40224,
+          "CreationDate": "2026-11-23T19:50:37.422543+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 36452,
+          "ParentProcessId": 40224,
+          "CreationDate": "2026-11-23T19:50:37.425958+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 39464,
+          "ParentProcessId": 40224,
+          "CreationDate": "2026-11-23T19:50:37.502701+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 22420,
+          "ParentProcessId": 40224,
+          "CreationDate": "2026-11-23T19:50:37.574926+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 19828,
+          "ParentProcessId": 40224,
+          "CreationDate": "2026-11-23T19:51:03.989267+08:00",
+          "Name": "msedgewebview2.exe"
+        }
+      ],
+      "cleanup": {
+        "utc": "2026-11-23T12:06:10.8408869Z",
+        "run": 3,
+        "normalAppExitAlreadyVerified": true,
+        "stoppedOwnedDevPids": [],
+        "remainingKnownPids": [],
+        "qaPortListeners": []
+      }
+    },
+    {
+      "run": 4,
+      "sourceLog": "runtime-run4-beforeclose.private.json",
+      "utc": "2026-11-23T12:14:36.1025885Z",
+      "appPid": 6448,
+      "browserPid": 30136,
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 30136
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 21420
+        }
+      ],
+      "exeVersion": "0.2.0",
+      "exeSha256": "2ffe7711ecc4303370f7df08292ed222aa425f937d4becdb13242389ba1a846d",
+      "launcherPid": 19648,
+      "startedUtc": "2026-11-23T12:07:28.228102Z",
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 6448,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "ownedProcessIdentities": [
+        {
+          "ProcessId": 19648,
+          "ParentProcessId": 38008,
+          "CreationDate": "2026-11-23T20:07:26.294474+08:00",
+          "Name": "pwsh.exe"
+        },
+        {
+          "ProcessId": 37344,
+          "ParentProcessId": 19648,
+          "CreationDate": "2026-11-23T20:07:26.307144+08:00",
+          "Name": "conhost.exe"
+        },
+        {
+          "ProcessId": 34376,
+          "ParentProcessId": 19648,
+          "CreationDate": "2026-11-23T20:07:28.2573+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 40764,
+          "ParentProcessId": 34376,
+          "CreationDate": "2026-11-23T20:07:28.858838+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 32944,
+          "ParentProcessId": 40764,
+          "CreationDate": "2026-11-23T20:07:30.381317+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 8040,
+          "ParentProcessId": 32944,
+          "CreationDate": "2026-11-23T20:07:30.426448+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 18592,
+          "ParentProcessId": 8040,
+          "CreationDate": "2026-11-23T20:07:31.461097+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 15152,
+          "ParentProcessId": 8040,
+          "CreationDate": "2026-11-23T20:07:35.49848+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 8560,
+          "ParentProcessId": 18592,
+          "CreationDate": "2026-11-23T20:07:31.689389+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 26940,
+          "ParentProcessId": 15152,
+          "CreationDate": "2026-11-23T20:07:35.529909+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 40040,
+          "ParentProcessId": 8560,
+          "CreationDate": "2026-11-23T20:07:31.935095+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 6448,
+          "ParentProcessId": 26940,
+          "CreationDate": "2026-11-23T20:07:53.043312+08:00",
+          "Name": "moyu-reader-v2.exe"
+        },
+        {
+          "ProcessId": 21420,
+          "ParentProcessId": 40040,
+          "CreationDate": "2026-11-23T20:07:31.997033+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 30136,
+          "ParentProcessId": 6448,
+          "CreationDate": "2026-11-23T20:07:53.353516+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 15788,
+          "ParentProcessId": 21420,
+          "CreationDate": "2026-11-23T20:07:33.540698+08:00",
+          "Name": "esbuild.exe"
+        },
+        {
+          "ProcessId": 33492,
+          "ParentProcessId": 30136,
+          "CreationDate": "2026-11-23T20:07:53.397018+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 22880,
+          "ParentProcessId": 30136,
+          "CreationDate": "2026-11-23T20:07:53.538325+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 24172,
+          "ParentProcessId": 30136,
+          "CreationDate": "2026-11-23T20:07:53.542472+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 32264,
+          "ParentProcessId": 30136,
+          "CreationDate": "2026-11-23T20:07:53.607839+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 30384,
+          "ParentProcessId": 30136,
+          "CreationDate": "2026-11-23T20:07:53.680498+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 17576,
+          "ParentProcessId": 30136,
+          "CreationDate": "2026-11-23T20:09:27.961491+08:00",
+          "Name": "msedgewebview2.exe"
+        }
+      ],
+      "cleanup": {
+        "utc": "2026-11-23T12:16:07.6600199Z",
+        "run": 4,
+        "method": "Read-only CIM identity plus native GetExtendedTcpTable owner PID listeners",
+        "knownOwnedRemainingPids": [],
+        "unrelatedReusedPidIdsNotManaged": [],
+        "qaProfilePids": [],
+        "qaPortListeners": [],
+        "noProcessesStoppedOrSettingsChanged": true
+      }
+    },
+    {
+      "run": 5,
+      "sourceLog": "runtime-run5-beforeclose.private.json",
+      "utc": "2026-11-23T12:19:13.5733706Z",
+      "appPid": 31124,
+      "browserPid": 7796,
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 7796
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 29432
+        }
+      ],
+      "exeVersion": "0.2.0",
+      "exeSha256": "2ffe7711ecc4303370f7df08292ed222aa425f937d4becdb13242389ba1a846d",
+      "launcherPid": 28244,
+      "startedUtc": "2026-11-23T12:16:13.8556217Z",
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 31124,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "ownedProcessIdentities": [
+        {
+          "ProcessId": 28244,
+          "ParentProcessId": 12232,
+          "CreationDate": "2026-11-23T20:16:11.93422+08:00",
+          "Name": "pwsh.exe"
+        },
+        {
+          "ProcessId": 34240,
+          "ParentProcessId": 28244,
+          "CreationDate": "2026-11-23T20:16:11.946298+08:00",
+          "Name": "conhost.exe"
+        },
+        {
+          "ProcessId": 32548,
+          "ParentProcessId": 28244,
+          "CreationDate": "2026-11-23T20:16:13.888872+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 4528,
+          "ParentProcessId": 32548,
+          "CreationDate": "2026-11-23T20:16:14.123377+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 20796,
+          "ParentProcessId": 4528,
+          "CreationDate": "2026-11-23T20:16:14.365485+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 12428,
+          "ParentProcessId": 20796,
+          "CreationDate": "2026-11-23T20:16:14.398571+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 31996,
+          "ParentProcessId": 12428,
+          "CreationDate": "2026-11-23T20:16:14.604848+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 17452,
+          "ParentProcessId": 12428,
+          "CreationDate": "2026-11-23T20:16:18.645942+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 26880,
+          "ParentProcessId": 31996,
+          "CreationDate": "2026-11-23T20:16:14.83656+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 37348,
+          "ParentProcessId": 17452,
+          "CreationDate": "2026-11-23T20:16:18.673588+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 27616,
+          "ParentProcessId": 26880,
+          "CreationDate": "2026-11-23T20:16:15.088477+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 31124,
+          "ParentProcessId": 37348,
+          "CreationDate": "2026-11-23T20:16:19.452966+08:00",
+          "Name": "moyu-reader-v2.exe"
+        },
+        {
+          "ProcessId": 29432,
+          "ParentProcessId": 27616,
+          "CreationDate": "2026-11-23T20:16:15.128754+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 7796,
+          "ParentProcessId": 31124,
+          "CreationDate": "2026-11-23T20:16:19.55034+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 27888,
+          "ParentProcessId": 29432,
+          "CreationDate": "2026-11-23T20:16:15.532008+08:00",
+          "Name": "esbuild.exe"
+        },
+        {
+          "ProcessId": 35520,
+          "ParentProcessId": 7796,
+          "CreationDate": "2026-11-23T20:16:19.600893+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 7552,
+          "ParentProcessId": 7796,
+          "CreationDate": "2026-11-23T20:16:19.738632+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 38408,
+          "ParentProcessId": 7796,
+          "CreationDate": "2026-11-23T20:16:19.743352+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 10928,
+          "ParentProcessId": 7796,
+          "CreationDate": "2026-11-23T20:16:19.798687+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 32652,
+          "ParentProcessId": 7796,
+          "CreationDate": "2026-11-23T20:16:19.87207+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 13224,
+          "ParentProcessId": 7796,
+          "CreationDate": "2026-11-23T20:17:59.45795+08:00",
+          "Name": "msedgewebview2.exe"
+        }
+      ],
+      "cleanup": {
+        "utc": "2026-11-23T12:19:20.1133247Z",
+        "run": 5,
+        "method": "Read-only CIM identity plus native GetExtendedTcpTable owner PID listeners",
+        "knownOwnedRemainingPids": [],
+        "unrelatedReusedPidIdsNotManaged": [],
+        "qaProfilePids": [],
+        "qaPortListeners": [],
+        "noProcessesStoppedOrSettingsChanged": true
+      }
+    },
+    {
+      "run": 6,
+      "sourceLog": "runtime-run6-beforeclose.private.json",
+      "utc": "2026-11-23T12:24:07.0652563Z",
+      "appPid": 27824,
+      "browserPid": 21700,
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 21700
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 22828
+        }
+      ],
+      "exeVersion": "0.2.0",
+      "exeSha256": "2ffe7711ecc4303370f7df08292ed222aa425f937d4becdb13242389ba1a846d",
+      "launcherPid": 36172,
+      "startedUtc": "2026-11-23T12:19:31.5495238Z",
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 27824,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "ownedProcessIdentities": [
+        {
+          "ProcessId": 36172,
+          "ParentProcessId": 4800,
+          "CreationDate": "2026-11-23T20:19:29.571714+08:00",
+          "Name": "pwsh.exe"
+        },
+        {
+          "ProcessId": 12096,
+          "ParentProcessId": 36172,
+          "CreationDate": "2026-11-23T20:19:29.584431+08:00",
+          "Name": "conhost.exe"
+        },
+        {
+          "ProcessId": 27940,
+          "ParentProcessId": 36172,
+          "CreationDate": "2026-11-23T20:19:31.584826+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 36928,
+          "ParentProcessId": 27940,
+          "CreationDate": "2026-11-23T20:19:31.812553+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 7348,
+          "ParentProcessId": 36928,
+          "CreationDate": "2026-11-23T20:19:32.048969+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 38348,
+          "ParentProcessId": 7348,
+          "CreationDate": "2026-11-23T20:19:32.081956+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 31180,
+          "ParentProcessId": 38348,
+          "CreationDate": "2026-11-23T20:19:32.30286+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 24812,
+          "ParentProcessId": 38348,
+          "CreationDate": "2026-11-23T20:19:36.352008+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 37580,
+          "ParentProcessId": 31180,
+          "CreationDate": "2026-11-23T20:19:32.53469+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 15444,
+          "ParentProcessId": 24812,
+          "CreationDate": "2026-11-23T20:19:36.380209+08:00",
+          "Name": "cargo.exe"
+        },
+        {
+          "ProcessId": 13804,
+          "ParentProcessId": 37580,
+          "CreationDate": "2026-11-23T20:19:32.779383+08:00",
+          "Name": "cmd.exe"
+        },
+        {
+          "ProcessId": 27824,
+          "ParentProcessId": 15444,
+          "CreationDate": "2026-11-23T20:19:37.077095+08:00",
+          "Name": "moyu-reader-v2.exe"
+        },
+        {
+          "ProcessId": 22828,
+          "ParentProcessId": 13804,
+          "CreationDate": "2026-11-23T20:19:32.820503+08:00",
+          "Name": "node.exe"
+        },
+        {
+          "ProcessId": 21700,
+          "ParentProcessId": 27824,
+          "CreationDate": "2026-11-23T20:19:37.370313+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 29084,
+          "ParentProcessId": 22828,
+          "CreationDate": "2026-11-23T20:19:33.221946+08:00",
+          "Name": "esbuild.exe"
+        },
+        {
+          "ProcessId": 28860,
+          "ParentProcessId": 21700,
+          "CreationDate": "2026-11-23T20:19:37.416431+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 10008,
+          "ParentProcessId": 21700,
+          "CreationDate": "2026-11-23T20:19:37.551641+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 18908,
+          "ParentProcessId": 21700,
+          "CreationDate": "2026-11-23T20:19:37.554422+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 39812,
+          "ParentProcessId": 21700,
+          "CreationDate": "2026-11-23T20:19:37.61641+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 23348,
+          "ParentProcessId": 21700,
+          "CreationDate": "2026-11-23T20:19:37.689605+08:00",
+          "Name": "msedgewebview2.exe"
+        },
+        {
+          "ProcessId": 32112,
+          "ParentProcessId": 21700,
+          "CreationDate": "2026-11-23T20:20:36.680572+08:00",
+          "Name": "msedgewebview2.exe"
+        }
+      ],
+      "cleanup": {
+        "utc": "2026-11-23T12:24:13.7066921Z",
+        "run": 6,
+        "method": "Read-only CIM identity plus native GetExtendedTcpTable owner PID listeners",
+        "knownOwnedRemainingPids": [],
+        "unrelatedReusedPidIdsNotManaged": [],
+        "qaProfilePids": [],
+        "qaPortListeners": [],
+        "noProcessesStoppedOrSettingsChanged": true
+      }
+    }
+  ],
+  "frozenFiles": {
+    ".cargo/config.toml": "01c8fb92fe53d4341f408032cc13e60191b53814d552bf997239829a91fd4873",
+    "AGENTS.md": "3bf3f3de8f89ca99c182290c48f401be5b10806528a12a5fcbf6ce11041a4d59",
+    "index.html": "7822d26a73db455395fb18ed264712fb3d00339872bb3c8baa3ec64b89a4e791",
+    "package-lock.json": "6a32a53513a5e94fc7c861ab097b30ae2416fc4a6418f5ac69bda51ec3d415fb",
+    "package.json": "f0052b40832f0fcc43cb1e298b9d5080c7835d4d8db6e4efb92088b0cf653e82",
+    "src/api/client.ts": "920265baf254a029070e4ff1eb639973d742d266b91eec696aaee25aac40943e",
+    "src/api/types.ts": "cf20f84f6c4b8aa41cd4f7650ad85a2f665e815db6e2f78af10d8549e9501547",
+    "src/App.css": "0f9aca9265668c4a05fab60338746d951e2ef8b85b4bde9026b03406b0091729",
+    "src/App.tsx": "92b0573d5147d36f8229d260654e00b42f970b7579065948290e1c93ce4b6cee",
+    "src/assets/react.svg": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+    "src/components/BookCard.tsx": "cbd5a8996bca9f772145ae061e8c189e16454e7afe2d636ce6646d8ce72b26a1",
+    "src/components/ConfirmModal.tsx": "4748b8933101771137fb060caf9cdd84db2e495a6839321e89c0cc8a7ea6244d",
+    "src/lib/segment.ts": "a7c7392402f7afab50f988920def3f1007c934ea4f1007b20ed0805ace0c954b",
+    "src/lib/storage.ts": "848d0130f41086cb478c78756f33f0d34e23363e0b0b5e8813e156bbe7d65ffe",
+    "src/main.tsx": "0941dbbcbfec8ad550918b32465f1b4b45c329ac502dbe2b29e9fa6b50aafc5b",
+    "src/pages/BookDetailPage.tsx": "ff22c4df166fb041f6a40a6b3d1a93b8de637e090c48f26785ac018a895f59b4",
+    "src/pages/DiscoverPage.tsx": "32759deb1ff3aceeac7599b782e613c03cee939c5ca748ff901813cbec0061fb",
+    "src/pages/ReaderPage.tsx": "a33b202653587f1a5fb886a2bcea79fce33979d0bf09e94a5971b26b49d9357d",
+    "src/pages/SettingsPage.tsx": "60a2d56afb95e94666e715ac7a5fef7b10bc5c81a95c8e9793f245e3ef77b084",
+    "src/pages/ShelfPage.tsx": "b80a72fc065f5f3ca8086b4fbadf09097b94bdf35998ddd8bcd13068459fdb2a",
+    "src/pages/SourcesPage.tsx": "4bd0d12675b4cfe06f9b1634fa68048fea31c42e664583050a79d3b49d39b080",
+    "src/pages/StealthPage.tsx": "c2c21290cd716599b2719d3135b7f01105d08b1351a412e2bfb19b06826f7aed",
+    "src/vite-env.d.ts": "424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92",
+    "src-tauri/.cargo/config.toml": "01c8fb92fe53d4341f408032cc13e60191b53814d552bf997239829a91fd4873",
+    "src-tauri/build.rs": "4ae2333b11623039cc115e29b696e7ff5cdfcd5b7d628280ddf48fa733e6418d",
+    "src-tauri/capabilities/default.json": "1ba2e413530476c304ee6f24a68844f95a11d56cfac980de0fad3dc22eeb4f30",
+    "src-tauri/capabilities/stealth-drag.json": "e306e4a1e52c4f59b7875662bb3e27e42948f1f83901b83d75451f77f640a8b2",
+    "src-tauri/Cargo.lock": "7b2f9c8215ef70c917fa2efe25b11c281de6ad2e44e126bebaafb9e2636e4ab7",
+    "src-tauri/Cargo.toml": "ff991d8b6ec68f751ad88075a8263a80e6cb7fae1a8a0d67d41510a81dfc39e3",
+    "src-tauri/src/commands.rs": "b213d5165e8c0c6a3be1a225b492f89824b37cf1d56393efe8ec1a63fb9a54fe",
+    "src-tauri/src/crawler.rs": "f3b331b68174ef0d0e21a37318b027fff95fe97eba75ac7abc5fe4104ce6be9a",
+    "src-tauri/src/db.rs": "10fae247c4ccc62c9ff5a2e420c28322dbbf2ab6db31891d42f1e4a88bf18fd3",
+    "src-tauri/src/engine.rs": "3572f2d0a440bbd2ca32071978a4a1d1abd3d572cd58bf87093704194d95e036",
+    "src-tauri/src/lib.rs": "81d6ba92d87bc60b7755502791bee2b377a356409389e0fe8561069b9696da42",
+    "src-tauri/src/main.rs": "25df19f8b12fda55db3aa00f18b56679ffd9b830705d3aa4050b8144e2366378",
+    "src-tauri/src/network.rs": "6ec21723bbd316eb81de53dbb3c7dfa559c3282ec14d7601d6fc64e1a265efb4",
+    "src-tauri/src/stealth.rs": "c93ca8e712d051a5d4d8b83246f57be5ceb8d465ca16ed98e93a2a5ce93d844d",
+    "src-tauri/src/types.rs": "d001dab21fd6ad361ff0b0100f13682ec0410eb93d2b4f84e5c799c5ea43b568",
+    "src-tauri/tauri.conf.json": "792a094fabbed38330a07f1cf97978a914b199da5ef970e1200e4fe032201258",
+    "src-tauri/tests/integration_tests.rs": "fc1d3de3d5e9eb1e0118240f869422b29a72810e574771df3f82317cda73b4b5",
+    "tests/regressions.test.mjs": "ab256c2a659fecb247c484235828455a63a3067d3ea626d1024d0d5505e72e51",
+    "tsconfig.json": "cb4dd1777bc7f478cb417906c32099ae5e661865b3181df116ac70790e9a1a7e",
+    "tsconfig.node.json": "6ec602b8aa146888c76f0b41ca3515f91f95919f6e6417a4670decaba8fcb982",
+    "vite.config.ts": "d0c7e96eb844636ee7e73113ff6d194eb942d15398a00989d36335400ac8a86d"
+  },
+  "protection": {
+    "utc": "2026-11-23T12:28:43.256190+00:00",
+    "runtimeFileCount": 43,
+    "runtimeAggregateSha256": "53443803e035fdde2cc7a0e7d0806bd2c40001431d3a4e5f8f4a2f8fc2f6b829",
+    "changedSinceRound03": [
+      "src-tauri/src/db.rs",
+      "src-tauri/tests/integration_tests.rs"
+    ],
+    "exeSha256": "2ffe7711ecc4303370f7df08292ed222aa425f937d4becdb13242389ba1a846d",
+    "earlierReportFileCount": 98,
+    "earlierReportsUnchanged": true,
+    "earlierDbHashEntryCount": 34,
+    "historicalDbEntryCountExcludingWorkingProfile": 32,
+    "allEarlierDbHashEntriesUnchanged": true,
+    "initialCheckpointUnchanged": true,
+    "initialProfileByteCheckpointUnchanged": true,
+    "originalSha256": "aa99ba2810f752fc12d798bcf70daae63757c2d1e3cd0cbd934adf4d348664d6",
+    "originalMtimeNs": 1795166100584901300,
+    "originalBackupSha256": "4a97c8a3d4c7178135f106558c71db8f8d74388a1ec8494573015b5de4908e1b",
+    "originalCounts": {
+      "books": 0,
+      "book_sources": 164,
+      "chapter_cache": 0,
+      "chapter_list_cache": 0
+    },
+    "originalDbAndBackupUnchanged": true,
+    "formalProfileByteComparisonPerformed": false,
+    "qaCounts": {
+      "books": 3,
+      "book_sources": 164,
+      "chapter_cache": 7,
+      "chapter_list_cache": 3
+    },
+    "enabledSources": 1,
+    "qaAllTablesAndSchemaEqualToFinalCheckpoint": true,
+    "qaFinalCheckpointSha256": "e965036ae7aab3da81f540c140599b1ca1d9944a86d353b58942346f0309ffd2",
+    "qaProfileFileCount": 425,
+    "qaProfileBytesEqualToStoppedCheckpoint": true,
+    "profileAggregateSha256": "47426d4ea0d2b8736710f1e3054181adc04db4d4e0b12c61581b1584307b80ee",
+    "finalProcessCheckUtc": "2026-11-23T12:28:41.7174975Z",
+    "ownedMatchingPidAndCreationTime": 0,
+    "qaProfileProcessCount": 0,
+    "currentSourceAppProcessCount": 0,
+    "unrelatedRetiredPidMatchesNotManaged": 1,
+    "qaPortListeners": [],
+    "onlyReadOnlyChecksAfterBusinessExit": true,
+    "businessStatePaused": true
+  },
+  "qaIdentifier": "com.moyu.reader2.qa.qamoyur0120261123135539",
+  "qaDatabase": "<APPDATA>/com.moyu.reader2.qa.qamoyur0120261123135539/moyu_reader.db",
+  "initialCheckpointSha256": "7408253bf0fca51f474d89d31c248a639986e24e94d2f4c0f4e3cff698cf90d2",
+  "finalCheckpoint": {
+    "utc": "2026-11-23T12:24:17.608684+00:00",
+    "name": "final-round04",
+    "sha256": "e965036ae7aab3da81f540c140599b1ca1d9944a86d353b58942346f0309ffd2",
+    "integrity": "ok",
+    "counts": {
+      "books": 3,
+      "book_sources": 164,
+      "chapter_cache": 7,
+      "chapter_list_cache": 3
+    },
+    "books": [
+      {
+        "bookRef": "QA_BOOK_C",
+        "name": "我在三体科技造神！",
+        "dur_chapter_index": 1,
+        "dur_chapter_title": "第60章 持续降维",
+        "total_chapter_num": 73,
+        "dur_chapter_time": 1795435419141
+      },
+      {
+        "bookRef": "QA_BOOK_B",
+        "name": "暗体",
+        "dur_chapter_index": 0,
+        "dur_chapter_title": "第963章 文明捍卫之战",
+        "total_chapter_num": 978,
+        "dur_chapter_time": 1795434531748
+      },
+      {
+        "bookRef": "QA_BOOK_A",
+        "name": "不一样的三体",
+        "dur_chapter_index": 1,
+        "dur_chapter_title": "第八十章 流逝的时间",
+        "total_chapter_num": 93,
+        "dur_chapter_time": 1795436436882
+      }
+    ],
+    "chapterLists": [
+      {
+        "bookRef": "QA_BOOK_C",
+        "directoryLength": 73,
+        "jsonSha256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+        "updated_at": 1795434426982
+      },
+      {
+        "bookRef": "QA_BOOK_B",
+        "directoryLength": 978,
+        "jsonSha256": "3c2cffb0ba1c8b79dab7a27e007b02f56e9ef2f728c6c54678373fc0ebce61e9",
+        "updated_at": 1795425584026
+      },
+      {
+        "bookRef": "QA_BOOK_A",
+        "directoryLength": 93,
+        "jsonSha256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+        "updated_at": 1795434788803
+      }
+    ],
+    "profileFilesCopied": 425,
+    "profileByteCopyVerified": true,
+    "noQaAppOrProfileRunning": true,
+    "originalAndBackupProtected": true
+  },
+  "finalLocalStorage": {
+    "progressKeyCount": 3,
+    "fontSize": 24,
+    "theme": "dark",
+    "stealthSettings": {
+      "alpha": 0.5499999999999999
+    },
+    "QA_BOOK_AProgress": {
+      "chapterIndex": 1,
+      "progress": 0.2004424778761062
+    },
+    "QA_BOOK_BProgress": {
+      "chapterIndex": 0,
+      "progress": 0.1529497450837582
+    },
+    "QA_BOOK_CProgress": {
+      "chapterIndex": 1,
+      "progress": 0.9725571725571726
+    },
+    "lastReading": {
+      "chapterIndex": 1,
+      "progress": 0.2004424778761062,
+      "bookRef": "QA_BOOK_A"
+    }
+  },
+  "formalProfileByteComparisonPerformed": false
+}

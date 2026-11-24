@@ -1,0 +1,7961 @@
+[
+  {
+    "sourceLog": "native-first-UI-created-stealth.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:19:26.4743157Z",
+      "action": "list",
+      "key": "M",
+      "appPid": 39888,
+      "foreground": {
+        "handle": 314837416,
+        "pid": 39888
+      },
+      "before": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-MR010-same-chapter-reopen.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:21:25.8856585Z",
+      "action": "key",
+      "key": "M",
+      "appPid": 39888,
+      "foreground": {
+        "pid": 39888,
+        "handle": 314837416
+      },
+      "before": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-MR010-cross-book-reopen.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:21:30.4113296Z",
+      "action": "key",
+      "key": "M",
+      "appPid": 39888,
+      "foreground": {
+        "pid": 39888,
+        "handle": 314837416
+      },
+      "before": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-MR010-cross-chapter-reopen.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:21:33.9041856Z",
+      "action": "key",
+      "key": "M",
+      "appPid": 39888,
+      "foreground": {
+        "handle": 314837416,
+        "pid": 39888
+      },
+      "before": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run1-close-hidden.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:23:20.2848619Z",
+      "run": 1,
+      "appPid": 39888,
+      "precondition": "hidden",
+      "nativeCloseMethod": "UIAutomation WindowPattern.Close",
+      "closeUtc": "2026-11-23T10:23:19.1424006Z",
+      "before": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [],
+      "appExited": true,
+      "exitCode": null,
+      "remainingAppOrQaProfile": [
+        {
+          "ProcessId": 10972,
+          "Name": "msedgewebview2.exe",
+          "ParentProcessId": 39888
+        },
+        {
+          "ProcessId": 39136,
+          "Name": "msedgewebview2.exe",
+          "ParentProcessId": 10972
+        }
+      ],
+      "trayBlankBefore": 1,
+      "trayBlankAfter": 0,
+      "unrelatedNamedTrayIconsSame": true,
+      "cdpListeners": []
+    }
+  },
+  {
+    "sourceLog": "native-run1-postclose-settled.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:23:40.4768240Z",
+      "run": 1,
+      "afterNormalCloseSupplement": true,
+      "appOrProfileRemaining": [],
+      "ports": []
+    }
+  },
+  {
+    "sourceLog": "native-run2-close-absent.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:25:34.6645115Z",
+      "run": 2,
+      "appPid": 7596,
+      "precondition": "absent",
+      "nativeCloseMethod": "UIAutomation WindowPattern.Close",
+      "closeUtc": "2026-11-23T10:25:32.0613974Z",
+      "before": [
+        {
+          "Handle": 57675954,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 7596,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1346,
+            "Bottom": 969
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 20775828,
+          "Title": "",
+          "Pid": 7596,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1544,
+            "Bottom": 857
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 11403370,
+          "Title": "",
+          "Pid": 7596,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 1648,
+            "Bottom": 961
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 27856152,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 7596,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 12520150,
+          "Title": "",
+          "Pid": 7596,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 19334194,
+          "Title": "MSCTFIME UI",
+          "Pid": 7596,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 60424428,
+          "Title": "Default IME",
+          "Pid": 7596,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [],
+      "appExited": true,
+      "exitCode": 0,
+      "remainingAppOrQaProfile": [],
+      "trayBlankBefore": 1,
+      "trayBlankAfter": 0,
+      "unrelatedNamedTrayIconsSame": true,
+      "cdpListeners": []
+    }
+  },
+  {
+    "sourceLog": "native-run3-close-visible.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:27:47.2846027Z",
+      "run": 3,
+      "appPid": 21352,
+      "precondition": "visible",
+      "nativeCloseMethod": "UIAutomation WindowPattern.Close",
+      "closeUtc": "2026-11-23T10:27:44.7362571Z",
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 231,
+            "Top": 221,
+            "Right": 727,
+            "Bottom": 326
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [],
+      "appExited": true,
+      "exitCode": 0,
+      "remainingAppOrQaProfile": [],
+      "trayBlankBefore": 1,
+      "trayBlankAfter": 0,
+      "unrelatedNamedTrayIconsSame": true,
+      "cdpListeners": []
+    }
+  },
+  {
+    "sourceLog": "native-run4-close-hidden.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:54:48.0351582Z",
+      "run": 4,
+      "appPid": 33672,
+      "precondition": "hidden",
+      "nativeCloseMethod": "UIAutomation WindowPattern.Close",
+      "closeUtc": "2026-11-23T10:54:45.4647012Z",
+      "before": [
+        {
+          "Handle": 10620144,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [],
+      "appExited": true,
+      "exitCode": 0,
+      "remainingAppOrQaProfile": [],
+      "trayBlankBefore": 1,
+      "trayBlankAfter": 0,
+      "unrelatedNamedTrayIconsSame": true,
+      "cdpListeners": []
+    }
+  },
+  {
+    "sourceLog": "native-run1-tray-restore.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:22:04.8063936Z",
+      "appPid": 39888,
+      "action": "restore",
+      "ownership": "First-round causal disappearance/reappearance; current sole blank icon; named unrelated icons unchanged",
+      "before": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "menuNames": [],
+      "menuMethod": "none",
+      "menuWindows": [],
+      "menuScreenshot": null,
+      "after": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "mainAvailable": true,
+      "foregroundPid": 39888,
+      "appStillRunning": true
+    }
+  },
+  {
+    "sourceLog": "native-run1-tray-menu-show.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:22:07.9216737Z",
+      "appPid": 39888,
+      "action": "menu-show",
+      "ownership": "First-round causal disappearance/reappearance; current sole blank icon; named unrelated icons unchanged",
+      "before": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "menuNames": [
+        "显示主窗口",
+        "退出"
+      ],
+      "menuMethod": "Owned #32768 / MN_GETHMENU / GetMenuItemRect",
+      "menuWindows": [
+        {
+          "Handle": 11666938,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 1567,
+            "Top": 905,
+            "Right": 1725,
+            "Bottom": 955
+          },
+          "ExStyle": 393
+        }
+      ],
+      "menuScreenshot": "<QA_TEMP>\\round-03\\native-run1-tray-menu-show.png",
+      "after": [
+        {
+          "Handle": 314837416,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 704,
+            "Bottom": 313
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 7603136,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 1320,
+            "Bottom": 943
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 50857060,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 13702166,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 2884322,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 164956710,
+          "Title": "",
+          "Pid": 39888,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 20777380,
+          "Title": "MSCTFIME UI",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 11337834,
+          "Title": "Default IME",
+          "Pid": 39888,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "mainAvailable": true,
+      "foregroundPid": 39888,
+      "appStillRunning": true
+    }
+  },
+  {
+    "sourceLog": "native-run3-minimized-tray-restore.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:27:39.5110420Z",
+      "appPid": 21352,
+      "action": "restore",
+      "ownership": "First-round causal disappearance/reappearance; current sole blank icon; named unrelated icons unchanged",
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 231,
+            "Top": 221,
+            "Right": 727,
+            "Bottom": 326
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": true,
+          "Rect": {
+            "Left": -32000,
+            "Top": -32000,
+            "Right": -31840,
+            "Bottom": -31972
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "menuNames": [],
+      "menuMethod": "none",
+      "menuWindows": [],
+      "menuScreenshot": null,
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 231,
+            "Top": 221,
+            "Right": 727,
+            "Bottom": 326
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "mainAvailable": true,
+      "foregroundPid": 21352,
+      "appStillRunning": true
+    }
+  },
+  {
+    "sourceLog": "native-run3-minimized-menu-show.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:27:43.0438812Z",
+      "appPid": 21352,
+      "action": "menu-show",
+      "ownership": "First-round causal disappearance/reappearance; current sole blank icon; named unrelated icons unchanged",
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 231,
+            "Top": 221,
+            "Right": 727,
+            "Bottom": 326
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": true,
+          "Rect": {
+            "Left": -32000,
+            "Top": -32000,
+            "Right": -31840,
+            "Bottom": -31972
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "menuNames": [
+        "显示主窗口",
+        "退出"
+      ],
+      "menuMethod": "Owned #32768 / MN_GETHMENU / GetMenuItemRect",
+      "menuWindows": [
+        {
+          "Handle": 13110488,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 1567,
+            "Top": 905,
+            "Right": 1725,
+            "Bottom": 955
+          },
+          "ExStyle": 393
+        }
+      ],
+      "menuScreenshot": "<QA_TEMP>\\round-03\\native-run3-minimized-menu-show.png",
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 231,
+            "Top": 221,
+            "Right": 727,
+            "Bottom": 326
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "mainAvailable": true,
+      "foregroundPid": 21352,
+      "appStillRunning": true
+    }
+  },
+  {
+    "sourceLog": "native-run3-first-boss-key-created.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:19.7076319Z",
+      "action": "key",
+      "key": "M",
+      "appPid": 21352,
+      "foreground": {
+        "handle": 7668672,
+        "pid": 21352
+      },
+      "before": [
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 156,
+            "Top": 156,
+            "Right": 652,
+            "Bottom": 261
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-one-down.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:21.7050407Z",
+      "action": "key",
+      "key": "Down",
+      "appPid": 21352,
+      "foreground": {
+        "pid": 21352,
+        "handle": 7668672
+      },
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 156,
+            "Top": 156,
+            "Right": 652,
+            "Bottom": 261
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 156,
+            "Top": 156,
+            "Right": 652,
+            "Bottom": 261
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-one-up.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:23.8069672Z",
+      "action": "key",
+      "key": "Up",
+      "appPid": 21352,
+      "foreground": {
+        "pid": 21352,
+        "handle": 7668672
+      },
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 156,
+            "Top": 156,
+            "Right": 652,
+            "Bottom": 261
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 156,
+            "Top": 156,
+            "Right": 652,
+            "Bottom": 261
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-drag-start25x5.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:26.2728809Z",
+      "action": "drag",
+      "key": "M",
+      "appPid": 21352,
+      "foreground": {
+        "handle": 7668672,
+        "pid": 21352
+      },
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 156,
+            "Top": 156,
+            "Right": 652,
+            "Bottom": 261
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 246,
+            "Top": 216,
+            "Right": 742,
+            "Bottom": 321
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-drag-start240x6.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:28.7052240Z",
+      "action": "drag",
+      "key": "M",
+      "appPid": 21352,
+      "foreground": {
+        "pid": 21352,
+        "handle": 7668672
+      },
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 246,
+            "Top": 216,
+            "Right": 742,
+            "Bottom": 321
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-drag-after-passthrough-recovery.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:49.9970128Z",
+      "action": "drag",
+      "key": "M",
+      "appPid": 21352,
+      "foreground": {
+        "pid": 21352,
+        "handle": 7668672
+      },
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 231,
+            "Top": 221,
+            "Right": 727,
+            "Bottom": 326
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-normal-real-click.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:32.0880606Z",
+      "action": "click",
+      "appPid": 21352,
+      "expectedRoot": "stealth",
+      "screenPoint": {
+        "y": 301,
+        "x": 434
+      },
+      "hitHandle": 147984632,
+      "hitRoot": 7668672,
+      "hitPid": 40044,
+      "hitClass": "Chrome_RenderWidgetHostHWND",
+      "mainHandle": 11075606,
+      "stealthHandle": 7668672,
+      "stealthTransparentStyle": false,
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ]
+    }
+  },
+  {
+    "sourceLog": "native-run3-left.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:33.9500648Z",
+      "action": "key",
+      "key": "Left",
+      "appPid": 21352,
+      "foreground": {
+        "pid": 21352,
+        "handle": 7668672
+      },
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-right.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:35.8048719Z",
+      "action": "key",
+      "key": "Right",
+      "appPid": 21352,
+      "foreground": {
+        "pid": 21352,
+        "handle": 7668672
+      },
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-passthrough.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:37.6736926Z",
+      "action": "key",
+      "key": "M",
+      "appPid": 21352,
+      "foreground": {
+        "pid": 21352,
+        "handle": 7668672
+      },
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 786744
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-passthrough-real-click.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:40.5531137Z",
+      "action": "click",
+      "appPid": 21352,
+      "expectedRoot": "main",
+      "screenPoint": {
+        "y": 301,
+        "x": 434
+      },
+      "hitHandle": 21696770,
+      "hitRoot": 11075606,
+      "hitPid": 40044,
+      "hitClass": "Chrome_RenderWidgetHostHWND",
+      "mainHandle": 11075606,
+      "stealthHandle": 7668672,
+      "stealthTransparentStyle": true,
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 786744
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 786744
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ]
+    }
+  },
+  {
+    "sourceLog": "native-run3-hidden.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:42.2013452Z",
+      "action": "key",
+      "key": "M",
+      "appPid": 21352,
+      "foreground": {
+        "pid": 21352,
+        "handle": 11075606
+      },
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 786744
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 786744
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-interactive.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:44.9459226Z",
+      "action": "key",
+      "key": "M",
+      "appPid": 21352,
+      "foreground": {
+        "pid": 21352,
+        "handle": 7668672
+      },
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 786744
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run3-recovered-normal-hit.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:26:47.3583494Z",
+      "action": "probe",
+      "appPid": 21352,
+      "expectedRoot": "stealth",
+      "screenPoint": {
+        "y": 301,
+        "x": 434
+      },
+      "hitHandle": 147984632,
+      "hitRoot": 7668672,
+      "hitPid": 40044,
+      "hitClass": "Chrome_RenderWidgetHostHWND",
+      "mainHandle": 11075606,
+      "stealthHandle": 7668672,
+      "stealthTransparentStyle": false,
+      "before": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 7668672,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 186,
+            "Top": 256,
+            "Right": 682,
+            "Bottom": 361
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 11075606,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1268,
+            "Bottom": 891
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 182717502,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1466,
+            "Bottom": 779
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 165087782,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 130,
+            "Top": 130,
+            "Right": 1570,
+            "Bottom": 883
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 17370712,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 8720862,
+          "Title": "",
+          "Pid": 21352,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 92474084,
+          "Title": "MSCTFIME UI",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 10554608,
+          "Title": "Default IME",
+          "Pid": 21352,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ]
+    }
+  },
+  {
+    "sourceLog": "native-run4-first-boss-key-created.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:29:19.7882332Z",
+      "action": "key",
+      "key": "M",
+      "appPid": 33672,
+      "foreground": {
+        "handle": 10620144,
+        "pid": 33672
+      },
+      "before": [
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [
+        {
+          "Handle": 10620144,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run4-left-cross-cached-chapter.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:34:12.5248902Z",
+      "action": "key",
+      "key": "Left",
+      "appPid": 33672,
+      "foreground": {
+        "pid": 33672,
+        "handle": 10620144
+      },
+      "before": [
+        {
+          "Handle": 10620144,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 10620144,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run4-right-cross-cached-chapter.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:34:14.4435534Z",
+      "action": "key",
+      "key": "Right",
+      "appPid": 33672,
+      "foreground": {
+        "handle": 10620144,
+        "pid": 33672
+      },
+      "before": [
+        {
+          "Handle": 10620144,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 10620144,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run4-persist-change-down1.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:54:40.3977012Z",
+      "action": "key",
+      "key": "Down",
+      "appPid": 33672,
+      "foreground": {
+        "pid": 33672,
+        "handle": 10620144
+      },
+      "before": [
+        {
+          "Handle": 10620144,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 10620144,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run4-persist-change-down2.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:54:42.0496498Z",
+      "action": "key",
+      "key": "Down",
+      "appPid": 33672,
+      "foreground": {
+        "handle": 10620144,
+        "pid": 33672
+      },
+      "before": [
+        {
+          "Handle": 10620144,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "after": [
+        {
+          "Handle": 10620144,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 25429140,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 26,
+            "Top": 26,
+            "Right": 1242,
+            "Bottom": 865
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 18353472,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1674,
+            "Bottom": 987
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 140511560,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 181405460,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 62065796,
+          "Title": "",
+          "Pid": 33672,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 60033418,
+          "Title": "MSCTFIME UI",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 37752112,
+          "Title": "Default IME",
+          "Pid": 33672,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run5-first-boss-key-created.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:57:45.5803687Z",
+      "action": "key",
+      "key": "M",
+      "appPid": 19148,
+      "foreground": {
+        "handle": 98830240,
+        "pid": 19148
+      },
+      "before": [
+        {
+          "Handle": 31853108,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 5047464,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1450,
+            "Bottom": 1073
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 20972436,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 1648,
+            "Bottom": 961
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 80939150,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 3867362,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 76482814,
+          "Title": "MSCTFIME UI",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 4199180,
+          "Title": "Default IME",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [
+        {
+          "Handle": 98830240,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 31853108,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 5047464,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1450,
+            "Bottom": 1073
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 20972436,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 1648,
+            "Bottom": 961
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 80939150,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 3867362,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 76482814,
+          "Title": "MSCTFIME UI",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 4199180,
+          "Title": "Default IME",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run5-no-reading-boss-key-show.private.json",
+    "observed": {
+      "utc": "2026-11-23T11:00:18.4967929Z",
+      "action": "key",
+      "key": "M",
+      "appPid": 19148,
+      "foreground": {
+        "handle": 98830240,
+        "pid": 19148
+      },
+      "before": [
+        {
+          "Handle": 98830240,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 5047464,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1450,
+            "Bottom": 1073
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 31853108,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 20972436,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 1648,
+            "Bottom": 961
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 80939150,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 3867362,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 76482814,
+          "Title": "MSCTFIME UI",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 4199180,
+          "Title": "Default IME",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "after": [
+        {
+          "Handle": 98830240,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 5047464,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1450,
+            "Bottom": 1073
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 31853108,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 20972436,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 1648,
+            "Bottom": 961
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 80939150,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 3867362,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 76482814,
+          "Title": "MSCTFIME UI",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        },
+        {
+          "Handle": 4199180,
+          "Title": "Default IME",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 8
+        }
+      ],
+      "screenshot": null
+    }
+  },
+  {
+    "sourceLog": "native-run5-real-tray-quit.private.json",
+    "observed": {
+      "utc": "2026-11-23T11:01:28.4454844Z",
+      "appPid": 19148,
+      "action": "quit",
+      "ownership": "First-round causal disappearance/reappearance; current sole blank icon; named unrelated icons unchanged",
+      "before": [
+        {
+          "Handle": 98830240,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 104,
+            "Top": 104,
+            "Right": 600,
+            "Bottom": 209
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 5047464,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 234,
+            "Top": 234,
+            "Right": 1450,
+            "Bottom": 1073
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 31853108,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1518,
+            "Bottom": 831
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 20972436,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 1648,
+            "Bottom": 961
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 80939150,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 3867362,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 76482814,
+          "Title": "MSCTFIME UI",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 4199180,
+          "Title": "Default IME",
+          "Pid": 19148,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "menuNames": [
+        "显示主窗口",
+        "退出"
+      ],
+      "menuMethod": "Owned #32768 / MN_GETHMENU / GetMenuItemRect",
+      "menuWindows": [
+        {
+          "Handle": 53283928,
+          "Title": "",
+          "Pid": 19148,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 1567,
+            "Top": 905,
+            "Right": 1725,
+            "Bottom": 955
+          },
+          "ExStyle": 393
+        }
+      ],
+      "menuScreenshot": "<QA_TEMP>\\round-03\\native-run5-real-tray-quit.png",
+      "after": [],
+      "mainAvailable": false,
+      "foregroundPid": 29064,
+      "appStillRunning": false
+    }
+  },
+  {
+    "sourceLog": "native-run6-final-real-tray-quit.private.json",
+    "observed": {
+      "utc": "2026-11-23T11:02:57.7590215Z",
+      "appPid": 11904,
+      "action": "quit",
+      "ownership": "First-round causal disappearance/reappearance; current sole blank icon; named unrelated icons unchanged",
+      "before": [
+        {
+          "Handle": 98895776,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 11904,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 574,
+            "Bottom": 183
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 13569240,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 11904,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 208,
+            "Top": 208,
+            "Right": 1424,
+            "Bottom": 1047
+          },
+          "ExStyle": 262416
+        },
+        {
+          "Handle": 60686572,
+          "Title": "",
+          "Pid": 11904,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 1492,
+            "Bottom": 805
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 22348342,
+          "Title": "",
+          "Pid": 11904,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 1622,
+            "Bottom": 935
+          },
+          "ExStyle": 134742432
+        },
+        {
+          "Handle": 34933470,
+          "Title": "com.moyu.reader2.qa.qamoyur0120261123135539-siw",
+          "Pid": 11904,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 315230632,
+          "Title": "",
+          "Pid": 11904,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 16,
+            "Bottom": 16
+          },
+          "ExStyle": 134742176
+        },
+        {
+          "Handle": 10751216,
+          "Title": "MSCTFIME UI",
+          "Pid": 11904,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        },
+        {
+          "Handle": 240651840,
+          "Title": "Default IME",
+          "Pid": 11904,
+          "Visible": false,
+          "Minimized": false,
+          "Rect": {
+            "Left": 0,
+            "Top": 0,
+            "Right": 0,
+            "Bottom": 0
+          },
+          "ExStyle": 0
+        }
+      ],
+      "menuNames": [
+        "显示主窗口",
+        "退出"
+      ],
+      "menuMethod": "Owned #32768 / MN_GETHMENU / GetMenuItemRect",
+      "menuWindows": [
+        {
+          "Handle": 21825956,
+          "Title": "",
+          "Pid": 11904,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 1567,
+            "Top": 905,
+            "Right": 1725,
+            "Bottom": 955
+          },
+          "ExStyle": 393
+        }
+      ],
+      "menuScreenshot": "<QA_TEMP>\\round-03\\native-run6-final-real-tray-quit.png",
+      "after": [],
+      "mainAvailable": false,
+      "foregroundPid": 29064,
+      "appStillRunning": false
+    }
+  },
+  {
+    "sourceLog": "native-dialog-settings-clear-accept.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:54:35.2223787Z",
+      "action": "accept",
+      "button": "确定",
+      "appPid": 33672,
+      "webViewPid": 38268,
+      "message": "确定清除所有本地阅读进度缓存吗？清除后再次打开章节会从开头开始。",
+      "phase": "r03-settings-clear-accept"
+    }
+  },
+  {
+    "sourceLog": "native-dialog-settings-clear-cancel.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:54:33.4755816Z",
+      "action": "cancel",
+      "button": "取消",
+      "appPid": 33672,
+      "webViewPid": 38268,
+      "message": "确定清除所有本地阅读进度缓存吗？清除后再次打开章节会从开头开始。",
+      "phase": "r03-settings-clear-cancel"
+    }
+  },
+  {
+    "sourceLog": "native-dialog-source-invalid-json.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:50:56.8928534Z",
+      "action": "accept",
+      "button": "确定",
+      "appPid": 33672,
+      "webViewPid": 38268,
+      "message": "导入失败: JSON 解析失败，请检查格式",
+      "phase": "r03-source-invalid-json"
+    }
+  },
+  {
+    "sourceLog": "native-dialog-source-invalid-url.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:50:59.1397213Z",
+      "action": "accept",
+      "button": "确定",
+      "appPid": 33672,
+      "webViewPid": 38268,
+      "message": "导入失败: HTTP 请求失败: builder error",
+      "phase": "r03-source-invalid-url"
+    }
+  },
+  {
+    "sourceLog": "native-dialog-source-missing-fields.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:51:01.3449788Z",
+      "action": "accept",
+      "button": "确定",
+      "appPid": 33672,
+      "webViewPid": 38268,
+      "message": "导入失败: invalid args `sources` for command `save_book_sources`: missing field `bookSourceName`",
+      "phase": "r03-source-missing-fields"
+    }
+  },
+  {
+    "sourceLog": "native-dialog-valid-paste-all-original164.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:51:14.3561070Z",
+      "action": "accept",
+      "button": "确定",
+      "appPid": 33672,
+      "webViewPid": 38268,
+      "message": "成功导入 164 条书源",
+      "phase": "r03-valid-paste-all-original164"
+    }
+  },
+  {
+    "sourceLog": "native-dialog-valid-paste-three-original.private.json",
+    "observed": {
+      "utc": "2026-11-23T10:51:06.4662560Z",
+      "action": "accept",
+      "button": "确定",
+      "appPid": 33672,
+      "webViewPid": 38268,
+      "message": "成功导入 3 条书源",
+      "phase": "r03-valid-paste-three-original"
+    }
+  }
+]

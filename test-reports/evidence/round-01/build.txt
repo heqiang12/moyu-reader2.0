@@ -1,0 +1,19 @@
+
+> reader-desktop-v2@0.1.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.qa.json --no-watch
+
+     Running BeforeDevCommand (`npm run dev`)
+
+> reader-desktop-v2@0.1.0 dev
+> vite
+
+
+  VITE v7.3.8  ready in 1098 ms
+
+  鉃?[39m  Local:   <URL>
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+   Compiling moyu-reader-v2 v0.2.0 (<REPO>\src-tauri)
+    Building [=======================> ] 493/496: moyu-re鈥?    Building [=======================> ] 494/496: moyu-re鈥?    Building [=======================> ] 495/496: moyu-re鈥?                                                            
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1m 21s
+     Running `target\debug\moyu-reader-v2.exe`
+       Error The "beforeDevCommand" terminated with a non-zero status code.

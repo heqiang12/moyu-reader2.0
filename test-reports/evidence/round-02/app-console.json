@@ -1,0 +1,80 @@
+{
+  "note": "仅所列 CDP 连接时段的日志摘录；捕获条目数不代表独立故障次数，QA 断言失败不归为应用故障。",
+  "entries": [
+    {
+      "sourceLog": "task-03-flow-cdp.private.json",
+      "utc": "2026-11-23T08:15:54.466Z",
+      "type": "warning",
+      "messages": [
+        "[TAURI] Couldn't find callback id 3275243245. This might happen when the app is reloaded while Rust is running an asynchronous operation."
+      ]
+    },
+    {
+      "sourceLog": "task-03-flow-cdp.private.json",
+      "utc": "2026-11-23T08:15:54.466Z",
+      "type": "warning",
+      "messages": [
+        "[TAURI] Couldn't find callback id 2042944764. This might happen when the app is reloaded while Rust is running an asynchronous operation."
+      ]
+    },
+    {
+      "sourceLog": "task-04b-navigation-new-cdp.private.json",
+      "utc": "2026-11-23T08:20:22.771Z",
+      "type": "warning",
+      "messages": [
+        "[TAURI] Couldn't find callback id 3275243245. This might happen when the app is reloaded while Rust is running an asynchronous operation."
+      ]
+    },
+    {
+      "sourceLog": "task-04b-navigation-new-cdp.private.json",
+      "utc": "2026-11-23T08:20:22.771Z",
+      "type": "warning",
+      "messages": [
+        "[TAURI] Couldn't find callback id 2042944764. This might happen when the app is reloaded while Rust is running an asynchronous operation."
+      ]
+    },
+    {
+      "sourceLog": "task-05-resume-add-cdp.private.json",
+      "utc": "2026-11-23T08:22:52.015Z",
+      "type": "warning",
+      "messages": [
+        "[TAURI] Couldn't find callback id 3275243245. This might happen when the app is reloaded while Rust is running an asynchronous operation."
+      ]
+    },
+    {
+      "sourceLog": "task-05-resume-add-cdp.private.json",
+      "utc": "2026-11-23T08:22:52.016Z",
+      "type": "warning",
+      "messages": [
+        "[TAURI] Couldn't find callback id 2042944764. This might happen when the app is reloaded while Rust is running an asynchronous operation."
+      ]
+    },
+    {
+      "sourceLog": "task-07-reader-regressions-main-cdp.private.json",
+      "utc": "2026-11-23T08:27:26.657Z",
+      "type": "warning",
+      "messages": [
+        "[TAURI] Couldn't find callback id 3275243245. This might happen when the app is reloaded while Rust is running an asynchronous operation."
+      ]
+    },
+    {
+      "sourceLog": "task-07-reader-regressions-main-cdp.private.json",
+      "utc": "2026-11-23T08:27:26.657Z",
+      "type": "warning",
+      "messages": [
+        "[TAURI] Couldn't find callback id 2042944764. This might happen when the app is reloaded while Rust is running an asynchronous operation."
+      ]
+    },
+    {
+      "sourceLog": "task-11-drag-sample.private.json",
+      "type": "passive-unhandledrejection",
+      "errors": [
+        {
+          "utc": "2026-11-23T08:45:45.526Z",
+          "type": "unhandledrejection",
+          "error": "window.start_dragging not allowed. Permissions associated with this command: core:window:allow-start-dragging"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "utc": "2026-11-23T12:53:12.055375+00:00",
+  "round": 4,
+  "actualExecutableVersion": "0.2.0",
+  "exeSha256": "2ffe7711ecc4303370f7df08292ed222aa425f937d4becdb13242389ba1a846d",
+  "runtimeFileCount": 43,
+  "runtimeAggregateSha256": "53443803e035fdde2cc7a0e7d0806bd2c40001431d3a4e5f8f4a2f8fc2f6b829",
+  "frozenFileSetAndBytesUnchangedSincePreflight": true,
+  "candidateChangedSinceRound03": [
+    "src-tauri/src/db.rs",
+    "src-tauri/tests/integration_tests.rs"
+  ],
+  "reportSha256": "862068773c63c91d2231071adc0d4c3ee21c8f37379c115c72750db5989d5a3b",
+  "reportLinksChecked": 40,
+  "matrix": [
+    {
+      "case": "TC-01",
+      "name": "隔离源码启动、空书架",
+      "result": "通过"
+    },
+    {
+      "case": "TC-02",
+      "name": "已导入书源列表",
+      "result": "通过"
+    },
+    {
+      "case": "TC-03",
+      "name": "书源启停及重启持久化",
+      "result": "通过（小样本）"
+    },
+    {
+      "case": "TC-04",
+      "name": "单次真实搜索及结束状态",
+      "result": "通过（单个可用源）"
+    },
+    {
+      "case": "TC-05",
+      "name": "空关键词搜索",
+      "result": "通过"
+    },
+    {
+      "case": "TC-06",
+      "name": "空输入点击热词",
+      "result": "通过"
+    },
+    {
+      "case": "TC-07",
+      "name": "搜索中换词再 Enter",
+      "result": "通过"
+    },
+    {
+      "case": "TC-08",
+      "name": "已完成搜索零结果说明",
+      "result": "通过"
+    },
+    {
+      "case": "TC-09",
+      "name": "已在书架详情、重复加入保护",
+      "result": "通过（C 所测阶段）"
+    },
+    {
+      "case": "TC-10",
+      "name": "未在书架的新结果详情",
+      "result": "通过（C/A）"
+    },
+    {
+      "case": "TC-11",
+      "name": "正常搜索→详情→UI 加书→阅读",
+      "result": "通过（C/A）"
+    },
+    {
+      "case": "TC-12",
+      "name": "已获取正文、上下章、缓存回读",
+      "result": "通过（已获取范围）"
+    },
+    {
+      "case": "TC-13",
+      "name": "目录跳转、首末章按钮边界",
+      "result": "通过（A/C 所列范围）"
+    },
+    {
+      "case": "TC-14",
+      "name": "切章从章首开始",
+      "result": "通过"
+    },
+    {
+      "case": "TC-15",
+      "name": "同章返回/续读、独立重启定位",
+      "result": "通过（段落/字符）"
+    },
+    {
+      "case": "TC-16",
+      "name": "主题、字号、页面继承",
+      "result": "通过"
+    },
+    {
+      "case": "TC-17",
+      "name": "清除本地进度取消/确认",
+      "result": "通过"
+    },
+    {
+      "case": "TC-18",
+      "name": "重启首屏主题",
+      "result": "通过"
+    },
+    {
+      "case": "TC-19",
+      "name": "关于页版本",
+      "result": "通过"
+    },
+    {
+      "case": "TC-20",
+      "name": "删除取消/确认、最近阅读一致性",
+      "result": "通过（C/B/A）"
+    },
+    {
+      "case": "TC-21",
+      "name": "无效 JSON / 无效 URL 导入",
+      "result": "通过"
+    },
+    {
+      "case": "TC-22",
+      "name": "粘贴原有真实 JSON 导入",
+      "result": "通过"
+    },
+    {
+      "case": "TC-23",
+      "name": "批量删除取消/确认、单项删除",
+      "result": "通过"
+    },
+    {
+      "case": "TC-24",
+      "name": "全选/取消选择、清空取消",
+      "result": "通过"
+    },
+    {
+      "case": "TC-25",
+      "name": "旧书重新在线获取目录/正文",
+      "result": "通过（A 有限范围）"
+    },
+    {
+      "case": "TC-26",
+      "name": "同书换源、持久化/定位",
+      "result": "阻塞"
+    },
+    {
+      "case": "TC-27",
+      "name": "阅读页正常隐蔽入口",
+      "result": "通过"
+    },
+    {
+      "case": "TC-28",
+      "name": "原生老板键首次行为、三态循环",
+      "result": "通过"
+    },
+    {
+      "case": "TC-29",
+      "name": "拖动、穿透、透明度、翻行/同步",
+      "result": "通过（所列原生范围）"
+    },
+    {
+      "case": "TC-30",
+      "name": "托盘恢复最小化主窗",
+      "result": "通过"
+    },
+    {
+      "case": "TC-31",
+      "name": "原生托盘菜单退出",
+      "result": "通过"
+    },
+    {
+      "case": "TC-32",
+      "name": "原生主窗关闭",
+      "result": "通过"
+    },
+    {
+      "case": "TC-33",
+      "name": "相对搜索 URL 源真实请求",
+      "result": "阻塞 / 原条件未复测"
+    },
+    {
+      "case": "TC-34",
+      "name": "首次隐蔽布局、透明根容器",
+      "result": "通过"
+    },
+    {
+      "case": "TC-35",
+      "name": "原生一次透明度按键一步",
+      "result": "通过"
+    },
+    {
+      "case": "TC-36",
+      "name": "原生拖动顶栏",
+      "result": "通过"
+    },
+    {
+      "case": "TC-37",
+      "name": "真实点击穿透、翻行对照",
+      "result": "通过"
+    },
+    {
+      "case": "TC-38",
+      "name": "隐藏后跨书/新位置重开",
+      "result": "通过（原复现范围）"
+    },
+    {
+      "case": "TC-39",
+      "name": "透明度边界、独立重启",
+      "result": "通过"
+    },
+    {
+      "case": "TC-40",
+      "name": "隐蔽翻行跨章、跨窗定位",
+      "result": "通过（A 相邻章）"
+    },
+    {
+      "case": "TC-41",
+      "name": "搜索页面往返、旧批次隔离",
+      "result": "通过（本次真实时序）"
+    },
+    {
+      "case": "TC-42",
+      "name": "旧数字进度迁移",
+      "result": "通过"
+    },
+    {
+      "case": "TC-43",
+      "name": "滚动后立即返回保存",
+      "result": "通过（本次46ms）"
+    },
+    {
+      "case": "TC-44",
+      "name": "有效回环 URL 导入",
+      "result": "通过"
+    },
+    {
+      "case": "TC-45",
+      "name": "`[{}]` 缺字段拒绝",
+      "result": "通过"
+    },
+    {
+      "case": "TC-46",
+      "name": "首次 UI 加书即时反馈",
+      "result": "通过"
+    },
+    {
+      "case": "TC-47",
+      "name": "文件选择器导入",
+      "result": "未测 / 无已观察入口"
+    },
+    {
+      "case": "TC-48",
+      "name": "分类发现",
+      "result": "未测 / 无已观察入口"
+    },
+    {
+      "case": "TC-49",
+      "name": "真实隐蔽加载中禁止旧正文导航",
+      "result": "通过（一次真实窗口）"
+    },
+    {
+      "case": "TC-50",
+      "name": "真实失败跨章不覆盖游标",
+      "result": "通过（真实缺源类型）"
+    },
+    {
+      "case": "TC-51",
+      "name": "真实迟到正文竞争隔离",
+      "result": "通过（一次自然并发）"
+    },
+    {
+      "case": "TC-52",
+      "name": "确认清空全部书源及 UI 恢复",
+      "result": "通过"
+    },
+    {
+      "case": "TC-53",
+      "name": "无在读书时已有隐蔽窗重开",
+      "result": "通过"
+    },
+    {
+      "case": "TC-54",
+      "name": "正常新书的书架进度展示",
+      "result": "通过"
+    }
+  ],
+  "stable54CaseNumbersAndNamesPreserved": true,
+  "payloadsIncludingManifest": {
+    "app-console.json": {
+      "bytes": 1438,
+      "sha256": "32ce9f8551816ff1046c913a501d69ca7ca0994cf6c2a1bdfb9a9adf179eaaa6"
+    },
+    "body-races.json": {
+      "bytes": 7407,
+      "sha256": "26a0cf2f7578303e9daf6d29205237c244f79d056ebcbf1120703c51a6246bb9"
+    },
+    "build.txt": {
+      "bytes": 2517,
+      "sha256": "072329e193465a1afb8f4ce05d75cc5dbb59a46991c43ae0333b3481e6e68fa9"
+    },
+    "environment.json": {
+      "bytes": 1872,
+      "sha256": "578be3a8ff5138582f34f7d47c32021514e77267dde5fad4afbda9b052911c7f"
+    },
+    "fixture-restore.json": {
+      "bytes": 796,
+      "sha256": "e0d8b217b8ca1c4b15236eac1ccf802b62b8df391fc852aa405476ba2d8dafd0"
+    },
+    "manifest.json": {
+      "bytes": 36288,
+      "sha256": "dda15aa3a74bf92ba672f32e0259a8df51c3c5cb419fb910ba515177029b2df9"
+    },
+    "native-run4-tray-menu-show.png": {
+      "bytes": 1027,
+      "sha256": "f491326c9efcb88e69c346af4d4a5a6d8bb6721855b812e84f8e1355f80445a2"
+    },
+    "native-run6-tray-quit.png": {
+      "bytes": 1027,
+      "sha256": "f491326c9efcb88e69c346af4d4a5a6d8bb6721855b812e84f8e1355f80445a2"
+    },
+    "native.json": {
+      "bytes": 242689,
+      "sha256": "da4dda369d21de5bc13c5a5117c9d7860cd24a8207753d5783976dffbf428e09"
+    },
+    "observations.json": {
+      "bytes": 482402,
+      "sha256": "85189968e7dd61f495f7d4d37c67bc81886b6f3c359411db08a2bd7996dccde7"
+    },
+    "r04-A-first-online-body-cropped.png": {
+      "bytes": 58118,
+      "sha256": "66b3e5a778ea327ac90c13f9cdeb7850ecde381f4443c5227b953e9fb3322a76"
+    },
+    "r04-A-independent-restart-body-cropped.png": {
+      "bytes": 60389,
+      "sha256": "d15484d3cd88eb248918310bb512074864d76cbfeb0ea9db86451cab7164dc99"
+    },
+    "r04-A-last-next-disabled-cropped.png": {
+      "bytes": 58277,
+      "sha256": "c34bee5d850513f8ac8c5a76761ab02aacd1c87d46ade3489ca45fdc90bd57cf"
+    },
+    "r04-A-real-new-detail-cropped.png": {
+      "bytes": 83990,
+      "sha256": "fbe00d1dc05743832bc7e28fec3bf7265324448b7ab7d0161cc3458c0a399a78"
+    },
+    "r04-all-original-sources-restored-cropped.png": {
+      "bytes": 16429,
+      "sha256": "5b2f83c8be9e63cb87173f668375f84a6f8cef1396913b9f9f3acbef6b150557"
+    },
+    "r04-C-before-first-UI-add-cropped.png": {
+      "bytes": 96695,
+      "sha256": "531cece3309d6c0346f610c8fa633f6d8c04a11958a34d172d1894088763ba64"
+    },
+    "r04-C-second-real-body-cropped.png": {
+      "bytes": 52097,
+      "sha256": "29cbce9915868f05518d37cd866b90c69614bbfe7ce3a2215001eb5c4a0bf467"
+    },
+    "r04-current-C-deleted-no-continue.png": {
+      "bytes": 96364,
+      "sha256": "120bd72e842f7ff01dcf5065bf8f0a8fcbed82aca2077ee14ee3ea86496cd8c3"
+    },
+    "r04-empty-shelf-after-confirmed-delete.png": {
+      "bytes": 22473,
+      "sha256": "d3c50b278951ebeb8c4a1627bba9ae3a792aa33c81c89187a2a43e08815554c0"
+    },
+    "r04-existing-stealth-no-book.png": {
+      "bytes": 2923,
+      "sha256": "e1067931c0ccd90c7b97696c9dfcb71f1d65560dc7c80f1a4153d2d2cde2eef3"
+    },
+    "r04-final-A-stealth-alpha45.png": {
+      "bytes": 13456,
+      "sha256": "729f59175d51020cbb4b779ce62ef3b63443275be3c8fb5c3c21cd36f43bb72b"
+    },
+    "r04-final-QA-shelf.png": {
+      "bytes": 145717,
+      "sha256": "0df9a6d42eb84bfcbb5edd1c450465bec1313375ead638ddf4e395e56a77163f"
+    },
+    "r04-first-native-C-stealth.png": {
+      "bytes": 15020,
+      "sha256": "44b61feddeaa811ee8818cec4ab53ce00328402bdac907d44ea697b20f0e9a34"
+    },
+    "r04-first-UI-C-stealth.png": {
+      "bytes": 15020,
+      "sha256": "44b61feddeaa811ee8818cec4ab53ce00328402bdac907d44ea697b20f0e9a34"
+    },
+    "r04-legacy-progress-restored-cropped.png": {
+      "bytes": 60389,
+      "sha256": "d15484d3cd88eb248918310bb512074864d76cbfeb0ea9db86451cab7164dc99"
+    },
+    "r04-MR010-A-new-segment-stealth.png": {
+      "bytes": 13623,
+      "sha256": "17276731604d05fc10765abd0e6f15de6e67a8fc169ffff3d16d07ff4ad6d01f"
+    },
+    "r04-MR010-B-main-cropped.png": {
+      "bytes": 55684,
+      "sha256": "86ee78495e2f2fea32216c7ec9c88178b0932e2c5c476c44fd89c9d3c0bf1310"
+    },
+    "r04-MR010-B-stealth.png": {
+      "bytes": 12806,
+      "sha256": "01b68ec73157cb86121c26cba478972154f932efde9999014672ce356469e5e1"
+    },
+    "r04-MR011-one-down35.png": {
+      "bytes": 15039,
+      "sha256": "3c3fedb0b6b45a008dbb607d2af7ff60ad4913b70ed7e48036139b135151522c"
+    },
+    "r04-MR012-native-dragged.png": {
+      "bytes": 15530,
+      "sha256": "e8a48ee5d3875fe986297533326d065d5659852f8466264b9abfab47067ba273"
+    },
+    "r04-MR014-C-first-add-disabled-cropped.png": {
+      "bytes": 90700,
+      "sha256": "8d8da0c92d2b2bc15c885617bec3dc64151a26c8c4df0ed056eb1786a52aa97b"
+    },
+    "r04-MR015-A-independent-restart-shelf.png": {
+      "bytes": 145717,
+      "sha256": "0df9a6d42eb84bfcbb5edd1c450465bec1313375ead638ddf4e395e56a77163f"
+    },
+    "r04-MR015-A-shelf2-over93.png": {
+      "bytes": 142316,
+      "sha256": "11f8910065ea83ca4b257ca48a783bbd4e3f34fd560ea0aa033cb9449fdc4130"
+    },
+    "r04-MR015-C-independent-restart-shelf.png": {
+      "bytes": 146375,
+      "sha256": "88b1fce6c92a8991f0a802cab9f5580e007d17a7fdad51677c3711e5e4f71942"
+    },
+    "r04-MR015-C-normal-shelf2-over73.png": {
+      "bytes": 146375,
+      "sha256": "88b1fce6c92a8991f0a802cab9f5580e007d17a7fdad51677c3711e5e4f71942"
+    },
+    "r04-MR015-existing-C-first-screen.png": {
+      "bytes": 145705,
+      "sha256": "e70a80ec5e9eb6e127405735e971890d821d43f79cebe23bc87a9299b2ec49a2"
+    },
+    "r04-real-late-A-body-C-preserved.png": {
+      "bytes": 14183,
+      "sha256": "fdf2e7c342bd5ab32e3908bbfe9dae0c43be88768502e330c82c168ee11c5419"
+    },
+    "r04-real-loading-blocks-old-nav.png": {
+      "bytes": 4554,
+      "sha256": "39e92d93a1f3a393cf135f2091f8baff48de5c1117ae47cc0c3c4d065c1021a2"
+    },
+    "r04-real-missing-source-failure-preserved.png": {
+      "bytes": 5152,
+      "sha256": "33dd442aaa4dabe52620b8a4677faca3ee362af53dc3e01c709e4cb9bc8ee6f2"
+    },
+    "r04-search-old-late-batch-isolated.png": {
+      "bytes": 33971,
+      "sha256": "23b1256a85ad0dd9268e05a8e08bee4570134727cacf18bd0bc59db60bbb82ba"
+    },
+    "r04-search-replacement-Button.png": {
+      "bytes": 33971,
+      "sha256": "23b1256a85ad0dd9268e05a8e08bee4570134727cacf18bd0bc59db60bbb82ba"
+    },
+    "r04-search-replacement-Enter.png": {
+      "bytes": 33211,
+      "sha256": "2b65bf2b2eec5172e474658832b32111a522383b36b5bd32e7db42970e28789d"
+    },
+    "r04-settings-three-progress-cleared.png": {
+      "bytes": 29310,
+      "sha256": "a385c5a79e45e30199d3d79806a7eeb23f5717190a9a67a24fbfb06cf2d29337"
+    },
+    "r04-settings-version.png": {
+      "bytes": 28188,
+      "sha256": "92b18812c1c6a2579faa3ac8323672b4a11cc2f8bb39e9c6f54a470e793c5843"
+    },
+    "r04-sources-confirmed-empty.png": {
+      "bytes": 31687,
+      "sha256": "c2fd4dca6695046c9f0e37fd5a2ee1959a366577d3a234db3256c2708a9276ec"
+    },
+    "r04-valid-loopback-URL-import-cropped.png": {
+      "bytes": 16429,
+      "sha256": "5b2f83c8be9e63cb87173f668375f84a6f8cef1396913b9f9f3acbef6b150557"
+    },
+    "runtime.json": {
+      "bytes": 41379,
+      "sha256": "df5364ffb315266efb00f7e86e466af7e823d9433cf0bbfef4f5dd9e990f82ac"
+    },
+    "search-events.json": {
+      "bytes": 8457,
+      "sha256": "113234f58a1bd04f79549edf3168927a593eda664efeb020a2d0bb20c3259927"
+    },
+    "url-import.json": {
+      "bytes": 2414,
+      "sha256": "164289cc321f6aa066c4ca8b0de6f7aee44a193c98f265c4b943dc56e616fee8"
+    }
+  },
+  "privateSourceAndOriginalScreenshotHashesChecked": true,
+  "screenshots": 38,
+  "observations": 219,
+  "nativeRecords": 50,
+  "redactedTextChecksPassed": true,
+  "noDatabaseProfileCredentialsOrTemporaryToolPublished": true,
+  "earlierReportFileCount": 98,
+  "earlierReportsUnchanged": true,
+  "earlierDbHashEntryCount": 34,
+  "historicalDbEntriesExcludingWorkingProfile": 32,
+  "allEarlierDbHashEntriesUnchanged": true,
+  "originalDbOpenedReadOnly": true,
+  "originalSha256": "aa99ba2810f752fc12d798bcf70daae63757c2d1e3cd0cbd934adf4d348664d6",
+  "originalMtimeNs": 1795166100584901300,
+  "originalCounts": {
+    "books": 0,
+    "book_sources": 164,
+    "chapter_cache": 0,
+    "chapter_list_cache": 0
+  },
+  "originalBackupSha256": "4a97c8a3d4c7178135f106558c71db8f8d74388a1ec8494573015b5de4908e1b",
+  "originalDbAndBackupUnchanged": true,
+  "formalProfileByteComparisonPerformed": false,
+  "preStartupCheckpointUnchanged": true,
+  "preStartupProfileFilesUnchanged": 420,
+  "qaDbAllTablesAndSchemaEqualToFinalCheckpoint": true,
+  "qaFinalCheckpointIntegrity": "ok",
+  "qaFinalCheckpointSha256": "e965036ae7aab3da81f540c140599b1ca1d9944a86d353b58942346f0309ffd2",
+  "qaCounts": {
+    "books": 3,
+    "book_sources": 164,
+    "chapter_cache": 7,
+    "chapter_list_cache": 3
+  },
+  "enabledSources": 1,
+  "qaFinalProfileFileCount": 425,
+  "qaFinalProfileBytesEqualToStoppedCheckpoint": true,
+  "profileAggregateSha256": "47426d4ea0d2b8736710f1e3054181adc04db4d4e0b12c61581b1584307b80ee",
+  "safetyAndDestructiveCheckpointFilesPreserved": true,
+  "finalProcessCheckUtc": "2026-11-23T12:53:10.4810560Z",
+  "ownedMatchingPidAndCreationTime": 0,
+  "qaProfileProcessCount": 0,
+  "currentSourceAppProcessCount": 0,
+  "unrelatedRetiredPidMatchesNotManaged": 0,
+  "qaPortListeners": [],
+  "importServerClosed": true,
+  "processManagementPerformed": false,
+  "onlyReadOnlyChecksAfterBusinessExit": true,
+  "businessStatePaused": true,
+  "scopeConclusion": "MR-015 closed; no reproducible application issue within the explicitly tested range. TC-26/33 blocked, TC-47/48 not tested, TC-50 missing-source only; no whole-application bug-free promise.",
+  "hashScopeNote": "This verification checks payloads, immutable manifest and report; it excludes itself to avoid self-reference. Final complete hashes are retained privately."
+}

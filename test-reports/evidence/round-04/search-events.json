@@ -1,0 +1,300 @@
+{
+  "eventsBySource": [
+    {
+      "sourceLog": "C-new-real-search-events.private.json",
+      "events": [
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T11:47:06.325Z",
+          "route": "#/discover",
+          "requestId": "3084b654-651a-4172-808f-a77f70119832",
+          "count": 50,
+          "originNames": [
+            "奇怪小说"
+          ]
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T11:47:06.326Z",
+          "route": "#/discover",
+          "requestId": "3084b654-651a-4172-808f-a77f70119832"
+        }
+      ]
+    },
+    {
+      "sourceLog": "A-new-real-search-events.private.json",
+      "events": [
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T11:53:08.180Z",
+          "route": "#/discover",
+          "requestId": "8c8645dd-e784-4aac-8a20-56e8d3095c77",
+          "count": 50,
+          "originNames": [
+            "奇怪小说"
+          ]
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T11:53:08.181Z",
+          "route": "#/discover",
+          "requestId": "8c8645dd-e784-4aac-8a20-56e8d3095c77"
+        }
+      ]
+    },
+    {
+      "sourceLog": "hotword-threebody-events.private.json",
+      "events": [
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T12:09:54.185Z",
+          "route": "#/discover",
+          "requestId": "8be61e33-f97a-4534-af77-9e27761aed43",
+          "count": 50,
+          "originNames": [
+            "奇怪小说"
+          ]
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:09:54.185Z",
+          "route": "#/discover",
+          "requestId": "8be61e33-f97a-4534-af77-9e27761aed43"
+        }
+      ]
+    },
+    {
+      "sourceLog": "hotword-fanren-events.private.json",
+      "events": [
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T12:09:55.284Z",
+          "route": "#/discover",
+          "requestId": "72161f2e-1227-427a-953d-db80a53ac526",
+          "count": 50,
+          "originNames": [
+            "奇怪小说"
+          ]
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:09:55.285Z",
+          "route": "#/discover",
+          "requestId": "72161f2e-1227-427a-953d-db80a53ac526"
+        }
+      ]
+    },
+    {
+      "sourceLog": "zero-calibration-events.private.json",
+      "events": [
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:09:56.383Z",
+          "route": "#/discover",
+          "phase": "zero-calibration",
+          "requestId": "6557b07d-8540-46df-81d6-493331b4b30d"
+        }
+      ]
+    },
+    {
+      "sourceLog": "replacement-Enter-events.private.json",
+      "events": [
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T12:09:57.939Z",
+          "route": "#/discover",
+          "phase": "new-negative",
+          "requestId": "2053c96f-ec4f-4714-adbb-694a6e46235a",
+          "count": 50,
+          "originNames": [
+            "奇怪小说"
+          ]
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:09:57.939Z",
+          "route": "#/discover",
+          "phase": "new-negative",
+          "requestId": "2053c96f-ec4f-4714-adbb-694a6e46235a"
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:09:57.999Z",
+          "route": "#/discover",
+          "phase": "new-negative",
+          "requestId": "389aa462-a3d1-4aa3-9e68-052076a0d94a"
+        }
+      ]
+    },
+    {
+      "sourceLog": "replacement-Button-events.private.json",
+      "events": [
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T12:09:59.549Z",
+          "route": "#/discover",
+          "phase": "new-negative",
+          "requestId": "cabd3979-384d-4055-834c-c49e90c7e8f8",
+          "count": 50,
+          "originNames": [
+            "奇怪小说"
+          ]
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:09:59.549Z",
+          "route": "#/discover",
+          "phase": "new-negative",
+          "requestId": "cabd3979-384d-4055-834c-c49e90c7e8f8"
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:09:59.795Z",
+          "route": "#/discover",
+          "phase": "new-negative",
+          "requestId": "46f465ae-3a24-4ed5-a650-a4cdc12d10bf"
+        }
+      ]
+    },
+    {
+      "sourceLog": "page-return-0-events.private.json",
+      "events": [
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T12:10:03.246Z",
+          "route": "#/discover",
+          "phase": "new-negative-request",
+          "requestId": "7661997f-bb4f-4df4-91e0-5acbf1d3711f",
+          "count": 50,
+          "originNames": [
+            "奇怪小说"
+          ]
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:10:03.246Z",
+          "route": "#/discover",
+          "phase": "new-negative-request",
+          "requestId": "7661997f-bb4f-4df4-91e0-5acbf1d3711f"
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:10:03.314Z",
+          "route": "#/discover",
+          "phase": "new-negative-request",
+          "requestId": "511b1b52-870d-4a7b-aba8-2cf51ac52107"
+        }
+      ]
+    },
+    {
+      "sourceLog": "finite-real-search-threebody-events.private.json",
+      "events": [
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T12:01:05.699Z",
+          "route": "#/discover",
+          "requestId": "1915f3d9-cd47-4811-be16-4ec918177d76",
+          "count": 50,
+          "originNames": [
+            "奇怪小说"
+          ]
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:01:24.654Z",
+          "route": "#/discover",
+          "requestId": "1915f3d9-cd47-4811-be16-4ec918177d76"
+        }
+      ]
+    },
+    {
+      "sourceLog": "finite-real-search-fanren-events.private.json",
+      "events": [
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T12:01:27.103Z",
+          "route": "#/discover",
+          "requestId": "226c829f-3d5d-44e6-abf0-a11abe1b3163",
+          "count": 50,
+          "originNames": [
+            "奇怪小说"
+          ]
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:01:46.515Z",
+          "route": "#/discover",
+          "requestId": "226c829f-3d5d-44e6-abf0-a11abe1b3163"
+        }
+      ]
+    }
+  ],
+  "pageReturnTiming": [
+    {
+      "attempt": 0,
+      "oldActuallyLoading": true,
+      "bothActualRequestIds": [
+        "7661997f-bb4f-4df4-91e0-5acbf1d3711f",
+        "511b1b52-870d-4a7b-aba8-2cf51ac52107"
+      ],
+      "latePositiveAfterNewRequest": 1,
+      "finalResultCount": 0,
+      "events": [
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T12:10:03.246Z",
+          "route": "#/discover",
+          "phase": "new-negative-request",
+          "requestId": "7661997f-bb4f-4df4-91e0-5acbf1d3711f",
+          "count": 50
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:10:03.246Z",
+          "route": "#/discover",
+          "phase": "new-negative-request",
+          "requestId": "7661997f-bb4f-4df4-91e0-5acbf1d3711f"
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T12:10:03.314Z",
+          "route": "#/discover",
+          "phase": "new-negative-request",
+          "requestId": "511b1b52-870d-4a7b-aba8-2cf51ac52107"
+        }
+      ]
+    }
+  ],
+  "finiteOriginalSourceResults": [
+    {
+      "word": "三体",
+      "ended": true,
+      "UIResults": 50,
+      "batches": [
+        {
+          "requestId": "1915f3d9-cd47-4811-be16-4ec918177d76",
+          "count": 50,
+          "origins": [
+            "奇怪小说"
+          ]
+        }
+      ],
+      "multi": []
+    },
+    {
+      "word": "凡人修仙传",
+      "ended": true,
+      "UIResults": 50,
+      "batches": [
+        {
+          "requestId": "226c829f-3d5d-44e6-abf0-a11abe1b3163",
+          "count": 50,
+          "origins": [
+            "奇怪小说"
+          ]
+        }
+      ],
+      "multi": []
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "fixture": {
+    "bookSourceName": "荔枝短剧",
+    "enabled": false,
+    "fixtureSha256": "2e5dda566364edf2b51fd2889a72ea7da4870f5e7b49ee5f2764ddb1e1318e37",
+    "sourceIsCompleteUnmodifiedExistingOriginalObject": true
+  },
+  "runtime": {
+    "utc": "2026-11-23T12:23:23.434Z",
+    "pid": 11344,
+    "address": {
+      "address": "127.0.0.1",
+      "family": "IPv4",
+      "port": 9415
+    },
+    "script": "<QA_TEMP>\\qa-cdp.mjs",
+    "task": "task-20-real-loopback-URL-import-continue",
+    "nativeListener": [
+      {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 9415,
+        "OwningProcess": 11344,
+        "State": 2
+      }
+    ],
+    "onlyOriginalJSONFixtureNoThirdPartyOrBookResponseMock": true
+  },
+  "requests": [
+    {
+      "utc": "2026-11-23T12:23:24.247Z",
+      "method": "GET",
+      "path": "/existing-source.json",
+      "remoteAddress": "127.0.0.1",
+      "status": 200,
+      "bytes": 24726,
+      "fixtureSha256": "2e5dda566364edf2b51fd2889a72ea7da4870f5e7b49ee5f2764ddb1e1318e37"
+    }
+  ],
+  "closed": {
+    "utc": "2026-11-23T12:23:29.235Z",
+    "pid": 11344,
+    "serverClosed": true,
+    "onlyOwnedInProcessServerManaged": true
+  },
+  "UIAndPersistence": {
+    "nativeAlert": {
+      "shown": {
+        "frameId": "3BCDCAD0B9DDD698E1C4723B55313744",
+        "message": "成功导入 1 个书源",
+        "type": "alert",
+        "hasBrowserHandler": true,
+        "defaultPrompt": ""
+      },
+      "native": {
+        "utc": "2026-11-23T12:23:26.6238082Z",
+        "action": "accept",
+        "button": "确定",
+        "appPid": 27824,
+        "webViewPid": 21700,
+        "message": "成功导入 1 个书源",
+        "phase": "r04-valid-loopback-url-import"
+      }
+    },
+    "requests": [
+      {
+        "utc": "2026-11-23T12:23:24.247Z",
+        "method": "GET",
+        "path": "/existing-source.json",
+        "remoteAddress": "127.0.0.1",
+        "status": 200,
+        "bytes": 24726,
+        "fixtureSha256": "2e5dda566364edf2b51fd2889a72ea7da4870f5e7b49ee5f2764ddb1e1318e37"
+      }
+    ],
+    "stats": "共 164 个书源 · 启用 1 个",
+    "importInputCleared": true,
+    "all164FullSourceObjectsEqual": true,
+    "booksCacheDirectoryCountsSame": true
+  },
+  "scope": "真实 UI/Rust GET 回环导入已有完整原对象；不是外网可用性或正文 mock。"
+}

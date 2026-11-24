@@ -1,0 +1,233 @@
+{
+  "note": "只读被动 CDP Network/DOM 取证；真实 UI 发起请求，未包装受保护 invoke、延迟响应或替换正文。TC-50 仅缺源错误，不是第三方 HTTP 故障。",
+  "TC50": {
+    "sourceLog": "task-09-stealth-cdp.private.json",
+    "requestId": "19828.815",
+    "command": "get_book_content",
+    "method": "POST",
+    "args": {
+      "bookRef": "QA_BOOK_C",
+      "index": 2
+    },
+    "startUtc": "2026-11-23T12:02:19.986Z",
+    "responseUtc": "2026-11-23T12:02:19.989Z",
+    "endUtc": "2026-11-23T12:02:19.990Z",
+    "status": 200,
+    "tauriResponse": "error",
+    "UIError": "正文加载失败",
+    "cursorPreserved": true,
+    "allBooksFullFieldsPreserved": true,
+    "allDirectoryCacheJsonUpdatedAtPreserved": true,
+    "scope": "existing source-clear UI establishes real missing-source failure; not external HTTP failure",
+    "errorResponseBodyNotCaptured": true
+  },
+  "TC51": {
+    "main": {
+      "header": "我在三体科技造神！\n第60章 持续降维 (2/73)",
+      "loading": false,
+      "paragraphs": 36,
+      "characters": 2271,
+      "segmentIndex": 6,
+      "currentTextSha256": "be16763456bb84277d9beb4ace095d996952a785bec1f7168148ae87efed3e7f",
+      "currentTextLength": 41,
+      "scrollTop": 1052,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "localStorage": {
+        "progressKeyCount": 3,
+        "fontSize": 24,
+        "theme": "dark",
+        "stealthSettings": {
+          "alpha": 0.5499999999999999
+        },
+        "QA_BOOK_AProgress": {
+          "chapterIndex": 1,
+          "progress": 0.9707964601769912
+        },
+        "QA_BOOK_BProgress": {
+          "chapterIndex": 0,
+          "progress": 0.1529497450837582
+        },
+        "QA_BOOK_CProgress": {
+          "chapterIndex": 1,
+          "progress": 0.17255717255717257
+        },
+        "lastReading": {
+          "chapterIndex": 1,
+          "progress": 0.17255717255717257,
+          "bookRef": "QA_BOOK_C"
+        }
+      }
+    },
+    "stealth": {
+      "chapter": "第60章 持续降维",
+      "segment": "7/36",
+      "currentTextSha256": "be16763456bb84277d9beb4ace095d996952a785bec1f7168148ae87efed3e7f",
+      "currentTextLength": 41,
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "passthrough": false,
+      "loading": false,
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "localStorage": {
+        "progressKeyCount": 3,
+        "fontSize": 24,
+        "theme": "dark",
+        "stealthSettings": {
+          "alpha": 0.5499999999999999
+        },
+        "QA_BOOK_AProgress": {
+          "chapterIndex": 1,
+          "progress": 0.9707964601769912
+        },
+        "QA_BOOK_BProgress": {
+          "chapterIndex": 0,
+          "progress": 0.1529497450837582
+        },
+        "QA_BOOK_CProgress": {
+          "chapterIndex": 1,
+          "progress": 0.17255717255717257
+        },
+        "lastReading": {
+          "chapterIndex": 1,
+          "progress": 0.17255717255717257,
+          "bookRef": "QA_BOOK_C"
+        }
+      }
+    },
+    "sql": {
+      "utc": "2026-11-23T11:55:45.324685+00:00",
+      "counts": {
+        "books": 3,
+        "book_sources": 164,
+        "chapter_cache": 6,
+        "chapter_list_cache": 3
+      },
+      "books": [
+        {
+          "bookRef": "QA_BOOK_C",
+          "name": "我在三体科技造神！",
+          "dur_chapter_index": 1,
+          "dur_chapter_title": "第60章 持续降维",
+          "total_chapter_num": 73,
+          "dur_chapter_time": 1795434942800
+        },
+        {
+          "bookRef": "QA_BOOK_B",
+          "name": "暗体",
+          "dur_chapter_index": 0,
+          "dur_chapter_title": "第963章 文明捍卫之战",
+          "total_chapter_num": 978,
+          "dur_chapter_time": 1795434531748
+        },
+        {
+          "bookRef": "QA_BOOK_A",
+          "name": "不一样的三体",
+          "dur_chapter_index": 1,
+          "dur_chapter_title": "第八十章 流逝的时间",
+          "total_chapter_num": 93,
+          "dur_chapter_time": 1795434941189
+        }
+      ],
+      "chapterLists": [
+        {
+          "bookRef": "QA_BOOK_C",
+          "directoryLength": 73,
+          "jsonSha256": "1de9e91590788571ff030bab088ec04191c75ad88d971a8c4ba60d122429db3b",
+          "updated_at": 1795434426982
+        },
+        {
+          "bookRef": "QA_BOOK_B",
+          "directoryLength": 978,
+          "jsonSha256": "3c2cffb0ba1c8b79dab7a27e007b02f56e9ef2f728c6c54678373fc0ebce61e9",
+          "updated_at": 1795425584026
+        },
+        {
+          "bookRef": "QA_BOOK_A",
+          "directoryLength": 93,
+          "jsonSha256": "cd2945ee63dbebf5e27adb03e4eb62fe778cb427eb99e21006f64b2915773ddb",
+          "updated_at": 1795434788803
+        }
+      ]
+    },
+    "newReadyUtc": "2026-11-23T11:55:42.800Z",
+    "newReadyWallMs": 1795434942800,
+    "oldRequest": {
+      "requestId": "19828.376",
+      "command": "get_book_content",
+      "args": {
+        "bookRef": "QA_BOOK_A",
+        "index": 2
+      },
+      "startUtc": "2026-11-23T11:55:42.707Z",
+      "requestWallTime": 1795434942.705904,
+      "requestTimestamp": 2879400.596871,
+      "responseUtc": "2026-11-23T11:55:44.194Z",
+      "finishObservedUtc": "2026-11-23T11:55:44.194Z",
+      "finishTimestamp": 2879402.084881,
+      "finishWallMs": 1795434944193.914,
+      "status": 200,
+      "tauriResponse": "ok",
+      "bytes": 6755
+    },
+    "oldResponseBody": {
+      "characters": 2373,
+      "SHA256": "ca30ce9db3b5e13536bc2cb3be02252afed5a75dc66769cdcf8043b2ec616b07",
+      "nonEmpty": true
+    },
+    "actualLate": true,
+    "oldFinishMinusNewReadyMs": 1393.9140625,
+    "DOMTimeline": [
+      {
+        "dateMs": 1795434942702,
+        "utc": "2026-11-23T11:55:42.702Z",
+        "loading": false,
+        "chapter": "第八十章 流逝的时间",
+        "segment": "36/36",
+        "textHash": "a66341375f903c30d082c18ecc840e6477f55cac3fe9b238b71ee576352b2eb9"
+      },
+      {
+        "dateMs": 1795434942706,
+        "utc": "2026-11-23T11:55:42.706Z",
+        "loading": true,
+        "chapter": "第八十章 流逝的时间",
+        "segment": "36/36",
+        "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "dateMs": 1795434942793,
+        "utc": "2026-11-23T11:55:42.793Z",
+        "loading": true,
+        "chapter": "第60章 持续降维",
+        "segment": "36/36",
+        "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "dateMs": 1795434942800,
+        "utc": "2026-11-23T11:55:42.800Z",
+        "loading": false,
+        "chapter": "第60章 持续降维",
+        "segment": "7/36",
+        "textHash": "be16763456bb84277d9beb4ace095d996952a785bec1f7168148ae87efed3e7f"
+      }
+    ],
+    "pass": true
+  }
+}

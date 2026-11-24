@@ -1,0 +1,36 @@
+[
+  {
+    "attempt": 0,
+    "oldLoading": true,
+    "oldPositiveCount": 50,
+    "delayedPositiveObserved": true,
+    "receivedRoutes": [
+      "#/discover"
+    ],
+    "events": [
+      {
+        "type": "item",
+        "utc": "2026-11-23T09:19:39.219Z",
+        "requestId": "8c5f829d-1289-40c0-81ab-5d82d5a92dd1",
+        "route": "#/discover",
+        "phase": "new-negative-request",
+        "count": 50
+      },
+      {
+        "type": "end",
+        "utc": "2026-11-23T09:19:39.219Z",
+        "requestId": "8c5f829d-1289-40c0-81ab-5d82d5a92dd1",
+        "route": "#/discover",
+        "phase": "new-negative-request"
+      },
+      {
+        "type": "end",
+        "utc": "2026-11-23T09:19:39.539Z",
+        "requestId": "ad4721b5-87b7-448d-8fba-002c851c92df",
+        "route": "#/discover",
+        "phase": "new-negative-request"
+      }
+    ],
+    "finalResultCount": 0
+  }
+]

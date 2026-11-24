@@ -1,0 +1,60 @@
+Run 1
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.qa.json --no-watch
+     Running BeforeDevCommand (`npm run dev`)
+> reader-desktop-v2@0.2.0 dev
+  VITE v7.3.8  ready in 1011 ms
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+   Compiling moyu-reader-v2 v0.2.0 (<REPO>\src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 20.09s
+     Running `target\debug\moyu-reader-v2.exe`
+
+Run 2
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.qa.json --no-watch
+     Running BeforeDevCommand (`npm run dev`)
+> reader-desktop-v2@0.2.0 dev
+  VITE v7.3.8  ready in 449 ms
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.61s
+     Running `target\debug\moyu-reader-v2.exe`
+
+Run 3
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.qa.json --no-watch
+     Running BeforeDevCommand (`npm run dev`)
+> reader-desktop-v2@0.2.0 dev
+  VITE v7.3.8  ready in 495 ms
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.68s
+     Running `target\debug\moyu-reader-v2.exe`
+
+Run 4
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.qa.json --no-watch
+     Running BeforeDevCommand (`npm run dev`)
+> reader-desktop-v2@0.2.0 dev
+  VITE v7.3.8  ready in 1667 ms
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 17.43s
+     Running `target\debug\moyu-reader-v2.exe`
+
+Run 5
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.qa.json --no-watch
+     Running BeforeDevCommand (`npm run dev`)
+> reader-desktop-v2@0.2.0 dev
+  VITE v7.3.8  ready in 469 ms
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.71s
+     Running `target\debug\moyu-reader-v2.exe`
+
+Run 6
+> reader-desktop-v2@0.2.0 tauri
+> tauri dev --config <QA_TEMP>\tauri.qa.json --no-watch
+     Running BeforeDevCommand (`npm run dev`)
+> reader-desktop-v2@0.2.0 dev
+  VITE v7.3.8  ready in 474 ms
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.64s
+     Running `target\debug\moyu-reader-v2.exe`

@@ -1,0 +1,322 @@
+{
+  "round": 2,
+  "files": {
+    "app-console.json": {
+      "bytes": 3144,
+      "sha256": "c7e0fa2f61d30bd0f025065ffba9f6ea9ae30eefcd52c165f5e9d9a49a28b818"
+    },
+    "build.txt": {
+      "bytes": 425,
+      "sha256": "0b57c0650ba59a47e7c4398b1ed67a5b6aa5cb379b6ea34087bec1462cac1813"
+    },
+    "native-run3-closed-main-menu-show.png": {
+      "bytes": 1027,
+      "sha256": "f491326c9efcb88e69c346af4d4a5a6d8bb6721855b812e84f8e1355f80445a2"
+    },
+    "native.json": {
+      "bytes": 150631,
+      "sha256": "15159d47df42d2515bc6c7e97fe9678dd2d3626479de831c33bd0b1cf7a46a82"
+    },
+    "observations.json": {
+      "bytes": 136500,
+      "sha256": "d008bc69e80663df32ceda30ff26799db8cea43beefe24881a6957501a8e3a15"
+    },
+    "r02-alpha65-real-process-restart.png": {
+      "bytes": 15032,
+      "sha256": "c3d556fec914bf9e0346312cee7f54b2bb9430e347d5c6de9932c91fe866679c"
+    },
+    "r02-existing-B-duplicate-add-disabled-cropped.png": {
+      "bytes": 68183,
+      "sha256": "db37bb75e0cf7f89c75e426dca3de225a43a18134d42d82e5af611712b609503"
+    },
+    "r02-first-stealth-cdp.png": {
+      "bytes": 14197,
+      "sha256": "7178025147d8322d65b6d25582682911bf50a4fd50c7a8979552709ed3d73110"
+    },
+    "r02-immediate-return-restored-cropped.png": {
+      "bytes": 92618,
+      "sha256": "7218e81d7484b0789ec2ff8f9a652468c1b8af63de518e71ab64e6ef37d3f14c"
+    },
+    "r02-MR004-cross-chapter-top-cropped.png": {
+      "bytes": 64865,
+      "sha256": "74cb740a80fddf980169129e26c0020d2c838dbc5d23504b1c6e2ca6b37ecc78"
+    },
+    "r02-MR006-current-book-deleted-no-stale-continue.png": {
+      "bytes": 63471,
+      "sha256": "ac7c2410e7666132dd1800dc5ac841d6a802fa5a706a9a907adc1454884243c2"
+    },
+    "r02-MR010-A-main-new-position-cropped.png": {
+      "bytes": 100262,
+      "sha256": "e320b66cf97ae24fa24e06ff12cc0550582cda22cfb06744f00469fff771c384"
+    },
+    "r02-MR010-A-old-position-stealth.png": {
+      "bytes": 14736,
+      "sha256": "9405ae07cd4fc6123eaa8fc01422dae2dafb3cdc61f22770740d1664922c994e"
+    },
+    "r02-MR010-B-main-cropped.png": {
+      "bytes": 69643,
+      "sha256": "ecd451f2879856eb1844614973a4637280a0bfacfb199b33f8d17817938a06ec"
+    },
+    "r02-MR010-B-shows-A-stealth.png": {
+      "bytes": 14736,
+      "sha256": "9405ae07cd4fc6123eaa8fc01422dae2dafb3cdc61f22770740d1664922c994e"
+    },
+    "r02-MR011-alpha45-after-one-down.png": {
+      "bytes": 21479,
+      "sha256": "a34968b80a5f4104f37fe6efd514987303bfb9f0e712aa3935de7d69a08cd024"
+    },
+    "r02-MR011-alpha65-before.png": {
+      "bytes": 21389,
+      "sha256": "17b57201651c0c59b03cacc092d804ddc45c324c0e742dba71701166a5a49b31"
+    },
+    "r02-native-drag-diagnostic.png": {
+      "bytes": 15275,
+      "sha256": "5c2fe5c611dc1263fe55f49c241050275585232dd0d3bb1f7d27aa30a4581fd0"
+    },
+    "r02-navigation-positive-isolated.png": {
+      "bytes": 33971,
+      "sha256": "23b1256a85ad0dd9268e05a8e08bee4570134727cacf18bd0bc59db60bbb82ba"
+    },
+    "r02-new-B-body-cropped.png": {
+      "bytes": 70830,
+      "sha256": "0cf2475855585e3c7c276288e058129cd56f73ef91c7d75e58a8f5562245b200"
+    },
+    "r02-new-search-detail.png": {
+      "bytes": 16489,
+      "sha256": "390eae8479becb85a8d684c1b8d421620f7629c7f60fa5f62d1dd02722ddc672"
+    },
+    "r02-readd-B-first-click-feedback-cropped.png": {
+      "bytes": 71182,
+      "sha256": "5db5bf73da6a4afaf155646f91580f71ac50c7c496918541602d2a437024b887"
+    },
+    "r02-replacement-Enter.png": {
+      "bytes": 33211,
+      "sha256": "2b65bf2b2eec5172e474658832b32111a522383b36b5bd32e7db42970e28789d"
+    },
+    "r02-settings-actual-version.png": {
+      "bytes": 28188,
+      "sha256": "92b18812c1c6a2579faa3ac8323672b4a11cc2f8bb39e9c6f54a470e793c5843"
+    },
+    "r02-third-restart-FIRST-dark-shelf.png": {
+      "bytes": 101587,
+      "sha256": "3f90d10d89ec04c22244104bb78d244520d4d8dbfdaf68a3b034dbcbd20313ac"
+    },
+    "r02-valid-URL-import-restored-source-count-cropped.png": {
+      "bytes": 16429,
+      "sha256": "5b2f83c8be9e63cb87173f668375f84a6f8cef1396913b9f9f3acbef6b150557"
+    },
+    "runtime.json": {
+      "bytes": 8313,
+      "sha256": "ac51632ebf1e2e5890875bb5768f7a5e19b5b05ec682bdd0fbcdd8d5b9a86fe2"
+    },
+    "search-page-return.json": {
+      "bytes": 918,
+      "sha256": "e9fd0d2c0a83701ce9e3d976424cc6c42ce577f15e3fe278b5bbee0d0d56de0d"
+    },
+    "regression-details.json": {
+      "bytes": 35929,
+      "sha256": "1d71f679822b4e21a04ee927982fabd042b337c6c8eb002b2dc771b2d6796970"
+    },
+    "verification.json": {
+      "bytes": 1228,
+      "sha256": "073eeabefb723c3fd6332a1bb4f697381d276d8f37b9ce62fc5e406071240fcb"
+    }
+  },
+  "images": [
+    {
+      "file": "r02-readd-B-first-click-feedback-cropped.png",
+      "sourcePrivateFile": "r02-readd-B-first-click-feedback.png",
+      "sourceSha256": "4530830ca57fd9b1a7b71f687a907aa070ec56c6ad6f55952a7984d05f30c530",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        455
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-new-B-body-cropped.png",
+      "sourcePrivateFile": "r02-new-B-body.png",
+      "sourceSha256": "b0048e34a9aa1b77c5b4e41d238a979274747ad288df019503f404e9ded5bdcd",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        490
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-first-stealth-cdp.png",
+      "sourcePrivateFile": "r02-first-stealth-cdp.png",
+      "sourceSha256": "7178025147d8322d65b6d25582682911bf50a4fd50c7a8979552709ed3d73110",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-native-drag-diagnostic.png",
+      "sourcePrivateFile": "r02-native-drag-diagnostic.png",
+      "sourceSha256": "5c2fe5c611dc1263fe55f49c241050275585232dd0d3bb1f7d27aa30a4581fd0",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-replacement-Enter.png",
+      "sourcePrivateFile": "r02-replacement-Enter.png",
+      "sourceSha256": "2b65bf2b2eec5172e474658832b32111a522383b36b5bd32e7db42970e28789d",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-navigation-positive-isolated.png",
+      "sourcePrivateFile": "r02-navigation-positive-isolated.png",
+      "sourceSha256": "23b1256a85ad0dd9268e05a8e08bee4570134727cacf18bd0bc59db60bbb82ba",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-MR004-cross-chapter-top-cropped.png",
+      "sourcePrivateFile": "r02-MR004-cross-chapter-top.png",
+      "sourceSha256": "7fb017eed72086b3b4b673cbfc954abdbf2ac45592cdf0f8d7edd583327ba047",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        490
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-immediate-return-restored-cropped.png",
+      "sourcePrivateFile": "r02-immediate-return-restored.png",
+      "sourceSha256": "5b5a61fe60968390442d6f7ec27bbbd3187e85365bf1af96930a8eb6e246b662",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        490
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-third-restart-FIRST-dark-shelf.png",
+      "sourcePrivateFile": "r02-third-restart-FIRST-dark-shelf.png",
+      "sourceSha256": "3f90d10d89ec04c22244104bb78d244520d4d8dbfdaf68a3b034dbcbd20313ac",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-settings-actual-version.png",
+      "sourcePrivateFile": "r02-settings-actual-version.png",
+      "sourceSha256": "92b18812c1c6a2579faa3ac8323672b4a11cc2f8bb39e9c6f54a470e793c5843",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-MR006-current-book-deleted-no-stale-continue.png",
+      "sourcePrivateFile": "r02-MR006-current-book-deleted-no-stale-continue.png",
+      "sourceSha256": "ac7c2410e7666132dd1800dc5ac841d6a802fa5a706a9a907adc1454884243c2",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-valid-URL-import-restored-source-count-cropped.png",
+      "sourcePrivateFile": "r02-valid-URL-import-restored-source-count.png",
+      "sourceSha256": "bcc961a53b16c3b7edf4291f18bd029401b78c040a7cbb1e1f379062750f412f",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        340
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-MR010-B-main-cropped.png",
+      "sourcePrivateFile": "r02-MR010-B-main.png",
+      "sourceSha256": "ce33b63874cccab5335fcf958b05e04c6be3f006fc61eabcf00fa2f8e6b7c76b",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        490
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-MR010-B-shows-A-stealth.png",
+      "sourcePrivateFile": "r02-MR010-B-shows-A-stealth.png",
+      "sourceSha256": "9405ae07cd4fc6123eaa8fc01422dae2dafb3cdc61f22770740d1664922c994e",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-MR010-A-main-new-position-cropped.png",
+      "sourcePrivateFile": "r02-MR010-A-main-new-position.png",
+      "sourceSha256": "56565dada2d80f4cbbd02c0e5fa033deef394961ff39d51968aee9c85be574a4",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        490
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-MR010-A-old-position-stealth.png",
+      "sourcePrivateFile": "r02-MR010-A-old-position-stealth.png",
+      "sourceSha256": "9405ae07cd4fc6123eaa8fc01422dae2dafb3cdc61f22770740d1664922c994e",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-MR011-alpha65-before.png",
+      "sourcePrivateFile": "r02-MR011-alpha65-before.png",
+      "sourceSha256": "17b57201651c0c59b03cacc092d804ddc45c324c0e742dba71701166a5a49b31",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-MR011-alpha45-after-one-down.png",
+      "sourcePrivateFile": "r02-MR011-alpha45-after-one-down.png",
+      "sourceSha256": "a34968b80a5f4104f37fe6efd514987303bfb9f0e712aa3935de7d69a08cd024",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-alpha65-real-process-restart.png",
+      "sourcePrivateFile": "r02-alpha65-real-process-restart.png",
+      "sourceSha256": "c3d556fec914bf9e0346312cee7f54b2bb9430e347d5c6de9932c91fe866679c",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "native-run3-closed-main-menu-show.png",
+      "sourcePrivateFile": "native-run3-closed-main-menu-show.png",
+      "sourceSha256": "f491326c9efcb88e69c346af4d4a5a6d8bb6721855b812e84f8e1355f80445a2",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-existing-B-duplicate-add-disabled-cropped.png",
+      "sourcePrivateFile": "r02-existing-B-duplicate-add-disabled.png",
+      "sourceSha256": "f5d0ac6659e02487b188c7593c10988fe0a498ee4f7b37cc93c4bf678c46aeca",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        455
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r02-new-search-detail.png",
+      "sourcePrivateFile": "r02-new-search-detail.png",
+      "sourceSha256": "390eae8479becb85a8d684c1b8d421620f7629c7f60fa5f62d1dd02722ddc672",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    }
+  ],
+  "screenshotNote": "仅 QA WebView2 与自有原生小窗/菜单。标注 cropped 的文件只裁剪；未加标记、未重绘。两张含无关桌面文字的首次原生透明窗截图未发布，原生行为由 Win32 记录交叉验证。"
+}

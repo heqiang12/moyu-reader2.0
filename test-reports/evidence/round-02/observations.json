@@ -1,0 +1,4986 @@
+[
+  {
+    "group": "TC-01/MR-007",
+    "sourceLog": "task-01-legacy.private.json",
+    "step": "first-start-shelf",
+    "utc": "2026-11-23T08:07:53.016Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "摸鱼阅读\n发现书源设置\n继续上次阅读\n→\n不一样的三体\n第 5 章\n×\n不一样的三体\n作者：文刀红城\n第 5 / 93 章",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "×",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": 0.07751239296980622
+      }
+    }
+  },
+  {
+    "group": "TC-42/MR-004",
+    "sourceLog": "task-01-resume.private.json",
+    "step": "legacy-numeric-progress-migrated",
+    "utc": "2026-11-23T08:08:33.205Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 3,
+      "scrollTop": 563,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "14621f619edda90b6d95a7869700a15b0e1b169a56d2a0d93234fb9dbfeee455",
+      "currentTextLength": 47,
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-42/MR-004",
+    "sourceLog": "task-01-resume.private.json",
+    "step": "legacy-compatibility-selfcheck",
+    "utc": "2026-11-23T08:08:34.724Z",
+    "observed": {
+      "pass": true,
+      "restoredIndex": 4,
+      "legacyProgress": 0.07751239296980622,
+      "boundProgress": {
+        "chapterIndex": 4,
+        "progress": 0.07751239296980622
+      },
+      "visibleSegment": 3
+    }
+  },
+  {
+    "group": "MR-002",
+    "sourceLog": "task-01-resume.private.json",
+    "step": "FIRST-normal-UI-stealth-created",
+    "utc": "2026-11-23T08:08:35.616Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "4/39",
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "14621f619edda90b6d95a7869700a15b0e1b169a56d2a0d93234fb9dbfeee455",
+      "currentTextLength": 47,
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-002",
+    "sourceLog": "task-01-resume.private.json",
+    "step": "main-at-first-stealth-create",
+    "utc": "2026-11-23T08:08:35.619Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 3,
+      "scrollTop": 563,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "14621f619edda90b6d95a7869700a15b0e1b169a56d2a0d93234fb9dbfeee455",
+      "currentTextLength": 47,
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-002",
+    "sourceLog": "task-01-resume.private.json",
+    "step": "first-window-content-comparison",
+    "utc": "2026-11-23T08:08:35.675Z",
+    "observed": {
+      "sameText": true,
+      "mainSegmentIndex": 3,
+      "stealthSegment": "4/39",
+      "mainChapter": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "stealthChapter": "第七十七章 破壁（二）"
+    }
+  },
+  {
+    "group": "MR-001",
+    "sourceLog": "task-04b-navigation-new.private.json",
+    "step": "new-detail-preadd-check-暗体",
+    "utc": "2026-11-23T08:20:36.744Z",
+    "observed": {
+      "addText": "加入书架",
+      "chapters": 978
+    }
+  },
+  {
+    "group": "MR-001/TC-11",
+    "sourceLog": "task-05-resume-add.private.json",
+    "step": "first-UI-add-readonly-confirmation",
+    "utc": "2026-11-23T08:22:52.030Z",
+    "observed": [
+      {
+        "name": "暗体",
+        "bookUrl": "<QA_BOOK_B_URL>",
+        "index": 0,
+        "sources": 1
+      },
+      {
+        "name": "不一样的三体",
+        "bookUrl": "<QA_BOOK_A_URL>",
+        "index": 4,
+        "sources": 1
+      }
+    ]
+  },
+  {
+    "group": "MR-001/TC-11",
+    "sourceLog": "task-05-resume-add.private.json",
+    "step": "NEW-normal-UI-E2E-B",
+    "utc": "2026-11-23T08:23:00.043Z",
+    "observed": {
+      "pass": true,
+      "header": "暗体\n第963章 文明捍卫之战 (1/978)",
+      "segments": 27,
+      "chars": 1213
+    }
+  },
+  {
+    "group": "MR-001/TC-11",
+    "sourceLog": "task-05-resume-add.private.json",
+    "step": "B-full-UI-catalog",
+    "utc": "2026-11-23T08:23:00.384Z",
+    "observed": {
+      "count": 978
+    }
+  },
+  {
+    "group": "TC-12",
+    "sourceLog": "task-05-resume-add.private.json",
+    "step": "normal-UI-start-body-B",
+    "utc": "2026-11-23T08:22:58.591Z",
+    "observed": {
+      "header": "暗体\n第963章 文明捍卫之战 (1/978)",
+      "loading": false,
+      "paragraphs": 27,
+      "characters": 1213,
+      "segmentIndex": 0,
+      "scrollTop": 0,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": true,
+      "nextDisabled": false,
+      "currentTextSha256": "c33d4272583f03d8979ac5011bf1acc82e129ccaf80416426d1710a22c317534",
+      "currentTextLength": 65,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 0,
+          "progress": 0,
+          "bookRef": "QA_BOOK_B"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "EXT-02",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "NEW-result-detail",
+    "utc": "2026-11-23T08:15:59.614Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "⚠️\n出错了\n\n书籍详情加载失败\n\n回书架",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "回书架",
+          "type": ""
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-005",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "empty-hotword-三体",
+    "utc": "2026-11-23T08:16:02.858Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 50,
+      "textExcerpt": "← 书架\n发现\n书源设置\n搜索\n“三体” 找到 50 本相关书籍（搜索结束）\n暗体\n作者：沣水森\n1 个书源\n八识心体\n作者：已达\n1 个书源\n霸体少年\n作者：风引雨信\n1 个书源\n霸体无敌系统\n作者：爱吃蛋黄酥\n1 个书源\n不灭体\n作者：造化书界\n1 个书源\n不一样的三体\n作者：文刀红城\n1 个书源\n超级智能体\n作者：海上生明月\n1 个书源\n超体邪神\n作者：落青丹\n1 个书源\n从三体开始，迪迦把光还给了我\n作者：刘皇叔呀\n1 个书源\n从三体开始的救世主\n作者：树藤上毛毛虫\n1 个书源\n从三体逃到超神\n作者：刘皇叔呀\n1 个书源\n刚成银河卫士，你告诉我穿的三体\n作者：尘十万\n1 个书源\n诡秘三体：我在小镇斩神明\n作者：嘻嘻平行宇宙\n1 个书源\n哈利波特之三位一体\n作者：klason\n1 个书源\n混沌不灭体\n作者：皇匍四少\n1 个书源\n禁体\n作者：隐梧\n1 个书源\n究极体\n作者：安宁的小鱼儿\n1 个书源\n九幽体\n作者：月小小\n1 个书源\n开拓者星的三体之旅\n作者：凯撒刻律德菈\n1 个书源\n",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-005",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "hotword-三体-event-check",
+    "utc": "2026-11-23T08:16:02.867Z",
+    "observed": {
+      "endCount": 1,
+      "itemCount": 1,
+      "input": "三体"
+    }
+  },
+  {
+    "group": "MR-005",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "empty-hotword-凡人修仙传",
+    "utc": "2026-11-23T08:16:04.169Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 50,
+      "textExcerpt": "← 书架\n发现\n书源设置\n搜索\n“凡人修仙传” 找到 50 本相关书籍（搜索结束）\n穿越凡人修仙传带本破书去修仙\n作者：不吃鱼的猫咪\n1 个书源\n从凡人修仙开始打卡\n作者：赤京\n1 个书源\n大道修仙传\n作者：牛家栓宝\n1 个书源\n凡人：修仙从科举开始\n作者：翡仙\n1 个书源\n凡人：杂役才是修仙圣体\n作者：一清以宁\n1 个书源\n凡人不可修仙传\n作者：韭菜根儿\n1 个书源\n凡人穿越修仙苟活\n作者：打字狂魔\n1 个书源\n凡人飞仙传\n作者：振翅的蚂蚁\n1 个书源\n凡人炼体传\n作者：上铺老狗\n1 个书源\n凡人日常修仙记\n作者：李小白很帅\n1 个书源\n凡人世界修剑传\n作者：寂静韵味\n1 个书源\n凡人碎空传\n作者：三毛当少爷\n1 个书源\n凡人武修传\n作者：风过蒙德的月光\n1 个书源\n凡人仙途传\n作者：黄歧\n1 个书源\n凡人修仙：谁说修仙必须灵力\n作者：鱼何难\n1 个书源\n凡人修仙传\n作者：忘语\n1 个书源\n凡人修仙传：番外\n作者：忘语\n1 个书源\n凡人修仙传：我也有掌天瓶\n作者：执笔问仙道\n1 个书源",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-005",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "hotword-凡人修仙传-event-check",
+    "utc": "2026-11-23T08:16:04.175Z",
+    "observed": {
+      "endCount": 1,
+      "itemCount": 1,
+      "input": "凡人修仙传"
+    }
+  },
+  {
+    "group": "MR-008",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "ASCII-zero-completed",
+    "utc": "2026-11-23T08:16:05.310Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n发现\n书源设置\n搜索\n🔍\n没有找到相关书籍\n\n“qa20261123zzzzzzz” 的搜索已结束，请换个关键词或检查书源。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "诡秘之主",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "三体",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "红楼梦",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "道诡异仙",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "凡人修仙传",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "replacement-Enter-final-UI",
+    "utc": "2026-11-23T08:16:07.520Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n发现\n书源设置\n搜索\n🔍\n没有找到相关书籍\n\n“qa20261123zzzzzzz” 的搜索已结束，请换个关键词或检查书源。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "诡秘之主",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "三体",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "红楼梦",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "道诡异仙",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "凡人修仙传",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "replacement-Enter-observed-streams",
+    "utc": "2026-11-23T08:16:07.526Z",
+    "observed": {
+      "firstStillLoading": true,
+      "events": [
+        {
+          "type": "item",
+          "requestId": "118e3e5a-33ad-4272-991b-5f1ffdcaa525",
+          "count": 50
+        },
+        {
+          "type": "end",
+          "requestId": "118e3e5a-33ad-4272-991b-5f1ffdcaa525"
+        },
+        {
+          "type": "end",
+          "requestId": "88291db9-9618-480f-91bc-cc5e39362e54"
+        }
+      ],
+      "oldPositiveBatchObserved": true,
+      "finalCount": 0
+    }
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "replacement-button-final-UI",
+    "utc": "2026-11-23T08:16:09.376Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n发现\n书源设置\n搜索\n🔍\n没有找到相关书籍\n\n“qa20261123zzzzzzz” 的搜索已结束，请换个关键词或检查书源。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "诡秘之主",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "三体",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "红楼梦",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "道诡异仙",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "凡人修仙传",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-003",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "replacement-button-observed-streams",
+    "utc": "2026-11-23T08:16:09.386Z",
+    "observed": {
+      "firstStillLoading": true,
+      "events": [
+        {
+          "type": "item",
+          "requestId": "e4b09bd7-93ee-4a51-b292-c7bada2c6736",
+          "count": 50
+        },
+        {
+          "type": "end",
+          "requestId": "e4b09bd7-93ee-4a51-b292-c7bada2c6736"
+        },
+        {
+          "type": "end",
+          "requestId": "5959e90b-a7c6-4bab-82ff-c38457df04ca"
+        }
+      ],
+      "oldPositiveBatchObserved": true,
+      "finalCount": 0
+    }
+  },
+  {
+    "group": "TC-05/48",
+    "sourceLog": "task-17-navigation-positive.private.json",
+    "step": "actual-discover-current-controls-and-empty-submit",
+    "utc": "2026-11-23T09:19:37.157Z",
+    "observed": {
+      "buttons": [
+        {
+          "text": "搜索",
+          "disabled": true
+        },
+        {
+          "text": "诡秘之主",
+          "disabled": false
+        },
+        {
+          "text": "三体",
+          "disabled": false
+        },
+        {
+          "text": "红楼梦",
+          "disabled": false
+        },
+        {
+          "text": "道诡异仙",
+          "disabled": false
+        },
+        {
+          "text": "凡人修仙传",
+          "disabled": false
+        }
+      ],
+      "links": [
+        "← 书架",
+        "书源",
+        "设置"
+      ],
+      "searchInput": "",
+      "categoryControls": 0
+    }
+  },
+  {
+    "group": "TC-05",
+    "sourceLog": "task-17-navigation-positive.private.json",
+    "step": "empty-Enter-does-not-start-request",
+    "utc": "2026-11-23T09:19:37.839Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n发现\n书源设置\n搜索\n🔍\n想看点什么？\n\n输入关键词，多书源会同时帮你找。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "disabled": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "诡秘之主",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "三体",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "红楼梦",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "道诡异仙",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "凡人修仙传",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-003/TC-41",
+    "sourceLog": "task-17-navigation-positive.private.json",
+    "step": "attempt-0-old-search-loading",
+    "utc": "2026-11-23T09:19:38.206Z",
+    "observed": {
+      "loading": true,
+      "events": []
+    }
+  },
+  {
+    "group": "MR-003/TC-41",
+    "sourceLog": "task-17-navigation-positive.private.json",
+    "step": "attempt-0-actual-shelf-after-leaving",
+    "utc": "2026-11-23T09:19:38.378Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "摸鱼阅读\n发现书源设置\n继续上次阅读\n→\n不一样的三体\n第 5 章\n×\n不一样的三体\n作者：文刀红城\n第 5 / 93 章",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "×",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-003/TC-41",
+    "sourceLog": "task-17-navigation-positive.private.json",
+    "step": "attempt-0-fresh-discover-before-negative",
+    "utc": "2026-11-23T09:19:38.565Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n发现\n书源设置\n搜索\n🔍\n想看点什么？\n\n输入关键词，多书源会同时帮你找。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "disabled": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "诡秘之主",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "三体",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "红楼梦",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "道诡异仙",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "凡人修仙传",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-003/TC-41",
+    "sourceLog": "task-17-navigation-positive.private.json",
+    "step": "attempt-0-page-return-final-zero",
+    "utc": "2026-11-23T09:19:40.367Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n发现\n书源设置\n搜索\n🔍\n没有找到相关书籍\n\n“qa20261123zzzzzzz” 的搜索已结束，请换个关键词或检查书源。\n\n诡秘之主\n三体\n红楼梦\n道诡异仙\n凡人修仙传",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "搜索",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "诡秘之主",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "三体",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "红楼梦",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "道诡异仙",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "凡人修仙传",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-010",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "B-main-before-reopen",
+    "utc": "2026-11-23T08:25:09.411Z",
+    "observed": {
+      "header": "暗体\n第963章 文明捍卫之战 (1/978)",
+      "loading": false,
+      "paragraphs": 27,
+      "characters": 1213,
+      "segmentIndex": 0,
+      "scrollTop": 0,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": true,
+      "nextDisabled": false,
+      "currentTextSha256": "c33d4272583f03d8979ac5011bf1acc82e129ccaf80416426d1710a22c317534",
+      "currentTextLength": 65,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 0,
+          "progress": 0,
+          "bookRef": "QA_BOOK_B"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-010",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "hidden-stealth-from-initial-A",
+    "utc": "2026-11-23T08:25:09.414Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "4/39",
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "14621f619edda90b6d95a7869700a15b0e1b169a56d2a0d93234fb9dbfeee455",
+      "currentTextLength": 47,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 0,
+          "progress": 0,
+          "bookRef": "QA_BOOK_B"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-010",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "reopened-for-B-actual",
+    "utc": "2026-11-23T08:25:10.695Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "4/39",
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "14621f619edda90b6d95a7869700a15b0e1b169a56d2a0d93234fb9dbfeee455",
+      "currentTextLength": 47,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 0,
+          "progress": 0,
+          "bookRef": "QA_BOOK_B"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.07751239296980622
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-010",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "A-new-position-while-stealth-hidden",
+    "utc": "2026-11-23T08:25:14.585Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 9,
+      "scrollTop": 1543,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "currentTextLength": 70,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-010",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "A-hidden-then-reopen-position",
+    "utc": "2026-11-23T08:25:15.862Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "4/39",
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "14621f619edda90b6d95a7869700a15b0e1b169a56d2a0d93234fb9dbfeee455",
+      "currentTextLength": 47,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-010",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "MR010-cross-book-reopen-comparison",
+    "utc": "2026-11-23T08:25:10.699Z",
+    "observed": {
+      "visible": {
+        "passthrough": false,
+        "visible": true
+      },
+      "mainBook": "暗体\n第963章 文明捍卫之战 (1/978)",
+      "mainText": "盛裕楠方案的失效让紧急预案中心的大厅内笼罩在一片哀鸣之中，所有人都没有预料到那颗约为0.15倍太阳质量的流浪红矮星竟然会突然加速。",
+      "stealthChapter": "第七十七章 破壁（二）",
+      "stealthText": "“以上就是我，您的破壁人多年工作的结果。我并不想征询您的意见和评价，因为我们都知道这是真的。”",
+      "sameText": false,
+      "oldStealthUnchanged": true
+    }
+  },
+  {
+    "group": "MR-010",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "MR010-same-book-new-position-repro",
+    "utc": "2026-11-23T08:25:15.862Z",
+    "observed": {
+      "mainSegment": 9,
+      "mainText": "    “但您还是有一个重大纰漏：为什么首次核试验非要在水星上进行呢？以后有的是时间，也许您太急躁了，急于看到恒星型氢弹在水星上爆炸的效果。",
+      "stealthSegment": "4/39",
+      "stealthText": "“以上就是我，您的破壁人多年工作的结果。我并不想征询您的意见和评价，因为我们都知道这是真的。”",
+      "sameText": false,
+      "oldStealthUnchanged": true
+    }
+  },
+  {
+    "group": "TC-29/40",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "backward-cross-actual-stealth",
+    "utc": "2026-11-23T08:27:26.671Z",
+    "observed": {
+      "chapter": "第七十八章 质问",
+      "loading": false,
+      "segment": "41/41",
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "a66341375f903c30d082c18ecc840e6477f55cac3fe9b238b71ee576352b2eb9",
+      "currentTextLength": 62,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 3,
+          "progress": 0.9999,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 3,
+          "progress": 0.9999
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-29/40",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "backward-cross-actual-main",
+    "utc": "2026-11-23T08:27:26.675Z",
+    "observed": {
+      "header": "不一样的三体\n第七十八章 质问 (4/93)",
+      "loading": false,
+      "paragraphs": 41,
+      "characters": 2224,
+      "segmentIndex": 34,
+      "scrollTop": 4814,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "588be254b93ad1d9062e689c1d9b95a2fa7955c7c4e344301ff7c74a1d3a12a9",
+      "currentTextLength": 49,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 3,
+          "progress": 0.9999,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 3,
+          "progress": 0.9999
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-29/40",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "forward-cross-actual-stealth",
+    "utc": "2026-11-23T08:27:27.121Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "1/39",
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "ac2c071164d70e38cf7e70aa11b371560fffa81ef3c41b9c18285a94028458ca",
+      "currentTextLength": 96,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-29/40",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "forward-cross-actual-main",
+    "utc": "2026-11-23T08:27:27.124Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 0,
+      "scrollTop": 0,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "ac2c071164d70e38cf7e70aa11b371560fffa81ef3c41b9c18285a94028458ca",
+      "currentTextLength": 96,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-40",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "previous-chapter-last-segment-visible-main",
+    "utc": "2026-11-23T08:27:26.685Z",
+    "observed": {
+      "lastText": "请记住本书首发域名：www.xyetianlian.com。何以笙箫默小说手机版阅读网址：m.xyetianlian.com",
+      "lastVisible": true,
+      "scrollTop": 4814,
+      "maxScroll": 4814
+    }
+  },
+  {
+    "group": "MR-004",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "MR004-index2-mid-baseline",
+    "utc": "2026-11-23T08:27:30.450Z",
+    "observed": {
+      "header": "不一样的三体\n第七十九章 愚蠢的审判 (3/93)",
+      "loading": false,
+      "paragraphs": 40,
+      "characters": 2195,
+      "segmentIndex": 6,
+      "scrollTop": 1120,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "c872200cc8be95b439195b5a9a8d065287547da7eefedc397448aece045a11e9",
+      "currentTextLength": 96,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 2,
+          "progress": 0.1862621154656553,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 2,
+          "progress": 0.1862621154656553
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-004",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "MR004-index3-start",
+    "utc": "2026-11-23T08:27:30.885Z",
+    "observed": {
+      "header": "不一样的三体\n第七十八章 质问 (4/93)",
+      "loading": false,
+      "paragraphs": 41,
+      "characters": 2224,
+      "segmentIndex": 0,
+      "scrollTop": 0,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "7644e42e66270d8030200f72da32a244bb79289b7417609014188d58585a1dc5",
+      "currentTextLength": 27,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 3,
+          "progress": 0,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 3,
+          "progress": 0
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-004",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "MR004-index3-mid-baseline",
+    "utc": "2026-11-23T08:27:31.552Z",
+    "observed": {
+      "header": "不一样的三体\n第七十八章 质问 (4/93)",
+      "loading": false,
+      "paragraphs": 41,
+      "characters": 2224,
+      "segmentIndex": 7,
+      "scrollTop": 1120,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "b0a408d6f3dfca60892fda6d0cb0261b6949d670d603e0920b62097e7b266010",
+      "currentTextLength": 82,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 3,
+          "progress": 0.19601328903654486,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 3,
+          "progress": 0.19601328903654486
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-004",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "MR004-index4-start",
+    "utc": "2026-11-23T08:27:31.987Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 0,
+      "scrollTop": 0,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "ac2c071164d70e38cf7e70aa11b371560fffa81ef3c41b9c18285a94028458ca",
+      "currentTextLength": 96,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-15/43",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "same-chapter-position-before-return",
+    "utc": "2026-11-23T08:27:33.495Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 4,
+      "scrollTop": 740,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "c5ae42d7c6a4b1653571b3f4fe14799f0493a823eb01ab6ec44364c24e2a6076",
+      "currentTextLength": 60,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-15/43",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "same-chapter-continue-position",
+    "utc": "2026-11-23T08:27:34.055Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 4,
+      "scrollTop": 681,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "c5ae42d7c6a4b1653571b3f4fe14799f0493a823eb01ab6ec44364c24e2a6076",
+      "currentTextLength": 60,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-15/43",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "immediate-return-restoration",
+    "utc": "2026-11-23T08:27:34.675Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 7,
+      "scrollTop": 1124,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "20a3f66ac72f4f5de63a8d1ba621fe13b3505e296d9c7de8ad421b026ed09d58",
+      "currentTextLength": 96,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.1874718341595313,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.1874718341595313
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-43",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "immediate-return-timing",
+    "utc": "2026-11-23T08:27:34.286Z",
+    "observed": {
+      "wheelToNavigationStartedMs": 46,
+      "expectedSegment": 7,
+      "cursor": {
+        "bookUrl": "<QA_BOOK_A_URL>",
+        "chapterIndex": 4,
+        "progress": 0.1874718341595313
+      }
+    }
+  },
+  {
+    "group": "TC-16",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "reader-UI-font-up",
+    "utc": "2026-11-23T08:27:36.093Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 6,
+      "scrollTop": 1124,
+      "fontSize": "25px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "161e7300106b14ed90cb9c16c24943ca35e171301b0efcc623d58c271102ff08",
+      "currentTextLength": 39,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 25,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.1874718341595313,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.1874718341595313
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-009",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "MR009-current-Tauri-version-UI",
+    "utc": "2026-11-23T08:27:36.622Z",
+    "observed": {
+      "version": "版本 0.2.0",
+      "theme": "dark",
+      "font": "24"
+    }
+  },
+  {
+    "group": "TC-16",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "settings-light-selected",
+    "utc": "2026-11-23T08:27:36.883Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "light",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n设置\n发现书源\n外观\n主题\n浅色\n深色\n正文字号 (24px)\n阅读\n本地进度缓存\n清除缓存\n快捷键与关闭行为\n全局老板键 / 关闭行为 / 隐蔽窗口设置\n即将到来\n\n这些设置需要和 Rust 主进程配合，下一阶段开放。\n\n关于\n摸鱼阅读 V2\n版本 0.2.0",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "浅色",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "深色",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "range",
+          "disabled": false,
+          "checked": false,
+          "rangeValue": "24"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "清除缓存",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "即将到来",
+          "type": "submit",
+          "disabled": true
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "light",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.1874718341595313,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.1874718341595313
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-010",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "MR010-native-repro-main-changed-while-hidden",
+    "utc": "2026-11-23T08:27:38.314Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 9,
+      "scrollTop": 1534,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "currentTextLength": 70,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-010",
+    "sourceLog": "task-07-reader-regressions.private.json",
+    "step": "MR010-native-repro-stealth-old-position",
+    "utc": "2026-11-23T08:27:39.589Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "1/39",
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "ac2c071164d70e38cf7e70aa11b371560fffa81ef3c41b9c18285a94028458ca",
+      "currentTextLength": 96,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-007",
+    "sourceLog": "task-09-restart-firstscreen.private.json",
+    "step": "MR007-real-restart-FIRST-shelf-before-any-settings-or-reader",
+    "utc": "2026-11-23T08:36:37.978Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "摸鱼阅读\n发现书源设置\n继续上次阅读\n→\n不一样的三体\n第 5 章\n×\n不一样的三体\n作者：文刀红城\n第 5 / 93 章\n×\n暗体\n作者：沣水森\n尚未开始",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "×",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "×",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-15",
+    "sourceLog": "task-09-restart-firstscreen.private.json",
+    "step": "same-profile-real-process-restart-position",
+    "utc": "2026-11-23T08:36:39.850Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 9,
+      "scrollTop": 1405,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "currentTextLength": 70,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-007",
+    "sourceLog": "task-13-third-restart-first.private.json",
+    "step": "third-process-FIRST-shelf-before-reader-or-settings",
+    "utc": "2026-11-23T09:08:51.157Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "摸鱼阅读\n发现书源设置\n继续上次阅读\n→\n不一样的三体\n第 5 章\n×\n不一样的三体\n作者：文刀红城\n第 5 / 93 章\n×\n暗体\n作者：沣水森\n尚未开始",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "×",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "×",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-15",
+    "sourceLog": "task-13-third-restart-first.private.json",
+    "step": "third-process-continue-reader",
+    "utc": "2026-11-23T09:08:53.034Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 10,
+      "scrollTop": 1568,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "1788d8977c851969cf3acf535b5658cf6979b1c46bd7e39b6eedbf75b01528e4",
+      "currentTextLength": 54,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-39",
+    "sourceLog": "task-13-third-restart-after-boss.private.json",
+    "step": "real-remounted-stealth-alpha-and-position",
+    "utc": "2026-11-23T09:08:55.305Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "11/39",
+      "opacity": "透明 65%",
+      "background": "rgba(15, 23, 42, 0.35)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "1788d8977c851969cf3acf535b5658cf6979b1c46bd7e39b6eedbf75b01528e4",
+      "currentTextLength": 54,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-39",
+    "sourceLog": "task-13-third-restart-after-boss.private.json",
+    "step": "main-position-after-third-process-first-boss",
+    "utc": "2026-11-23T09:08:55.309Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 10,
+      "scrollTop": 1568,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "1788d8977c851969cf3acf535b5658cf6979b1c46bd7e39b6eedbf75b01528e4",
+      "currentTextLength": 54,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-MR011-before-down.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:43:40.136Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "10/39",
+      "opacity": "透明 65%",
+      "background": "rgba(15, 23, 42, 0.35)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "currentTextLength": 70,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.3500000000000001
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-MR011-before-down.private.json",
+    "step": "native-input-passive-observation",
+    "utc": "2026-11-23T08:43:40.152Z",
+    "observed": {
+      "mainPointer": [],
+      "stealthPointer": [],
+      "events": [],
+      "sameCurrentText": true
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-MR011-one-down.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:43:41.629Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "10/39",
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "currentTextLength": 70,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.55
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-MR011-one-down.private.json",
+    "step": "native-input-passive-observation",
+    "utc": "2026-11-23T08:43:41.645Z",
+    "observed": {
+      "mainPointer": [],
+      "stealthPointer": [],
+      "events": [
+        {
+          "utc": "2026-11-23T08:43:40.786Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        }
+      ],
+      "sameCurrentText": true
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-MR011-one-up-repro.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:43:43.069Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "10/39",
+      "opacity": "透明 65%",
+      "background": "rgba(15, 23, 42, 0.35)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "currentTextLength": 70,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.3500000000000001
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-MR011-one-up-repro.private.json",
+    "step": "native-input-passive-observation",
+    "utc": "2026-11-23T08:43:43.084Z",
+    "observed": {
+      "mainPointer": [],
+      "stealthPointer": [],
+      "events": [
+        {
+          "utc": "2026-11-23T08:43:40.786Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:42.219Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        }
+      ],
+      "sameCurrentText": true
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-more-opacity-min.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:43:51.075Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "10/39",
+      "opacity": "透明 85%",
+      "background": "rgba(15, 23, 42, 0.15)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "currentTextLength": 70,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.1500000000000001
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-more-opacity-min.private.json",
+    "step": "native-input-passive-observation",
+    "utc": "2026-11-23T08:43:51.092Z",
+    "observed": {
+      "mainPointer": [],
+      "stealthPointer": [
+        {
+          "utc": "2026-11-23T08:43:43.447Z",
+          "type": "pointerdown",
+          "button": 0,
+          "target": "stealth-line current",
+          "x": 240,
+          "y": 44
+        }
+      ],
+      "events": [
+        {
+          "utc": "2026-11-23T08:43:40.786Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:42.219Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:44.261Z",
+          "type": "stealth:nav",
+          "payload": "prev"
+        },
+        {
+          "utc": "2026-11-23T08:43:45.209Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:45.818Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:46.445Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:47.394Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:48.362Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:48.985Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:49.610Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:50.235Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        }
+      ],
+      "sameCurrentText": true
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-more-opacity-min-extra.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:43:52.016Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "10/39",
+      "opacity": "透明 85%",
+      "background": "rgba(15, 23, 42, 0.15)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "currentTextLength": 70,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.15
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-more-opacity-min-extra.private.json",
+    "step": "native-input-passive-observation",
+    "utc": "2026-11-23T08:43:52.034Z",
+    "observed": {
+      "mainPointer": [],
+      "stealthPointer": [
+        {
+          "utc": "2026-11-23T08:43:43.447Z",
+          "type": "pointerdown",
+          "button": 0,
+          "target": "stealth-line current",
+          "x": 240,
+          "y": 44
+        }
+      ],
+      "events": [
+        {
+          "utc": "2026-11-23T08:43:40.786Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:42.219Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:44.261Z",
+          "type": "stealth:nav",
+          "payload": "prev"
+        },
+        {
+          "utc": "2026-11-23T08:43:45.209Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:45.818Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:46.445Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:47.394Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:48.362Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:48.985Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:49.610Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:50.235Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:51.182Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        }
+      ],
+      "sameCurrentText": true
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-more-opacity-max.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:43:47.290Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "10/39",
+      "opacity": "透明 5%",
+      "background": "rgba(15, 23, 42, 0.95)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "currentTextLength": 70,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.95
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-more-opacity-max.private.json",
+    "step": "native-input-passive-observation",
+    "utc": "2026-11-23T08:43:47.303Z",
+    "observed": {
+      "mainPointer": [],
+      "stealthPointer": [
+        {
+          "utc": "2026-11-23T08:43:43.447Z",
+          "type": "pointerdown",
+          "button": 0,
+          "target": "stealth-line current",
+          "x": 240,
+          "y": 44
+        }
+      ],
+      "events": [
+        {
+          "utc": "2026-11-23T08:43:40.786Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:42.219Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:44.261Z",
+          "type": "stealth:nav",
+          "payload": "prev"
+        },
+        {
+          "utc": "2026-11-23T08:43:45.209Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:45.818Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:46.445Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        }
+      ],
+      "sameCurrentText": true
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-more-opacity-max-extra.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:43:48.241Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "loading": false,
+      "segment": "10/39",
+      "opacity": "透明 5%",
+      "background": "rgba(15, 23, 42, 0.95)",
+      "rootBackground": "rgba(0, 0, 0, 0)",
+      "bodyBackground": "rgba(0, 0, 0, 0)",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 12,
+        "width": 464,
+        "height": 76,
+        "top": 12,
+        "right": 472,
+        "bottom": 88,
+        "left": 8
+      },
+      "passthrough": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "currentTextLength": 70,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.95
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.23929698062190174
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-011/TC-35",
+    "sourceLog": "native-state-more-opacity-max-extra.private.json",
+    "step": "native-input-passive-observation",
+    "utc": "2026-11-23T08:43:48.258Z",
+    "observed": {
+      "mainPointer": [],
+      "stealthPointer": [
+        {
+          "utc": "2026-11-23T08:43:43.447Z",
+          "type": "pointerdown",
+          "button": 0,
+          "target": "stealth-line current",
+          "x": 240,
+          "y": 44
+        }
+      ],
+      "events": [
+        {
+          "utc": "2026-11-23T08:43:40.786Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:42.219Z",
+          "type": "stealth:opacity",
+          "payload": 1
+        },
+        {
+          "utc": "2026-11-23T08:43:44.261Z",
+          "type": "stealth:nav",
+          "payload": "prev"
+        },
+        {
+          "utc": "2026-11-23T08:43:45.209Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:45.818Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:46.445Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        },
+        {
+          "utc": "2026-11-23T08:43:47.394Z",
+          "type": "stealth:opacity",
+          "payload": -1
+        }
+      ],
+      "sameCurrentText": true
+    }
+  },
+  {
+    "group": "MR-012",
+    "sourceLog": "task-11-drag-sample.private.json",
+    "step": "actual-drag-region-DOM",
+    "utc": "2026-11-23T08:45:46.599Z",
+    "observed": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 12,
+        "top": 0,
+        "right": 480,
+        "bottom": 12,
+        "left": 0
+      },
+      "dataDrag": true,
+      "topAt25x5": "stealth-drag-bar",
+      "topAt240x6": "stealth-drag-bar",
+      "style": {
+        "opacity": "1",
+        "pointerEvents": "auto"
+      },
+      "errors": [
+        {
+          "utc": "2026-11-23T08:45:45.526Z",
+          "type": "unhandledrejection",
+          "error": "window.start_dragging not allowed. Permissions associated with this command: core:window:allow-start-dragging"
+        }
+      ],
+      "mouse": [
+        {
+          "utc": "2026-11-23T08:45:45.432Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 0,
+          "target": "stealth-drag-bar",
+          "x": 240,
+          "y": 6,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:45.523Z",
+          "type": "mousedown",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-drag-bar",
+          "x": 240,
+          "y": 6,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:45.545Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-drag-bar",
+          "x": 240,
+          "y": 6,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:45.661Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-content",
+          "x": 252,
+          "y": 13,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:45.683Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-line dim",
+          "x": 264,
+          "y": 20,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:45.732Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-line dim",
+          "x": 276,
+          "y": 27,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:45.781Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-line dim",
+          "x": 288,
+          "y": 34,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:45.831Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-line current",
+          "x": 300,
+          "y": 41,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:45.881Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-line current",
+          "x": 312,
+          "y": 48,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:45.928Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-line current",
+          "x": 324,
+          "y": 55,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:45.977Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-content",
+          "x": 336,
+          "y": 62,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:46.028Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-line dim",
+          "x": 348,
+          "y": 69,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:46.078Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 1,
+          "target": "stealth-line dim",
+          "x": 360,
+          "y": 76,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:46.099Z",
+          "type": "mouseup",
+          "button": 0,
+          "buttons": 0,
+          "target": "stealth-line dim",
+          "x": 360,
+          "y": 76,
+          "trusted": true
+        },
+        {
+          "utc": "2026-11-23T08:45:46.128Z",
+          "type": "mousemove",
+          "button": 0,
+          "buttons": 0,
+          "target": "stealth-line dim",
+          "x": 360,
+          "y": 76,
+          "trusted": true
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-14-delete-B.private.json",
+    "step": "B-current-reading-and-local-progress-before-delete",
+    "utc": "2026-11-23T09:11:36.031Z",
+    "observed": {
+      "header": "暗体\n第963章 文明捍卫之战 (1/978)",
+      "loading": false,
+      "paragraphs": 27,
+      "characters": 1213,
+      "segmentIndex": 4,
+      "scrollTop": 610,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": true,
+      "nextDisabled": false,
+      "currentTextSha256": "8087af87d0f954138f94a73b40a3ea8d3349e75e8af09a1f06506c38d9b5280f",
+      "currentTextLength": 42,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 0,
+          "progress": 0.11798980335032774,
+          "bookRef": "QA_BOOK_B"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0.11798980335032774
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-14-delete-B.private.json",
+    "step": "other-book-A-position-protected",
+    "utc": "2026-11-23T09:11:39.140Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 10,
+      "scrollTop": 1568,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "1788d8977c851969cf3acf535b5658cf6979b1c46bd7e39b6eedbf75b01528e4",
+      "currentTextLength": 54,
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-14-delete-B.private.json",
+    "step": "delete-cancel-storage",
+    "utc": "2026-11-23T09:11:36.795Z",
+    "observed": {
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 0,
+          "progress": 0.11798980335032774,
+          "bookRef": "QA_BOOK_B"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0.11798980335032774
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-14-delete-B.private.json",
+    "step": "MR006-delete-current-B-local-storage",
+    "utc": "2026-11-23T09:11:37.153Z",
+    "observed": {
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-14-delete-B.private.json",
+    "step": "delete-cancel-books-readonly",
+    "utc": "2026-11-23T09:11:36.799Z",
+    "observed": [
+      {
+        "bookUrl": "<QA_BOOK_B_URL>",
+        "name": "暗体",
+        "index": 0,
+        "total": 0
+      },
+      {
+        "bookUrl": "<QA_BOOK_A_URL>",
+        "name": "不一样的三体",
+        "index": 4,
+        "total": 93
+      }
+    ]
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-14-delete-B.private.json",
+    "step": "MR006-delete-current-B-books-readonly",
+    "utc": "2026-11-23T09:11:37.166Z",
+    "observed": [
+      {
+        "bookUrl": "<QA_BOOK_A_URL>",
+        "name": "不一样的三体",
+        "index": 4,
+        "total": 93
+      }
+    ]
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-14-delete-B.private.json",
+    "step": "MR006-delete-current-B-actual-shelf",
+    "utc": "2026-11-23T09:11:37.152Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "摸鱼阅读\n发现书源设置\n×\n不一样的三体\n作者：文刀红城\n第 5 / 93 章",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "×",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-14-delete-B.private.json",
+    "step": "MR006-shelf-remount-still-no-deleted-book-continue",
+    "utc": "2026-11-23T09:11:38.969Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "摸鱼阅读\n发现书源设置\n×\n不一样的三体\n作者：文刀红城\n第 5 / 93 章",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "×",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-006",
+    "sourceLog": "task-14-delete-B.private.json",
+    "step": "MR006-valid-A-continue-after-deleted-B",
+    "utc": "2026-11-23T09:11:39.328Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "摸鱼阅读\n发现书源设置\n继续上次阅读\n→\n不一样的三体\n第 5 章\n×\n不一样的三体\n作者：文刀红城\n第 5 / 93 章",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "×",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-15-clear-cancel.private.json",
+    "step": "actual-WebView2-confirm-awaiting-native-cancel",
+    "utc": "2026-11-23T09:12:43.579Z",
+    "observed": {
+      "url": "<URL>",
+      "frameId": "B72C741FC5B4D51C529B7B92DA63DA27",
+      "message": "确定清除所有本地阅读进度缓存吗？清除后再次打开章节会从开头开始。",
+      "type": "confirm",
+      "hasBrowserHandler": true,
+      "defaultPrompt": ""
+    }
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-15-clear-accept.private.json",
+    "step": "clear-cancel-preserves-all-local-progress",
+    "utc": "2026-11-23T09:12:45.081Z",
+    "observed": {
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-15-clear-after.private.json",
+    "step": "clear-confirm-removes-per-book-progress",
+    "utc": "2026-11-23T09:12:45.585Z",
+    "observed": {
+      "localStorage": {
+        "progressKeyCount": 0,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.2708427219468229,
+          "bookRef": "QA_BOOK_A"
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-15-clear-after.private.json",
+    "step": "clear-confirm-protects-SQLite-book-index-readonly",
+    "utc": "2026-11-23T09:12:45.594Z",
+    "observed": [
+      {
+        "name": "不一样的三体",
+        "bookUrl": "<QA_BOOK_A_URL>",
+        "index": 4,
+        "total": 93
+      }
+    ]
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-15-clear-after.private.json",
+    "step": "cleared-current-chapter-reopens-at-top",
+    "utc": "2026-11-23T09:12:47.215Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 0,
+      "scrollTop": 0,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "ac2c071164d70e38cf7e70aa11b371560fffa81ef3c41b9c18285a94028458ca",
+      "currentTextLength": 96,
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-17",
+    "sourceLog": "task-15-clear-after.private.json",
+    "step": "local-progress-resaves-after-clear",
+    "utc": "2026-11-23T09:12:49.112Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 4,
+      "scrollTop": 730,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "c5ae42d7c6a4b1653571b3f4fe14799f0493a823eb01ab6ec44364c24e2a6076",
+      "currentTextLength": 60,
+      "localStorage": {
+        "progressKeyCount": 1,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-44",
+    "sourceLog": "task-16-valid-URL-prepare.private.json",
+    "step": "real-Rust-HTTP-URL-import-native-success-alert",
+    "utc": "2026-11-23T09:15:54.165Z",
+    "observed": {
+      "url": "<URL>",
+      "frameId": "B72C741FC5B4D51C529B7B92DA63DA27",
+      "message": "成功导入 1 个书源",
+      "type": "alert",
+      "hasBrowserHandler": true,
+      "defaultPrompt": ""
+    }
+  },
+  {
+    "group": "TC-44",
+    "sourceLog": "task-16-valid-URL-after.private.json",
+    "step": "real-source-URL-import-restored-164-and-enabled-one",
+    "utc": "2026-11-23T09:15:55.077Z",
+    "observed": {
+      "statistics": "共 164 个书源 · 启用 1 个",
+      "enabledCount": 1,
+      "importUrl": ""
+    }
+  },
+  {
+    "group": "TC-44",
+    "sourceLog": "task-16-valid-URL-after.private.json",
+    "step": "real-imported-source-readonly-result",
+    "utc": "2026-11-23T09:15:56.159Z",
+    "observed": {
+      "name": "荔枝短剧",
+      "enabled": false,
+      "allSourcesExactlyEqualBefore": true
+    }
+  },
+  {
+    "group": "TC-44",
+    "sourceLog": "task-16-valid-URL-after.private.json",
+    "step": "loopback-HTTP-server-observed-GET",
+    "utc": "2026-11-23T09:15:56.160Z",
+    "observed": [
+      {
+        "utc": "2026-11-23T09:15:53.929Z",
+        "method": "GET",
+        "path": "/existing-source.json",
+        "status": 200,
+        "bytes": 24799,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+      }
+    ]
+  },
+  {
+    "group": "TC-21/45",
+    "sourceLog": "task-20-source-negative-invalid-json.private.json",
+    "step": "actual-negative-import-native-alert",
+    "utc": "2026-11-23T09:23:17.720Z",
+    "observed": {
+      "url": "<URL>",
+      "frameId": "B72C741FC5B4D51C529B7B92DA63DA27",
+      "message": "导入失败: JSON 解析失败，请检查格式",
+      "type": "alert",
+      "hasBrowserHandler": true,
+      "defaultPrompt": ""
+    }
+  },
+  {
+    "group": "TC-21/45",
+    "sourceLog": "task-20-source-negative-invalid-url.private.json",
+    "step": "actual-negative-import-native-alert",
+    "utc": "2026-11-23T09:23:20.089Z",
+    "observed": {
+      "url": "<URL>",
+      "frameId": "B72C741FC5B4D51C529B7B92DA63DA27",
+      "message": "导入失败: HTTP 请求失败: builder error",
+      "type": "alert",
+      "hasBrowserHandler": true,
+      "defaultPrompt": ""
+    }
+  },
+  {
+    "group": "TC-21/45",
+    "sourceLog": "task-20-source-negative-missing-fields.private.json",
+    "step": "actual-negative-import-native-alert",
+    "utc": "2026-11-23T09:23:21.195Z",
+    "observed": {
+      "url": "<URL>",
+      "frameId": "B72C741FC5B4D51C529B7B92DA63DA27",
+      "message": "导入失败: invalid args `sources` for command `save_book_sources`: missing field `bookSourceName`",
+      "type": "alert",
+      "hasBrowserHandler": true,
+      "defaultPrompt": ""
+    }
+  },
+  {
+    "group": "TC-24",
+    "sourceLog": "task-20-source-negative-after.private.json",
+    "step": "previous-negative-input-readonly-state",
+    "utc": "2026-11-23T09:23:22.004Z",
+    "observed": {
+      "count": 164,
+      "unexpected": []
+    }
+  },
+  {
+    "group": "TC-24",
+    "sourceLog": "task-20-source-negative-after.private.json",
+    "step": "all-source-selection-164",
+    "utc": "2026-11-23T09:23:22.528Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n书源管理\n发现设置\n共 164 个书源 · 启用 1 个\n全选\n取消\n删除选中\n清空\n导入 URL\n粘贴导入\n荔枝短剧\n<URL>\n删除\n猫扑中文\n<URL>\n删除\n优质粉鲍\n<URL>\n删除\n名熹小说\n<URL>\n删除\n花都动漫\n<URL>\n删除\nVT直播\n<URL>\n删除\n黄区\n<URL>\n删除\n七猫小说\n<URL>\n删除\n番茄小说\n<URL>\n删除\n书旗小说\n<URL>\n删除\n番茄听书\n<URL>\n删除\n哔哩听书\nh",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "全选",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "取消",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除选中",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "清空",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "导入 URL",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "TEXTAREA",
+          "text": "[{}]",
+          "type": "textarea",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "粘贴导入",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": true
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": true
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": true
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": true
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": true
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": true
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-24",
+    "sourceLog": "task-20-source-negative-after.private.json",
+    "step": "clear-all-sources-real-cancel-dialog",
+    "utc": "2026-11-23T09:23:23.074Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n书源管理\n发现设置\n共 164 个书源 · 启用 1 个\n全选\n取消\n删除选中\n清空\n导入 URL\n粘贴导入\n荔枝短剧\n<URL>\n删除\n猫扑中文\n<URL>\n删除\n优质粉鲍\n<URL>\n删除\n名熹小说\n<URL>\n删除\n花都动漫\n<URL>\n删除\nVT直播\n<URL>\n删除\n黄区\n<URL>\n删除\n七猫小说\n<URL>\n删除\n番茄小说\n<URL>\n删除\n书旗小说\n<URL>\n删除\n番茄听书\n<URL>\n删除\n哔哩听书\nh",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "全选",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "取消",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除选中",
+          "type": "submit",
+          "disabled": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "清空",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "导入 URL",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "TEXTAREA",
+          "text": "[{}]",
+          "type": "textarea",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "粘贴导入",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "取消",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-24",
+    "sourceLog": "task-20-source-negative-after.private.json",
+    "step": "clear-all-cancel-preserves-every-source",
+    "utc": "2026-11-23T09:23:23.463Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n书源管理\n发现设置\n共 164 个书源 · 启用 1 个\n全选\n取消\n删除选中\n清空\n导入 URL\n粘贴导入\n荔枝短剧\n<URL>\n删除\n猫扑中文\n<URL>\n删除\n优质粉鲍\n<URL>\n删除\n名熹小说\n<URL>\n删除\n花都动漫\n<URL>\n删除\nVT直播\n<URL>\n删除\n黄区\n<URL>\n删除\n七猫小说\n<URL>\n删除\n番茄小说\n<URL>\n删除\n书旗小说\n<URL>\n删除\n番茄听书\n<URL>\n删除\n哔哩听书\nh",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "设置",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "全选",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "取消",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除选中",
+          "type": "submit",
+          "disabled": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "清空",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "text",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "导入 URL",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "TEXTAREA",
+          "text": "[{}]",
+          "type": "textarea",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "粘贴导入",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "checkbox",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "删除",
+          "type": "submit",
+          "disabled": false
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "MR-014",
+    "sourceLog": "task-18-readd-B-feedback.private.json",
+    "step": "readd-B-before-first-click",
+    "utc": "2026-11-23T09:19:43.988Z",
+    "observed": {
+      "title": "暗体",
+      "chapters": 978,
+      "addText": "加入书架",
+      "addDisabled": false,
+      "loading": false
+    }
+  },
+  {
+    "group": "MR-014",
+    "sourceLog": "task-18-readd-B-feedback.private.json",
+    "step": "first-click-immediate-feedback",
+    "utc": "2026-11-23T09:19:44.220Z",
+    "observed": {
+      "title": "暗体",
+      "chapters": 978,
+      "addText": "加入书架",
+      "addDisabled": false,
+      "loading": false
+    }
+  },
+  {
+    "group": "MR-014",
+    "sourceLog": "task-18-readd-B-feedback.private.json",
+    "step": "first-click-1800ms-feedback",
+    "utc": "2026-11-23T09:19:46.028Z",
+    "observed": {
+      "title": "暗体",
+      "chapters": 978,
+      "addText": "加入书架",
+      "addDisabled": false,
+      "loading": false
+    }
+  },
+  {
+    "group": "MR-014",
+    "sourceLog": "task-18-readd-B-feedback.private.json",
+    "step": "first-click-readonly-shelf-result",
+    "utc": "2026-11-23T09:19:46.033Z",
+    "observed": [
+      {
+        "bookUrl": "<QA_BOOK_B_URL>",
+        "name": "暗体",
+        "index": 0,
+        "total": 978,
+        "sources": 1
+      },
+      {
+        "bookUrl": "<QA_BOOK_A_URL>",
+        "name": "不一样的三体",
+        "index": 4,
+        "total": 93,
+        "sources": 1
+      }
+    ]
+  },
+  {
+    "group": "MR-014",
+    "sourceLog": "task-18-readd-B-feedback.private.json",
+    "step": "first-click-7000ms-feedback-without-second-click",
+    "utc": "2026-11-23T09:19:51.248Z",
+    "observed": {
+      "title": "暗体",
+      "chapters": 978,
+      "addText": "加入书架",
+      "addDisabled": false,
+      "loading": false
+    }
+  },
+  {
+    "group": "MR-014",
+    "sourceLog": "task-18-readd-B-feedback.private.json",
+    "step": "candidate-UI-save-feedback-issue",
+    "utc": "2026-11-23T09:19:52.782Z",
+    "observed": {
+      "persisted": true,
+      "addText": "加入书架",
+      "addDisabled": false,
+      "noSecondClick": true
+    }
+  },
+  {
+    "group": "TC-11",
+    "sourceLog": "task-18-readd-B-feedback.private.json",
+    "step": "readded-B-real-online-body",
+    "utc": "2026-11-23T09:19:53.620Z",
+    "observed": {
+      "header": "暗体\n第963章 文明捍卫之战 (1/978)",
+      "loading": false,
+      "paragraphs": 27,
+      "characters": 1213,
+      "segmentIndex": 0,
+      "scrollTop": 0,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": true,
+      "nextDisabled": false,
+      "currentTextSha256": "c33d4272583f03d8979ac5011bf1acc82e129ccaf80416426d1710a22c317534",
+      "currentTextLength": 65,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 0,
+          "progress": 0,
+          "bookRef": "QA_BOOK_B"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-16/09",
+    "sourceLog": "task-19-related-regressions.private.json",
+    "step": "settings-font-minimum-12",
+    "utc": "2026-11-23T09:23:13.188Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n设置\n发现书源\n外观\n主题\n浅色\n深色\n正文字号 (12px)\n阅读\n本地进度缓存\n清除缓存\n快捷键与关闭行为\n全局老板键 / 关闭行为 / 隐蔽窗口设置\n即将到来\n\n这些设置需要和 Rust 主进程配合，下一阶段开放。\n\n关于\n摸鱼阅读 V2\n版本 0.2.0",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "浅色",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "深色",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "range",
+          "disabled": false,
+          "checked": false,
+          "rangeValue": "12"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "清除缓存",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "即将到来",
+          "type": "submit",
+          "disabled": true
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 12,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 0,
+          "progress": 0,
+          "bookRef": "QA_BOOK_B"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-16/09",
+    "sourceLog": "task-19-related-regressions.private.json",
+    "step": "settings-font-maximum-32",
+    "utc": "2026-11-23T09:23:13.196Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n设置\n发现书源\n外观\n主题\n浅色\n深色\n正文字号 (32px)\n阅读\n本地进度缓存\n清除缓存\n快捷键与关闭行为\n全局老板键 / 关闭行为 / 隐蔽窗口设置\n即将到来\n\n这些设置需要和 Rust 主进程配合，下一阶段开放。\n\n关于\n摸鱼阅读 V2\n版本 0.2.0",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "浅色",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "深色",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "range",
+          "disabled": false,
+          "checked": false,
+          "rangeValue": "32"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "清除缓存",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "即将到来",
+          "type": "submit",
+          "disabled": true
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 32,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 0,
+          "progress": 0,
+          "bookRef": "QA_BOOK_B"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-16/09",
+    "sourceLog": "task-19-related-regressions.private.json",
+    "step": "settings-font-restored-24-and-version-020",
+    "utc": "2026-11-23T09:23:13.767Z",
+    "observed": {
+      "windowLabel": "main",
+      "theme": "dark",
+      "viewport": {
+        "width": 1200,
+        "height": 800
+      },
+      "resultCount": 0,
+      "textExcerpt": "← 书架\n设置\n发现书源\n外观\n主题\n浅色\n深色\n正文字号 (24px)\n阅读\n本地进度缓存\n清除缓存\n快捷键与关闭行为\n全局老板键 / 关闭行为 / 隐蔽窗口设置\n即将到来\n\n这些设置需要和 Rust 主进程配合，下一阶段开放。\n\n关于\n摸鱼阅读 V2\n版本 0.2.0",
+      "controls": [
+        {
+          "tag": "A",
+          "text": "← 书架",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "发现",
+          "type": ""
+        },
+        {
+          "tag": "A",
+          "text": "书源",
+          "type": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "浅色",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "深色",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "type": "range",
+          "disabled": false,
+          "checked": false,
+          "rangeValue": "24"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "清除缓存",
+          "type": "submit",
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "text": "即将到来",
+          "type": "submit",
+          "disabled": true
+        }
+      ],
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 0,
+          "progress": 0,
+          "bookRef": "QA_BOOK_B"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  },
+  {
+    "group": "TC-09",
+    "sourceLog": "task-19-related-regressions.private.json",
+    "step": "existing-B-detail-remount-has-disabled-duplicate-add",
+    "utc": "2026-11-23T09:23:15.570Z",
+    "observed": {
+      "title": "暗体",
+      "add": "已在书架",
+      "disabled": true,
+      "catalog": 978
+    }
+  },
+  {
+    "group": "FINAL",
+    "sourceLog": "task-21-final-state.private.json",
+    "step": "final-A-reader-protected-after-all-business-tests",
+    "utc": "2026-11-23T09:24:36.013Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "loading": false,
+      "paragraphs": 39,
+      "characters": 2057,
+      "segmentIndex": 4,
+      "scrollTop": 681,
+      "fontSize": "24px",
+      "theme": "dark",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "currentTextSha256": "c5ae42d7c6a4b1653571b3f4fe14799f0493a823eb01ab6ec44364c24e2a6076",
+      "currentTextLength": 60,
+      "localStorage": {
+        "progressKeyCount": 2,
+        "theme": "dark",
+        "fontSize": 24,
+        "stealthSettings": {
+          "alpha": 0.35
+        },
+        "lastReading": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651,
+          "bookRef": "QA_BOOK_A"
+        },
+        "bookAProgress": {
+          "chapterIndex": 4,
+          "progress": 0.10139702568724651
+        },
+        "bookBProgress": {
+          "chapterIndex": 0,
+          "progress": 0
+        }
+      }
+    }
+  }
+]

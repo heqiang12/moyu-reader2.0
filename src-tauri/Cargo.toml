@@ -1,0 +1,32 @@
+[package]
+name = "moyu-reader-v2"
+version = "0.2.0"
+description = "Moyu Reader 2.0 - Ultra-lightweight Stealth Novel Reader"
+authors = ["Moyu Team"]
+edition = "2021"
+
+[lib]
+name = "moyu_reader_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri-plugin-single-instance = "2"
+tauri-plugin-global-shortcut = "2"
+tauri-plugin-opener = "2"
+rusqlite = { version = "0.32", features = ["bundled"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "cookies", "gzip", "rustls-tls"] }
+scraper = "0.20"
+regex = "1.10"
+serde_json_path = "0.7"
+tokio = { version = "1", features = ["full"] }
+thiserror = "1.0"
+encoding_rs = "0.8"
+url = "2.5"
+urlencoding = "2.1"
+chrono = { version = "0.4", features = ["serde"] }

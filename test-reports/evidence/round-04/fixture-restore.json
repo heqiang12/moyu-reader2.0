@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-23T12:19:29.317259+00:00",
+  "onlyQaDbAndProfileRestored": true,
+  "restoreIsFixtureOperationNotBusinessPass": true,
+  "allSqlTablesLogicallyEqual": [
+    "book_sources",
+    "books",
+    "chapter_cache",
+    "chapter_list_cache"
+  ],
+  "schemaEqual": true,
+  "checkpointSha256": "6f20d0d17d783cf2fe22a8c11218bec82d7dd11b19d9cf0626c9059676098681",
+  "destinationSha256": "26f6d1a9e613e244ccdbfc242621a9a426b59d439f9a2d6c15862f2330ab7152",
+  "profileFileCount": 424,
+  "allProfileBytesMatchCheckpoint": true,
+  "destructiveDbCheckpointPreserved": "after-delete-empty-stopped.db",
+  "destructiveProfileFileCount": 425,
+  "allDestructiveProfileBytesPreserved": true,
+  "originalAndOriginalBackupProtected": true,
+  "noOwnRuntimeOrUnknownPortAtRestore": true
+}

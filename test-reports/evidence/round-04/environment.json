@@ -1,0 +1,33 @@
+{
+  "note": "以下是取证/时序/夹具限制，不计应用缺陷或业务通过。原失败材料均保留，成功续测不覆盖它们。",
+  "items": [
+    {
+      "sourceLog": "task-09-source-safety-and-real-failure.private.json",
+      "reason": "误解析无 postData 的 OPTIONS；真实 POST 及错误状态由 task-10 只读续证，未重放失败业务。"
+    },
+    {
+      "sourceLog": "task-11-tray-restore-before-visible-close.private.json",
+      "reason": "托盘其它图标发生环境变化，归属守卫停止；未点击未知图标。run3 自有关闭建立新的因果归属，run4 两条恢复路径真实通过。"
+    },
+    {
+      "sourceLog": "run4-launcher-stdout.private.log",
+      "reason": "启动早期应用数量/归属采样前提不成立；核验真实应用、独立 profile 及端口后续测，同一 run4 未替换测试对象。"
+    },
+    {
+      "sourceLog": "task-19-real-loopback-URL-import.private.json",
+      "reason": "服务/删源前解析空监听输出失败，原源和书架保留；task-20 修正临时工具后取得真实 GET/UI/持久化证据。"
+    },
+    {
+      "sourceLog": "cleanup-run4.private.json",
+      "reason": "退出后短暂收尾及 PID0 假监听视图未作为最终判断；随后 CIM 创建时间/原生 TCP 表确认已退出，未管理未知进程。"
+    },
+    {
+      "sourceLog": "task-06-real-late-body.private.json",
+      "reason": "invoke 不可写且不可配置；只用被动 Network/DOM，未改描述符。"
+    },
+    {
+      "sourceLog": "export-initial-parser-failure.private.json",
+      "reason": "本机 Python 3.8 直接读取临时导出脚本时拒绝一处长 UTF-8 行，脚本尚未执行；严格解码及字节编译可用，仅补临时脚本编码声明。未发布部分证据或操作业务状态。"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+[
+  {
+    "sourceLog": "search-corrected-replacement-Enter-events.private.json",
+    "events": [
+      {
+        "type": "search:item",
+        "utc": "2026-11-23T10:36:30.792Z",
+        "route": "#/discover",
+        "phase": "new-negative",
+        "requestId": "93263c60-b9d9-4f23-99be-8f502c259f40",
+        "count": 50,
+        "originNames": [
+          "奇怪小说"
+        ]
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:36:30.792Z",
+        "route": "#/discover",
+        "phase": "new-negative",
+        "requestId": "93263c60-b9d9-4f23-99be-8f502c259f40"
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:36:31.022Z",
+        "route": "#/discover",
+        "phase": "new-negative",
+        "requestId": "d7e927fe-694c-4ca0-8d91-01f0fe839de5"
+      }
+    ]
+  },
+  {
+    "sourceLog": "search-corrected-replacement-Button-events.private.json",
+    "events": [
+      {
+        "type": "search:item",
+        "utc": "2026-11-23T10:36:33.529Z",
+        "route": "#/discover",
+        "phase": "new-negative",
+        "requestId": "fd4d1668-7b9e-4796-9e89-44e8f3efdce0",
+        "count": 50,
+        "originNames": [
+          "奇怪小说"
+        ]
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:36:33.529Z",
+        "route": "#/discover",
+        "phase": "new-negative",
+        "requestId": "fd4d1668-7b9e-4796-9e89-44e8f3efdce0"
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:36:33.830Z",
+        "route": "#/discover",
+        "phase": "new-negative",
+        "requestId": "febaecf6-62af-49df-9ed6-3a757b573a5e"
+      }
+    ]
+  },
+  {
+    "sourceLog": "search-corrected-page-return-0-events.private.json",
+    "events": [
+      {
+        "type": "search:item",
+        "utc": "2026-11-23T10:36:36.741Z",
+        "route": "#/discover",
+        "phase": "returning-new-discover",
+        "requestId": "903d3b7a-eefb-4a33-be31-5172a86034e5",
+        "count": 50,
+        "originNames": [
+          "奇怪小说"
+        ]
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:36:36.741Z",
+        "route": "#/discover",
+        "phase": "returning-new-discover",
+        "requestId": "903d3b7a-eefb-4a33-be31-5172a86034e5"
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:36:37.358Z",
+        "route": "#/discover",
+        "phase": "new-negative-request",
+        "requestId": "141b5dd6-e1d4-4f49-93b5-0870b25dfc7f"
+      }
+    ]
+  },
+  {
+    "sourceLog": "search-corrected-page-return-1-events.private.json",
+    "events": [
+      {
+        "type": "search:item",
+        "utc": "2026-11-23T10:36:39.531Z",
+        "route": "#/discover",
+        "phase": "returning-new-discover",
+        "requestId": "a81a81ce-bac1-46aa-a36e-b82ee531dc94",
+        "count": 50,
+        "originNames": [
+          "奇怪小说"
+        ]
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:36:39.531Z",
+        "route": "#/discover",
+        "phase": "returning-new-discover",
+        "requestId": "a81a81ce-bac1-46aa-a36e-b82ee531dc94"
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:36:40.302Z",
+        "route": "#/discover",
+        "phase": "new-negative-request",
+        "requestId": "85f7962d-60c4-4d62-bde8-5f9dbad303cd"
+      }
+    ]
+  },
+  {
+    "sourceLog": "task-16-search-late-frames-events.private.json",
+    "events": [
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:52:41.166Z",
+        "route": "#/discover",
+        "phase": "new-negative-request",
+        "requestId": "3ab59dc6-c780-4fbd-8b53-28c23a9bc14f"
+      },
+      {
+        "type": "search:item",
+        "utc": "2026-11-23T10:52:41.256Z",
+        "route": "#/discover",
+        "phase": "new-negative-request",
+        "requestId": "c89df28c-7e40-47ce-a5fd-130f6a801819",
+        "count": 50,
+        "originNames": [
+          "奇怪小说"
+        ]
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:52:41.256Z",
+        "route": "#/discover",
+        "phase": "new-negative-request",
+        "requestId": "c89df28c-7e40-47ce-a5fd-130f6a801819"
+      }
+    ]
+  },
+  {
+    "sourceLog": "finite-source-search-threebody-events.private.json",
+    "events": [
+      {
+        "type": "search:item",
+        "utc": "2026-11-23T10:46:25.257Z",
+        "route": "#/discover",
+        "requestId": "d355d930-7b8d-4b00-85d6-b43ec3b92ccc",
+        "count": 50,
+        "originNames": [
+          "奇怪小说"
+        ]
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:46:44.231Z",
+        "route": "#/discover",
+        "requestId": "d355d930-7b8d-4b00-85d6-b43ec3b92ccc"
+      }
+    ]
+  },
+  {
+    "sourceLog": "finite-source-search-fanren-events.private.json",
+    "events": [
+      {
+        "type": "search:item",
+        "utc": "2026-11-23T10:46:46.573Z",
+        "route": "#/discover",
+        "requestId": "8081a368-6c73-4bd2-b92e-49293ff5ed3b",
+        "count": 50,
+        "originNames": [
+          "奇怪小说"
+        ]
+      },
+      {
+        "type": "search:end",
+        "utc": "2026-11-23T10:47:06.087Z",
+        "route": "#/discover",
+        "requestId": "8081a368-6c73-4bd2-b92e-49293ff5ed3b"
+      }
+    ]
+  },
+  {
+    "sourceLog": "task-16-search-late-frames.private.json",
+    "decisiveObservation": {
+      "events": [
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T10:52:41.166Z",
+          "phase": "new-negative-request",
+          "route": "#/discover",
+          "requestId": "3ab59dc6-c780-4fbd-8b53-28c23a9bc14f"
+        },
+        {
+          "type": "search:item",
+          "utc": "2026-11-23T10:52:41.256Z",
+          "phase": "new-negative-request",
+          "route": "#/discover",
+          "requestId": "c89df28c-7e40-47ce-a5fd-130f6a801819",
+          "count": 50
+        },
+        {
+          "type": "search:end",
+          "utc": "2026-11-23T10:52:41.256Z",
+          "phase": "new-negative-request",
+          "route": "#/discover",
+          "requestId": "c89df28c-7e40-47ce-a5fd-130f6a801819"
+        }
+      ],
+      "latePositiveAfterNewRequest": 1,
+      "finalResultCount": 0
+    }
+  }
+]

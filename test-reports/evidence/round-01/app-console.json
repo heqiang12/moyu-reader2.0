@@ -1,0 +1,14 @@
+[
+  {
+    "sourceLog": "task-04-events.private.json",
+    "utc": "2026-11-23T06:11:50.440Z",
+    "type": "error",
+    "messages": [
+      "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.",
+      "<URL>"
+    ],
+    "firstUtc": "2026-11-23T06:11:50.440Z",
+    "lastUtc": "2026-11-23T06:11:56.413Z",
+    "occurrences": 36
+  }
+]

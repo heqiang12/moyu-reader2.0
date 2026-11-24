@@ -1,0 +1,675 @@
+{
+  "round": 4,
+  "utc": "2026-11-23T12:45:42.205089+00:00",
+  "files": {
+    "app-console.json": {
+      "bytes": 1438,
+      "sha256": "32ce9f8551816ff1046c913a501d69ca7ca0994cf6c2a1bdfb9a9adf179eaaa6"
+    },
+    "body-races.json": {
+      "bytes": 7407,
+      "sha256": "26a0cf2f7578303e9daf6d29205237c244f79d056ebcbf1120703c51a6246bb9"
+    },
+    "build.txt": {
+      "bytes": 2517,
+      "sha256": "072329e193465a1afb8f4ce05d75cc5dbb59a46991c43ae0333b3481e6e68fa9"
+    },
+    "environment.json": {
+      "bytes": 1872,
+      "sha256": "578be3a8ff5138582f34f7d47c32021514e77267dde5fad4afbda9b052911c7f"
+    },
+    "fixture-restore.json": {
+      "bytes": 796,
+      "sha256": "e0d8b217b8ca1c4b15236eac1ccf802b62b8df391fc852aa405476ba2d8dafd0"
+    },
+    "native-run4-tray-menu-show.png": {
+      "bytes": 1027,
+      "sha256": "f491326c9efcb88e69c346af4d4a5a6d8bb6721855b812e84f8e1355f80445a2"
+    },
+    "native-run6-tray-quit.png": {
+      "bytes": 1027,
+      "sha256": "f491326c9efcb88e69c346af4d4a5a6d8bb6721855b812e84f8e1355f80445a2"
+    },
+    "native.json": {
+      "bytes": 242689,
+      "sha256": "da4dda369d21de5bc13c5a5117c9d7860cd24a8207753d5783976dffbf428e09"
+    },
+    "observations.json": {
+      "bytes": 482402,
+      "sha256": "85189968e7dd61f495f7d4d37c67bc81886b6f3c359411db08a2bd7996dccde7"
+    },
+    "r04-A-first-online-body-cropped.png": {
+      "bytes": 58118,
+      "sha256": "66b3e5a778ea327ac90c13f9cdeb7850ecde381f4443c5227b953e9fb3322a76"
+    },
+    "r04-A-independent-restart-body-cropped.png": {
+      "bytes": 60389,
+      "sha256": "d15484d3cd88eb248918310bb512074864d76cbfeb0ea9db86451cab7164dc99"
+    },
+    "r04-A-last-next-disabled-cropped.png": {
+      "bytes": 58277,
+      "sha256": "c34bee5d850513f8ac8c5a76761ab02aacd1c87d46ade3489ca45fdc90bd57cf"
+    },
+    "r04-A-real-new-detail-cropped.png": {
+      "bytes": 83990,
+      "sha256": "fbe00d1dc05743832bc7e28fec3bf7265324448b7ab7d0161cc3458c0a399a78"
+    },
+    "r04-all-original-sources-restored-cropped.png": {
+      "bytes": 16429,
+      "sha256": "5b2f83c8be9e63cb87173f668375f84a6f8cef1396913b9f9f3acbef6b150557"
+    },
+    "r04-C-before-first-UI-add-cropped.png": {
+      "bytes": 96695,
+      "sha256": "531cece3309d6c0346f610c8fa633f6d8c04a11958a34d172d1894088763ba64"
+    },
+    "r04-C-second-real-body-cropped.png": {
+      "bytes": 52097,
+      "sha256": "29cbce9915868f05518d37cd866b90c69614bbfe7ce3a2215001eb5c4a0bf467"
+    },
+    "r04-current-C-deleted-no-continue.png": {
+      "bytes": 96364,
+      "sha256": "120bd72e842f7ff01dcf5065bf8f0a8fcbed82aca2077ee14ee3ea86496cd8c3"
+    },
+    "r04-empty-shelf-after-confirmed-delete.png": {
+      "bytes": 22473,
+      "sha256": "d3c50b278951ebeb8c4a1627bba9ae3a792aa33c81c89187a2a43e08815554c0"
+    },
+    "r04-existing-stealth-no-book.png": {
+      "bytes": 2923,
+      "sha256": "e1067931c0ccd90c7b97696c9dfcb71f1d65560dc7c80f1a4153d2d2cde2eef3"
+    },
+    "r04-final-A-stealth-alpha45.png": {
+      "bytes": 13456,
+      "sha256": "729f59175d51020cbb4b779ce62ef3b63443275be3c8fb5c3c21cd36f43bb72b"
+    },
+    "r04-final-QA-shelf.png": {
+      "bytes": 145717,
+      "sha256": "0df9a6d42eb84bfcbb5edd1c450465bec1313375ead638ddf4e395e56a77163f"
+    },
+    "r04-first-native-C-stealth.png": {
+      "bytes": 15020,
+      "sha256": "44b61feddeaa811ee8818cec4ab53ce00328402bdac907d44ea697b20f0e9a34"
+    },
+    "r04-first-UI-C-stealth.png": {
+      "bytes": 15020,
+      "sha256": "44b61feddeaa811ee8818cec4ab53ce00328402bdac907d44ea697b20f0e9a34"
+    },
+    "r04-legacy-progress-restored-cropped.png": {
+      "bytes": 60389,
+      "sha256": "d15484d3cd88eb248918310bb512074864d76cbfeb0ea9db86451cab7164dc99"
+    },
+    "r04-MR010-A-new-segment-stealth.png": {
+      "bytes": 13623,
+      "sha256": "17276731604d05fc10765abd0e6f15de6e67a8fc169ffff3d16d07ff4ad6d01f"
+    },
+    "r04-MR010-B-main-cropped.png": {
+      "bytes": 55684,
+      "sha256": "86ee78495e2f2fea32216c7ec9c88178b0932e2c5c476c44fd89c9d3c0bf1310"
+    },
+    "r04-MR010-B-stealth.png": {
+      "bytes": 12806,
+      "sha256": "01b68ec73157cb86121c26cba478972154f932efde9999014672ce356469e5e1"
+    },
+    "r04-MR011-one-down35.png": {
+      "bytes": 15039,
+      "sha256": "3c3fedb0b6b45a008dbb607d2af7ff60ad4913b70ed7e48036139b135151522c"
+    },
+    "r04-MR012-native-dragged.png": {
+      "bytes": 15530,
+      "sha256": "e8a48ee5d3875fe986297533326d065d5659852f8466264b9abfab47067ba273"
+    },
+    "r04-MR014-C-first-add-disabled-cropped.png": {
+      "bytes": 90700,
+      "sha256": "8d8da0c92d2b2bc15c885617bec3dc64151a26c8c4df0ed056eb1786a52aa97b"
+    },
+    "r04-MR015-A-independent-restart-shelf.png": {
+      "bytes": 145717,
+      "sha256": "0df9a6d42eb84bfcbb5edd1c450465bec1313375ead638ddf4e395e56a77163f"
+    },
+    "r04-MR015-A-shelf2-over93.png": {
+      "bytes": 142316,
+      "sha256": "11f8910065ea83ca4b257ca48a783bbd4e3f34fd560ea0aa033cb9449fdc4130"
+    },
+    "r04-MR015-C-independent-restart-shelf.png": {
+      "bytes": 146375,
+      "sha256": "88b1fce6c92a8991f0a802cab9f5580e007d17a7fdad51677c3711e5e4f71942"
+    },
+    "r04-MR015-C-normal-shelf2-over73.png": {
+      "bytes": 146375,
+      "sha256": "88b1fce6c92a8991f0a802cab9f5580e007d17a7fdad51677c3711e5e4f71942"
+    },
+    "r04-MR015-existing-C-first-screen.png": {
+      "bytes": 145705,
+      "sha256": "e70a80ec5e9eb6e127405735e971890d821d43f79cebe23bc87a9299b2ec49a2"
+    },
+    "r04-real-late-A-body-C-preserved.png": {
+      "bytes": 14183,
+      "sha256": "fdf2e7c342bd5ab32e3908bbfe9dae0c43be88768502e330c82c168ee11c5419"
+    },
+    "r04-real-loading-blocks-old-nav.png": {
+      "bytes": 4554,
+      "sha256": "39e92d93a1f3a393cf135f2091f8baff48de5c1117ae47cc0c3c4d065c1021a2"
+    },
+    "r04-real-missing-source-failure-preserved.png": {
+      "bytes": 5152,
+      "sha256": "33dd442aaa4dabe52620b8a4677faca3ee362af53dc3e01c709e4cb9bc8ee6f2"
+    },
+    "r04-search-old-late-batch-isolated.png": {
+      "bytes": 33971,
+      "sha256": "23b1256a85ad0dd9268e05a8e08bee4570134727cacf18bd0bc59db60bbb82ba"
+    },
+    "r04-search-replacement-Button.png": {
+      "bytes": 33971,
+      "sha256": "23b1256a85ad0dd9268e05a8e08bee4570134727cacf18bd0bc59db60bbb82ba"
+    },
+    "r04-search-replacement-Enter.png": {
+      "bytes": 33211,
+      "sha256": "2b65bf2b2eec5172e474658832b32111a522383b36b5bd32e7db42970e28789d"
+    },
+    "r04-settings-three-progress-cleared.png": {
+      "bytes": 29310,
+      "sha256": "a385c5a79e45e30199d3d79806a7eeb23f5717190a9a67a24fbfb06cf2d29337"
+    },
+    "r04-settings-version.png": {
+      "bytes": 28188,
+      "sha256": "92b18812c1c6a2579faa3ac8323672b4a11cc2f8bb39e9c6f54a470e793c5843"
+    },
+    "r04-sources-confirmed-empty.png": {
+      "bytes": 31687,
+      "sha256": "c2fd4dca6695046c9f0e37fd5a2ee1959a366577d3a234db3256c2708a9276ec"
+    },
+    "r04-valid-loopback-URL-import-cropped.png": {
+      "bytes": 16429,
+      "sha256": "5b2f83c8be9e63cb87173f668375f84a6f8cef1396913b9f9f3acbef6b150557"
+    },
+    "runtime.json": {
+      "bytes": 41379,
+      "sha256": "df5364ffb315266efb00f7e86e466af7e823d9433cf0bbfef4f5dd9e990f82ac"
+    },
+    "search-events.json": {
+      "bytes": 8457,
+      "sha256": "113234f58a1bd04f79549edf3168927a593eda664efeb020a2d0bb20c3259927"
+    },
+    "url-import.json": {
+      "bytes": 2414,
+      "sha256": "164289cc321f6aa066c4ca8b0de6f7aee44a193c98f265c4b943dc56e616fee8"
+    }
+  },
+  "images": [
+    {
+      "file": "r04-MR015-existing-C-first-screen.png",
+      "sourcePrivateFile": "r04-MR015-existing-C-first-screen.png",
+      "sourceSha256": "e70a80ec5e9eb6e127405735e971890d821d43f79cebe23bc87a9299b2ec49a2",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-C-before-first-UI-add-cropped.png",
+      "sourcePrivateFile": "r04-C-before-first-UI-add.png",
+      "sourceSha256": "bdcfd94f5e4332cc2ca01c2e57a407b6b745c2bec812411759cf6dcbe290778c",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        460
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-MR014-C-first-add-disabled-cropped.png",
+      "sourcePrivateFile": "r04-MR014-C-first-add-disabled.png",
+      "sourceSha256": "9ff940a3f3f357e6c539456e7d43e787edf5bd64fd3f6e47b7e0c5404fbf3bc2",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        460
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-C-second-real-body-cropped.png",
+      "sourcePrivateFile": "r04-C-second-real-body.png",
+      "sourceSha256": "20c8ffc2211126917202b1b15718d8e73e93357776bb854108052cc304112dd1",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        400
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-MR015-C-normal-shelf2-over73.png",
+      "sourcePrivateFile": "r04-MR015-C-normal-shelf2-over73.png",
+      "sourceSha256": "88b1fce6c92a8991f0a802cab9f5580e007d17a7fdad51677c3711e5e4f71942",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-MR015-C-independent-restart-shelf.png",
+      "sourcePrivateFile": "r04-MR015-C-independent-restart-shelf.png",
+      "sourceSha256": "88b1fce6c92a8991f0a802cab9f5580e007d17a7fdad51677c3711e5e4f71942",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-A-real-new-detail-cropped.png",
+      "sourcePrivateFile": "r04-A-real-new-detail.png",
+      "sourceSha256": "e5f4abcdc165f5ef8b15c6975d92ebe3097760931ef8f4b88dc33f14cc28bb20",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        460
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-A-first-online-body-cropped.png",
+      "sourcePrivateFile": "r04-A-first-online-body.png",
+      "sourceSha256": "f85e87501564f3fff15142a60385c9442b9a721ef8043523ad5e1afdbb026bf8",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        400
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-MR015-A-shelf2-over93.png",
+      "sourcePrivateFile": "r04-MR015-A-shelf2-over93.png",
+      "sourceSha256": "11f8910065ea83ca4b257ca48a783bbd4e3f34fd560ea0aa033cb9449fdc4130",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-MR015-A-independent-restart-shelf.png",
+      "sourcePrivateFile": "r04-MR015-A-independent-restart-shelf.png",
+      "sourceSha256": "0df9a6d42eb84bfcbb5edd1c450465bec1313375ead638ddf4e395e56a77163f",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-A-independent-restart-body-cropped.png",
+      "sourcePrivateFile": "r04-A-independent-restart-body.png",
+      "sourceSha256": "277333d8970bd9090864f398efe206aa7de72bf3e582bb48c6e1dd16dc7f4eaa",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        400
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-first-UI-C-stealth.png",
+      "sourcePrivateFile": "r04-first-UI-C-stealth.png",
+      "sourceSha256": "44b61feddeaa811ee8818cec4ab53ce00328402bdac907d44ea697b20f0e9a34",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-first-native-C-stealth.png",
+      "sourcePrivateFile": "r04-first-native-C-stealth.png",
+      "sourceSha256": "44b61feddeaa811ee8818cec4ab53ce00328402bdac907d44ea697b20f0e9a34",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-MR010-B-main-cropped.png",
+      "sourcePrivateFile": "r04-MR010-B-main.png",
+      "sourceSha256": "220ef8d4c4baac26b0a4fbb3865e5af19c85dd5ec28438fec7eec596616361a2",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        400
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-MR010-B-stealth.png",
+      "sourcePrivateFile": "r04-MR010-B-stealth.png",
+      "sourceSha256": "01b68ec73157cb86121c26cba478972154f932efde9999014672ce356469e5e1",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-MR010-A-new-segment-stealth.png",
+      "sourcePrivateFile": "r04-MR010-A-new-segment-stealth.png",
+      "sourceSha256": "17276731604d05fc10765abd0e6f15de6e67a8fc169ffff3d16d07ff4ad6d01f",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-MR011-one-down35.png",
+      "sourcePrivateFile": "r04-MR011-one-down35.png",
+      "sourceSha256": "3c3fedb0b6b45a008dbb607d2af7ff60ad4913b70ed7e48036139b135151522c",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-MR012-native-dragged.png",
+      "sourcePrivateFile": "r04-MR012-native-dragged.png",
+      "sourceSha256": "e8a48ee5d3875fe986297533326d065d5659852f8466264b9abfab47067ba273",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-real-loading-blocks-old-nav.png",
+      "sourcePrivateFile": "r04-real-loading-blocks-old-nav.png",
+      "sourceSha256": "39e92d93a1f3a393cf135f2091f8baff48de5c1117ae47cc0c3c4d065c1021a2",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-real-late-A-body-C-preserved.png",
+      "sourcePrivateFile": "r04-real-late-A-body-C-preserved.png",
+      "sourceSha256": "fdf2e7c342bd5ab32e3908bbfe9dae0c43be88768502e330c82c168ee11c5419",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-real-missing-source-failure-preserved.png",
+      "sourcePrivateFile": "r04-real-missing-source-failure-preserved.png",
+      "sourceSha256": "33dd442aaa4dabe52620b8a4677faca3ee362af53dc3e01c709e4cb9bc8ee6f2",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-A-last-next-disabled-cropped.png",
+      "sourcePrivateFile": "r04-A-last-next-disabled.png",
+      "sourceSha256": "4458682956902a2f402d57a296c5ce633141ab951dadefe342dafd0ae6719938",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        400
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-legacy-progress-restored-cropped.png",
+      "sourcePrivateFile": "r04-legacy-progress-restored.png",
+      "sourceSha256": "277333d8970bd9090864f398efe206aa7de72bf3e582bb48c6e1dd16dc7f4eaa",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        400
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-settings-version.png",
+      "sourcePrivateFile": "r04-settings-version.png",
+      "sourceSha256": "92b18812c1c6a2579faa3ac8323672b4a11cc2f8bb39e9c6f54a470e793c5843",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-settings-three-progress-cleared.png",
+      "sourcePrivateFile": "r04-settings-three-progress-cleared.png",
+      "sourceSha256": "a385c5a79e45e30199d3d79806a7eeb23f5717190a9a67a24fbfb06cf2d29337",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-search-replacement-Enter.png",
+      "sourcePrivateFile": "r04-search-replacement-Enter.png",
+      "sourceSha256": "2b65bf2b2eec5172e474658832b32111a522383b36b5bd32e7db42970e28789d",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-search-replacement-Button.png",
+      "sourcePrivateFile": "r04-search-replacement-Button.png",
+      "sourceSha256": "23b1256a85ad0dd9268e05a8e08bee4570134727cacf18bd0bc59db60bbb82ba",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-search-old-late-batch-isolated.png",
+      "sourcePrivateFile": "r04-search-old-late-batch-isolated.png",
+      "sourceSha256": "23b1256a85ad0dd9268e05a8e08bee4570134727cacf18bd0bc59db60bbb82ba",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-all-original-sources-restored-cropped.png",
+      "sourcePrivateFile": "r04-all-original-sources-restored.png",
+      "sourceSha256": "bcc961a53b16c3b7edf4291f18bd029401b78c040a7cbb1e1f379062750f412f",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        340
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-sources-confirmed-empty.png",
+      "sourcePrivateFile": "r04-sources-confirmed-empty.png",
+      "sourceSha256": "c2fd4dca6695046c9f0e37fd5a2ee1959a366577d3a234db3256c2708a9276ec",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-current-C-deleted-no-continue.png",
+      "sourcePrivateFile": "r04-current-C-deleted-no-continue.png",
+      "sourceSha256": "120bd72e842f7ff01dcf5065bf8f0a8fcbed82aca2077ee14ee3ea86496cd8c3",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-empty-shelf-after-confirmed-delete.png",
+      "sourcePrivateFile": "r04-empty-shelf-after-confirmed-delete.png",
+      "sourceSha256": "d3c50b278951ebeb8c4a1627bba9ae3a792aa33c81c89187a2a43e08815554c0",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-existing-stealth-no-book.png",
+      "sourcePrivateFile": "r04-existing-stealth-no-book.png",
+      "sourceSha256": "e1067931c0ccd90c7b97696c9dfcb71f1d65560dc7c80f1a4153d2d2cde2eef3",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-final-QA-shelf.png",
+      "sourcePrivateFile": "r04-final-QA-shelf.png",
+      "sourceSha256": "0df9a6d42eb84bfcbb5edd1c450465bec1313375ead638ddf4e395e56a77163f",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-final-A-stealth-alpha45.png",
+      "sourcePrivateFile": "r04-final-A-stealth-alpha45.png",
+      "sourceSha256": "729f59175d51020cbb4b779ce62ef3b63443275be3c8fb5c3c21cd36f43bb72b",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "r04-valid-loopback-URL-import-cropped.png",
+      "sourcePrivateFile": "r04-valid-loopback-URL-import.png",
+      "sourceSha256": "bcc961a53b16c3b7edf4291f18bd029401b78c040a7cbb1e1f379062750f412f",
+      "cropBox": [
+        0,
+        0,
+        1200,
+        340
+      ],
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "native-run4-tray-menu-show.png",
+      "sourcePrivateFile": "native-run4-tray-menu-show.png",
+      "sourceSha256": "f491326c9efcb88e69c346af4d4a5a6d8bb6721855b812e84f8e1355f80445a2",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    },
+    {
+      "file": "native-run6-tray-quit.png",
+      "sourcePrivateFile": "native-run6-tray-quit.png",
+      "sourceSha256": "f491326c9efcb88e69c346af4d4a5a6d8bb6721855b812e84f8e1355f80445a2",
+      "cropBox": null,
+      "pixelsOtherwiseUnchanged": true
+    }
+  ],
+  "privateSourceSha256": {
+    "task-01-init-firstscreen.private.json": "0f04316dd70bc75e54b4559cfab70e76c3897689fd67aacbc4a313978cf066ee",
+    "task-02-C-new-ui-chain.private.json": "062dbb48fde452a06da405cbf987a359719d4a63b8f73d27daa9a6938de5a45d",
+    "task-03-ui-first-reopen.private.json": "78faed13d85b57ff35ee12b36136eb820e6a61cb176ce4fb20a6fcc4f6fc0854",
+    "task-04-native-first-and-controls.private.json": "1cd2a86cbdad0b6b24af7f8a48dfd67a77cff8aceb08b08a434940ac698e4d4c",
+    "task-05-A-new-ui-and-loading.private.json": "ed69ed468f8ac87411608ff246647065e0e66b4de90a2bcfb4db3de6ae963934",
+    "task-06-real-late-body.private.json": "f1ad0b1a68444645a5364d3dda71e92764fb78ad0bfa86cd573d4fbf55b403c0",
+    "task-07-reader-related.private.json": "f2114450c45a761b9aae8ff02ca8857489b376276694b889fc8266d902c11bf4",
+    "task-08-finite-original-sources.private.json": "c002659d34cbbb8940b07e0ecbca53346c7245faa75ac108a88a40b3c8ccff07",
+    "task-09-source-safety-and-real-failure.private.json": "4a46ac1e73bf8c9bffdd281d2e14e419caf91ab9f61a783c73e01a3c55ed760c",
+    "task-10-source-failure-complete.private.json": "2842a577f68421914241adf710d50a9a65d039b919e42c3460510c083001e9a2",
+    "task-12-visible-close-precondition.private.json": "4d32bf158aebc890c5df7fd10b296b70280d17b37e23fdce00657385a7e621c6",
+    "task-13-A-independent-restart-and-tray.private.json": "31763ccd508d5ef55b85dc2c2e688d3b17ea1ab304dd3327d9d3d46559df9845",
+    "task-14-search-replacement-and-return.private.json": "d2e301a38b66b6b595ab4c011d1596c6e3aa854f21548cef3a4e6649e0a5a461",
+    "task-15-settings-actual-clear-and-recover.private.json": "1b6f39edf72a4303e68ee4b8b11c3f7bf2a9e219d71071ca73271a4a6a072165",
+    "task-16-safe-before-delete-stop.private.json": "ae8c898a1a1d9ee31e6cca02547c066c998a87693b47994854863845835e98ad",
+    "task-17-UI-delete-to-empty-and-no-book.private.json": "bb088cf5111bdfe96053255739a0d5dbeefe252bbcba2030470ed3430445a196",
+    "task-18-final-restored-independent-verification.private.json": "deb9a9205d09beded7d312d573f04609b8c16bb14cfa28c5387d2bd650b3448b",
+    "task-20-real-loopback-URL-import-continue.private.json": "c18724ed3351c240788e1ca10ddafa47c8e1fa896ed082361e460d31da82520b",
+    "C-independent-restart-expected.private.json": "65af0649c3960bbfe453d68de88603af4e7e9c5bafca0c8afe89cc81174de955",
+    "run3-final-preclose-reader.private.json": "967e83043e0954276caec1b8b9c3b4293b58140f010abf2198dc4611aa582d83",
+    "runtime-run1-beforeclose.private.json": "58358a7f19ef150744a610a5504a3c092c0bf48ca420cd12cf3f4799e4bb6d45",
+    "cleanup-run1.private.json": "9c5cbf1f257f8ff803429c2c082444ae586b8b165184574bfcd707db220ffd6c",
+    "runtime-run2-beforeclose.private.json": "ed756d36781d6c53ded20dc507c2b4c34b7388d79f2d618ad77b3df4e3e0faed",
+    "cleanup-run2.private.json": "ceb8ae799d44de1327fb20873388865e20d3f3c889b66fc982a8f675090e2a0e",
+    "runtime-run3-beforeclose.private.json": "cde5e4fb2e929898f42b271309132264c94e338e75e861cf9efac9e88f45440a",
+    "cleanup-run3.private.json": "1ad6c4540d20f9a25e5a0df154752b97f17f295052ea0e7398609a2b47b3c8c2",
+    "runtime-run4-beforeclose.private.json": "75cc95ee21d8ae9bba35b3f7571a26b26bd12cb0e2e3163cdac226724af212e5",
+    "cleanup-run4-complete.private.json": "c59b4d3131c4769267949e2aa2c508e79bd89e764548240cc15dd715765db0f0",
+    "runtime-run5-beforeclose.private.json": "18fc0a9d5c6e75fea650b56c862d5971fd4d1e3d5d295db05a2d84a35a84d0e5",
+    "cleanup-run5-verified.private.json": "4341dbb9abb138cdea6bca3105583274123cc8147989a2d2516ec4f44328b956",
+    "runtime-run6-beforeclose.private.json": "2b8630a4156a46e612a10d1a06b642f6c7885885d930c07a90728b038fc69023",
+    "cleanup-run6-verified.private.json": "0c6c420205029b347f97b03d80eb967f6b8c3c9860ef61f1542077dac367bbae",
+    "native-run1-close-absent.private.json": "1f2994d4b55a1f2209c749303e623bc9f5b0358af40b95c5bc2d0c81f096264c",
+    "native-run2-close-hidden.private.json": "265845a64c89627f3bb22b604c508957d26d3c04f93a5f43fdeea0d8684abf39",
+    "native-run3-close-visible.private.json": "ba59f0b0b13ecc43f3b65f1540aa4041593da30ba850a740cfc4dc87d0186049",
+    "native-run2-first-UI-created-stealth.private.json": "8eb3a835f9065b0327108244817a6b68cbcc53fae003b57042872c98edf089e0",
+    "native-run2-MR010-same-chapter-reopen.private.json": "7f907ef5226c1e3367c18993703c2baa14d05e422bf8a922d849b488594589c9",
+    "native-run2-MR010-cross-book-reopen.private.json": "343375645fb61eb2c331dbfa905347ddc4c2387d6466bb630669a0a2472945bb",
+    "native-run2-MR010-cross-chapter-reopen.private.json": "6f18cee63a79b9f185c173bd53a27ea1811947f84ecbba1b96085e823a13a72f",
+    "native-run3-first-boss-key-created.private.json": "73a09c7582df08fa829cfaa3e783d2235fd0c5696544a332d6150ebf04e70bae",
+    "native-run3-one-down.private.json": "23424a5ddd3f0437c706a8a1efa1399ad0bd9cb91603c8b756ace1702afee0e4",
+    "native-run3-one-up.private.json": "6cfa02de70790aad120d975c108e9719912bf6e598447b93fb9162798f984c1d",
+    "native-run3-drag25x5.private.json": "51f90e79ea025edf6b50d0dcdab18f0ee0e9c32c015a02f3987bec5d022d803d",
+    "native-run3-drag240x6.private.json": "42890611ce7a288d6243fd9ea1c84d696c5d37ed3fe3aeba940fcbf7d337e798",
+    "native-run3-drag-after-recovery.private.json": "6894be580fdd76f554f1d1ee898804207a47b2696dbd6c11e86fc84613f2c6a5",
+    "native-run3-normal-real-click.private.json": "02fae4d81f59f31d2881215500fe0d936dd0c6121b3ae58300f0003eeffe3e55",
+    "native-run3-left.private.json": "ab8a4c2c02f5b0475422a070d84ea9fe0ad1471f44777420760a79d90df23a55",
+    "native-run3-right.private.json": "fe376d7cde07cfe8e20a97383c63b08ecac772e49b8733ddd9fbaa687c4faba3",
+    "native-run3-passthrough.private.json": "a082c4898f977bba8e7028da7c1cc50fa0fbb57beeb29547a4bab73cff5e1ce3",
+    "native-run3-passthrough-real-click.private.json": "8b97cf59a936bb13b2d0fac321741868c68e653ddfc9e5d8448967af74798887",
+    "native-run3-hidden.private.json": "c8bf2ff4e23ff58d2e06ef29afa5b37634a36b6a65431b1f0d3cd81727c566a4",
+    "native-run3-interactive.private.json": "6f20c53663723e9a9b5dc3796ae2d9bdc642807c64559770feb2613eb5c4b85e",
+    "native-run3-interactive-hit.private.json": "fa9f341e8e3e641416f86824669aef12fa59fcc6efde1022eb508edd8cf048aa",
+    "native-run3-opacity-down-bound3.private.json": "71652303292e38896d396f19e77ce6e67f39ecf94055068788bb0b72efea1580",
+    "native-run3-opacity-down-extra.private.json": "5ec34c229ad19c9e1a46f87ffaf8884a9f26d48b1bb49b5a9cebef1be85fc291",
+    "native-run3-opacity-up-bound7.private.json": "a70f846de944c322599f20b5f35a05d8a753d06a0903085493328c373e195fdd",
+    "native-run3-opacity-up-extra.private.json": "aba605e5b301d6e2a0be186c1dd6a56cb050fdb3b657dc53ef815ade0cdbbc7d",
+    "native-run3-opacity-restore45-3.private.json": "b3febb4053c28b2f1f5152ebc547b5e532f49f1240c6894c2bc7ecd130d78064",
+    "native-run3-left-cross-cached-chapter.private.json": "63fbf68e171f91e1ffa834a481b27bbd3441b5a5153ee00403c7d4d2d9583c9d",
+    "native-run3-right-cross-cached-chapter.private.json": "0659dfaac02ea22b93a7d54ce9e786b567b16eb12f860a93546fd4f02e4f0b37",
+    "native-run4-first-boss-key-created.private.json": "438242e495d9ab959665b0a297855e312543d0213bce360cf5905fbb1324e6d9",
+    "native-run4-tray-restore.private.json": "4b69066b9838a0834f4652ac2a22d2aeea302789a762c5ad4b29ff4565a6c8af",
+    "native-run4-tray-menu-show.private.json": "f97bd880b5c448f20fd5fcf58ac2baed101d803a505b4fa8be172128d4825def",
+    "native-run4-tray-quit.private.json": "1e12eebec66d31186d01cf95b5f7bc232dafaefdc2f9e3a949fdf591e06415c7",
+    "native-run5-first-boss-key-before-delete.private.json": "e98cb4c08be81e6c26adf4cb3677b22e0f65f4bed6fca81c2357913a4b83e888",
+    "native-run5-existing-window-no-book-reopen.private.json": "c697549de316451570b72a4a5e21e20f325186af2fc7ce7e490dc363bd38adb6",
+    "native-run5-no-book-Left.private.json": "64bf78c382cd64d48913744a4b43c080b579977204a0d36d8e70fabb2b6c644a",
+    "native-run5-no-book-Right.private.json": "c2c53ae001dd8915aaf8f0b5ce012101720d2670aa82fd4bd6f333b68eefa0b9",
+    "native-run5-no-book-close-button-hides.private.json": "40f99048859b564fbbbcbef354231a1e76633e74b42515c326b1e59b665f2af4",
+    "native-run5-tray-quit.private.json": "a9fadfe3e947178b26cbcfb64c9095066f36250b40a2fc939acb0eee2f30cc9e",
+    "native-run5-tray-exit-code.private.json": "756dd9c41c032071617e2ab9a000e83aa2c278d9d845e28f0db363c8d36a1032",
+    "native-run6-first-boss-key-created-final-A.private.json": "bb601d6ec19f44f9b142a77b2dcebaf51cf300c2a15963a81adccf698191cb42",
+    "native-run6-tray-quit.private.json": "7aee1c3f136ebd1f0d52474998260c5e5ba0b62639fbb3f80b1d2fc3fba2e63f",
+    "native-run6-tray-exit-code.private.json": "75a5b1f3faab2816ebe77ca5985a6821a068c85c1f7e8d6063f60a7ad6cb0f61",
+    "native-dialog-source-invalid-json.private.json": "7a4e9b52587f6d5614e6b7ba855333aad5f67bb3d5dde4bea37ce0919e1d6cf6",
+    "native-dialog-source-invalid-url.private.json": "d0f12954aa8d07e67685a2fc38c55d73717db7978ad35103d63fef9d065b0c69",
+    "native-dialog-source-missing-fields.private.json": "adca78dab399b858217326d8cfff01515b18ed80cfc48b30089b2b5e239a09cf",
+    "native-dialog-restore-three-original.private.json": "b9e01f3494f39155ca5e79df09edad205fe6a2334a792a0c4d4aab0f362ff2b3",
+    "native-dialog-restore-all-original164-complete.private.json": "8a46063e13524e26c3d09b95f8cd824659bd3df8cae45af999349db2b63e6a18",
+    "native-dialog-settings-progress-clear-cancel.private.json": "fac0e93e288b572311e84c48c2a33ac5ac2341152d147790ac66ba9976a9793d",
+    "native-dialog-settings-progress-clear-confirm.private.json": "537a1cf6d48b32818e44fcb652e8815d9130e96860c0ff102b9b1c23b0efca44",
+    "native-dialog-valid-loopback-url-import.private.json": "f968e5da072473494f6ca90fd87297d6fe1e73d0ad53024818578ff976503f0d",
+    "task-01-cdp.private.json": "5fe4e0372f974fe6576f7ef66aad69607ccb43647b2686c864863669d5e4c8bb",
+    "task-02-main-cdp.private.json": "643d20393b0f8573a2e4e65957f871770e6fa741fa44f302e355c979dbf7939c",
+    "task-03-main-cdp.private.json": "0e699e67ce8f39ac84df46ee7792efe21a03b37d758aefb1357cef911a03dba7",
+    "task-03-stealth-cdp.private.json": "fe0d4cdc31532ee6c2132194f9ff949e79445a3eee76389399c05ee6a3099f28",
+    "task-04-main-cdp.private.json": "9bac5b99d0d87acf9ba89fd6613afb5e2beb5a06c3ddf53de775c06df4c5764c",
+    "task-04-stealth-cdp.private.json": "d3c67591c45e295a2e9420fd300d200e6cc261f745b6a172c98c84bf95d0f435",
+    "task-05-main-cdp.private.json": "477efe23ca0c0ffd29da47e7f14e4dcf4dd97888861ef7319e00193649131ec8",
+    "task-05-stealth-cdp.private.json": "5ab1dc1e5b413909c61a7a864453817584f4c1b82265187fe497835f537fb4fe",
+    "task-06-main-cdp.private.json": "317af4e4f3e9d79b9b1840a1502be8a6e80d65a298c629964ae534550c3c8e6c",
+    "task-06-stealth-cdp.private.json": "58ea69ca7691e79ff7b0228ae02543016c0144a4a8701180b7b16e0ee6646fbc",
+    "task-07-main-cdp.private.json": "18d21ea99f0ebd9e46820ef7769d59008e5c50cc9d23d3f444a8840fefd466f4",
+    "task-07-stealth-cdp.private.json": "11c809ce25dd5fc2fb42c97cb6a89e46e48502c0bd1765df63f6c0134962c495",
+    "task-08-main-cdp.private.json": "7ed99935a275ae54ac53c72a810caa2d29768db2b3c25ed758279ac652d0abdc",
+    "task-09-main-cdp.private.json": "bc4eafbbdb8b13c8b8f953cb6cb49e2a0a957e32858c319951beefe50a873f1a",
+    "task-09-stealth-cdp.private.json": "fc7ad59c1720ea589cb9d36ba39dec9f0c680574a41457bfedae6d4573a8c2ae",
+    "task-10-main-cdp.private.json": "1d885a138fa02341bb61cc12b1a80d0950ed0c9b8d69ddb79229d407a6bb0bfc",
+    "task-10-stealth-cdp.private.json": "08e5706973d2d234914e09e6a7849dc2381766ab45f5ab01df6f184b4e205738",
+    "task-11-main-cdp.private.json": "e62dfb4451ce7d1aee9f32fe935acc85cc04cc995e8505a22cc197e3f9ba3326",
+    "task-11-stealth-cdp.private.json": "d8e6897d38c2ffb86cc4f268ceb0c39cb9e28beae8ee0f6a79872700fcf67fd4",
+    "task-12-main-cdp.private.json": "8d7a2ce1e4934d13e61e91fdb641bf59a0f16663f869341310eaa1a88ec3a646",
+    "task-12-stealth-cdp.private.json": "2c216856a5dbebe75d88cedffa4d4abc986c99554df5a5890941361f3abf924e",
+    "task-13-main-cdp.private.json": "6698d8f31efaffba5bd04e59ed31a891331226b27e1108829aa60ec791ff0495",
+    "task-13-stealth-cdp.private.json": "103d7e6945e5efa4b785d3e6d0c6953be0939ea1fa7e61fc7c97077ff54cf486",
+    "task-14-main-cdp.private.json": "08629be1fcfaafb79540ddead1bac174dbbea77455f5b64801e368639f70071e",
+    "task-15-main-cdp.private.json": "c2f0f0a5d9199f152d94fb25ff398915b6798363ba4f1b3db779e8a265312ec3",
+    "task-16-main-cdp.private.json": "f5c26e4141688ef92523113ae866a5f36c0f844c847ba24884d354064cfb6d64",
+    "task-17-main-cdp.private.json": "537fd0ddf55351f7ec22301ce0bac5fd3cabc6932d8112e926ec82f87fd99e26",
+    "task-17-stealth-cdp.private.json": "bbfa21cac329fa0ddf9fc252cf45002cf09ecfa61805e90396224517282d1fec",
+    "task-18-main-cdp.private.json": "010f650d62f706e7d3630210c94319fdaa6df57aad18e04375d1563d52adcbc1",
+    "task-18-stealth-cdp.private.json": "217fd56e520947a3d27f41e22cdcd9a656e67c88f4c04b5e8103ba9d5515d3da",
+    "task-19-main-cdp.private.json": "f06550f15274c2270abbdbd534dc3e08f598009fabd26dd60564e890dbc0b703",
+    "task-20-main-cdp.private.json": "97c1f8fb7d0f5140d22564fe4027261bbca3f7304a174335d2a29eab1049b08d",
+    "run1-tauri-dev.private.log": "e97227786e25a3270ddc4b5370e31d1c212440ecf22112aae06b2ee5fef8bde7",
+    "run2-tauri-dev.private.log": "f16c007129a680d367027269545569d33baca2d81f90a560d903ac3066887d8c",
+    "run3-tauri-dev.private.log": "aff3f187fc8b663864894f45383a18eabfc5c05ef6222123b8bb0ab9f515a433",
+    "run4-tauri-dev.private.log": "87daeca2414f24ae1539b262e251fb49dd5ff77013a983614b5d29a607bff2b7",
+    "run5-tauri-dev.private.log": "3e838ea4fc2f9291ce02c426a2f5ddfa7f167bead30db300841e2efeba12b1d3",
+    "run6-tauri-dev.private.log": "f2818f8e2d7d9e5e25b30190c2e2b7612cee766696c6cb9663e4a008cbe1d8c0",
+    "TC50-real-missing-source-failure.private.json": "c060026ffba4e5c217230b31cd0dd285cc94a2a1becdcd81e031dad3c75d5d28",
+    "TC51-real-late-body-summary.private.json": "5148bd1dbda011578ec003303973fb9d8c53d924807936a9d5a96f9a96502700",
+    "final-round04-summary.private.json": "27495cf6b31d286eefc27f4ddc1bfce170e6240bff083f3f28bf29f5c6f532b6",
+    "protection-before.private.json": "8873dd0b139e503c5158d063fad565b0eb11daef2dcd1d326e2d684362b69b22",
+    "protection-after.private.json": "da7866788aebfbdc84916d5283f5d8373402c535b2daf9cc621cf877eb792639",
+    "restore-pre-delete.private.json": "e0d8b217b8ca1c4b15236eac1ccf802b62b8df391fc852aa405476ba2d8dafd0",
+    "tray-current-causal.private.json": "f608f728ca821613ae36c5de4dd808e44e967341900ea615e07de6380cbca147",
+    "search-page-return-summary.private.json": "385d1887ddb2a8780f331179b5cb3e898e102f1c59f31ede313f3d74dcb8b44b",
+    "finite-source-results.private.json": "893577bfc29c5b587adcc8607cce9e34e766b397c2d93c74618383aceed75b27",
+    "import-fixture-meta.private.json": "722edef9b792e75e0db16086ebad1288869b39be3b74c98395f19b3eefb6c011",
+    "import-fixture.private.json": "2e5dda566364edf2b51fd2889a72ea7da4870f5e7b49ee5f2764ddb1e1318e37",
+    "import-server-runtime.private.json": "fa22dc2ca756d541e0b439f924b93e9e1b7a74cc4753d9520fa6b9bba3d01bc9",
+    "import-server-requests.private.json": "3ae877df05be1d5665b62d9c3f09a865bb904cd5ceaad43ceebd018859366b37",
+    "import-server-closed.private.json": "2f8da09f368d2c1d2f19adb1821a1e858764aa1de8e50626ed859b22d1ca153e",
+    "C-new-real-search-events.private.json": "c5f9fbc0babf2cac4e456b58a5d17f3227251364cb26526b8099c371a547148e",
+    "A-new-real-search-events.private.json": "bf12b67cb8f3255164190c01ebefa96fae99a100e480ef4837bb57afd22a6950",
+    "hotword-threebody-events.private.json": "399921bf20bd1db33965810501d5481edea2d9d80425d3c9822a5bc13eec76b2",
+    "hotword-fanren-events.private.json": "bbb96d80e86a9745c2472fdbeed01a3db73fe67e55a050bca64005e79e8cfeee",
+    "zero-calibration-events.private.json": "b21a0ebba2179f0819bd588d390e27663ef481357f9b85c41aec0b10970eb036",
+    "replacement-Enter-events.private.json": "c5319fb5fc8508e6641f1ba1f16c2d6968b1fa0229b20a2365771b6878adfc78",
+    "replacement-Button-events.private.json": "f881a81239c606e2fd5e66969b05229e5c6e4c00af662b1c4ec640213b027434",
+    "page-return-0-events.private.json": "ece6699a1874a7ce6d4ebffe745185ba5bf557a3a58c1dbda050c389bfd37953",
+    "finite-real-search-threebody-events.private.json": "26696305693de2e63d151f8b4b85f28881b808bd94490acc77546872ee6891ec",
+    "finite-real-search-fanren-events.private.json": "2bf6994fc5cc42013adbdd8bff22930cae59db451f23b138afbd81f57f599220"
+  },
+  "observationCount": 219,
+  "nativeRecordCount": 50,
+  "screenshotNote": "仅真实 QA WebView2 与自有原生菜单；只裁剪或逐字节复制，未重绘、标记或替换正文。原源/凭据/完整数据库及无关桌面信息不发布；正文日志只给长度/哈希。",
+  "earlierReportFileCountProtected": 98,
+  "earlierDbHashEntriesProtected": 34,
+  "historicalDbEntriesExcludingWorkingProfile": 32,
+  "finalVerification": "verification.json",
+  "hashScopeNote": "files 不含 manifest 本身及后续只读 verification；verification 核验这些 payload、manifest 和报告，避免自引用。"
+}

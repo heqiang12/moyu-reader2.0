@@ -1,0 +1,660 @@
+[
+  {
+    "group": "TC-03",
+    "sourceLog": "task-02-diagnose.private.json",
+    "step": "small-source-UI-enable-group",
+    "utc": "2026-11-23T08:14:07.300Z",
+    "observed": [
+      "笔下文学",
+      "奇怪小说",
+      "小刀阅读",
+      "天下书盟"
+    ]
+  },
+  {
+    "group": "TC-03",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "restore-single-real-source-UI",
+    "utc": "2026-11-23T08:16:01.042Z",
+    "observed": {
+      "enabled": [
+        "奇怪小说"
+      ]
+    }
+  },
+  {
+    "group": "TC-04/26",
+    "sourceLog": "task-02-diagnose.private.json",
+    "step": "four-source-real-search-summary",
+    "utc": "2026-11-23T08:14:27.864Z",
+    "observed": [
+      {
+        "type": "item",
+        "requestId": "409550a7-5a1e-45e2-8e5f-73cc2823011b",
+        "count": 50,
+        "origins": [
+          "奇怪小说"
+        ]
+      },
+      {
+        "type": "end",
+        "requestId": "409550a7-5a1e-45e2-8e5f-73cc2823011b",
+        "origins": []
+      }
+    ]
+  },
+  {
+    "group": "MR-001",
+    "sourceLog": "task-03-flow.private.json",
+    "step": "B-confirmed-new-at-this-round",
+    "utc": "2026-11-23T08:15:54.477Z",
+    "observed": {
+      "name": "暗体",
+      "bookUrl": "<URL>",
+      "shelfCount": 1,
+      "notInShelf": true
+    }
+  },
+  {
+    "group": "MR-001",
+    "sourceLog": "task-04b-navigation-new.private.json",
+    "step": "new-detail-UI-暗体",
+    "utc": "2026-11-23T08:20:36.614Z",
+    "observed": {
+      "text": "← 返回\n书籍详情\n暗体\n作者：沣水森\n·\n奇怪小说\n978 章\n\n暂无简介\n\n加入书架\n开始阅读\n目录\n共 978 章\n第963章 文明捍卫之战\n第962章 宇宙级星体大碰撞\n第961章 飞奔而来的流浪红矮星\n第960章 星体的跨星系迁徙\n第959章 行星发动机矩阵推动木卫二\n第958章 负质量体的获取\n第957章 “新太阳”计划\n第956章 负质量体\n第955章 比邻星系戴森球设想\n第954章 35年的太空挣扎\n第953章 百年重逢\n第952章 机器人及机甲拆解工厂\n终章三部曲Ⅰ---20光年外的远航\n终章三部曲Ⅱ--- 启蒙\n终章三部曲Ⅲ--白洞---时间膨胀效应\n第一卷 浪荡才子的凄美爱情 第1章 量子霸权\n第一卷 浪荡才子的凄美爱情 第2章 狙击\n第一卷 浪荡才子的凄美爱情 第3章 联合围剿\n第一卷 浪荡才子的凄美爱情 第4章 莽撞者\n第一卷 浪荡才子的凄美爱情 第5章 迷雾行动\n第一卷 浪荡才子的凄美爱情 第6章 口袋阵\n第一卷 浪荡才子的凄美爱情 第7章 外科手术式打击\n第一卷 浪荡才子的凄美爱情 第8章 奢华环球之旅\n第一卷 浪荡才子的凄美爱情 第9章 婚礼\n第一卷 浪荡才子的凄美爱情 第10章 反转\n第一卷 浪荡才子的凄美爱情 第11章 愤怒的浪荡才子\n第一卷 浪荡才子的凄美爱情 第12章 精心布置的假象\n第一卷 浪荡才子的凄美爱情 第13章 被掩盖的绝望\n第一卷 浪荡才子的凄美爱情 第14章 相遇之地的离别\n第一卷 浪荡才子的凄美爱情 第15章 围追堵截\n第一卷 浪荡才子的凄美爱情 第16章 全球隼察打一体无人机的精彩\n第一卷 浪荡才子的凄美爱情 第17章 复仇者雅子\n第一卷 浪荡才子的凄美爱情 第18章 收养\n第一卷 浪荡才子的凄美爱情 第19章 智回量子研究所\n第一卷 浪荡才子的凄美爱情 第20章 量子寻人\n第一卷 浪荡才子的凄美爱情 第21章 百万欧元的诱饵\n第一卷 浪荡才子的凄美爱情 第22章 进入黑石监狱\n第一卷 浪荡才子的凄美爱情 第23章 对峙与绝望\n第一卷 浪荡才子的凄美爱情 第24章 互换\n第二卷 两大外星文明的降临 第25章 黑骑士卫星\n第二卷 两大外星文明的降临 第26章 爱的踪迹\n第二卷 两大外星文明的降临 第27章 梗河一星系\n第二卷 两大外星文明的降临 第28章 外星文明吹哨人\n第二卷 两大外星文明的降临 第29章 借刀杀人\n第二卷 两大外星文明的降临 第30章 交易\n第二卷 两大外星文明的降临 第31章 刺杀\n第二卷 两大外星文明的降临 第32章 鸿门宴\n第二卷 两大外星文明的降临 第33章 河道之战\n第二卷 两大外星文明的降临 第34章 空战---诡异抛物线\n第二卷 两大外星文明的降临 第35章 空战---失速螺旋\n第二卷 两大外星文明的降临 第36章 伤离别\n第二卷 两大外星文明的降临 第37章 泰伯星人---痞子差先生\n第二卷 两大外星文明的降临 第38章 降服\n第二卷 两大外星文明的降临 第39章 计议\n第二卷 两大外星文明的降临 第40章 突降纽文兰岛\n第二卷 两大外星文明的降临 第41章 猎杀\n第二卷 两大外星文明的降临 第42章 杀机重重\n第二卷 两大外星文明的降临 第43章 盛宴与暗杀\n第二卷 两大外星文明的降临 第44章 葬礼与入职礼\n第二卷 两大外星文明的降临 第45章 密林密约\n第二卷 两大外星文明的降临 第46章 不同的一箭双雕\n第二卷 两大外星文明的降临 第47章 现实与童话\n第二卷 两大外星文明的降临 第48章 南太平洋弯刀行动\n第二卷 两大外星文明的降临 第49章 愤怒\n第二卷 两大外星文明的降临 第50章 相救\n第二卷 两大外星文明的降临 第51章 海底幽灵\n第二卷 两大外星文明的降临 第52章 外星体的攻击\n第二卷 两大外星文明的降临 第53章 无痕式消失\n第二卷 两大外星文明的降临 第54章 绝密会议\n第二卷 两大外星文明的降临 第55章 震惊\n第二卷 两大外星文明的降临 第56章 阴谋（1）\n第二卷 两大外星文明的降临 第57章 阴谋（2）\n第二卷 两大外星文明的降临 第58章 成立危机计划署\n第二卷 两大外星文明的降临 第59章 探针行动\n第二卷 两大外星文明的降临 第60章 痞子差先生到地球\n第二卷 两大外星文明的降临 第61章 热寂武器\n第二卷 两大外星文明的降临 第62章 探访周芸\n第二卷 两大外星文明的降临 第63章 跟踪者\n第二卷 两大外星文明的降临 第64章 微型黑洞\n第二卷 两大外星文明的降临 第65章 痞子差先生的爱情\n第二卷 两大外星文明的降临 第66章 角力会晤\n第二卷 两大外星文明的降临 第67章 小楼风云\n第二卷 两大外星文明的降临 第68章 重返纽文兰岛\n第二卷 两大外星文明的降临 第69章 别样的重逢\n第二卷 两大外星文明的降临 第70章 部署“艺海拾贝”行动\n第二卷 两大外星文明的降临 第71章 父女相见\n第二卷 两大外星文明的降临 第72章 量子塌缩\n第二卷 两大外星文明的降临 第73章 程序化打击武器\n第二卷 两大外星文明的降临 第74章 艺海拾贝行动的成功\n第二卷 两大外星文明的降临 第75章 盗窃MR系统\n第二卷 两大外星文明的降临 第76章 侦测\n第二卷 两大外星文明的降临 第77章 拯救\n第二卷 两大外星文明的降临 第78章 风眼行动\n第二卷 两大外星文明的降临 第79章 夸克武器\n第二卷 两大外星文明的降临 第80章 周芸的献身\n第二卷 两大外星文明的降临 第81章 计中计中的计谋（1）\n第二卷 两大外星文明的降临 第82章 计中计中的计谋（2）\n第二卷 两大外星文明的降临 第83章 遇到爱\n第二卷 两大外星文明的降临 第84章 弃之不顾\n第二卷 两大外星文明的降临 第85章 倾力相救\n第二卷 两大外星文明的降临 第86章 逃离与甜蜜\n第二卷 两大外星文明的降临 第87章 立威\n第二卷 两大外星文明的降临 第88章 暗物质\n第二卷 两大外星文明的降临 第89章 探望\n第二卷 两大外星文明的降临 第90章 无限循环\n第二卷 两大外星文明的降临 第91章 无限空间\n第二卷 两大外星文明的降临 第92章 外星体与弦\n第二卷 两大外星文明的降临 第93章 降维与升维\n第二卷 两大外星文明的降临 第94章 揽月行动\n第二卷 两大外星文明的降临 第95章 采集暗物质\n第二卷 两大外星文明的降临 第96章 暗物质武器\n第二卷 两大外星文明的降临 第97章 辐射\n第二卷 两大外星文明的降临 第98章 执念\n第二卷 两大外星文明的降临 第99章 梦魇\n第二卷 两大外星文明的降临 第100章 对话与秩序\n第二卷 两大外星文明的降临 第101章 外星武器\n第二卷 两大外星文明的降临 第102章 代价\n第二卷 两大外星文明的降临 第103章 外星囚笼\n第二卷 两大外星文明的降临 第104章 四维空间\n第二卷 两大外星文明的降临 第105章 无限重演\n第二卷 两大外星文明的降临 第106章 维度投影\n第二卷 两大外星文明的降临 第107章 白洞\n第二卷 两大外星文明的降临 第108章 扭曲\n第二卷 两大外星文明的降临 第109章 量子叠加态\n第二卷 两大外星文明的降临 第110章 翘曲空间\n第二卷 两大外星文明的降临 第111章 逃离\n第二卷 两大外星文明的降临 第112章 三个人\n第二卷 两大外星文明的降临 第113章 意识\n第二卷 两大外星文明的降临 第114章 珍妮的意识\n第二卷 两大外星文明的降临 第115章 回忆过往\n第二卷 两大外星文明的降临 第116章 智斗\n第二卷 两大外星文明的降临 第117章 U形拐弯\n第二卷 两大外星文明的降临 第118章 奇遇\n第二卷 两大外星文明的降临 第119章 追击\n第二卷 两大外星文明的降临 第120章 救兵\n第二卷 两大外星文明的降临 第121章 移花接木\n第二卷 两大外星文明的降临 第122章 以情动人\n第二卷 两大外星文明的降临 第123章 伎俩（1）\n第二卷 两大外星文明的降临 第124章 伎俩（2）\n第二卷 两大外星文明的降临 第125章 伎俩（3）\n第二卷 两大外星文明的降临 第126章 牛排面\n第二卷 两大外星文明的降临 第127章 彷徨\n第二卷 两大外星文明的降临 第128章 乔装打扮\n第二卷 两大外星文明的降临 第129章 唤醒\n第二卷 两大外星文明的降临 第130章 事与愿违\n第二卷 两大外星文明的降临 第131章 保命\n第二卷 两大外星文明的降临 第132章 弄巧成拙\n第二卷 两大外星文明的降临 第133章 审讯\n第二卷 两大外星文明的降临 第134章 求助\n第二卷 两大外星文明的降临 第135章 催眠\n第二卷 两大外星文明的降临 第136章 跨越星际的友情\n第二卷 两大外星文明的降临 第137章 最终唤醒\n第二卷 两大外星文明的降临 第138章 珍贵的爱\n第二卷 两大外星文明的降临 第139章 迷途知返\n第二卷 两大外星文明的降临 第140章 行动部署\n第二卷 两大外星文明的降临 第141章 暗藏玄机\n第二卷 两大外星文明的降临 第142章 乘虚而入\n第二卷 两大外星文明的降临 第143章 巅峰对决\n第二卷 两大外星文明的降临 第144章 声东击西\n第二卷 两大外星文明的降临 第145章 难题\n第二卷 两大外星文明的降临 第146章 一出好戏\n第二卷 两大外星文明的降临 第147章 两边的戏\n第二卷 两大外星文明的降临 第148章 失败的逃离\n第二卷 两大外星文明的降临 第149章 斗智斗勇\n第二卷 两大外星文明的降临 第150章 达到目的\n第151章 暗物质场\n第152章 故事\n第153章 3000光年外的异星\n第154章 巨兽\n第155章 血狼\n第156章 怪兽与沙洲\n第157章 巨卵\n第158章 怪物与坤斯巨兽\n第159章 巨兽激斗\n第160章 外星巨龟\n第161章 星际战争\n第162章 魔焱异兽\n第163章 险象环生\n第164章 外星雪巨熊与雪蝙蝠\n第165章 冰焱巨蟒\n第166章 外星巨火蚁\n第167章 大战飞蚁群\n第168章 盖坦星的火湖\n第169章 程序控制中心\n第170章 外星蝎子军团\n第171章 战斗机器人的恳求\n第172章 3000光年之外\n第173章 曲率飞行\n第174章 诡计\n第175章 攻击外星舰队\n第176章 回到地球\n第177章 海上城墙\n第178章 攻击外星会议\n第179章 地球-外星文明之战（1）\n第180章 地球-外星文明之战（2）\n第181章 地球-外星文明之战（3）\n第182章 地球-外星文明之战（4）\n第183章 俘获空天母舰\n第184章 突如其来\n第185章 苦肉计\n第186章 偷梁换柱\n第187章 一箭三雕\n第188章 金蝉脱壳\n第189章 幻影\n第190章 幻影成像\n第191章 真假难辨\n第192章 变异巨兽\n第193章 瞒天过海\n第194章 以假乱真\n第195章 欲盖弥彰\n第196章 密林清剿\n第197章 奇袭\n第198章 亲情的力量\n第199章 李素佳的献身\n第200章 戴森球计划\n第201章 冰海遇险\n第202章 芬可的爱\n第203章 仇恨的子弹\n第204章 回到过去\n第205章 来自未来\n第206章 时间与事件\n第207章 走失的外星人\n第208章 8年前的李默森\n第209章 8年前的勒内\n第210章 四方角斗\n第211章 当下与未来\n第212章 病毒入侵与绞杀\n第213章 套盒病毒\n第214章 精心的安排\n第215章 螳螂捕蝉黄雀在后\n第216章 把酒话桑麻\n第217章 文明崛起\n第218章 身处程序世界\n第219章 火星轨道吃大餐\n第220章 飞向木卫二\n第221章 木卫二的巨型喷泉\n第222章 迫降火卫一\n第223章 激战火卫一\n第224章 掉包\n第225章 捕获黄金钻石小行星\n第226章 中计\n第227章 火卫二轨道之战\n第228章 逃出升天\n第229章 自救\n第230章 雨夜\n第231章 轰炸\n第232章 与虎谋皮\n第233章 逃离\n第234章 连环计\n第235章 监狱风云1\n第236章 监狱风云2\n第237章 越狱1\n第238章 越狱2\n第239章 越狱3\n第240章 隧道\n第241章 谍战1\n第242章 谍战2\n第243章 谍战3\n第244章 谍战4\n第245章 迟到的爱\n第246章 驰骋太阳系\n第247章 遇故人\n第248章 胁迫\n第249章 击杀\n第250章 救人\n第251章 为了爱\n第252章 阻拦\n第253章 围剿\n第254章 情谊\n第255章 被俘\n第256章 换脸\n第257章 陷入重围\n第258章 流放荒岛\n第259章 荒岛求生\n第260章 激斗黑熊\n第261章 激战峡谷\n第262章 激斗恶狼\n第263章 逃离\n第264章 无奈\n第265章 离别\n第266章 潜入\n第267章 掩护\n第268章 杀人诛心\n第269章 为爱而跪\n第270章 最后拯救\n第271章 迷情之困\n第272章 星际联络官\n第273章 引力波炸弹\n第274章 星际光网\n第275章 辉光膜层\n第276章 太空核弹1\n第277章 太空核弹2\n第278章 太空鏖战\n第279章 逃往柯伊伯带\n第280章 步步紧逼\n第281章 核打击计划\n第282章 遭到攻击\n第283章 最后1秒\n第284章 三个条件\n第285章 终极反击\n第286章 共享地球计划\n第287章 剑拔弩张\n第288章 成果\n第289章 新的主人\n第290章 同室操戈\n第291章 剿而不灭\n第292章 围剿暗河公司\n第293章 飞行战斗机甲\n第294章 贻误战机\n第295章 最后通牒\n第296章 投降与哗变\n第297章 攻击飞行战斗机甲\n第298章 意外的投降\n第299章 新的地球\n第300章 气候与土壤\n第301章 土壤战争1\n第302章 土壤战争2\n第303章 土壤战争3\n第304章 土壤战争4\n第305章 土壤战争5\n第306章 土壤战争6\n第307章 土壤战争7\n第308章 土壤战争8\n第309章 土壤战争9\n第310章 土壤战争10\n第311章 新世界计划\n第312章 极地疑云\n第313章 故爱难寻\n第314章 机甲仓库\n第315章 掩护式攻击\n第316章 对攻\n第317章 冰工厂\n第318章 伏击\n第319章 突袭运冰船\n第320章 合力围剿\n第321章 冰川之战的胜利\n第322章 机甲9号的爱情\n第323章 两边的爱\n第324章 返回\n第325章 使命探索计划\n第326章 1.7光年外的讯号\n第327章 星空白花\n第328章 入侵\n第329章 攻占飞船\n第330章 再次遇袭\n第331章 逃离异星\n第332章 机甲部队行为准则\n第333章 目标比邻星B\n第334章 诀别\n第335章 飞驰小行星带\n第336章 逐日\n第337章 启航\n第338章 神秘舰队\n第339章 丧尸军团\n第340章 围剿丧尸\n第341章 丧尸病毒样本\n第342章 孤影舰队\n第343章 流浪星系\n第344章 丧尸星球\n第345章 袭击\n第346章 失陷\n第347章 隐忧\n第348章 掩护\n第349章 最后的陷落\n第350章 撤退\n第351章 全面攻击\n第352章 丧尸施计\n第353章 大战即临\n第354章 两面夹击\n第355章 引力弹弓\n第356章 表白\n第357章 黑洞前的求爱\n第358章 时间终止的地方\n第359章 逃离黑洞\n第360章 迷航\n第361章 星芒号\n第362章 孤注一掷\n第363章 突围\n第364章 激斗\n第365章 格式化\n第366章 回流\n第367章 返回星芒号\n第368章 蚊型矩阵\n第369章 解救\n第370章 逃离冰洞\n第371章 错位\n第372章 航行日志\n第373章 揭开谜团\n第374章 巴纳德星系\n第375章 探测\n第376章 登陆\n第377章 重力修正技术\n第378章 爱情来临\n第379章 异星夜晚\n第380章 礼物\n第381章 畅谈\n第382章 猜不透\n第383章 利用\n第384章 残酷的绞杀\n第385章 反攻\n第386章 御驾亲征\n第387章 冲锋陷阵\n第388章 火攻\n第389章 掩护\n第390章 激战峡谷\n第391章 激战大营\n第392章 覆没\n第393章 勤王大军\n第394章 献祭\n第395章 背弃承诺\n第396章 威慑\n第397章 寻找智者\n第398章 解答\n第399章 一探究竟\n第400章 解开谜团\n第401章 坠落\n第402章 深入实地\n第403章 进入\n第404章 触发\n第405章 攻城\n第406章 溃败\n第407章 水淹\n第408章 威胁\n第409章 大杀器\n第410章 危机\n第411章 光剑\n第412章 城破\n第413章 时空之门\n第414章 见风使舵\n第415章 帝国毁灭\n第416章 火力覆盖\n第417章 湖底洞穴\n第418章 洞穴求生\n第419章 施救\n第420章 执着\n第421章 难缠的机甲\n第422章 偏差\n第423章 绝不放弃\n第424章 身处绝境\n第425章 拒绝\n第426章 方寸之爱\n第427章 逃脱\n第428章 萌发\n第429章 寻找\n第430章 迷路\n第431章 相救\n第432章 伏击\n第433章 遇袭\n第434章 万物有灵\n第435章 灵禽\n第436章 象鲸\n第437章 洞穴遇险\n第438章 联袂双雄\n第439章 泅渡登岛\n第440章 自设陷阱\n第441章 偶然收获\n第442章 布设诱饵\n第443章 小木屋\n第444章 意外之喜\n第445章 到达\n第446章 城下之战\n第447章 圆形火墙\n第448章 激战城外\n第449章 进入城内\n第450章 怂恿\n第451章 交易\n第452章 替换\n第453章 离开\n第454章 沃尔夫359\n第455章 乐顿斯号星舰\n第456章 进入残骸\n第457章 再次遇袭\n第458章 持续攻击\n第459章 制胜之道\n第460章 登上星舰\n第461章 突降奇兵\n第462章 谈判\n第463章 玻尔兹曼大脑\n第464章 反应\n第465章 不明引力源\n第466章 天星之城\n第467章 万境之城\n第468章 坚韧不拔\n第469章 万境之巅\n第470章 熵的涨落",
+      "windowLabel": "main"
+    }
+  },
+  {
+    "group": "TC-47",
+    "sourceLog": "task-16-valid-URL-prepare.private.json",
+    "step": "actual-source-UI-controls-and-file-input-availability",
+    "utc": "2026-11-23T09:15:53.102Z",
+    "observed": {
+      "text": "共 164 个书源 · 启用 1 个",
+      "buttons": [
+        "全选",
+        "取消",
+        "删除选中",
+        "清空",
+        "导入 URL",
+        "粘贴导入",
+        "删除"
+      ],
+      "fileInputs": 0,
+      "enabledCount": 1
+    }
+  },
+  {
+    "group": "TC-23/44",
+    "sourceLog": "task-16-valid-URL-prepare.private.json",
+    "step": "disabled-real-source-deleted-by-UI-before-URL-import",
+    "utc": "2026-11-23T09:15:53.591Z",
+    "observed": {
+      "sourceCountAfterActualUiDelete": 163,
+      "enabledCount": 1
+    }
+  },
+  {
+    "group": "TC-29",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "stealth-left-click-main-synced",
+    "utc": "2026-11-23T08:25:17.886Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "segmentIndex": 4,
+      "scrollTop": 681,
+      "loading": false,
+      "currentTextSha256": "c5ae42d7c6a4b1653571b3f4fe14799f0493a823eb01ab6ec44364c24e2a6076"
+    }
+  },
+  {
+    "group": "TC-29",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "stealth-left-click",
+    "utc": "2026-11-23T08:25:17.889Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "segment": "5/39",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "loading": false,
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "passthrough": false,
+      "currentTextSha256": "c5ae42d7c6a4b1653571b3f4fe14799f0493a823eb01ab6ec44364c24e2a6076"
+    }
+  },
+  {
+    "group": "TC-29",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "stealth-right-click-main-synced",
+    "utc": "2026-11-23T08:25:18.306Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "segmentIndex": 3,
+      "scrollTop": 563,
+      "loading": false,
+      "currentTextSha256": "14621f619edda90b6d95a7869700a15b0e1b169a56d2a0d93234fb9dbfeee455"
+    }
+  },
+  {
+    "group": "TC-29",
+    "sourceLog": "task-06-stealth-reopen.private.json",
+    "step": "stealth-right-click",
+    "utc": "2026-11-23T08:25:18.307Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "segment": "4/39",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "loading": false,
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "passthrough": false,
+      "currentTextSha256": "14621f619edda90b6d95a7869700a15b0e1b169a56d2a0d93234fb9dbfeee455"
+    }
+  },
+  {
+    "group": "TC-28/29/37",
+    "sourceLog": "native-state-first-boss.private.json",
+    "step": "main",
+    "utc": "2026-11-23T08:36:42.619Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "segmentIndex": 9,
+      "scrollTop": 1405,
+      "loading": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d"
+    }
+  },
+  {
+    "group": "TC-28/29/37",
+    "sourceLog": "native-state-first-boss.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:36:42.623Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "segment": "10/39",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "loading": false,
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "passthrough": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d"
+    }
+  },
+  {
+    "group": "TC-28/29/37",
+    "sourceLog": "native-state-actual-key-left.private.json",
+    "step": "main",
+    "utc": "2026-11-23T08:40:32.233Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "segmentIndex": 9,
+      "scrollTop": 1405,
+      "loading": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d"
+    }
+  },
+  {
+    "group": "TC-28/29/37",
+    "sourceLog": "native-state-actual-key-left.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:40:32.236Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "segment": "10/39",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "loading": false,
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "passthrough": false,
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d"
+    }
+  },
+  {
+    "group": "TC-28/29/37",
+    "sourceLog": "native-state-actual-key-right.private.json",
+    "step": "main",
+    "utc": "2026-11-23T08:40:33.198Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "segmentIndex": 10,
+      "scrollTop": 1568,
+      "loading": false,
+      "currentTextSha256": "1788d8977c851969cf3acf535b5658cf6979b1c46bd7e39b6eedbf75b01528e4"
+    }
+  },
+  {
+    "group": "TC-28/29/37",
+    "sourceLog": "native-state-actual-key-right.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:40:33.201Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "segment": "11/39",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "loading": false,
+      "opacity": "透明 45%",
+      "background": "rgba(15, 23, 42, 0.55)",
+      "passthrough": false,
+      "currentTextSha256": "1788d8977c851969cf3acf535b5658cf6979b1c46bd7e39b6eedbf75b01528e4"
+    }
+  },
+  {
+    "group": "TC-28/29/37",
+    "sourceLog": "native-state-cycle-normal-control.private.json",
+    "step": "main",
+    "utc": "2026-11-23T08:51:46.478Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "segmentIndex": 12,
+      "scrollTop": 1283,
+      "loading": false,
+      "currentTextSha256": "a2c533be4721da0c9fdf8ce17f985e4db3739c018e1e9fec91bd6e5706628b9e"
+    }
+  },
+  {
+    "group": "TC-28/29/37",
+    "sourceLog": "native-state-cycle-normal-control.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:51:46.482Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "segment": "13/39",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "loading": false,
+      "opacity": "透明 65%",
+      "background": "rgba(15, 23, 42, 0.35)",
+      "passthrough": false,
+      "currentTextSha256": "a2c533be4721da0c9fdf8ce17f985e4db3739c018e1e9fec91bd6e5706628b9e"
+    }
+  },
+  {
+    "group": "TC-28/29/37",
+    "sourceLog": "native-state-passthrough-click-observation.private.json",
+    "step": "main",
+    "utc": "2026-11-23T08:51:51.424Z",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "segmentIndex": 11,
+      "scrollTop": 1154,
+      "loading": false,
+      "currentTextSha256": "70324061decb97bbcae948fec4bebd6dd693e9bfa5ee0ca38d5f16876dae3216"
+    }
+  },
+  {
+    "group": "TC-28/29/37",
+    "sourceLog": "native-state-passthrough-click-observation.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:51:51.428Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "segment": "12/39",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "loading": false,
+      "opacity": "透明 65%",
+      "background": "rgba(15, 23, 42, 0.35)",
+      "passthrough": true,
+      "currentTextSha256": "70324061decb97bbcae948fec4bebd6dd693e9bfa5ee0ca38d5f16876dae3216"
+    }
+  },
+  {
+    "group": "TC-28",
+    "sourceLog": "native-state-cycle-passthrough.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:51:48.429Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "segment": "12/39",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "loading": false,
+      "opacity": "透明 65%",
+      "background": "rgba(15, 23, 42, 0.35)",
+      "passthrough": true,
+      "currentTextSha256": "70324061decb97bbcae948fec4bebd6dd693e9bfa5ee0ca38d5f16876dae3216"
+    }
+  },
+  {
+    "group": "TC-28",
+    "sourceLog": "native-state-cycle-hidden.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:51:52.377Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "segment": "12/39",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "loading": false,
+      "opacity": "透明 65%",
+      "background": "rgba(15, 23, 42, 0.35)",
+      "passthrough": true,
+      "currentTextSha256": "70324061decb97bbcae948fec4bebd6dd693e9bfa5ee0ca38d5f16876dae3216"
+    }
+  },
+  {
+    "group": "TC-28",
+    "sourceLog": "native-state-cycle-interactive.private.json",
+    "step": "stealth",
+    "utc": "2026-11-23T08:51:53.329Z",
+    "observed": {
+      "chapter": "第七十七章 破壁（二）",
+      "segment": "12/39",
+      "viewport": {
+        "width": 480,
+        "height": 96
+      },
+      "loading": false,
+      "opacity": "透明 65%",
+      "background": "rgba(15, 23, 42, 0.35)",
+      "passthrough": false,
+      "currentTextSha256": "70324061decb97bbcae948fec4bebd6dd693e9bfa5ee0ca38d5f16876dae3216"
+    }
+  },
+  {
+    "group": "TC-15",
+    "sourceLog": "run1-preclose-reader.private.json",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "segmentIndex": 9,
+      "scrollTop": 1534,
+      "fontSize": "24px",
+      "theme": "dark",
+      "currentTextSha256": "2968522673eeb84fa61c5f378dca1e106ca567752514a30b8fa1963349dfb12d",
+      "lastReading": {
+        "bookUrl": "<URL>",
+        "chapterIndex": 4,
+        "progress": 0.23929698062190174
+      }
+    }
+  },
+  {
+    "group": "TC-15",
+    "sourceLog": "run2-pre-restart-reader.private.json",
+    "observed": {
+      "header": "不一样的三体\n第七十七章 破壁（二） (5/93)",
+      "segmentIndex": 10,
+      "scrollTop": 1568,
+      "fontSize": "24px",
+      "theme": "dark",
+      "currentTextSha256": "1788d8977c851969cf3acf535b5658cf6979b1c46bd7e39b6eedbf75b01528e4",
+      "lastReading": {
+        "bookUrl": "<URL>",
+        "chapterIndex": 4,
+        "progress": 0.2708427219468229
+      }
+    }
+  },
+  {
+    "group": "MR-010/TC-37",
+    "sourceLog": "native-MR010-main.private.json",
+    "observed": {
+      "utc": "2026-11-23T08:27:53.8757452Z",
+      "action": "capture",
+      "appPid": 37584,
+      "foreground": {
+        "pid": 37584,
+        "handle": 2622178
+      },
+      "before": [
+        {
+          "Handle": 170724454,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 37584,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 678,
+            "Bottom": 287
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 2622178,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 37584,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1294,
+            "Bottom": 917
+          },
+          "ExStyle": 262416
+        }
+      ],
+      "after": [
+        {
+          "Handle": 170724454,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 37584,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 678,
+            "Bottom": 287
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 2622178,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 37584,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1294,
+            "Bottom": 917
+          },
+          "ExStyle": 262416
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-010/TC-37",
+    "sourceLog": "native-MR010-stealth.private.json",
+    "observed": {
+      "utc": "2026-11-23T08:27:54.3777103Z",
+      "action": "capture",
+      "appPid": 37584,
+      "foreground": {
+        "pid": 37584,
+        "handle": 170724454
+      },
+      "before": [
+        {
+          "Handle": 170724454,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 37584,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 678,
+            "Bottom": 287
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 2622178,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 37584,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1294,
+            "Bottom": 917
+          },
+          "ExStyle": 262416
+        }
+      ],
+      "after": [
+        {
+          "Handle": 170724454,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 37584,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 182,
+            "Top": 182,
+            "Right": 678,
+            "Bottom": 287
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 2622178,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 37584,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 78,
+            "Top": 78,
+            "Right": 1294,
+            "Bottom": 917
+          },
+          "ExStyle": 262416
+        }
+      ]
+    }
+  },
+  {
+    "group": "MR-010/TC-37",
+    "sourceLog": "native-cycle-only-normal-control.private.json",
+    "observed": {
+      "utc": "2026-11-23T08:51:46.1676887Z",
+      "action": "click",
+      "appPid": 39464,
+      "hitRoot": 20317062,
+      "hitPid": 25244,
+      "expectedRoot": "stealth",
+      "screenPoint": {
+        "y": 201,
+        "x": 404
+      },
+      "before": [
+        {
+          "Handle": 20317062,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39464,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 156,
+            "Top": 156,
+            "Right": 652,
+            "Bottom": 261
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 61607044,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39464,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 968,
+            "Bottom": 691
+          },
+          "ExStyle": 262416
+        }
+      ],
+      "after": [
+        {
+          "Handle": 20317062,
+          "Title": "摸鱼阅读 - 隐蔽模式",
+          "Pid": 39464,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 156,
+            "Top": 156,
+            "Right": 652,
+            "Bottom": 261
+          },
+          "ExStyle": 262424
+        },
+        {
+          "Handle": 61607044,
+          "Title": "摸鱼阅读 2.0",
+          "Pid": 39464,
+          "Visible": true,
+          "Minimized": false,
+          "Rect": {
+            "Left": 52,
+            "Top": 52,
+            "Right": 968,
+            "Bottom": 691
+          },
+          "ExStyle": 262416
+        }
+      ]
+    }
+  },
+  {
+    "group": "TC-44",
+    "sourceLog": "import-server-isolation.private.json",
+    "observed": {
+      "serverPid": 34584,
+      "loopback": true,
+      "nativeListener": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9415,
+          "OwningProcess": 34584,
+          "State": 2
+        }
+      ]
+    }
+  },
+  {
+    "group": "FINAL",
+    "sourceLog": "final-round02.db (private, read-only recheck)",
+    "observed": {
+      "integrityCheck": "ok",
+      "sha256": "63f113e37caa36c270ce60e31a755a7719cc0586d883301aa9f2b03a0e1c5f75",
+      "byteHashUnchanged": true
+    }
+  }
+]

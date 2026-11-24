@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-23T09:58:04.614198+00:00",
+  "kind": "Report, evidence hashes and read-only checkpoint verification; no app launch",
+  "report": "round-02.md",
+  "reportSha256": "dc140c110e01d9fab4f5cff4581148ea7a7ea5770afe02f4fb08a10459c5a2b9",
+  "localLinksValid": 29,
+  "stableCaseRows": 48,
+  "stableIssueRows": 14,
+  "evidenceHashesValid": true,
+  "earlierEvidenceManifestValid": true,
+  "runtimeFilesUnchanged": 42,
+  "runtimeAggregateSha256": "d50fccbb68f30d1ae5d7c19b679b896e3c28e912680716e51768fe861d9df880",
+  "exeSha256": "2fcc42b20b9a54980f2ca384238b6a89f752051a97c1294aacc675e7ebf3fcd9",
+  "originalDbHashAndMtimeUnchanged": true,
+  "originalBackupUnchanged": true,
+  "qaCheckpointReadOnlyIntegrity": "ok",
+  "qaCheckpointCounts": {
+    "books": 2,
+    "book_sources": 164,
+    "chapter_cache": 7,
+    "chapter_list_cache": 2
+  },
+  "evidenceRedactionPatternChecks": true,
+  "formalProfileByteComparisonPerformed": false,
+  "postPauseOwnership": {
+    "utc": "2026-11-23T09:57:37.6772856Z",
+    "knownPidCandidatesRemaining": [],
+    "qaProfileProcessesRemaining": [],
+    "approvedQaPortListeners": [],
+    "appLaunchPerformed": false,
+    "businessStateStillPaused": true
+  }
+}

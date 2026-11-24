@@ -1,0 +1,101 @@
+{
+  "utc": "2026-11-23T11:26:05.884311+00:00",
+  "round": 3,
+  "note": "只读收尾核验，不是新增业务用例通过；不启动应用、不调用业务 IPC、不修改数据库/profile、不管理任何进程。",
+  "reportFile": "test-reports/round-03.md",
+  "reportSha256": "a215432e5ae2d6bc213170c69a840e2a8aa57f1a6dc095528d9ba96fb29fd089",
+  "reportLinksVerified": 20,
+  "stableCaseMatrix": {
+    "first": "TC-01",
+    "last": "TC-54",
+    "count": 54
+  },
+  "exportedFileHashesVerified": 39,
+  "privateScreenshotSourceHashesVerified": 32,
+  "earlier55FilesUnchanged": true,
+  "frozenRuntimeFileCount": 43,
+  "runtimeAggregateSha256": "2c94e76e8d48f158ddf1b5355dc7fb6ca893952c277f31ac0cbd76851726c687",
+  "exeSha256": "e980fb9e76b4aaa65105348d74d8e2a4d98d28b8ae7a2855b6f9c2ed8103e4ad",
+  "originalSqlite": {
+    "sha256": "aa99ba2810f752fc12d798bcf70daae63757c2d1e3cd0cbd934adf4d348664d6",
+    "mtimeNs": 1795166100584901300,
+    "integrityCheck": "ok",
+    "readOnly": true
+  },
+  "originalBackupSha256": "4a97c8a3d4c7178135f106558c71db8f8d74388a1ec8494573015b5de4908e1b",
+  "round02CheckpointUnchanged": true,
+  "finalQaDatabase": {
+    "counts": {
+      "book_sources": 164,
+      "books": 3,
+      "chapter_cache": 11,
+      "chapter_list_cache": 3
+    },
+    "enabledSources": 1,
+    "integrityCheck": "ok",
+    "allTablesLogicallyEqualToCheckpoint": true,
+    "checkpointSha256": "7408253bf0fca51f474d89d31c248a639986e24e94d2f4c0f4e3cff698cf90d2"
+  },
+  "finalUiStateSource": "task-21-final-restored-verification.private.json",
+  "finalUiLocalStorage": {
+    "progressKeyCount": 3,
+    "fontSize": 24,
+    "theme": "dark",
+    "stealthSettings": {
+      "alpha": 0.5499999999999999
+    },
+    "QA_BOOK_AProgress": {
+      "chapterIndex": 4,
+      "progress": 0.1874718341595313
+    },
+    "QA_BOOK_BProgress": {
+      "chapterIndex": 0,
+      "progress": 0.06045156591405681
+    },
+    "QA_BOOK_CProgress": {
+      "chapterIndex": 1,
+      "progress": 0
+    },
+    "lastReading": {
+      "chapterIndex": 4,
+      "progress": 0.1874718341595313,
+      "bookRef": "QA_BOOK_A"
+    }
+  },
+  "finalProfileHashSnapshot": {
+    "privateFile": "final-profile-hashes.private.json",
+    "fileCount": 420,
+    "aggregateSha256": "9c79fabcb9b6d31ce5a31f1162700c9cc5bc6a7ad7a1d22c4ab4b0f377e31a40",
+    "takenAfterExit": true
+  },
+  "finalProcessReadOnlyCheck": {
+    "utc": "2026-11-23T11:26:03.9772150Z",
+    "ownedMatchingPidAndCreationTime": 0,
+    "qaProfileProcessCount": 0,
+    "currentSourceAppProcessCount": 0,
+    "portListeners": [],
+    "reusedRetiredPidsNotManaged": []
+  },
+  "MR014ActualFeedbackSampling": [
+    {
+      "sourceStep": "MR014-first-post-click-current-detail",
+      "actualMsAfterClickStart": 179
+    },
+    {
+      "sourceStep": "MR014-after1800ms-without-second-click",
+      "actualMsAfterClickStart": 3022
+    },
+    {
+      "sourceStep": "MR014-after7000ms-no-old-snapshot-overwrite",
+      "actualMsAfterClickStart": 8139
+    }
+  ],
+  "MR015ObservedNotResolved": true,
+  "scopeNotPassed": [
+    "同书换源",
+    "真实跨章失败游标保护",
+    "精确迟到正文竞争",
+    "NSIS/release",
+    "全部书源"
+  ]
+}

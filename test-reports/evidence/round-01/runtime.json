@@ -1,0 +1,220 @@
+{
+  "versionAndProtection": {
+    "utc": "2026-11-23T07:16:41.906028+00:00",
+    "sourceFilesChecked": 38,
+    "runtimeFilesChecked": 37,
+    "runtimeSourceUnchangedSinceStart": true,
+    "runtimeAggregateSha256": "b7c82451fa7a377d3110a91c398671fabc24e964d023cb75aff528444410fca5",
+    "nonRuntimeFilesChanged": [
+      "AGENTS.md"
+    ],
+    "initialAggregateSha256": "143b9ec845cf3c40ea36513d3c8b9dd1e486a63a63c4b132ee2639c896a8cf1d",
+    "aggregateSha256": "5a4abe996141e7eb86a04781b57a11de14af5aa7ac57e706826e82ff873c7c75",
+    "exeVersion": "0.2.0",
+    "exeSha256": "dbdb0066a85eabf41640b06658c2693d0ec35e50bbbe96d0ed9e3f8525102c76",
+    "originalDbUnchanged": true,
+    "originalSha256": "aa99ba2810f752fc12d798bcf70daae63757c2d1e3cd0cbd934adf4d348664d6",
+    "originalMtimeNs": 1795166100584901300,
+    "originalBackupUnchanged": true,
+    "qaIdentifier": "com.moyu.reader2.qa.qamoyur0120261123135539"
+  },
+  "runtime": {
+    "utc": "2026-11-23T07:14:51.4661134Z",
+    "launcher": 39796,
+    "appPid": 33396,
+    "webViewPid": 36084,
+    "qaWebViewDataFolderVerified": true,
+    "cdpLoopbackVerified": true,
+    "cdpResponded": true,
+    "listenerMethod": "CIM RemotePort=0 plus captured owned PID tree and HTTP CDP response",
+    "listeners": [
+      {
+        "LocalAddress": "::1",
+        "LocalPort": 1420,
+        "RemotePort": 0,
+        "OwningProcess": 3952
+      },
+      {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 9315,
+        "RemotePort": 0,
+        "OwningProcess": 36084
+      }
+    ],
+    "browser": "Edg/159.0.4402.13",
+    "nodeVersion": "v22.16.0",
+    "pwshVersion": "7.6.6"
+  },
+  "qaCheckpoint": {
+    "utc": "2026-11-23T07:12:25.615343+00:00",
+    "readOnlyOriginalUnchanged": true,
+    "original": {
+      "sha256": "aa99ba2810f752fc12d798bcf70daae63757c2d1e3cd0cbd934adf4d348664d6",
+      "mtimeNs": 1795166100584901300
+    },
+    "qaCheckpointSha256": "4d04c546a18f7a0306d1893253efd07f48ad47a43235bf8990b72b9b7819afaa",
+    "counts": {
+      "books": 1,
+      "book_sources": 164,
+      "chapter_cache": 6,
+      "chapter_list_cache": 1
+    },
+    "books": [
+      [
+        "不一样的三体",
+        4,
+        93
+      ]
+    ],
+    "enabled": [
+      [
+        "奇怪小说"
+      ]
+    ]
+  },
+  "cleanup": {
+    "utc": "2026-11-23T07:16:41.6925930Z",
+    "lastLauncher": 39796,
+    "lastAppPid": 33396,
+    "residualOwnedPidsStopped": [],
+    "remainingOwnedProcesses": [],
+    "remainingQaWebViewProfiles": [],
+    "listeners": [],
+    "pausedBusinessOperations": true
+  },
+  "nativeTrayShow": {
+    "utc": "2026-11-23T07:08:36.4643812Z",
+    "action": "show",
+    "appPid": 33396,
+    "ownership": "Unique blank icon disappeared on own close, named icons unchanged, reappeared after own restart",
+    "before": {
+      "Handle": 55316404,
+      "Title": "摸鱼阅读 2.0",
+      "Pid": 33396,
+      "Visible": true,
+      "Minimized": true,
+      "Rect": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31840,
+        "Bottom": -31972
+      },
+      "ExStyle": 262416
+    },
+    "after": {
+      "Handle": 55316404,
+      "Title": "摸鱼阅读 2.0",
+      "Pid": 33396,
+      "Visible": true,
+      "Minimized": false,
+      "Rect": {
+        "Left": 989,
+        "Top": 389,
+        "Right": 1905,
+        "Bottom": 1028
+      },
+      "ExStyle": 262416
+    },
+    "menuNames": [],
+    "menuScreenshot": null,
+    "foregroundPid": 33396,
+    "appStillRunning": true
+  },
+  "nativeTrayQuitNotPassed": {
+    "utc": "2026-11-23T07:16:05.6546290Z",
+    "appPid": 33396,
+    "operation": "Native right-click of uniquely owned QA blank tray icon",
+    "result": "Expected owned native menu items could not be located; Quit not performed or marked pass"
+  },
+  "nativeBossFirstUse": {
+    "utc": "2026-11-23T07:08:37.2159873Z",
+    "appPid": 33396,
+    "method": "Native keybd_event Control+Alt+M, QA foreground after tray restore",
+    "windows": [
+      {
+        "Handle": 55316404,
+        "Title": "摸鱼阅读 2.0",
+        "Pid": 33396,
+        "Visible": true,
+        "Minimized": false,
+        "Rect": {
+          "Left": 989,
+          "Top": 389,
+          "Right": 1905,
+          "Bottom": 1028
+        },
+        "ExStyle": 262416
+      }
+    ]
+  },
+  "nativeNormalClose": {
+    "utc": "2026-11-23T07:16:05.7049179Z",
+    "action": "native UIAutomation WindowPattern.Close",
+    "appPid": 33396,
+    "handle": 55316404,
+    "context": "normal-close"
+  },
+  "nativeAuxiliaryResponse": {
+    "utc": "2026-11-23T06:33:27.0498398Z",
+    "windows": [
+      {
+        "title": "摸鱼阅读 - 隐蔽模式",
+        "pid": 36288,
+        "visible": false,
+        "hung": false,
+        "wmNullResponded": true,
+        "elapsedMs": 16.3616,
+        "rect": {
+          "Left": 156,
+          "Top": 156,
+          "Right": 652,
+          "Bottom": 261
+        }
+      },
+      {
+        "title": "摸鱼阅读 2.0",
+        "pid": 36288,
+        "visible": true,
+        "hung": false,
+        "wmNullResponded": true,
+        "elapsedMs": 1.6682,
+        "rect": {
+          "Left": -32000,
+          "Top": -32000,
+          "Right": -31840,
+          "Bottom": -31972
+        }
+      }
+    ]
+  },
+  "auxiliaryIpcBlockNotNormalUiPass": {
+    "utc": "2026-11-23T06:33:32.947Z",
+    "description": "辅助调用已注册 open_stealth_window 后；不是正常UI打开成功的证据",
+    "ipc": {
+      "timedOut": true,
+      "timeoutMs": 5000
+    }
+  },
+  "dataIsolation": {
+    "identifier": "com.moyu.reader2.qa.qamoyur0120261123135539",
+    "originalConnection": "SQLite URI mode=ro; SQLite backup API",
+    "originalInitialCounts": {
+      "books": 0,
+      "book_sources": 164,
+      "chapter_cache": 0,
+      "chapter_list_cache": 0
+    },
+    "originalInitiallyEnabled": 164,
+    "qaInitiallyEnabled": 0,
+    "webViewProfile": "<QA_TEMP>/WebView2/EBWebView"
+  },
+  "evidenceMethod": "Current-source Tauri WebView2 CDP Input UI, DOM/screenshots, SQLite read-only diagnostics; native Win32/UIAutomation for windows. No ordinary browser or mock pass.",
+  "webViewContext": {
+    "sourceLog": "final-snapshot.private.json",
+    "utc": "2026-11-23T07:11:43.722Z",
+    "tauri": true,
+    "windowLabel": "main",
+    "frontendOrigin": "http://localhost:1420",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.0.0 Safari/537.36 Edg/159.0.0.0"
+  }
+}

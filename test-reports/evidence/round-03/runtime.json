@@ -1,0 +1,363 @@
+{
+  "runs": [
+    {
+      "run": 1,
+      "sourceLog": "runtime-run1.private.json",
+      "utc": "2026-11-23T10:17:14.9264628Z",
+      "appPid": 39888,
+      "browserPid": 10972,
+      "exeVersion": "0.2.0",
+      "exeSha256": "E980FB9E76B4AAA65105348D74D8E2A4D98D28B8AE7A2855B6F9C2ED8103E4AD",
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 10972
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 19648
+        }
+      ],
+      "launcherPid": 13712,
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 39888,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "cleanup": {
+        "utc": "2026-11-23T10:23:44.4519720Z",
+        "run": 1,
+        "normalAppExitAlreadyVerified": true,
+        "stoppedOwnedDevPids": [],
+        "remainingKnownPids": [],
+        "qaPortListeners": []
+      }
+    },
+    {
+      "run": 2,
+      "sourceLog": "runtime-run2.private.json",
+      "utc": "2026-11-23T10:25:27.7208678Z",
+      "appPid": 7596,
+      "browserPid": 28580,
+      "exeVersion": "0.2.0",
+      "exeSha256": "E980FB9E76B4AAA65105348D74D8E2A4D98D28B8AE7A2855B6F9C2ED8103E4AD",
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 28580
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 14616
+        }
+      ],
+      "launcherPid": 20456,
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 7596,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "cleanup": {
+        "utc": "2026-11-23T10:25:38.3238053Z",
+        "run": 2,
+        "normalAppExitAlreadyVerified": true,
+        "stoppedOwnedDevPids": [],
+        "remainingKnownPids": [],
+        "qaPortListeners": []
+      }
+    },
+    {
+      "run": 3,
+      "sourceLog": "runtime-run3.private.json",
+      "utc": "2026-11-23T10:26:15.3269493Z",
+      "appPid": 21352,
+      "browserPid": 40044,
+      "exeVersion": "0.2.0",
+      "exeSha256": "E980FB9E76B4AAA65105348D74D8E2A4D98D28B8AE7A2855B6F9C2ED8103E4AD",
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 40044
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 40812
+        }
+      ],
+      "launcherPid": 4528,
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 21352,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "cleanup": {
+        "utc": "2026-11-23T10:27:51.0542878Z",
+        "run": 3,
+        "normalAppExitAlreadyVerified": true,
+        "stoppedOwnedDevPids": [],
+        "remainingKnownPids": [],
+        "qaPortListeners": []
+      }
+    },
+    {
+      "run": 4,
+      "sourceLog": "runtime-run4.private.json",
+      "utc": "2026-11-23T10:29:15.4310931Z",
+      "appPid": 33672,
+      "browserPid": 38268,
+      "exeVersion": "0.2.0",
+      "exeSha256": "E980FB9E76B4AAA65105348D74D8E2A4D98D28B8AE7A2855B6F9C2ED8103E4AD",
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 38268
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 32252
+        }
+      ],
+      "launcherPid": 36284,
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 33672,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "cleanup": {
+        "utc": "2026-11-23T10:54:51.7264027Z",
+        "run": 4,
+        "normalAppExitAlreadyVerified": true,
+        "stoppedOwnedDevPids": [],
+        "remainingKnownPids": [],
+        "qaPortListeners": []
+      }
+    },
+    {
+      "run": 5,
+      "sourceLog": "runtime-run5.private.json",
+      "utc": "2026-11-23T10:57:41.0261918Z",
+      "appPid": 19148,
+      "browserPid": 31012,
+      "exeVersion": "0.2.0",
+      "exeSha256": "E980FB9E76B4AAA65105348D74D8E2A4D98D28B8AE7A2855B6F9C2ED8103E4AD",
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 31012
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 12056
+        }
+      ],
+      "launcherPid": 2424,
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 19148,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "cleanup": {
+        "utc": "2026-11-23T11:01:32.0663485Z",
+        "run": 5,
+        "normalAppExitAlreadyVerified": true,
+        "stoppedOwnedDevPids": [],
+        "remainingKnownPids": [],
+        "qaPortListeners": []
+      }
+    },
+    {
+      "run": 6,
+      "sourceLog": "runtime-run6.private.json",
+      "utc": "2026-11-23T11:02:45.9299240Z",
+      "appPid": 11904,
+      "browserPid": 11756,
+      "exeVersion": "0.2.0",
+      "exeSha256": "E980FB9E76B4AAA65105348D74D8E2A4D98D28B8AE7A2855B6F9C2ED8103E4AD",
+      "ports": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 9315,
+          "OwningProcess": 11756
+        },
+        {
+          "LocalAddress": "::1",
+          "LocalPort": 1420,
+          "OwningProcess": 38132
+        }
+      ],
+      "launcherPid": 23632,
+      "embeddedWebView2Observed": true,
+      "browserParentPid": 11904,
+      "actualProfile": "<QA_TEMP>/WebView2/EBWebView",
+      "cleanup": {
+        "utc": "2026-11-23T11:03:01.6833205Z",
+        "run": 6,
+        "normalAppExitAlreadyVerified": true,
+        "stoppedOwnedDevPids": [],
+        "remainingKnownPids": [],
+        "qaPortListeners": []
+      }
+    }
+  ],
+  "frozenFiles": {
+    ".cargo/config.toml": "01c8fb92fe53d4341f408032cc13e60191b53814d552bf997239829a91fd4873",
+    "AGENTS.md": "3bf3f3de8f89ca99c182290c48f401be5b10806528a12a5fcbf6ce11041a4d59",
+    "index.html": "7822d26a73db455395fb18ed264712fb3d00339872bb3c8baa3ec64b89a4e791",
+    "package-lock.json": "6a32a53513a5e94fc7c861ab097b30ae2416fc4a6418f5ac69bda51ec3d415fb",
+    "package.json": "f0052b40832f0fcc43cb1e298b9d5080c7835d4d8db6e4efb92088b0cf653e82",
+    "src/api/client.ts": "920265baf254a029070e4ff1eb639973d742d266b91eec696aaee25aac40943e",
+    "src/api/types.ts": "cf20f84f6c4b8aa41cd4f7650ad85a2f665e815db6e2f78af10d8549e9501547",
+    "src/App.css": "0f9aca9265668c4a05fab60338746d951e2ef8b85b4bde9026b03406b0091729",
+    "src/App.tsx": "92b0573d5147d36f8229d260654e00b42f970b7579065948290e1c93ce4b6cee",
+    "src/assets/react.svg": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+    "src/components/BookCard.tsx": "cbd5a8996bca9f772145ae061e8c189e16454e7afe2d636ce6646d8ce72b26a1",
+    "src/components/ConfirmModal.tsx": "4748b8933101771137fb060caf9cdd84db2e495a6839321e89c0cc8a7ea6244d",
+    "src/lib/segment.ts": "a7c7392402f7afab50f988920def3f1007c934ea4f1007b20ed0805ace0c954b",
+    "src/lib/storage.ts": "848d0130f41086cb478c78756f33f0d34e23363e0b0b5e8813e156bbe7d65ffe",
+    "src/main.tsx": "0941dbbcbfec8ad550918b32465f1b4b45c329ac502dbe2b29e9fa6b50aafc5b",
+    "src/pages/BookDetailPage.tsx": "ff22c4df166fb041f6a40a6b3d1a93b8de637e090c48f26785ac018a895f59b4",
+    "src/pages/DiscoverPage.tsx": "32759deb1ff3aceeac7599b782e613c03cee939c5ca748ff901813cbec0061fb",
+    "src/pages/ReaderPage.tsx": "a33b202653587f1a5fb886a2bcea79fce33979d0bf09e94a5971b26b49d9357d",
+    "src/pages/SettingsPage.tsx": "60a2d56afb95e94666e715ac7a5fef7b10bc5c81a95c8e9793f245e3ef77b084",
+    "src/pages/ShelfPage.tsx": "b80a72fc065f5f3ca8086b4fbadf09097b94bdf35998ddd8bcd13068459fdb2a",
+    "src/pages/SourcesPage.tsx": "4bd0d12675b4cfe06f9b1634fa68048fea31c42e664583050a79d3b49d39b080",
+    "src/pages/StealthPage.tsx": "c2c21290cd716599b2719d3135b7f01105d08b1351a412e2bfb19b06826f7aed",
+    "src/vite-env.d.ts": "424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92",
+    "src-tauri/.cargo/config.toml": "01c8fb92fe53d4341f408032cc13e60191b53814d552bf997239829a91fd4873",
+    "src-tauri/build.rs": "4ae2333b11623039cc115e29b696e7ff5cdfcd5b7d628280ddf48fa733e6418d",
+    "src-tauri/capabilities/default.json": "1ba2e413530476c304ee6f24a68844f95a11d56cfac980de0fad3dc22eeb4f30",
+    "src-tauri/capabilities/stealth-drag.json": "e306e4a1e52c4f59b7875662bb3e27e42948f1f83901b83d75451f77f640a8b2",
+    "src-tauri/Cargo.lock": "7b2f9c8215ef70c917fa2efe25b11c281de6ad2e44e126bebaafb9e2636e4ab7",
+    "src-tauri/Cargo.toml": "ff991d8b6ec68f751ad88075a8263a80e6cb7fae1a8a0d67d41510a81dfc39e3",
+    "src-tauri/src/commands.rs": "b213d5165e8c0c6a3be1a225b492f89824b37cf1d56393efe8ec1a63fb9a54fe",
+    "src-tauri/src/crawler.rs": "f3b331b68174ef0d0e21a37318b027fff95fe97eba75ac7abc5fe4104ce6be9a",
+    "src-tauri/src/db.rs": "7bf64a04c63e2e00d915ad6dd2a86311bfff745306d6fcba71fb38b33f9778ec",
+    "src-tauri/src/engine.rs": "3572f2d0a440bbd2ca32071978a4a1d1abd3d572cd58bf87093704194d95e036",
+    "src-tauri/src/lib.rs": "81d6ba92d87bc60b7755502791bee2b377a356409389e0fe8561069b9696da42",
+    "src-tauri/src/main.rs": "25df19f8b12fda55db3aa00f18b56679ffd9b830705d3aa4050b8144e2366378",
+    "src-tauri/src/network.rs": "6ec21723bbd316eb81de53dbb3c7dfa559c3282ec14d7601d6fc64e1a265efb4",
+    "src-tauri/src/stealth.rs": "c93ca8e712d051a5d4d8b83246f57be5ceb8d465ca16ed98e93a2a5ce93d844d",
+    "src-tauri/src/types.rs": "d001dab21fd6ad361ff0b0100f13682ec0410eb93d2b4f84e5c799c5ea43b568",
+    "src-tauri/tauri.conf.json": "792a094fabbed38330a07f1cf97978a914b199da5ef970e1200e4fe032201258",
+    "src-tauri/tests/integration_tests.rs": "f2383ca22fc00e8cf897f44f0541c3f6f6e7392a387c25ba75348dafa52e5951",
+    "tests/regressions.test.mjs": "ab256c2a659fecb247c484235828455a63a3067d3ea626d1024d0d5505e72e51",
+    "tsconfig.json": "cb4dd1777bc7f478cb417906c32099ae5e661865b3181df116ac70790e9a1a7e",
+    "tsconfig.node.json": "6ec602b8aa146888c76f0b41ca3515f91f95919f6e6417a4670decaba8fcb982",
+    "vite.config.ts": "d0c7e96eb844636ee7e73113ff6d194eb942d15398a00989d36335400ac8a86d"
+  },
+  "protection": {
+    "utc": "2026-11-23T11:03:02.107489+00:00",
+    "runtimeFileCount": 43,
+    "runtimeAggregateSha256": "2c94e76e8d48f158ddf1b5355dc7fb6ca893952c277f31ac0cbd76851726c687",
+    "originalDbUnchanged": true,
+    "originalBackupUnchanged": true,
+    "round02CheckpointUnchanged": true,
+    "originalSha256": "aa99ba2810f752fc12d798bcf70daae63757c2d1e3cd0cbd934adf4d348664d6",
+    "originalMtimeNs": 1795166100584901300,
+    "originalCounts": {
+      "books": 0,
+      "book_sources": 164,
+      "chapter_cache": 0,
+      "chapter_list_cache": 0
+    },
+    "qaCounts": {
+      "books": 3,
+      "book_sources": 164,
+      "chapter_cache": 11,
+      "chapter_list_cache": 3
+    }
+  },
+  "originalBackupSha256": "4a97c8a3d4c7178135f106558c71db8f8d74388a1ec8494573015b5de4908e1b",
+  "qaIdentifier": "com.moyu.reader2.qa.qamoyur0120261123135539",
+  "qaDatabase": "<APPDATA>/com.moyu.reader2.qa.qamoyur0120261123135539/moyu_reader.db",
+  "initialCheckpointSha256": "63f113e37caa36c270ce60e31a755a7719cc0586d883301aa9f2b03a0e1c5f75",
+  "finalCheckpoint": {
+    "utc": "2026-11-23T11:03:01.804661+00:00",
+    "counts": {
+      "books": 3,
+      "book_sources": 164,
+      "chapter_cache": 11,
+      "chapter_list_cache": 3
+    },
+    "books": [
+      {
+        "bookRef": "QA_BOOK_A",
+        "name": "不一样的三体",
+        "dur_chapter_index": 4,
+        "dur_chapter_title": "第七十七章 破壁（二）",
+        "total_chapter_num": 93,
+        "dur_chapter_time": 1795431771808
+      },
+      {
+        "bookRef": "QA_BOOK_B",
+        "name": "暗体",
+        "dur_chapter_index": 0,
+        "dur_chapter_title": "第963章 文明捍卫之战",
+        "total_chapter_num": 978,
+        "dur_chapter_time": 1795429289911
+      },
+      {
+        "bookRef": "QA_BOOK_C",
+        "name": "我在三体科技造神！",
+        "dur_chapter_index": 1,
+        "dur_chapter_title": "第60章 持续降维",
+        "total_chapter_num": 0,
+        "dur_chapter_time": 1795431768468
+      }
+    ],
+    "checkpoint": "final-round03.db",
+    "sha256": "7408253bf0fca51f474d89d31c248a639986e24e94d2f4c0f4e3cff698cf90d2",
+    "enabledSources": 1,
+    "integrityCheck": "ok"
+  },
+  "restore": {
+    "utc": "2026-11-23T11:01:36.0292509Z",
+    "noOwnedProcessesAtRestore": true,
+    "postDestructiveSql": {
+      "utc": "2026-11-23T19:01:32.953264+08:00",
+      "counts": {
+        "books": 1,
+        "book_sources": 164,
+        "chapter_cache": 2,
+        "chapter_list_cache": 1
+      },
+      "books": [
+        {
+          "bookRef": "QA_BOOK_A",
+          "name": "不一样的三体",
+          "dur_chapter_index": 1,
+          "dur_chapter_title": "第八十章 流逝的时间",
+          "total_chapter_num": 0,
+          "dur_chapter_time": 1795431627676
+        }
+      ],
+      "checkpoint": "post-destructive-stopped.db",
+      "sha256": "068a576c90ea6481d05bf1e8313a14c5377e72f174e7f984ad6bbf53b866b842"
+    },
+    "restoredDb": {
+      "utc": "2026-11-23T19:01:35.999393+08:00",
+      "restoredOnlyQaDb": true,
+      "allTablesLogicallyEqual": [
+        "book_sources",
+        "books",
+        "chapter_cache",
+        "chapter_list_cache"
+      ],
+      "counts": {
+        "books": 3,
+        "book_sources": 164,
+        "chapter_cache": 11,
+        "chapter_list_cache": 3
+      },
+      "checkpointSha256": "5836b9a0bab085f38bf07b8b9590d797bc0274b4bfb1d65fd9553d1ee64bd556",
+      "destinationSha256": "a90f7a470c4d0621937b58b2247ab08ed3f9e13ff79252c0d56444f8eab37e72",
+      "originalDbUnchanged": true,
+      "originalBackupUnchanged": true
+    },
+    "profileFilesVerified": 421,
+    "profileHashesExactlyEqual": true,
+    "postDestructiveProfilePreserved": "<QA_TEMP>\\round-03\\post-delete-WebView2",
+    "restoreIsFixtureSetupNotBusinessPass": true
+  },
+  "formalProfileByteComparisonPerformed": false
+}

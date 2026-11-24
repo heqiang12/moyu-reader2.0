@@ -1,0 +1,30 @@
+[
+  {
+    "utc": "2026-11-23T10:48:04.705452+00:00",
+    "name": "笔趣阁",
+    "host": "www.biquge.info",
+    "auxiliaryNotRustRequest": true,
+    "noSourceCredentialsOrCustomHeadersUsed": true,
+    "errorType": "timeout",
+    "error": "timed out",
+    "elapsedSeconds": 17.25
+  },
+  {
+    "utc": "2026-11-23T10:48:21.951960+00:00",
+    "name": "笔趣阁",
+    "host": "www.biqusa.com",
+    "auxiliaryNotRustRequest": true,
+    "noSourceCredentialsOrCustomHeadersUsed": true,
+    "errorType": "URLError",
+    "error": "<urlopen error _ssl.c:1091: The handshake operation timed out>",
+    "elapsedSeconds": 16.485
+  },
+  {
+    "utc": "2026-11-23T10:48:38.444733+00:00",
+    "name": "八一中文",
+    "host": "www.bayiwxw.com",
+    "auxiliaryNotRustRequest": true,
+    "noSourceCredentialsOrCustomHeadersUsed": true,
+    "notRequested": "Not a plain GET search URL; no rule execution or fabricated request"
+  }
+]

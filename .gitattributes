@@ -1,0 +1,2 @@
+# 保留实测源码与证据的原始字节，避免换行转换使 SHA256 失效。
+* -text whitespace=cr-at-eol
