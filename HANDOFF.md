@@ -16,9 +16,15 @@
 
 本次曾遇到 GitHub EOF / TLS 网络阻塞和直连时的认证无效误报，网页设备登录没有取得授权码。用户恢复网络后，使用现有 `heqiang12` 登录和本机已有系统代理继续；仅向 Git / GitHub CLI 子进程设置代理环境变量，没有改全局代理或关闭证书校验，不把 token 写进文件或聊天。
 
-截至此交接合并提交，**推送尚待执行和核验**。只推送 `handoff/qa-20261124`，不加 `--force`、不推送标签、不改 `master` / `main`。完成后核对远端交接分支 SHA 与本地一致，并确认 `master` 仍为上述 SHA，再更新本文的交付状态。最终本地提交以 `git log -1` 为准。
+**已于 2026-11-24 推送并读回核验**：[交接分支](https://github.com/heqiang12/moyu-reader2.0/tree/handoff/qa-20261124)。源码、测试、报告和历史衔接的交接提交为 **`c83deda2f32dce9ab19abdc784cab00d07966c03`**，远端 SHA 与本地一致，`master` 仍为上述原 SHA。仅推送 `handoff/qa-20261124`，未强推、未推送标签、未创建或更新远端 `main`，未创建 PR 或合入默认分支。本次最终文档补充仅更新交付状态；最新交付提交以远端此分支和 `git log -1` 为准。
 
-推送前提交只在本机，不能依赖 GitHub 获取新分支。只读检查入口如下：
+异机 / 新目录接手请**显式检出交接分支**；不指定分支的 clone 会取得旧 `master`，不能当作当前验收源码：
+
+```powershell
+git clone --branch handoff/qa-20261124 https://github.com/heqiang12/moyu-reader2.0.git
+```
+
+只读核验入口如下：
 
 ```powershell
 git remote -v
