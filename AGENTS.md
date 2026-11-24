@@ -31,8 +31,18 @@
   - `test_fetch_1335_json` 访问 yckceo.com，网络/JSON 解析错误仅打印。
   - `test_real_world_sources_parsing` 读取 `D:\mywork\moyu-yuedu\storage\data\default\bookSource.json`，文件不存在时无断言通过。
 
+## 内部测试与交付效率
+
+- 默认按**轻量内部测试**执行，历史轮次的严格审计/取证不作为后续必做步骤；重新委派或复用QA子会话时，明确采用本节和最新 `.opencode/agents/qa-real.md`，不照抄旧长任务中的审计要求。
+- 复用明确的QA数据库、profile、identifier和临时工具；内部测试数据可增删、清空、重建。不要求每轮备份、新建隔离现场、全量哈希、逐像素核验、WAL解析或多轮停止点审计。
+- 截图/日志按需原样留本机，**不强制脱敏**；通过项不堆截图，问题只留帮助复现的必要材料。不强制生成manifest或把材料复制成完整发布包。
+- 版本只记录分支、HEAD、未提交改动和启动方式。报告默认一页左右，说明结论、相关已测项、问题/未测、接续入口和进程停止情况；保留旧编号，不强制全54项矩阵。
+- 收尾目标5～10分钟：一次清理自有进程、写简短报告、交付；非关键取证/工具问题记入限制，不持续打磨。主代理复用QA已核验结果，不重复读取大日志或复算全部指纹。
+- 工具调用合并独立检查，已知路径直接读取，只搜索相关文件/行。代码检查按改动选择必要项、执行一次；**纯文档调整只做必要的Git差异检查，不跑npm/Cargo、重编译或启动桌面QA**。
+- 仍须真实测试、如实区分通过/阻塞/未测、仅管理自有进程且不误操作正式/未知用户数据。本地内部材料不强制脱敏，但完整库/profile、凭据和私有工具不自动推到公开Git仓库。
+
 ## 持久化与兼容性
 
-- 运行时数据库为 Tauri `app_data_dir()/moyu_reader.db`（目录解析失败时回退当前目录），含书架、书源、章节缓存和章索引进度。表结构与兼容旧库的修改在 `src-tauri/src/db.rs::init_tables()`；测试使用 `Database::new_in_memory()`，不要清空真实用户库来验证。
+- 运行时数据库为 Tauri `app_data_dir()/moyu_reader.db`（目录解析失败时回退当前目录），含书架、书源、章节缓存和章索引进度。表结构与兼容旧库的修改在 `src-tauri/src/db.rs::init_tables()`；单元测试使用 `Database::new_in_memory()`，内部QA库可清空重建，不误清正式/未知用户库。
 - 章内位置、最近阅读与外观设置保存在 `src/lib/storage.ts` 的 `moyu:` localStorage 中，与 SQLite 的章索引进度分开；修改阅读定位须兼顾 `src/pages/ReaderPage.tsx` 和 `src/pages/StealthPage.tsx`。
 - 书源保留新旧 Legado 的 `ruleSearch` / `searchRule` 等双命名；读取规则用 `src-tauri/src/types.rs` 的 `BookSource::get_rule_*`，保留旧字段及发现规则回退搜索规则的行为。
